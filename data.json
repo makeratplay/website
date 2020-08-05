@@ -1,0 +1,281 @@
+[
+    {
+        "category": "woodworking",
+        "name": "Computer and Project Desk",
+        "img": "assets/img/portfolio/thumbnails/1.jpg",
+        "description" : ""
+    },
+    {
+        "category": "woodworking",
+        "name": "French Cleat Tool Wall",
+        "img": "assets/img/portfolio/thumbnails/2.jpg",
+        "description" : "This is my tool wall in the workshop. Below are my YouTube videos for the different tool holders that I have build for the wall.",
+        "sections" : [
+            {
+                "video" : "https://www.youtube.com/embed/20yIMUkYWkE"
+            },
+            {
+                "video" : "https://www.youtube.com/embed/10w78wksMbc"
+            },
+            {
+                "video" : "https://www.youtube.com/embed/N9kf6tZCCwA"
+            },
+            {
+                "video" : "https://www.youtube.com/embed/Qju0fMbmzlg"
+            },
+            {
+                "video" : "https://www.youtube.com/embed/zyzPwozfE78"
+            },
+            {
+                "video" : "https://www.youtube.com/embed/hipSH8gQcnE"
+            }
+            
+        ]
+
+    },
+    {
+        "category": "woodworking",
+        "name": "YouTube Subscriber Tracker",
+        "img": "assets/img/portfolio/thumbnails/3.jpg",
+        "description" : "I upcycle an old Samsung Galaxy tablet, Walnut and Cherry into a beautiful display for my office wall.",
+        "sections" : [
+            {
+                "video" : "https://www.youtube.com/embed/CylIlaT87ps"
+            },
+            {
+                "video" : "https://www.youtube.com/embed/z_Rn1EgFv28"
+            }
+        ]        
+    },
+    {
+        "category": "woodworking",
+        "name": "Camp Kitchen Chuck Boxes",
+        "img": "assets/img/portfolio/thumbnails/4.jpg",
+        "description" : "My check boxes I built for camping",
+        "sections" : [
+            {
+                "video" : "https://www.youtube.com/embed/iaTxj4XuZVc"
+            }
+        ]
+        
+    },
+    {
+        "category": "Model Train",
+        "name": "HO Model Train Layout #3",
+        "img": "assets/img/portfolio/thumbnails/5.jpg"
+    },
+    {
+        "category": "Maker Project",
+        "name": "Water Balloon Cannon",
+        "img": "assets/img/portfolio/thumbnails/6.jpg",
+        "description" : "The kids and I built a water ballon cannon",
+        "sections" : [
+            {
+                "video" : "https://www.youtube.com/embed/8EFuVv9fllA"
+            },
+            {
+                "video" : "https://www.youtube.com/embed/TUkJiov0kYA"
+            },
+            {
+                "video" : "https://www.youtube.com/embed/28_pOiN-w7A"
+            }
+        ]
+        
+        
+    },
+    {
+        "category": "Programming",
+        "name": "6502 Interactive Block Diagram",
+        "img": "assets/img/portfolio/thumbnails/7.jpg"
+    },
+    {
+        "category": "Maker Project",
+        "name": "Yard Sign / Letters",
+        "img": "assets/img/portfolio/thumbnails/8.jpg",
+        "description" : "The PTA at my kiddo's school was looking for a cost-effective way to advertise events. Spelling out things with large yard letters seemed to fit the bill and gave me a great excuse to buy a drag knife for my CNC. Check out the video to see how the project worked out.",
+        "sections" : [
+            {
+                "video" : "https://www.youtube.com/embed/lqTllidmOF4"
+            }
+        ]        
+    },
+    {
+        "category": "Woodworking",
+        "name": "CNC Table and Storage",
+        "img": "assets/img/portfolio/thumbnails/9.jpg",
+        "description" : "It was time for my Stepcraft 840 CNC to have a permanent home in the garage.",
+        "sections" : [
+            {
+                "video" : "https://www.youtube.com/embed/8srHhqvFcLk"
+            }
+        ]        
+    },
+    {
+        "category": "Woodworking",
+        "name": "Dust Collection System",
+        "img": "assets/img/portfolio/thumbnails/10.jpg",
+        "description" : "After sitting idle in the corner of my garage for 10 years, it is finally time to put my dust collector to work. In this video I show how I mounted it to the wall to free up floor space as well as make it a two stage system.",
+        "sections" : [
+            {
+                "video" : "https://www.youtube.com/embed/ZfoB_zHH4gw"
+            },
+            {
+                "video" : "https://www.youtube.com/embed/G2OFlK7CMIw"
+            },
+            {
+                "video" : "https://www.youtube.com/embed/TYTvoLe30BE"
+            }
+        ]   
+    },
+    {
+        "category": "Woodworking",
+        "name": "2018 Marching Band Props",
+        "img": "assets/img/portfolio/thumbnails/11.jpg"
+    },
+    {
+        "category": "Woodworking",
+        "name": "Garage Storage for Camp Chairs",
+        "img": "assets/img/portfolio/thumbnails/12.jpg",
+        "description" : "Reducing clutter in the garage with a french cleat storage bin to get the camp chairs off the floor.",
+        "sections" : [
+            {
+                "video" : "https://www.youtube.com/embed/_OUWdmXqfo4"
+            }
+        ]   
+    },
+    {
+        "category": "Programming",
+        "name": "Code Life YouTube Channel",
+        "img": "assets/img/portfolio/thumbnails/13.jpg",
+        "description" : "Sharing some of my programming knowledge through videos on my Code Life YouTube channel",
+        "sections" : [
+            {
+                "video" : "https://www.youtube.com/embed/oKFb2Us9kmg"
+            },
+            {
+                "video" : "https://www.youtube.com/embed/ds1hy-3vCiY"
+            },
+            {
+                "video" : "https://www.youtube.com/embed/JVNW-bTlaxI"
+            }
+        ]   
+    },
+    {
+        "category": "Model Train",
+        "name": "HO Train Layout #1",
+        "img": "assets/img/portfolio/thumbnails/14.jpg"
+    },
+    {
+        "category": "Model Train",
+        "name": "HO Train Layout #2",
+        "img": "assets/img/portfolio/thumbnails/15.jpg"
+    },
+    {
+        "category": "Woodworking",
+        "name": "Computer desk and Shelves",
+        "img": "assets/img/portfolio/thumbnails/16.jpg"
+    },
+    {
+        "category": "Electronics",
+        "name": "Ardunio Controlled Light Switches",
+        "img": "assets/img/portfolio/thumbnails/17.jpg",
+        "description" : "Ardunio Controlled Light Switches",
+        "sections" : [
+            {
+                "image" : "/assets/img/portfolio/projects/17/1.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/17/2.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/17/3.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/17/4.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/17/5.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/17/6.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/17/7.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/17/8.jpg"
+            }
+            
+        ]             
+    },
+    {
+        "category": "Maker Project",
+        "name": "Family Pacman Costume",
+        "img": "assets/img/portfolio/thumbnails/18.jpg"
+    },
+    {
+        "category": "Maker Project",
+        "name": "2019 Marching Band Props",
+        "img": "assets/img/portfolio/thumbnails/19.jpg"
+    },
+    {
+        "category": "Woodworking",
+        "name": "CNC Holddowns",
+        "img": "assets/img/portfolio/thumbnails/20.jpg"
+    },
+    {
+        "category": "Electronics",
+        "name": "Commodore VIC 20 to VGA Monitor",
+        "img": "assets/img/portfolio/thumbnails/21.jpg",
+        "description" : "How to hook your Commodore VIC 20 (or Commodore 64) to a VGA Monitor.",
+        "sections" : [
+            {
+                "video" : "https://www.youtube.com/embed/R111OGHoF0o"
+            }
+        ]   
+        
+    },
+    {
+        "category": "Programming",
+        "name": "MLH Software Blackberry Apps",
+        "img": "assets/img/portfolio/thumbnails/22.jpg",
+        "description" : "When BlackBerry announced they were launching a app store in 2009, I jumped in and started developing BlackBerry apps. I created MLH Software for this work.",
+        "sections" : [
+            {
+                "video" : "https://www.youtube.com/embed/PTcSq364rfA",
+                "text" : "INTEROP New York 2009 - My demo of Blurts with David Pogue (11/18/2009)"
+            },
+            {
+                "video" : "https://www.youtube.com/embed/STor4N0M7kk",
+                "text" : "My Cameo in  CrackBerry App Awards 2010: Walkabout Video"
+            }
+            
+        ]     
+           
+    },
+    {
+        "category": "Electronics",
+        "name": "DIY Voice Controlled Light Switch",
+        "img": "assets/img/portfolio/thumbnails/23.jpg",
+        "description" : "In this video I walk you through all the components to get Amazon Echo and Google Home to control a DIY light switch I made.",
+        "sections" : [
+            {
+                "video" : "https://www.youtube.com/embed/G1hEVNBhOe4"
+            }
+        ]   
+        
+    },
+    {
+        "category": "Programming",
+        "name": "Commodore VIC 20 Kernal Debug Tool | 6502 Emulator",
+        "img": "assets/img/portfolio/thumbnails/24.jpg",
+        "description" : "I have written a JavaScript program that loads an image of the Commodore VIC 20 Kernal ROM and allows me to step through the code as if I was in a debugger.",
+        "sections" : [
+            {
+                "video" : "https://www.youtube.com/embed/M5L0pI0AeQs"
+            }
+        ]   
+        
+    }
+]
+

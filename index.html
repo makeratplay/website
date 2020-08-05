@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html >
+<html lang="en" ng-app="app">
 
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -29,13 +29,13 @@
     <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
     <!-- Third party plugin CSS-->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular.min.js"></script>
+    <script src="js/app.js"></script>
 </head>
 
-<body id="page-top">
-
+<body id="page-top" ng-controller="AppController as vm">
 
 
 
@@ -84,238 +84,24 @@
             </div>
         </div>
     </section>
-    <!-- Services
-        <section class="page-section" id="services">
-            <div class="container">
-                <h2 class="text-center mt-0">At Your Service</h2>
-                <hr class="divider my-4" />
-                <div class="row">
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <i class="fas fa-4x fa-gem text-primary mb-4"></i>
-                            <h3 class="h4 mb-2">Sturdy Themes</h3>
-                            <p class="text-muted mb-0">Our themes are updated regularly to keep them bug free!</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <i class="fas fa-4x fa-laptop-code text-primary mb-4"></i>
-                            <h3 class="h4 mb-2">Up to Date</h3>
-                            <p class="text-muted mb-0">All dependencies are kept current to keep things fresh.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <i class="fas fa-4x fa-globe text-primary mb-4"></i>
-                            <h3 class="h4 mb-2">Ready to Publish</h3>
-                            <p class="text-muted mb-0">You can use this design as is, or you can make changes!</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <i class="fas fa-4x fa-heart text-primary mb-4"></i>
-                            <h3 class="h4 mb-2">Made with Love</h3>
-                            <p class="text-muted mb-0">Is it really open source if it's not made with love?</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        -->
+
     <!-- Portfolio-->
     <div id="portfolio">
         <div class="container-fluid p-0">
             <div class="row no-gutters">
-                <div class="col-lg-4 col-sm-6">
+
+                <div class="col-lg-4 col-sm-6" ng-repeat="item in vm.data" ng-click="vm.viewProject(item)">
                     <a class="portfolio-box" href="#" data-toggle="modal" data-target="#project1">
-                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/1.jpg" alt="" />
+                        <img class="img-fluid" src="{{item.img}}" alt="" />
                         <div class="portfolio-box-caption">
-                            <div class="project-category text-white-50">Woodworking</div>
-                            <div class="project-name">Computer Desk</div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="#" data-toggle="modal" data-target="#project2">
-                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/2.jpg" alt="" />
-                        <div class="portfolio-box-caption">
-                            <div class="project-category text-white-50">Woodworking</div>
-                            <div class="project-name">French Cleat Tool Wall</div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="#" data-toggle="modal" data-target="#project3">
-                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/3.jpg" alt="" />
-                        <div class="portfolio-box-caption">
-                            <div class="project-category text-white-50">Woodworking</div>
-                            <div class="project-name">YouTube Subscriber Tracker</div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="#" data-toggle="modal" data-target="#project4">
-                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/4.jpg" alt="" />
-                        <div class="portfolio-box-caption">
-                            <div class="project-category text-white-50">Woodworking</div>
-                            <div class="project-name">Camp Kitchen Chuck Boxes</div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="#" data-toggle="modal" data-target="#project5">
-                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/5.jpg" alt="" />
-                        <div class="portfolio-box-caption">
-                            <div class="project-category text-white-50">Model Train</div>
-                            <div class="project-name">HO Model Train Layout #3</div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="#" data-toggle="modal" data-target="#project6">
-                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/6.jpg" alt="" />
-                        <div class="portfolio-box-caption p-3">
-                            <div class="project-category text-white-50">Maker Project</div>
-                            <div class="project-name">Water Balloon Cannon</div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="#" data-toggle="modal" data-target="#project7">
-                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/7.jpg" alt="" />
-                        <div class="portfolio-box-caption p-3">
-                            <div class="project-category text-white-50">Programming</div>
-                            <div class="project-name">6502 Interactive Block Diagram</div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="#" data-toggle="modal" data-target="#project8">
-                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/8.jpg" alt="" />
-                        <div class="portfolio-box-caption p-3">
-                            <div class="project-category text-white-50">CNC</div>
-                            <div class="project-name">Yard Sign / Letters</div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="#" data-toggle="modal" data-target="#project9">
-                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/9.jpg" alt="" />
-                        <div class="portfolio-box-caption p-3">
-                            <div class="project-category text-white-50">Woodworking</div>
-                            <div class="project-name">CNC Table and Storage</div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="#" data-toggle="modal" data-target="#project10">
-                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/10.jpg" alt="" />
-                        <div class="portfolio-box-caption p-3">
-                            <div class="project-category text-white-50">Woodworking</div>
-                            <div class="project-name">Dust Collection System</div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="#" data-toggle="modal" data-target="#project11">
-                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/11.jpg" alt="" />
-                        <div class="portfolio-box-caption p-3">
-                            <div class="project-category text-white-50">Woodworking</div>
-                            <div class="project-name">2018 Marching Band Props</div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="#" data-toggle="modal" data-target="#project12">
-                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/12.jpg" alt="" />
-                        <div class="portfolio-box-caption p-3">
-                            <div class="project-category text-white-50">Woodworking</div>
-                            <div class="project-name">Garage Storage for Camp Chairs</div>
+                            <div class="project-category text-white-50">{{item.category}}</div>
+                            <div class="project-name">{{item.name}}</div>
                         </div>
                     </a>
                 </div>
 
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="#" data-toggle="modal" data-target="#project13">
-                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/13.jpg" alt="" />
-                        <div class="portfolio-box-caption p-3">
-                            <div class="project-category text-white-50">Programming</div>
-                            <div class="project-name">Code Life YouTube Channel</div>
-                        </div>
-                    </a>
-                </div>                
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="#" data-toggle="modal" data-target="#project14">
-                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/14.jpg" alt="" />
-                        <div class="portfolio-box-caption p-3">
-                            <div class="project-category text-white-50">Train</div>
-                            <div class="project-name">HO Train Layout #1</div>
-                        </div>
-                    </a>
-                </div>  
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="#" data-toggle="modal" data-target="#project15">
-                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/15.jpg" alt="" />
-                        <div class="portfolio-box-caption p-3">
-                            <div class="project-category text-white-50">Train</div>
-                            <div class="project-name">HO Train Layout #2</div>
-                        </div>
-                    </a>
-                </div>                  
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="#" data-toggle="modal" data-target="#project16">
-                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/16.jpg" alt="" />
-                        <div class="portfolio-box-caption p-3">
-                            <div class="project-category text-white-50">Woodworking</div>
-                            <div class="project-name">Computer desk and Shelves</div>
-                        </div>
-                    </a>
-                </div>                  
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="#" data-toggle="modal" data-target="#project17">
-                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/17.jpg" alt="" />
-                        <div class="portfolio-box-caption p-3">
-                            <div class="project-category text-white-50">Electronics</div>
-                            <div class="project-name">Ardunio Controlled Light Switches</div>
-                        </div>
-                    </a>
-                </div>                  
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="#" data-toggle="modal" data-target="#project18">
-                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/18.jpg" alt="" />
-                        <div class="portfolio-box-caption p-3">
-                            <div class="project-category text-white-50">Maker</div>
-                            <div class="project-name">Family Pacman Costume</div>
-                        </div>
-                    </a>
-                </div>  
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="#" data-toggle="modal" data-target="#project19">
-                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/19.jpg" alt="" />
-                        <div class="portfolio-box-caption p-3">
-                            <div class="project-category text-white-50">Maker</div>
-                            <div class="project-name">2019 Marching Band Props</div>
-                        </div>
-                    </a>
-                </div>            
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="#" data-toggle="modal" data-target="#project20">
-                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/20.jpg" alt="" />
-                        <div class="portfolio-box-caption p-3">
-                            <div class="project-category text-white-50">Woodworking</div>
-                            <div class="project-name">CNC Holddowns</div>
-                        </div>
-                    </a>
-                </div>              
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="#" data-toggle="modal" data-target="#project20">
-                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/21.jpg" alt="" />
-                        <div class="portfolio-box-caption p-3">
-                            <div class="project-category text-white-50">Electronics</div>
-                            <div class="project-name">Commodore VIC 20 to VGA Monitor</div>
-                        </div>
-                    </a>
-                </div>                              
+
+                                    
             </div>
         </div>
     </div>
@@ -402,183 +188,41 @@
 
 
     <!-- Modal -->
-    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered my-model" role="document">
-            <div class="modal-content ">
-                <div class="modal-header my-model-header d-block">
+    <div class="modal fade" id="projectModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered my-modal" role="document">
+            <div class="modal-content my-modal-content">
+                <div class="modal-header my-modal-header d-block">
                     <button type="button" class="close float-right" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-                    <h5 class="modal-title text-center">Computer Desk</h5>
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <div class="text-center">
+                        <div class="modal-category">{{vm.selectedProject.category}}</div>
+                        <div class="modal-name">{{vm.selectedProject.name}}</div>
+                    </div>
+
+                    
                 </div>
 
                 <div class="modal-body text-center">
-                    <img class="img-fluid" src="assets/img/portfolio/thumbnails/1.jpg" alt="" />
 
-                    <p class="mt-xl-4">This is my computer desk that I build. I also build the shelves above it.</p>
+                    <p class="mt-xl-4">{{vm.selectedProject.description}}</p>
+
+                    <img class="img-fluid" src="{{vm.selectedProject.img}}" alt="" />
+
+                    <div class="mt-xl-4" ng-repeat="section in vm.selectedProject.sections">
+                        <img ng-show="section.image" ng-src="{{trustSrc(section.image)}}"/>
+                        <iframe  ng-show="section.video" width="560" height="315" ng-src="{{trustSrc(section.video)}}"  
+                                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <h4>{{section.text}}</h4>
+                    </div>
+
+                    
 
                 </div>
             </div>
         </div>
-    </div>
+    </div>    
 
-    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered my-model" role="document">
-            <div class="modal-content ">
-                <div class="modal-header my-model-header d-block">
-                    <button type="button" class="close float-right" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-                    <h5 class="modal-title text-center">French Cleat Tool Wall</h5>
-                </div>
-
-                <div class="modal-body text-center">
-                    <img class="img-fluid" src="assets/img/portfolio/thumbnails/2.jpg" alt="" />
-
-                    <p class="mt-xl-4">This is my tool wall in the workshop. Below are my YouTube videos for the different tool holders that I have build for the wall.
-                    </p>
-
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/zyzPwozfE78" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Qju0fMbmzlg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/N9kf6tZCCwA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/10w78wksMbc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/20yIMUkYWkE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered my-model" role="document">
-            <div class="modal-content ">
-                <div class="modal-header my-model-header d-block">
-                    <button type="button" class="close float-right" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-                    <h5 class="modal-title text-center">YouTube Subscriber Tracker</h5>
-                </div>
-
-                <div class="modal-body text-center">
-                    <img class="img-fluid" src="assets/img/portfolio/thumbnails/3.jpg" alt="" />
-
-                    <p class="mt-xl-4">I upcycle an old Samsung Galaxy tablet, Walnut and Cherry into a beautiful display for my office wall.
-                    </p>
-
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/CylIlaT87ps" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/z_Rn1EgFv28" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="modal fade" id="project8" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered my-model" role="document">
-            <div class="modal-content ">
-                <div class="modal-header my-model-header d-block">
-                    <button type="button" class="close float-right" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-                    <h5 class="modal-title text-center">Yard Sign / Letters</h5>
-                </div>
-
-                <div class="modal-body text-center">
-                    <img class="img-fluid" src="assets/img/portfolio/thumbnails/8.jpg" alt="" />
-
-                    <p class="mt-xl-4">The PTA at my kiddo's school was looking for a cost-effective way to advertise events. Spelling out things with large yard letters seemed to fit the bill and gave me a great excuse to buy a drag knife for my CNC. Check out the video
-                        to see how the project worked out.
-                    </p>
-
-                    <div>G-Code files: <a href="https://github.com/makeratplay/letters-g-code">https://github.com/makeratplay/letters-g-code</a></div>
-
-                    <div>Bebas font: <a href="https://www.dafont.com/bebas.font">https://www.dafont.com/bebas.font</a></div>
-
-                    <div>Donek Tools: <a href="https://www.donektools.com/">https://www.donektools.com/</a></div>
-                    <br/>
-                    <br/>
-
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/lqTllidmOF4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="modal fade" id="project9" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered my-model" role="document">
-            <div class="modal-content ">
-                <div class="modal-header my-model-header d-block">
-                    <button type="button" class="close float-right" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-                    <h5 class="modal-title text-center">CNC Table and Storage</h5>
-                </div>
-
-                <div class="modal-body text-center">
-                    <img class="img-fluid" src="assets/img/portfolio/thumbnails/9.jpg" alt="" />
-
-                    <p class="mt-xl-4">
-                        It was time for my Stepcraft 840 CNC to have a permanent home in the garage.
-                    </p>
-                    <p class="mt-xl-4">
-                        In order to minimize the footprint that the CNC stand takes up in the garage, I knew i had to place the spindle control and laptop underneath. I built a cubby-hole to hold the spindle control, as well as provide a place to neatly organize all the cables.
-                    </p>
-                    <p class="mt-xl-4">
-                        I came up with the idea to put the laptop on a pull out tray. This drawer will also serve as a great storage location for all the router bits and other accessories.
-                    </p>
-
-
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/8srHhqvFcLk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="modal fade" id="project10" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered my-model" role="document">
-          <div class="modal-content ">
-            <div class="modal-header my-model-header d-block">
-                <button type="button" class="close float-right" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-                <h5 class="modal-title text-center" >Dust Collection System</h5>
-            </div>
-    
-            <div class="modal-body text-center">
-                <img class="img-fluid" src="assets/img/portfolio/thumbnails/10.jpg" alt="" />
-                
-                <p class="mt-xl-4">
-                    After sitting idle in the corner of my garage for 10 years, it is finally time to put my dust collector to work. In this video I show how I mounted it to the wall to free up floor space as well as make it a two stage system.
-                </p>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/ZfoB_zHH4gw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/G2OFlK7CMIw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/TYTvoLe30BE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div> 
-    </div>
-
-
-    <div class="modal fade" id="project12" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered my-model" role="document">
-          <div class="modal-content ">
-            <div class="modal-header my-model-header d-block">
-                <button type="button" class="close float-right" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-                <h5 class="modal-title text-center" >Garage Storage for Camp Chairs</h5>
-            </div>
-    
-            <div class="modal-body text-center">
-                <img class="img-fluid" src="assets/img/portfolio/thumbnails/12.jpg" alt="" />
-                
-                <p class="mt-xl-4">
-                    Reducing clutter in the garage with a french cleat storage bin to get the camp chairs off the floor.
-                </p>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/_OUWdmXqfo4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-        </div>
-      </div> 
-    </div>
 
         <!-- Footer-->
         <footer class="bg-light py-5">
@@ -593,7 +237,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
         <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
+        <script src="js/scripts.js"></script>    
 </body>
 
 </html>

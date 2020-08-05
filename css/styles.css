@@ -10127,6 +10127,7 @@ header.masthead h1 {
 
 #portfolio .container-fluid, #portfolio .container-sm, #portfolio .container-md, #portfolio .container-lg, #portfolio .container-xl {
   max-width: 1920px;
+  background: black;
 }
 #portfolio .container-fluid .portfolio-box, #portfolio .container-sm .portfolio-box, #portfolio .container-md .portfolio-box, #portfolio .container-lg .portfolio-box, #portfolio .container-xl .portfolio-box {
   position: relative;
@@ -10174,10 +10175,33 @@ header.masthead h1 {
   height: 35px;
 }
 
-.my-model{
-  max-width: 1020px;
+.my-modal{
+  max-width: 700px;
+  
 }
 
-.my-model-header{
+.my-modal-content{
+  background: rgb(39, 37, 37);
+  color: white;
+}
+
+.my-modal-header{
   border: none;
+  
+}
+
+.modal-category{
+  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.modal-name{
+  font-size: 1.2rem;
+}
+
+.close:focus {
+  outline: none;
+  box-shadow: none;
 }
