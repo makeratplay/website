@@ -10173,3 +10173,11 @@ header.masthead h1 {
 .SVGInline-svg{
   height: 35px;
 }
+
+.my-model{
+  max-width: 1020px;
+}
+
+.my-model-header{
+  border: none;
+}
