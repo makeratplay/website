@@ -276,6 +276,112 @@
             }
         ]   
         
+    },
+    {
+        "category": "Maker Project",
+        "name": "Lego Mindstorm Golf Ball Counter",
+        "img": "assets/img/portfolio/thumbnails/25.jpg",
+        "description" : "My oldest son built and programmed a golf ball counter using lego mindstorm.",
+        "sections" : [
+            {
+                
+            }
+        ]   
+        
+    },
+    {
+        "category": "Woodworking",
+        "name": "Wii and Lego Pinewood Derby Car",
+        "img": "assets/img/portfolio/thumbnails/26.jpg",
+        "description" : "Two of my sons built pinewood drby cars in the style of a Lego block and Wii remote.",
+        "sections" : [
+            {
+                
+            }
+        ]   
+        
+    },
+    {
+        "category": "Maker Project",
+        "name": "Kanban Board for Kids Bed Time",
+        "img": "assets/img/portfolio/thumbnails/27.jpg",
+        "description" : "Kanban baord to help our kids remember their night time chores and activities",
+        "sections" : [
+            {
+                "image" : "/assets/img/portfolio/projects/27/1.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/27/3.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/27/4.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/27/2.jpg"
+            }
+        ]   
+        
+    },
+    {
+        "category": "Woodworking",
+        "name": "Custom Closet Built Ins",
+        "img": "assets/img/portfolio/thumbnails/28.jpg",
+        "description" : "Custom built closet shelves and drawers",
+        "sections" : [
+            {
+                "image" : "/assets/img/portfolio/projects/28/1.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/28/2.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/28/3.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/28/4.jpg"
+            }
+        ]   
+        
+    },
+    {
+        "category": "Woodworking",
+        "name": "Custom Desk / Shelves Built Ins",
+        "img": "assets/img/portfolio/thumbnails/29.jpg",
+        "description" : "Custom desk and shelves in master bedroom",
+        "sections" : [
+            {
+                "image" : "/assets/img/portfolio/projects/29/1.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/29/2.jpg",
+                "text" : "The missing drawfront is actually a pull out keybaord tray"
+            }
+        ]   
+    },
+    {
+        "category": "Marker Project",
+        "name": "Electronics Desk",
+        "img": "assets/img/portfolio/thumbnails/30.jpg",
+        "description" : "Electronics workstation setup. The Windows 98 screen should give you some clue to the age of this project.",
+        "sections" : [
+            {
+                "image" : "/assets/img/portfolio/projects/30/1.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/30/2.jpg"
+            }
+        ]   
+    },
+    {
+        "category": "Woddworking",
+        "name": "Workbench",
+        "img": "assets/img/portfolio/thumbnails/31.jpg",
+        "description" : "",
+        "sections" : [
+            {
+                "image" : "/assets/img/portfolio/projects/31/1.jpg"
+            }
+        ]   
     }
 ]
 
