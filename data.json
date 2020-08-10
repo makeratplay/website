@@ -9,7 +9,7 @@
         "category": "woodworking",
         "name": "French Cleat Tool Wall",
         "img": "assets/img/portfolio/thumbnails/2.jpg",
-        "description" : "This is my tool wall in the workshop. Below are my YouTube videos for the different tool holders that I have build for the wall.",
+        "description" : "This is my tool wall in the workshop. Below are my YouTube videos for the different tool holders that I have built for the wall.",
         "sections" : [
             {
                 "video" : "https://www.youtube.com/embed/20yIMUkYWkE"
@@ -354,7 +354,7 @@
             },
             {
                 "image" : "/assets/img/portfolio/projects/29/2.jpg",
-                "text" : "The missing drawfront is actually a pull out keybaord tray"
+                "text" : "The missing drawerfront is actually a pull out keyboard tray"
             }
         ]   
     },
@@ -373,13 +373,24 @@
         ]   
     },
     {
-        "category": "Woddworking",
+        "category": "Woodworking",
         "name": "Workbench",
         "img": "assets/img/portfolio/thumbnails/31.jpg",
         "description" : "",
         "sections" : [
             {
                 "image" : "/assets/img/portfolio/projects/31/1.jpg"
+            }
+        ]   
+    },
+    {
+        "category": "Woodworking",
+        "name": "Mobile Bike Rack",
+        "img": "assets/img/portfolio/thumbnails/32.jpg",
+        "description" : "",
+        "sections" : [
+            {
+                "image" : "/assets/img/portfolio/projects/32/1.jpg"
             }
         ]   
     }
