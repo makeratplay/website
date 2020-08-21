@@ -32,6 +32,7 @@
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular-sanitize.js"></script>
     <script src="js/app.js"></script>
 </head>
 
@@ -214,6 +215,7 @@
                         <iframe  ng-show="section.video" width="560" height="315" ng-src="{{trustSrc(section.video)}}"  
                                 frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         <h4>{{section.text}}</h4>
+                        <div ng-bind-html="section.html"></div>
                     </div>
 
                     

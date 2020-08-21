@@ -1,4 +1,4 @@
-var app = angular.module("app", []);
+var app = angular.module("app", ['ngSanitize']);
 
 app.controller('AppController', function($http, $scope, $sce) {
     var vm = this;
