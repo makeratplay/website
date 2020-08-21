@@ -101,6 +101,17 @@
         "img": "assets/img/portfolio/thumbnails/7.jpg"
     },
     {
+        "category": "Programming",
+        "name": "JavaScript Date Object and Time Zones",
+        "img": "assets/img/portfolio/thumbnails/34.jpg",
+        "description" : "How to handle UTC and local time zone when turning a date string into a JavaScript Date object.",
+        "sections" : [
+            {
+                "video" : "https://www.youtube.com/embed/oKFb2Us9kmg"
+            }
+        ]   
+    },
+    {
         "category": "Maker Project",
         "name": "Yard Sign / Letters",
         "img": "assets/img/portfolio/thumbnails/8.jpg",
