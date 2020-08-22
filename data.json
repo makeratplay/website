@@ -163,6 +163,17 @@
         ]        
     },
     {
+        "category": "Programming",
+        "name": "Missed Call Alert BlackBerry App",
+        "img": "assets/img/portfolio/thumbnails/38.jpg",
+        "description" : "BlackBerry application written in 2009 and published to BlackBerry App World as one of my MLH Software BlackBerry applications",
+        "sections" : [
+            {
+                "html" : "<p>Missed Call Alert detects missed phone calls and creates a recurring audible alert based on active profile settings.</p><p><a href='http://mlhsoftware.com/MissedCallAlert/index.html'>App web page</a></p><p><a href='https://appworld.blackberry.com/webstore/content/3606/?lang=en&countrycode=US'>App on BlackBerry App World</a></p><p><a href='https://github.com/makeratplay/BlackBerry-MissedCallAlert'>Source Code on GitHub</a></p>"
+            }
+        ]        
+    },
+    {
         "category": "Woodworking",
         "name": "Dust Collection System",
         "img": "assets/img/portfolio/thumbnails/10.jpg",
@@ -211,6 +222,17 @@
                 "video" : "https://www.youtube.com/embed/JVNW-bTlaxI"
             }
         ]   
+    },
+    {
+        "category": "Programming",
+        "name": "Simply Solitaire BlackBerry App",
+        "img": "assets/img/portfolio/thumbnails/39.jpg",
+        "description" : "BlackBerry application written in 2010 and published to BlackBerry App World as one of my MLH Software BlackBerry applications",
+        "sections" : [
+            {
+                "html" : "<p>Simply Solitaire is the classic card game also known as Klondike. Designed specifically for BlackBerry smartphone with Trackball/Trackpad, or Touchscreen for best user experience.</p><p><a href='http://mlhsoftware.com/SimplySolitaire/index.html'>App web page</a></p><p><a href='https://github.com/makeratplay/BlackBerry-SimplySolitaire'>Source Code on GitHub</a></p>"
+            }
+        ]        
     },
     {
         "category": "Model Train",
