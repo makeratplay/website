@@ -77,6 +77,20 @@
         "img": "assets/img/portfolio/thumbnails/5.jpg"
     },
     {
+        "category": "Programming",
+        "name": "Blurts BlackBerry App",
+        "img": "assets/img/portfolio/thumbnails/37.jpg",
+        "description" : "BlackBerry application written in 2010 and published to BlackBerry App World as one of my MLH Software BlackBerry applications",
+        "sections" : [
+            {
+                "html" : "<p>Blurts - Notifications from your BlackBerry® to your PC via Bluetooth. See who is calling, emailing or BBM™ without taking your BlackBerry® out of your pocket, purse, or holster.</p><p><a href='http://mlhsoftware.com/Blurts/index.html/'>Blurts web page</a></p><p><a href='https://appworld.blackberry.com/webstore/content/4298/?lang=en'>App on BlackBerry App World</a></p><p><a href='https://github.com/makeratplay/BlackBerry-Blurts'>Source Code on GitHub</a></p>"
+            },
+            {
+                "video" : "https://www.youtube.com/embed/5324D5pYxHM"
+            }
+        ]        
+    },
+    {
         "category": "Maker Project",
         "name": "Water Balloon Cannon",
         "img": "assets/img/portfolio/thumbnails/6.jpg",
@@ -129,7 +143,7 @@
         "description" : "BlackBerry application written in 2012 and published to BlackBerry App World as one of my MLH Software BlackBerry applications",
         "sections" : [
             {
-                "html" : "<p>Have a BlackBerry and some Bingo cards but no Bingo cage? Bingo Caller automatically selects numbers randomly for a game of 75 ball Bingo.</p><p>Note: This app is NOT a Bingo game, it just simulates a bingo cage by randomly selecting Bingo balls. You need your own Bingo cards to play a game of Bingo.</p><p><a href='http://mlhsoftware.com/'>MLH Software web page</a></p><p><a href='https://appworld.blackberry.com/webstore/content/107276/?countrycode=US&amp;lang=en'>App on BlackBerry App World</a></p><p><a href='https://github.com/makeratplay/BlackBerry-BingoCaller'>Source Code in GitHub</a></p>"
+                "html" : "<p>Have a BlackBerry and some Bingo cards but no Bingo cage? Bingo Caller automatically selects numbers randomly for a game of 75 ball Bingo.</p><p>Note: This app is NOT a Bingo game, it just simulates a bingo cage by randomly selecting Bingo balls. You need your own Bingo cards to play a game of Bingo.</p><p><a href='http://mlhsoftware.com/'>MLH Software web page</a></p><p><a href='https://appworld.blackberry.com/webstore/content/107276/?countrycode=US&amp;lang=en'>App on BlackBerry App World</a></p><p><a href='https://github.com/makeratplay/BlackBerry-BingoCaller'>Source Code on GitHub</a></p>"
             }
         ]        
     },
@@ -254,7 +268,7 @@
         "description" : "BlackBerry application written in 2012 and published to BlackBerry App World as one of my MLH Software BlackBerry applications",
         "sections" : [
             {
-                "html" : "<p>Your BlackBerry has a great keyboard so why not have a command line interface to get more use out of your keyboard.</p><p><a href='http://mlhsoftware.com/'>MLH Software web page</a></p><p><a href='https://appworld.blackberry.com/webstore/content/107276/?countrycode=US&amp;lang=en'>App on BlackBerry App World</a></p> <p><a href='https://github.com/makeratplay/BlackBerry-CommandLine'>Source Code in GitHub</a></p> "
+                "html" : "<p>Your BlackBerry has a great keyboard so why not have a command line interface to get more use out of your keyboard.</p><p><a href='http://mlhsoftware.com/'>MLH Software web page</a></p><p><a href='https://appworld.blackberry.com/webstore/content/107276/?countrycode=US&amp;lang=en'>App on BlackBerry App World</a></p> <p><a href='https://github.com/makeratplay/BlackBerry-CommandLine'>Source Code on GitHub</a></p> "
             }
         ]        
     },
