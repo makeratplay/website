@@ -86,6 +86,10 @@
                 "html" : "<p>Blurts - Notifications from your BlackBerry® to your PC via Bluetooth. See who is calling, emailing or BBM™ without taking your BlackBerry® out of your pocket, purse, or holster.</p><p><a href='http://mlhsoftware.com/Blurts/index.html/'>Blurts web page</a></p><p><a href='https://appworld.blackberry.com/webstore/content/4298/?lang=en'>App on BlackBerry App World</a></p><p><a href='https://github.com/makeratplay/BlackBerry-Blurts'>Source Code on GitHub</a></p>"
             },
             {
+                "video" : "https://www.youtube.com/embed/PTcSq364rfA",
+                "text" : "Interop New York 2009 - My demo of Blurts with David Pogue (11/18/2009)"
+            },
+            {
                 "video" : "https://www.youtube.com/embed/5324D5pYxHM"
             }
         ]        
@@ -302,7 +306,7 @@
         "sections" : [
             {
                 "video" : "https://www.youtube.com/embed/PTcSq364rfA",
-                "text" : "INTEROP New York 2009 - My demo of Blurts with David Pogue (11/18/2009)"
+                "text" : "Interop New York 2009 - My demo of Blurts with David Pogue (11/18/2009)"
             },
             {
                 "video" : "https://www.youtube.com/embed/STor4N0M7kk",
