@@ -4,23 +4,21 @@
         "category": "Woodworking",
         "name": "Vivify Sign",
         "img": "assets/img/portfolio/thumbnails/33.jpg",
-        "description" : "",
-        "sections" : [
-            {
-                
-            }
-        ]   
+        "page": "projects/33/index.html"
+
     },
     {
         "category": "woodworking",
         "name": "Computer and Project Desk",
         "img": "assets/img/portfolio/thumbnails/1.jpg",
-        "description" : ""
+        "description" : "",
+        "page": "projects/1/index.html"
     },
     {
         "category": "woodworking",
         "name": "French Cleat Tool Wall",
         "img": "assets/img/portfolio/thumbnails/2.jpg",
+        "page": "projects/2/index.html",
         "description" : "This is my tool wall in the workshop. Below are my YouTube videos for the different tool holders that I have built for the wall.",
         "sections" : [
             {
@@ -60,6 +58,12 @@
         ]        
     },
     {
+        "category": "Electronics",
+        "name": "16x2 LCD Module",
+        "img": "assets/img/portfolio/thumbnails/40.jpg",
+        "page": "projects/40/index.html"
+    },
+    {
         "category": "woodworking",
         "name": "Camp Kitchen Chuck Boxes",
         "img": "assets/img/portfolio/thumbnails/4.jpg",
@@ -95,6 +99,12 @@
         ]        
     },
     {
+        "category": "Electronics",
+        "name": "Galaga Control Panel",
+        "img": "assets/img/portfolio/thumbnails/41.jpg",
+        "description" : "I purchased this Galaga control panel along with an original game PCB off ebay with the idea I will make it into a working console again someday."
+    },
+    {
         "category": "Maker Project",
         "name": "Water Balloon Cannon",
         "img": "assets/img/portfolio/thumbnails/6.jpg",
@@ -116,7 +126,8 @@
     {
         "category": "Programming",
         "name": "6502 Interactive Block Diagram",
-        "img": "assets/img/portfolio/thumbnails/7.jpg"
+        "img": "assets/img/portfolio/thumbnails/7.jpg",
+        "page": "projects/7/index.html"
     },
     {
         "category": "Programming",

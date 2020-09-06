@@ -21,8 +21,12 @@ app.controller('AppController', function($http, $scope, $sce) {
 
     vm.viewProject = function(project){
       vm.selectedProject = project;
-
-      $('#projectModal').modal('show');
+      if ( project.hasOwnProperty('page') ){
+        window.open(project.page,"_self")
+      }
+      else{
+        $('#projectModal').modal('show');
+      }
     }
 
     $scope.trustSrc = function(src) {
