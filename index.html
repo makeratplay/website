@@ -225,7 +225,7 @@
                     <img class="img-fluid" src="{{vm.selectedProject.img}}" alt="" />
 
                     <div style="margin-top: 40px;" class="mt-xl-4" ng-repeat="section in vm.selectedProject.sections">
-                        <img ng-show="section.image" ng-src="{{trustSrc(section.image)}}"/>
+                        <img  class="img-fluid" ng-show="section.image" ng-src="{{trustSrc(section.image)}}"/>
                         <div class="embed-container">
                             <iframe  ng-show="section.video"  ng-src="{{trustSrc(section.video)}}"  
                             frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
