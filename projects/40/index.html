@@ -125,7 +125,7 @@
                                     <td>3</th>
                                         <td>Contrast Control (VEE)</td>
                                         <td>Connect adjustable voltage to control screen contrast. Use a 20~50K variable resister (VR) wired between VCC and GND.<br/>
-                                            <img src="ContrastControl.png" />
+                                            <img class="img-fluid" src="ContrastControl.png" />
                                         </td>
                                 </tr>
                                 <tr>
@@ -162,7 +162,7 @@
                         </table>
                     </div>
                     <center>
-                        <img src="arduinowiring.png" width="800" />
+                        <img class="img-fluid" src="arduinowiring.png"  />
                     </center>
 
                     <h2 class="section-heading">Sending Commands</h2>
@@ -190,39 +190,39 @@
 
 
                     <!--StartFragment-->
-                    <div style="color: #d4d4d4;background-color: #1e1e1e;font-family: Consolas, 'Courier New', monospace;
-                    font-weight: normal;font-size: 16px;line-height: 22px; padding: 10px">
-                        <div><span style="color: #a4acb1;">&#160;1|&#160;</span><span style="color: #6a9955;">//&#160;include&#160;the&#160;library&#160;code:</span></div>
-                        <div><span style="color: #a4acb1;">&#160;2|&#160;</span><span style="color: #569cd6;">#include&#160;</span><span style="color: #ce9178;">&lt;LiquidCrystal.h&gt;</span></div><br>
-                        <div><span style="color: #a4acb1;">&#160;3|&#160;</span><span style="color: #6a9955;">//&#160;initialize&#160;the&#160;library&#160;by&#160;associating&#160;any&#160;needed&#160;LCD&#160;interface&#160;pin</span></div>
-                        <div><span style="color: #a4acb1;">&#160;4|&#160;</span><span style="color: #6a9955;">//&#160;with&#160;the&#160;arduino&#160;pin&#160;number&#160;it&#160;is&#160;connected&#160;to</span></div>
-                        <div><span style="color: #a4acb1;">&#160;5|&#160;</span><span style="color: #569cd6;">const</span><span style="color: #d4d4d4;">&#160;</span><span style="color: #569cd6;">int</span><span style="color: #d4d4d4;">&#160;rs&#160;=&#160;</span>
-                            <span style="color: #b5cea8;">12</span>
-                            <span style="color: #d4d4d4;">,&#160;en&#160;=&#160;</span><span style="color: #b5cea8;">11</span><span style="color: #d4d4d4;">,&#160;d0&#160;=&#160;</span><span style="color: #b5cea8;">9</span><span style="color: #d4d4d4;">,&#160;d1&#160;=&#160;</span>
-                            <span style="color: #b5cea8;">8</span><span style="color: #d4d4d4;">,&#160;d2&#160;=&#160;</span><span style="color: #b5cea8;">7</span><span style="color: #d4d4d4;">,&#160;d3&#160;=&#160;</span><span style="color: #b5cea8;">6</span>
-                            <span style="color: #d4d4d4;">,&#160;</span>
-                        </div>
-                        <div><span style="color: #a4acb1;">&#160;6|&#160;</span><span style="color: #d4d4d4;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;d4&#160;=&#160;</span><span style="color: #b5cea8;">5</span><span style="color: #d4d4d4;">,&#160;d5&#160;=&#160;</span>
-                            <span style="color: #b5cea8;">4</span>
-                            <span style="color: #d4d4d4;">,&#160;d6&#160;=&#160;</span><span style="color: #b5cea8;">3</span><span style="color: #d4d4d4;">,&#160;d7&#160;=&#160;</span><span style="color: #b5cea8;">2</span><span style="color: #d4d4d4;">;</span></div>
-                        <div><span style="color: #a4acb1;">&#160;7|&#160;</span><span style="color: #d4d4d4;">LiquidCrystal&#160;lcd(rs,&#160;en,&#160;d0,&#160;d1,&#160;d2,&#160;d3,&#160;d4,&#160;d5,&#160;d6,&#160;d7);</span></div><br>
-                        <div><span style="color: #a4acb1;">&#160;8|&#160;</span><span style="color: #569cd6;">void</span><span style="color: #d4d4d4;">&#160;setup()&#160;{</span></div>
-                        <div><span style="color: #a4acb1;">&#160;9|&#160;</span><span style="color: #6a9955;">&#160;&#160;//&#160;set&#160;up&#160;the&#160;LCD's&#160;number&#160;of&#160;columns&#160;and&#160;rows:</span></div>
-                        <div><span style="color: #a4acb1;">10|&#160;</span><span style="color: #d4d4d4;">&#160;&#160;lcd.begin(</span><span style="color: #b5cea8;">16</span><span style="color: #d4d4d4;">,&#160;</span><span style="color: #b5cea8;">2</span>
-                            <span style="color: #d4d4d4;">);</span>
-                        </div>
-                        <div><span style="color: #a4acb1;">11|&#160;</span><span style="color: #6a9955;">&#160;&#160;//&#160;Print&#160;a&#160;message&#160;to&#160;the&#160;LCD.</span></div>
-                        <div><span style="color: #a4acb1;">12|&#160;</span><span style="color: #d4d4d4;">&#160;&#160;lcd.print(</span><span style="color: #ce9178;">"hello,&#160;world!"</span><span style="color: #d4d4d4;">);</span></div>
-                        <div><span style="color: #a4acb1;">13|&#160;</span><span style="color: #d4d4d4;">}</span></div><br>
-                        <div><span style="color: #a4acb1;">14|&#160;</span><span style="color: #569cd6;">void</span><span style="color: #d4d4d4;">&#160;loop()&#160;{</span></div>
-                        <div><span style="color: #a4acb1;">15|&#160;</span><span style="color: #6a9955;">&#160;&#160;//&#160;set&#160;the&#160;cursor&#160;to&#160;column&#160;0,&#160;line&#160;1</span></div>
-                        <div><span style="color: #a4acb1;">16|&#160;</span><span style="color: #6a9955;">&#160;&#160;//&#160;(note:&#160;line&#160;1&#160;is&#160;the&#160;second&#160;row,&#160;since&#160;counting&#160;begins&#160;with&#160;0):</span></div>
-                        <div><span style="color: #a4acb1;">17|&#160;</span><span style="color: #d4d4d4;">&#160;&#160;lcd.setCursor(</span><span style="color: #b5cea8;">0</span><span style="color: #d4d4d4;">,&#160;</span><span style="color: #b5cea8;">1</span>
-                            <span style="color: #d4d4d4;">);</span>
-                        </div>
-                        <div><span style="color: #a4acb1;">18|&#160;</span><span style="color: #6a9955;">&#160;&#160;//&#160;print&#160;the&#160;number&#160;of&#160;seconds&#160;since&#160;reset:</span></div>
-                        <div><span style="color: #a4acb1;">19|&#160;</span><span style="color: #d4d4d4;">&#160;&#160;lcd.print(millis()&#160;/&#160;</span><span style="color: #b5cea8;">1000</span><span style="color: #d4d4d4;">);</span></div>
-                        <div><span style="color: #a4acb1;">20|&#160;</span><span style="color: #d4d4d4;">}</span></div>
+                    <div class="table-responsive" style="color: #d4d4d4;background-color: #1e1e1e;font-family: Consolas, 'Courier New', monospace;
+                font-weight: normal;font-size: 16px;line-height: 22px; padding: 10px">
+                    <div><span style="color: #a4acb1;">&#160;1|&#160;</span><span style="color: #6a9955;">//&#160;include&#160;the&#160;library&#160;code:</span></div>
+                    <div><span style="color: #a4acb1;">&#160;2|&#160;</span><span style="color: #569cd6;">#include&#160;</span><span style="color: #ce9178;">&lt;LiquidCrystal.h&gt;</span></div><br>
+                    <div><span style="color: #a4acb1;">&#160;3|&#160;</span><span style="color: #6a9955;">//&#160;initialize&#160;the&#160;library&#160;by&#160;associating&#160;any&#160;needed&#160;LCD&#160;interface&#160;pin</span></div>
+                    <div><span style="color: #a4acb1;">&#160;4|&#160;</span><span style="color: #6a9955;">//&#160;with&#160;the&#160;arduino&#160;pin&#160;number&#160;it&#160;is&#160;connected&#160;to</span></div>
+                    <div><span style="color: #a4acb1;">&#160;5|&#160;</span><span style="color: #569cd6;">const</span><span style="color: #d4d4d4;">&#160;</span><span style="color: #569cd6;">int</span><span style="color: #d4d4d4;">&#160;rs&#160;=&#160;</span>
+                        <span style="color: #b5cea8;">12</span>
+                        <span style="color: #d4d4d4;">,&#160;en&#160;=&#160;</span><span style="color: #b5cea8;">11</span><span style="color: #d4d4d4;">,&#160;d0&#160;=&#160;</span><span style="color: #b5cea8;">9</span><span style="color: #d4d4d4;">,&#160;d1&#160;=&#160;</span>
+                        <span style="color: #b5cea8;">8</span><span style="color: #d4d4d4;">,&#160;d2&#160;=&#160;</span><span style="color: #b5cea8;">7</span><span style="color: #d4d4d4;">,&#160;d3&#160;=&#160;</span><span style="color: #b5cea8;">6</span>
+                        <span style="color: #d4d4d4;">,&#160;</span>
+                    </div>
+                    <div><span style="color: #a4acb1;">&#160;6|&#160;</span><span style="color: #d4d4d4;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;d4&#160;=&#160;</span><span style="color: #b5cea8;">5</span><span style="color: #d4d4d4;">,&#160;d5&#160;=&#160;</span>
+                        <span style="color: #b5cea8;">4</span>
+                        <span style="color: #d4d4d4;">,&#160;d6&#160;=&#160;</span><span style="color: #b5cea8;">3</span><span style="color: #d4d4d4;">,&#160;d7&#160;=&#160;</span><span style="color: #b5cea8;">2</span><span style="color: #d4d4d4;">;</span></div>
+                    <div><span style="color: #a4acb1;">&#160;7|&#160;</span><span style="color: #d4d4d4;">LiquidCrystal&#160;lcd(rs,&#160;en,&#160;d0,&#160;d1,&#160;d2,&#160;d3,&#160;d4,&#160;d5,&#160;d6,&#160;d7);</span></div><br>
+                    <div><span style="color: #a4acb1;">&#160;8|&#160;</span><span style="color: #569cd6;">void</span><span style="color: #d4d4d4;">&#160;setup()&#160;{</span></div>
+                    <div><span style="color: #a4acb1;">&#160;9|&#160;</span><span style="color: #6a9955;">&#160;&#160;//&#160;set&#160;up&#160;the&#160;LCD's&#160;number&#160;of&#160;columns&#160;and&#160;rows:</span></div>
+                    <div><span style="color: #a4acb1;">10|&#160;</span><span style="color: #d4d4d4;">&#160;&#160;lcd.begin(</span><span style="color: #b5cea8;">16</span><span style="color: #d4d4d4;">,&#160;</span><span style="color: #b5cea8;">2</span>
+                        <span style="color: #d4d4d4;">);</span>
+                    </div>
+                    <div><span style="color: #a4acb1;">11|&#160;</span><span style="color: #6a9955;">&#160;&#160;//&#160;Print&#160;a&#160;message&#160;to&#160;the&#160;LCD.</span></div>
+                    <div><span style="color: #a4acb1;">12|&#160;</span><span style="color: #d4d4d4;">&#160;&#160;lcd.print(</span><span style="color: #ce9178;">"hello,&#160;world!"</span><span style="color: #d4d4d4;">);</span></div>
+                    <div><span style="color: #a4acb1;">13|&#160;</span><span style="color: #d4d4d4;">}</span></div><br>
+                    <div><span style="color: #a4acb1;">14|&#160;</span><span style="color: #569cd6;">void</span><span style="color: #d4d4d4;">&#160;loop()&#160;{</span></div>
+                    <div><span style="color: #a4acb1;">15|&#160;</span><span style="color: #6a9955;">&#160;&#160;//&#160;set&#160;the&#160;cursor&#160;to&#160;column&#160;0,&#160;line&#160;1</span></div>
+                    <div><span style="color: #a4acb1;">16|&#160;</span><span style="color: #6a9955;">&#160;&#160;//&#160;(note:&#160;line&#160;1&#160;is&#160;the&#160;second&#160;row,&#160;since&#160;counting&#160;begins&#160;with&#160;0):</span></div>
+                    <div><span style="color: #a4acb1;">17|&#160;</span><span style="color: #d4d4d4;">&#160;&#160;lcd.setCursor(</span><span style="color: #b5cea8;">0</span><span style="color: #d4d4d4;">,&#160;</span><span style="color: #b5cea8;">1</span>
+                        <span style="color: #d4d4d4;">);</span>
+                    </div>
+                    <div><span style="color: #a4acb1;">18|&#160;</span><span style="color: #6a9955;">&#160;&#160;//&#160;print&#160;the&#160;number&#160;of&#160;seconds&#160;since&#160;reset:</span></div>
+                    <div><span style="color: #a4acb1;">19|&#160;</span><span style="color: #d4d4d4;">&#160;&#160;lcd.print(millis()&#160;/&#160;</span><span style="color: #b5cea8;">1000</span><span style="color: #d4d4d4;">);</span></div>
+                    <div><span style="color: #a4acb1;">20|&#160;</span><span style="color: #d4d4d4;">}</span></div>
                     </div>
                     <!--EndFragment-->
 
@@ -235,7 +235,7 @@
                     <p> Declaring this variable calls the constructor method of the LiquidCrystal class.</p>
 
                     <!--StartFragment-->
-                    <div style="color: #d4d4d4;background-color: #1e1e1e;font-family: Consolas, 'Courier New', monospace;
+                    <div class="table-responsive" style="color: #d4d4d4;background-color: #1e1e1e;font-family: Consolas, 'Courier New', monospace;
                     font-weight: normal;font-size: 16px;line-height: 22px; padding: 10px">
 
                         <div><span style="color: #d4d4d4;">LiquidCrystal::LiquidCrystal(</span><span style="color: #569cd6;">uint8_t</span><span style="color: #d4d4d4;">&#160;rs,&#160;</span><span style="color: #569cd6;">uint8_t</span><span style="color: #d4d4d4;">&#160;enable,</span></div>
@@ -251,7 +251,7 @@
                     <span class="caption text-muted">From LiquidCrystal.cpp file located at C:\Program Files (x86)\Arduino\libraries\LiquidCrystal\src</span>
                     <p>The constructor then calls init() with fourbitmode = 0, rw = 255 along with the pin values passed to the constructor. </p>
 
-                    <div style="color: #d4d4d4;background-color: #1e1e1e;font-family: Consolas, 'Courier New', monospace;
+                    <div class="table-responsive" style="color: #d4d4d4;background-color: #1e1e1e;font-family: Consolas, 'Courier New', monospace;
                         font-weight: normal;font-size: 16px;line-height: 22px; padding: 10px">
                         <div><span style="color: #569cd6;">void</span><span style="color: #d4d4d4;">&#160;LiquidCrystal::init(</span><span style="color: #569cd6;">uint8_t</span><span style="color: #d4d4d4;">&#160;fourbitmode,&#160;</span><span style="color: #569cd6;">uint8_t</span>
                             <span style="color: #d4d4d4;">&#160;rs,&#160;</span><span style="color: #569cd6;">uint8_t</span><span style="color: #d4d4d4;">&#160;rw,&#160;</span><span style="color: #569cd6;">uint8_t</span><span style="color: #d4d4d4;">&#160;enable,</span></div>
@@ -285,7 +285,7 @@
                     <p>The init method stores the pin numbers for later use as well tells the library to use 8 bit mode. Then it calls begin method to initialize LCD module. It defaults to 16 columns, 1 line and 5x8 dot characters.
                     </p>
 
-                    <div style="color: #d4d4d4;background-color: #1e1e1e;font-family: Consolas, 'Courier New', monospace;
+                    <div class="table-responsive" style="color: #d4d4d4;background-color: #1e1e1e;font-family: Consolas, 'Courier New', monospace;
                     font-weight: normal;font-size: 16px;line-height: 22px; padding: 10px">
 
 
@@ -387,7 +387,7 @@
                         the bits on the data lines. It then pulses the enable line writing a low to enable pin followed by a high for one microsecond and then back to low. This triggers the LCD to read the data lines.
                     </p>
 
-                    <div style="color: #d4d4d4;background-color: #1e1e1e;font-family: Consolas, 'Courier New', monospace;
+                    <div class="table-responsive" style="color: #d4d4d4;background-color: #1e1e1e;font-family: Consolas, 'Courier New', monospace;
                     font-weight: normal;font-size: 16px;line-height: 22px; padding: 10px">
 
                         <div><span style="color: #6a9955;">&#160;&#160;&#160;&#160;//&#160;Send&#160;function&#160;set&#160;command&#160;sequence</span></div>
@@ -403,7 +403,7 @@
 
 
                     <!--StartFragment-->
-                    <div style="color: #d4d4d4;background-color: #1e1e1e;font-family: Consolas, 'Courier New', monospace;
+                    <div class="table-responsive" style="color: #d4d4d4;background-color: #1e1e1e;font-family: Consolas, 'Courier New', monospace;
                     font-weight: normal;font-size: 16px;line-height: 22px; padding: 10px">
                         <div><span style="color: #6a9955;">//&#160;commands</span></div>
                         <div><span style="color: #569cd6;">#define&#160;LCD_CLEARDISPLAY&#160;</span><span style="color: #b5cea8;">0x01</span></div>
@@ -429,7 +429,7 @@
                     </p>
 
                     <!--StartFragment-->
-                    <div style="color: #d4d4d4;background-color: #1e1e1e;font-family: Consolas, 'Courier New', monospace;
+                    <div class="table-responsive" style="color: #d4d4d4;background-color: #1e1e1e;font-family: Consolas, 'Courier New', monospace;
                     font-weight: normal;font-size: 16px;line-height: 22px; padding: 10px">
                         <div><span style="color: #d4d4d4;">&#160;&#160;</span><span style="color: #569cd6;">if</span><span style="color: #d4d4d4;">&#160;(fourbitmode)</span></div>
                         <div><span style="color: #d4d4d4;">&#160;&#160;&#160;&#160;_displayfunction&#160;=&#160;</span><span style="color: #569cd6;">LCD_4BITMODE</span><span style="color: #d4d4d4;">&#160;|&#160;</span><span style="color: #569cd6;">LCD_1LINE</span>
@@ -441,7 +441,7 @@
                     <!--EndFragment-->
                     <br/>
                     <!--StartFragment-->
-                    <div style="color: #d4d4d4;background-color: #1e1e1e;font-family: Consolas, 'Courier New', monospace;
+                    <div class="table-responsive" style="color: #d4d4d4;background-color: #1e1e1e;font-family: Consolas, 'Courier New', monospace;
                     font-weight: normal;font-size: 16px;line-height: 22px; padding: 10px">
                         <div><span style="color: #d4d4d4;">&#160;&#160;</span><span style="color: #569cd6;">if</span><span style="color: #d4d4d4;">&#160;(lines&#160;&gt;&#160;</span><span style="color: #b5cea8;">1</span><span style="color: #d4d4d4;">)&#160;{</span></div>
                         <div><span style="color: #d4d4d4;">&#160;&#160;&#160;&#160;_displayfunction&#160;|=&#160;</span><span style="color: #569cd6;">LCD_2LINE</span><span style="color: #d4d4d4;">;</span></div>
@@ -450,7 +450,7 @@
                     <!--EndFragment-->
                     <br/>
                     <!--StartFragment-->
-                    <div style="color: #d4d4d4;background-color: #1e1e1e;font-family: Consolas, 'Courier New', monospace;
+                    <div class="table-responsive" style="color: #d4d4d4;background-color: #1e1e1e;font-family: Consolas, 'Courier New', monospace;
                     font-weight: normal;font-size: 16px;line-height: 22px; padding: 10px">
                         <div><span style="color: #d4d4d4;">&#160;&#160;</span><span style="color: #569cd6;">if</span><span style="color: #d4d4d4;">&#160;((dotsize&#160;!=&#160;</span><span style="color: #569cd6;">LCD_5x8DOTS</span><span style="color: #d4d4d4;">)&#160;&amp;&amp;&#160;(lines&#160;==&#160;</span>
                             <span style="color: #b5cea8;">1</span><span style="color: #d4d4d4;">))&#160;{</span></div>
@@ -521,7 +521,7 @@
 
                     
                     <!--StartFragment-->
-                    <div style="color: #d4d4d4;background-color: #1e1e1e;font-family: Consolas, 'Courier New', monospace;font-weight: normal;
+                    <div class="table-responsive" style="color: #d4d4d4;background-color: #1e1e1e;font-family: Consolas, 'Courier New', monospace;font-weight: normal;
                     font-size: 16px;line-height: 22px; padding: 10px">
                         <div><span style="color: #6a9955;">//&#160;flags&#160;for&#160;function&#160;set</span></div>
                         <div><span style="color: #569cd6;">#define&#160;LCD_8BITMODE&#160;</span><span style="color: #b5cea8;">0x10</span></div>

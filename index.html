@@ -224,10 +224,12 @@
 
                     <img class="img-fluid" src="{{vm.selectedProject.img}}" alt="" />
 
-                    <div class="mt-xl-4" ng-repeat="section in vm.selectedProject.sections">
+                    <div style="margin-top: 40px;" class="mt-xl-4" ng-repeat="section in vm.selectedProject.sections">
                         <img ng-show="section.image" ng-src="{{trustSrc(section.image)}}"/>
-                        <iframe  ng-show="section.video" width="560" height="315" ng-src="{{trustSrc(section.video)}}"  
-                                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="embed-container">
+                            <iframe  ng-show="section.video"  ng-src="{{trustSrc(section.video)}}"  
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
                         <p>{{section.text}}</p>
                         <div ng-bind-html="section.html"></div>
                     </div>
