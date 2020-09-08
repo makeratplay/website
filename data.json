@@ -58,6 +58,18 @@
         ]        
     },
     {
+        "category": "woodworking",
+        "name": "Miter Sled Jig",
+        "img": "assets/img/portfolio/thumbnails/42.jpg",
+        "description" : "I built a miter sled jig for my table saw to make my project builds faster.",
+        "sections" : [
+            {
+                "video" : "https://www.youtube.com/embed/gFVQs7_1cGM"
+            }
+        ]
+
+    },    
+    {
         "category": "Electronics",
         "name": "16x2 LCD Module",
         "img": "assets/img/portfolio/thumbnails/40.jpg",
