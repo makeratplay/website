@@ -1,5 +1,17 @@
 [
- 
+    {
+        "category": "woodworking",
+        "name": "Patio Chair Prototype",
+        "img": "assets/img/portfolio/thumbnails/44.jpg",
+        "description" : "In preparation for building some patio chairs for the first time, I first build a prototype of the chair out of 2x6 SPF lumber.",
+        "sections" : [
+            {
+                "video" : "https://www.youtube.com/embed/n93UHhFiY-4"
+            }
+        ]
+    },
+
+
     {
         "category": "woodworking",
         "name": "On Air Sign",
