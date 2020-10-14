@@ -1,4 +1,21 @@
 [
+
+    {
+        "category": "3D Printing",
+        "name": "Ender 3 Pro Printer",
+        "img": "assets/img/portfolio/thumbnails/45.jpg",
+        "description" : "I show you how to turn an image into a 3d print using Inkscape, Fusion 360 and Ultimaker Cura to create G-code file that your 3D printer can use to create the object.",
+        "sections" : [
+            {
+                "video" : "https://www.youtube.com/embed/JJSkR_ZPrRA"
+                
+            },
+            {
+                "video" : "https://www.youtube.com/embed/zMgoZUHFnKo"
+            }
+        ]
+    },
+
     {
         "category": "woodworking",
         "name": "Patio Chair Prototype",
@@ -110,7 +127,12 @@
     {
         "category": "Model Train",
         "name": "HO Model Train Layout #3",
-        "img": "assets/img/portfolio/thumbnails/5.jpg"
+        "img": "assets/img/portfolio/thumbnails/5.jpg",
+        "sections" : [
+            {
+                "image" : "assets/img/portfolio/thumbnails/5.jpg"
+            }
+        ]
     },
     {
         "category": "Programming",
@@ -134,7 +156,12 @@
         "category": "Electronics",
         "name": "Galaga Control Panel",
         "img": "assets/img/portfolio/thumbnails/41.jpg",
-        "description" : "I purchased this Galaga control panel along with an original game PCB off ebay with the idea I will make it into a working console again someday."
+        "description" : "I purchased this Galaga control panel along with an original game PCB off ebay with the idea I will make it into a working console again someday.",
+        "sections" : [
+            {
+                "image" : "assets/img/portfolio/thumbnails/41.jpg"
+            }
+        ]
     },
     {
         "category": "Maker Project",
@@ -190,6 +217,9 @@
         "description" : "BlackBerry application written in 2012 and published to BlackBerry App World as one of my MLH Software BlackBerry applications",
         "sections" : [
             {
+                "image" :  "assets/img/portfolio/thumbnails/35.jpg"
+            },
+            {
                 "html" : "<p>Have a BlackBerry and some Bingo cards but no Bingo cage? Bingo Caller automatically selects numbers randomly for a game of 75 ball Bingo.</p><p>Note: This app is NOT a Bingo game, it just simulates a bingo cage by randomly selecting Bingo balls. You need your own Bingo cards to play a game of Bingo.</p><p><a href='http://mlhsoftware.com/'>MLH Software web page</a></p><p><a href='https://appworld.blackberry.com/webstore/content/107276/?countrycode=US&amp;lang=en'>App on BlackBerry App World</a></p><p><a href='https://github.com/makeratplay/BlackBerry-BingoCaller'>Source Code on GitHub</a></p>"
             }
         ]        
@@ -211,6 +241,9 @@
         "img": "assets/img/portfolio/thumbnails/38.jpg",
         "description" : "BlackBerry application written in 2009 and published to BlackBerry App World as one of my MLH Software BlackBerry applications",
         "sections" : [
+            {
+                "image" :  "assets/img/portfolio/thumbnails/38.jpg"
+            },
             {
                 "html" : "<p>Missed Call Alert detects missed phone calls and creates a recurring audible alert based on active profile settings.</p><p><a href='http://mlhsoftware.com/MissedCallAlert/index.html'>App web page</a></p><p><a href='https://appworld.blackberry.com/webstore/content/3606/?lang=en&countrycode=US'>App on BlackBerry App World</a></p><p><a href='https://github.com/makeratplay/BlackBerry-MissedCallAlert'>Source Code on GitHub</a></p>"
             }
@@ -236,7 +269,12 @@
     {
         "category": "Woodworking",
         "name": "2018 Marching Band Props",
-        "img": "assets/img/portfolio/thumbnails/11.jpg"
+        "img": "assets/img/portfolio/thumbnails/11.jpg",
+        "sections" : [
+            {
+                "image" :  "assets/img/portfolio/thumbnails/11.jpg"
+            }
+        ]         
     },
     {
         "category": "Woodworking",
@@ -273,6 +311,9 @@
         "description" : "BlackBerry application written in 2010 and published to BlackBerry App World as one of my MLH Software BlackBerry applications",
         "sections" : [
             {
+                "image" :  "assets/img/portfolio/thumbnails/39.jpg"
+            },
+            {
                 "html" : "<p>Simply Solitaire is the classic card game also known as Klondike. Designed specifically for BlackBerry smartphone with Trackball/Trackpad, or Touchscreen for best user experience.</p><p><a href='http://mlhsoftware.com/SimplySolitaire/index.html'>App web page</a></p><p><a href='https://github.com/makeratplay/BlackBerry-SimplySolitaire'>Source Code on GitHub</a></p>"
             }
         ]        
@@ -280,17 +321,28 @@
     {
         "category": "Model Train",
         "name": "HO Train Layout #1",
-        "img": "assets/img/portfolio/thumbnails/14.jpg"
+        "img": "assets/img/portfolio/thumbnails/14.jpg",
+        "sections" : [
+            {
+                "image" :  "assets/img/portfolio/thumbnails/14.jpg"
+            }
+        ]  
     },
     {
         "category": "Model Train",
         "name": "HO Train Layout #2",
-        "img": "assets/img/portfolio/thumbnails/15.jpg"
+        "img": "assets/img/portfolio/thumbnails/15.jpg",
+        "sections" : [
+            {
+                "image" :  "assets/img/portfolio/thumbnails/15.jpg"
+            }
+        ]  
     },
     {
         "category": "Woodworking",
         "name": "Computer desk and Shelves",
-        "img": "assets/img/portfolio/thumbnails/16.jpg"
+        "img": "assets/img/portfolio/thumbnails/16.jpg",
+        "page": "projects/1/index.html"
     },
     {
         "category": "Electronics",
@@ -328,7 +380,12 @@
     {
         "category": "Maker Project",
         "name": "Family Pacman Costume",
-        "img": "assets/img/portfolio/thumbnails/18.jpg"
+        "img": "assets/img/portfolio/thumbnails/18.jpg",
+        "sections" : [
+            {
+                "image" : "assets/img/portfolio/thumbnails/18.jpg"
+            }
+        ]
     },
     {
         "category": "Programming",
@@ -337,6 +394,9 @@
         "description" : "BlackBerry application written in 2012 and published to BlackBerry App World as one of my MLH Software BlackBerry applications",
         "sections" : [
             {
+                "image" : "assets/img/portfolio/thumbnails/36.jpg"
+            },
+            {
                 "html" : "<p>Your BlackBerry has a great keyboard so why not have a command line interface to get more use out of your keyboard.</p><p><a href='http://mlhsoftware.com/'>MLH Software web page</a></p><p><a href='https://appworld.blackberry.com/webstore/content/107276/?countrycode=US&amp;lang=en'>App on BlackBerry App World</a></p> <p><a href='https://github.com/makeratplay/BlackBerry-CommandLine'>Source Code on GitHub</a></p> "
             }
         ]        
@@ -344,12 +404,22 @@
     {
         "category": "Maker Project",
         "name": "2019 Marching Band Props",
-        "img": "assets/img/portfolio/thumbnails/19.jpg"
+        "img": "assets/img/portfolio/thumbnails/19.jpg",
+        "sections" : [
+            {
+                "image" : "assets/img/portfolio/thumbnails/19.jpg"
+            }
+        ]
     },
     {
         "category": "Woodworking",
         "name": "CNC Holddowns",
-        "img": "assets/img/portfolio/thumbnails/20.jpg"
+        "img": "assets/img/portfolio/thumbnails/20.jpg",
+        "sections" : [
+            {
+                "image" : "assets/img/portfolio/thumbnails/20.jpg"
+            }
+        ]
     },
     {
         "category": "Electronics",
@@ -412,7 +482,7 @@
         "description" : "My oldest son built and programmed a golf ball counter using lego mindstorm.",
         "sections" : [
             {
-                
+                "image" : "assets/img/portfolio/thumbnails/25.jpg"
             }
         ]   
         
@@ -424,7 +494,7 @@
         "description" : "Two of my sons built pinewood drby cars in the style of a Lego block and Wii remote.",
         "sections" : [
             {
-                
+                "image": "assets/img/portfolio/thumbnails/26.jpg"
             }
         ]   
         

@@ -212,6 +212,27 @@
         </div>
     </section>
 
+    <!-- Disqus comments-->
+    <section class="page-section bg-dark text-white" id="disqus">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div id="disqus_thread"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document,
+                s = d.createElement('script');
+            s.src = 'https://makeratplay.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+    </script>
+
 
     <!-- Modal -->
     <div class="modal fade" id="projectModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
@@ -233,11 +254,11 @@
 
                     <p class="mt-xl-4">{{vm.selectedProject.description}}</p>
 
-                    <img class="img-fluid" src="{{vm.selectedProject.img}}" alt="" />
+                    <!-- <img class="img-fluid" src="{{vm.selectedProject.img}}" alt="" /> -->
 
                     <div style="margin-top: 40px;" class="mt-xl-4" ng-repeat="section in vm.selectedProject.sections">
                         <img  class="img-fluid" ng-show="section.image" ng-src="{{trustSrc(section.image)}}"/>
-                        <div class="embed-container">
+                        <div ng-show="section.video" class="embed-container">
                             <iframe  ng-show="section.video"  ng-src="{{trustSrc(section.video)}}"  
                             frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
