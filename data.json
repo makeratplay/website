@@ -1,33 +1,12 @@
 [
 
     {
-        "category": "3D Printing",
-        "name": "Ender 3 Pro Printer",
-        "img": "assets/img/portfolio/thumbnails/45.jpg",
-        "description" : "I show you how to turn an image into a 3d print using Inkscape, Fusion 360 and Ultimaker Cura to create G-code file that your 3D printer can use to create the object.",
-        "sections" : [
-            {
-                "video" : "https://www.youtube.com/embed/JJSkR_ZPrRA"
-                
-            },
-            {
-                "video" : "https://www.youtube.com/embed/zMgoZUHFnKo"
-            }
-        ]
-    },
-
-    {
         "category": "woodworking",
-        "name": "Patio Chair Prototype",
-        "img": "assets/img/portfolio/thumbnails/44.jpg",
-        "description" : "In preparation for building some patio chairs for the first time, I first build a prototype of the chair out of 2x6 SPF lumber.",
-        "sections" : [
-            {
-                "video" : "https://www.youtube.com/embed/n93UHhFiY-4"
-            }
-        ]
-    },
+        "name": "Spotify Player",
+        "img": "assets/img/portfolio/thumbnails/46.jpg",
+        "page": "projects/46/index.html"
 
+    },  
 
     {
         "category": "woodworking",
@@ -44,6 +23,10 @@
         "page": "projects/33/index.html"
 
     },
+
+
+
+
     {
         "category": "woodworking",
         "name": "Computer and Project Desk",
@@ -105,6 +88,34 @@
             }
         ]
 
+    },    
+
+    {
+        "category": "3D Printing",
+        "name": "Ender 3 Pro Printer",
+        "img": "assets/img/portfolio/thumbnails/45.jpg",
+        "description" : "I show you how to turn an image into a 3d print using Inkscape, Fusion 360 and Ultimaker Cura to create G-code file that your 3D printer can use to create the object.",
+        "sections" : [
+            {
+                "video" : "https://www.youtube.com/embed/JJSkR_ZPrRA"
+                
+            },
+            {
+                "video" : "https://www.youtube.com/embed/zMgoZUHFnKo"
+            }
+        ]
+    },
+
+    {
+        "category": "woodworking",
+        "name": "Patio Chair Prototype",
+        "img": "assets/img/portfolio/thumbnails/44.jpg",
+        "description" : "In preparation for building some patio chairs for the first time, I first build a prototype of the chair out of 2x6 SPF lumber.",
+        "sections" : [
+            {
+                "video" : "https://www.youtube.com/embed/n93UHhFiY-4"
+            }
+        ]
     },    
     {
         "category": "Electronics",

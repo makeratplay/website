@@ -93,8 +93,8 @@
             <div class="row">
                 <div class="col-lg-8 col-md-10 mx-auto">
                     <div class="post-heading">
-                        <h1>On Air Sign</h1>
-                        <h2 class="subheading">Amazon Echo controlled LED sign</h2>
+                        <h1>Spotify Player</h1>
+                        <h2 class="subheading">Amazon Echo | NFC Tags | Spotify API</h2>
                         <!--
             <span class="meta">Posted by
               <a href="#">Start Bootstrap</a>
@@ -111,11 +111,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-md-10 mx-auto">
-                    <p>I made this on air sign out of Walnut and Curly Maple with RGB LEDs that I can control via Amazon Echo to let my family know when I am on a video call. Check out my YouTube video below for the full details of how I built this sign.
+                    <p>I wanted to find a clever way to use my old CDs that were just collecting dust because today I listen to all of my music via Spotify. I also had some NFC stickers laying around just waiting to be used for something. And like that, a new project was born. All that was missing was an understanding of the Spotify API which did not take long to learn. I wired a NFC reader (RDID-RC522) to an esp32 microcontroller and wrote some code to call the Spotify APIs to play music on an Echo Dot. The final piece was a cool case to wrap it all up. Check out my videos below for all the details.
                         </p>
-                    <div class="embed-container"><iframe src="https://www.youtube.com/embed/_AaS32MWL8E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                    <div class="embed-container"><iframe src="https://www.youtube.com/embed/H_9H8qFnDr8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
                     <br/><br/>
-
                     <h2>Parts List for the Electronics</h2>
                     <p>
                     
@@ -125,54 +124,61 @@
                                 <img src="esp32.png" width="200px" /><br/> ESP32 Microcontrol</a><br/>
                         </div>
                         <div class="col">
-                            <a href="https://amzn.to/3ha2eKt" target="_blank ">
-                            <img src="Mosfet.png " width="200px "/><br/>
-                            N-Channel Power Mosfet TO-220</a><br/>
+                            <a href="https://amzn.to/3d8m6xy" target="_blank ">
+                            <img src="nfcreader.png" width="200px "/><br/>
+                            NFC reader RFID-RC522</a><br/>
                         </div>
                         <div class="col ">
-                            <a href="https://amzn.to/3nI5uyZ " target="_blank">
-                            <img src="leds.png" width="200px"><br/> RGB 5050 LED strip</a><br/>
+                            <a href="https://amzn.to/3tXHBa7" target="_blank">
+                            <img src="NFCTag.png" width="200px"><br/> NFC Tags</a><br/>
                         </div>
                     </div><br/> <br/> 
                     
                   </p>
-
-                  <h2>Circuit Diagram</h2>
-                  <p>
-                    
-                      <img src="diagram.png"  class="img-fluid"/> 
-                      <img src="breadboard.png"  class="img-fluid"/>  
-                  </p>
-
+,
 
                   <h2>Source Code</h2>
-                  <p>Source code for this project can be found on my <a href="https://github.com/makeratplay/OnAirSign/tree/master"  target="_blank">git hub</a></p>
-                  <p>Here is the <a href="https://github.com/makeratplay/OnAirSign/blob/master/OnAirSign/OnAirSign.ino"  target="_blank">Arduino code</a> that runs on the ESP32  
+                  <p>Source code for this project can be found on my <a href="https://github.com/makeratplay/esp32SpotifyEchoDot"  target="_blank">git hub</a></p>
                   </p>
+                  <div class="embed-container"><iframe src="https://www.youtube.com/embed/RMtRH-3sTR4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                  <br/><br/>
 
-                  <h2>Reference Info</h2>
-                  <p>
-                    RGB LD Strips info on Adafruit - <a href="https://learn.adafruit.com/rgb-led-strips/usage"  target="_blank">link</a>
-                  </p>
-                  <p>
-                    LED Strip SMD 5050 info on Arduino forum - <a href="https://forum.arduino.cc/index.php?topic=548801.0"  target="_blank">link</a>
-                  </p>
+
 
                   <h2>More Images</h2>
                   <img class="img-fluid" src="1.jpg" alt="">
+                  <br/><br/>
+                  <img class="img-fluid" src="4.jpg" alt="">
                   <br/><br/>
                   <img class="img-fluid" src="2.jpg" alt="">
                   <br/><br/>
                   <img class="img-fluid" src="3.jpg" alt="">
                   <br/><br/>
-                  <img class="img-fluid" src="4.jpg" alt="">
+                  <img class="img-fluid" src="5.jpg" alt="">
                   <br/><br/>
 
-                    
+                  <h2>More Videos</h2>
+                  <div class="embed-container"><iframe src="https://www.youtube.com/embed/H2HJ-LY7-lQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                  <br/><br/>
+                  <div class="embed-container"><iframe src="https://www.youtube.com/embed/1vR3m0HupGI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                  <br/><br/>
 
+                  <div class="embed-container"><iframe src="https://www.youtube.com/embed/isom4NREq14" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                  <br/><br/>
 
+                  <div class="embed-container"><iframe src="https://www.youtube.com/embed/7CPkmOHev_A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                  <br/><br/>
 
+                  <div class="embed-container"><iframe src="https://www.youtube.com/embed/dpDbMA8f0VY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                  <br/><br/>
 
+                  <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@makeratplay/video/6926358046079716613" data-video-id="6926358046079716613" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@makeratplay" href="https://www.tiktok.com/@makeratplay">@makeratplay</a> <p>How to write a Spotify share link to a NFC Sticker <a title="maker" target="_blank" href="https://www.tiktok.com/tag/maker">##maker</a> <a title="makeratplay" target="_blank" href="https://www.tiktok.com/tag/makeratplay">##makeratplay</a> <a title="spotify" target="_blank" href="https://www.tiktok.com/tag/spotify">##spotify</a> <a title="rfid_tags" target="_blank" href="https://www.tiktok.com/tag/rfid_tags">##rfid_tags</a></p> <a target="_blank" title="♬ original sound - Maker At Play" href="https://www.tiktok.com/music/original-sound-6926358032662252293">♬ original sound - Maker At Play</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+                  <br/><br/>
+
+                  <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@makeratplay/video/6925917033573944581" data-video-id="6925917033573944581" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@makeratplay" href="https://www.tiktok.com/@makeratplay">@makeratplay</a> <p><a title="maker" target="_blank" href="https://www.tiktok.com/tag/maker">##maker</a> <a title="makeratplay" target="_blank" href="https://www.tiktok.com/tag/makeratplay">##makeratplay</a> <a title="arduino" target="_blank" href="https://www.tiktok.com/tag/arduino">##arduino</a> <a title="spotify" target="_blank" href="https://www.tiktok.com/tag/spotify">##spotify</a> <a title="alexa" target="_blank" href="https://www.tiktok.com/tag/alexa">##alexa</a></p> <a target="_blank" title="♬ original sound - Maker At Play" href="https://www.tiktok.com/music/original-sound-6925917038091307781">♬ original sound - Maker At Play</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+                  <br/><br/>
+
+                  <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@makeratplay/video/6933991058254613765" data-video-id="6933991058254613765" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@makeratplay" href="https://www.tiktok.com/@makeratplay">@makeratplay</a> <p>Video outtakes: The struggle is real when filming in front of a green screen. 🤣</p> <a target="_blank" title="♬ original sound - Maker At Play" href="https://www.tiktok.com/music/original-sound-6933991114403826437">♬ original sound - Maker At Play</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
                 </div>
             </div>
         </div>
