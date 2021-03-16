@@ -4,11 +4,13 @@ app.controller('AppController', function($http, $scope, $sce) {
     var vm = this;
     vm.selectedProject = {};
     vm.data = [];
+    vm.affiliateData = [[],[],[],[]];
     init();
 
 
     function init() {
         getData();
+        getAffiliateData();
     }
 
     function getData() {
@@ -17,6 +19,19 @@ app.controller('AppController', function($http, $scope, $sce) {
                 vm.data = response.data;
             });
     }
+
+    function getAffiliateData() {
+      return $http.get("/affiliate_links.json").then(
+          function(response) {
+            //break file into 4 columns
+            let length = response.data.length
+            for ( let i = 0; i < length; i++ )
+            {
+              vm.affiliateData[i%4].push(response.data[i]);
+            }
+              
+          });
+  }    
 
 
     vm.viewProject = function(project){
