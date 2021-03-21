@@ -89,34 +89,46 @@
         ]
 
     },    
-
     {
-        "category": "3D Printing",
-        "name": "Ender 3 Pro Printer",
-        "img": "assets/img/portfolio/thumbnails/45.jpg",
-        "description" : "I show you how to turn an image into a 3d print using Inkscape, Fusion 360 and Ultimaker Cura to create G-code file that your 3D printer can use to create the object.",
+        "category": "Woodworking",
+        "name": "Computer desk and Shelves",
+        "img": "assets/img/portfolio/thumbnails/16.jpg",
+        "page": "projects/1/index.html"
+    },
+    {
+        "category": "Electronics",
+        "name": "Ardunio Controlled Light Switches",
+        "img": "assets/img/portfolio/thumbnails/17.jpg",
+        "description" : "Ardunio Controlled Light Switches",
         "sections" : [
             {
-                "video" : "https://www.youtube.com/embed/JJSkR_ZPrRA"
-                
+                "image" : "/assets/img/portfolio/projects/17/1.jpg"
             },
             {
-                "video" : "https://www.youtube.com/embed/zMgoZUHFnKo"
-            }
-        ]
-    },
-
-    {
-        "category": "woodworking",
-        "name": "Patio Chair Prototype",
-        "img": "assets/img/portfolio/thumbnails/44.jpg",
-        "description" : "In preparation for building some patio chairs for the first time, I first build a prototype of the chair out of 2x6 SPF lumber.",
-        "sections" : [
+                "image" : "/assets/img/portfolio/projects/17/2.jpg"
+            },
             {
-                "video" : "https://www.youtube.com/embed/n93UHhFiY-4"
+                "image" : "/assets/img/portfolio/projects/17/3.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/17/4.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/17/5.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/17/6.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/17/7.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/17/8.jpg"
             }
-        ]
-    },    
+            
+        ]             
+    },
+ 
     {
         "category": "Electronics",
         "name": "16x2 LCD Module",
@@ -136,6 +148,39 @@
         
     },
     {
+        "category": "woodworking",
+        "name": "Patio Chair Prototype",
+        "img": "assets/img/portfolio/thumbnails/44.jpg",
+        "description" : "In preparation for building some patio chairs for the first time, I first build a prototype of the chair out of 2x6 SPF lumber.",
+        "sections" : [
+            {
+                "video" : "https://www.youtube.com/embed/n93UHhFiY-4"
+            }
+        ]
+    },       
+    {
+        "category": "Electronics",
+        "name": "Galaga Control Panel",
+        "img": "assets/img/portfolio/thumbnails/41.jpg",
+        "description" : "I purchased this Galaga control panel along with an original game PCB off ebay with the idea I will make it into a working console again someday.",
+        "sections" : [
+            {
+                "image" : "assets/img/portfolio/thumbnails/41.jpg"
+            }
+        ]
+    },   
+    {
+        "category": "Woodworking",
+        "name": "CNC Table and Storage",
+        "img": "assets/img/portfolio/thumbnails/9.jpg",
+        "description" : "It was time for my Stepcraft 840 CNC to have a permanent home in the garage.",
+        "sections" : [
+            {
+                "video" : "https://www.youtube.com/embed/8srHhqvFcLk"
+            }
+        ]        
+    },     
+    {
         "category": "Model Train",
         "name": "HO Model Train Layout #3",
         "img": "assets/img/portfolio/thumbnails/5.jpg",
@@ -145,6 +190,21 @@
             }
         ]
     },
+    {
+        "category": "3D Printing",
+        "name": "Ender 3 Pro Printer",
+        "img": "assets/img/portfolio/thumbnails/45.jpg",
+        "description" : "I show you how to turn an image into a 3d print using Inkscape, Fusion 360 and Ultimaker Cura to create G-code file that your 3D printer can use to create the object.",
+        "sections" : [
+            {
+                "video" : "https://www.youtube.com/embed/JJSkR_ZPrRA"
+                
+            },
+            {
+                "video" : "https://www.youtube.com/embed/zMgoZUHFnKo"
+            }
+        ]
+    },    
     {
         "category": "Programming",
         "name": "Blurts BlackBerry App",
@@ -163,17 +223,7 @@
             }
         ]        
     },
-    {
-        "category": "Electronics",
-        "name": "Galaga Control Panel",
-        "img": "assets/img/portfolio/thumbnails/41.jpg",
-        "description" : "I purchased this Galaga control panel along with an original game PCB off ebay with the idea I will make it into a working console again someday.",
-        "sections" : [
-            {
-                "image" : "assets/img/portfolio/thumbnails/41.jpg"
-            }
-        ]
-    },
+
     {
         "category": "Maker Project",
         "name": "Water Balloon Cannon",
@@ -235,17 +285,7 @@
             }
         ]        
     },
-    {
-        "category": "Woodworking",
-        "name": "CNC Table and Storage",
-        "img": "assets/img/portfolio/thumbnails/9.jpg",
-        "description" : "It was time for my Stepcraft 840 CNC to have a permanent home in the garage.",
-        "sections" : [
-            {
-                "video" : "https://www.youtube.com/embed/8srHhqvFcLk"
-            }
-        ]        
-    },
+
     {
         "category": "Programming",
         "name": "Missed Call Alert BlackBerry App",
@@ -349,45 +389,7 @@
             }
         ]  
     },
-    {
-        "category": "Woodworking",
-        "name": "Computer desk and Shelves",
-        "img": "assets/img/portfolio/thumbnails/16.jpg",
-        "page": "projects/1/index.html"
-    },
-    {
-        "category": "Electronics",
-        "name": "Ardunio Controlled Light Switches",
-        "img": "assets/img/portfolio/thumbnails/17.jpg",
-        "description" : "Ardunio Controlled Light Switches",
-        "sections" : [
-            {
-                "image" : "/assets/img/portfolio/projects/17/1.jpg"
-            },
-            {
-                "image" : "/assets/img/portfolio/projects/17/2.jpg"
-            },
-            {
-                "image" : "/assets/img/portfolio/projects/17/3.jpg"
-            },
-            {
-                "image" : "/assets/img/portfolio/projects/17/4.jpg"
-            },
-            {
-                "image" : "/assets/img/portfolio/projects/17/5.jpg"
-            },
-            {
-                "image" : "/assets/img/portfolio/projects/17/6.jpg"
-            },
-            {
-                "image" : "/assets/img/portfolio/projects/17/7.jpg"
-            },
-            {
-                "image" : "/assets/img/portfolio/projects/17/8.jpg"
-            }
-            
-        ]             
-    },
+  
     {
         "category": "Maker Project",
         "name": "Family Pacman Costume",
