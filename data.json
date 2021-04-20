@@ -1,5 +1,4 @@
 [
-
     {
         "category": "woodworking",
         "name": "Spotify Player",
@@ -77,6 +76,16 @@
             }
         ]        
     },
+
+    {
+        "category": "Electronics",
+        "name": "Alexa Voice Control",
+        "img": "assets/img/portfolio/thumbnails/47.jpg",
+        "page": "projects/47/index.html"
+
+    }, 
+
+
     {
         "category": "woodworking",
         "name": "Miter Sled Jig",
