@@ -132,6 +132,53 @@
                   <div class="embed-container"><iframe src="https://www.youtube.com/embed/11NMUUlDJmw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
                   <br/><br/>
 
+                  <br/><br/>
+                  <form name="calcform" class="yui3-skin-sam">
+                    <table class="calc2">
+                    <tr>
+                    <td>Enter hue (H):</td>
+                    <td class="math"><input type="number" min="0" step="any" name="h" id="h" class="intext" style="width:150px" placeholder="0" autofocus></td>
+                    <td style="padding-left:10px"><div id="s1"></div></td>
+                    </tr>
+                    <tr>
+                    <td>Enter saturation (S):</td>
+                    <td class="math"><input type="number" min="0" step="any" name="s" id="s" class="intext" style="width:150px" placeholder="0"></td>
+                    <td style="padding-left:10px"><div id="s2"></div></td>
+                    </tr>
+                    <tr>
+                    <td>&nbsp;</td>
+                    <td><input onclick="calc()" type="button" value="Convert" class="btn btn-primary"> </td>
+                    <td>&nbsp;</td>
+                    </tr>          
+                    <tr>
+                      <td>RGB hex code (#):</td>
+                      <td class="math"><input type="text" name="hex" class="outtext" style="width:150px" readonly="readonly"></td>
+                      <td class="math">&nbsp;</td>
+                      </tr>
+                      <tr>
+                      <td>Red color (R):</td>
+                      <td class="math"><input type="text" name="r" class="outtext" style="width:150px" readonly="readonly"></td>
+                      <td class="math">&nbsp;</td>
+                      </tr>
+                      <tr>
+                      <td>Green color (G):</td>
+                      <td class="math"><input type="text" name="g" class="outtext" style="width:150px" readonly="readonly"></td>
+                      <td class="math">&nbsp;</td>
+                      </tr>
+                      <tr>
+                      <td>Blue color (B):</td>
+                      <td class="math"><input type="text" name="b" class="outtext" style="width:150px" readonly="readonly"></td>
+                      <td class="math">&nbsp;</td>
+                      </tr>
+                      <tr>
+                      <td>Color preview:</td>
+                      <td class="math"><input name="color" style="height:50px; width:150px; border:1px solid black" readonly="readonly"></td>
+                      <td class="math">&nbsp;</td>
+                      </tr>                              
+                    </table>
+                  </form>
+                  <br/><br/>
+
 
                   <h2>Sample Network messages</h2>
                   <pre style="background-color: darkgray; padding: 10px;">
@@ -477,6 +524,94 @@ Connection: close
             $('#imgViewer').html('').append($(e.currentTarget).clone().removeClass('popUpImg').addClass('modal-content'));
             $('#imgViewer').show();
         })
+
+        function calc() 
+        {
+          h = document.calcform.h.value;
+          s = document.calcform.s.value;
+          v = 100;
+          if( h=="" ) h=0;
+          if( s=="" ) s=0;
+          if( v=="" ) v=0;
+          h = parseFloat(h);
+          s = parseFloat(s);
+          v = parseFloat(v);
+          h = h/182.04;
+          s = (s/254);
+          
+          if( h<0 ) h=0;
+          if( s<0 ) s=0;
+          if( v<0 ) v=0;
+          if( h>=360 ) h=359;
+          if( s>100 ) s=100;
+          if( v>100 ) v=100;
+          //s/=100.0;
+          v/=100.0;
+          C = v*s;
+          hh = h/60.0;
+
+          X = C*(1.0- Math.abs(hh%2-1.0));
+          r = g = b = 0;
+
+          console.log( "s = " + s + ", C = " + C + ", X = " + X);
+
+          if( hh>=0 && hh<1 )
+          {
+            r = C;
+            g = X;
+          }
+          else if( hh>=1 && hh<2 )
+          {
+            r = X;
+            g = C;
+          }
+          else if( hh>=2 && hh<3 )
+          {
+            g = C;
+            b = X;
+          }
+          else if( hh>=3 && hh<4 )
+          {
+            g = X;
+            b = C;
+          }
+          else if( hh>=4 && hh<5 )
+          {
+            r = X;
+            b = C;
+          }
+          else
+          {
+            r = C;
+            b = X;
+          }
+          m = v-C;
+
+          console.log( "m = " + m + ", r = " + r + ", g = " + g + ", b = " + b);
+
+          r += m;
+          g += m;
+          b += m;
+          r *= 255.0;
+          g *= 255.0;
+          b *= 255.0;
+          r = Math.round(r);
+          g = Math.round(g);
+          b = Math.round(b);
+          hex = r*65536+g*256+b;
+          hex = hex.toString(16,6);
+          len = hex.length;
+          if( len<6 )
+            for(i=0; i<6-len; i++)
+              hex = '0'+hex;
+          document.calcform.hex.value = hex.toUpperCase();
+          document.calcform.r.value = r;
+          document.calcform.g.value = g;
+          document.calcform.b.value = b;
+          document.calcform.color.style.backgroundColor='#'+hex;
+        }
+	</script>
+
     </script>
 
 </body>
