@@ -94,7 +94,7 @@
                 <div class="col-lg-8 col-md-10 mx-auto">
                     <div class="post-heading">
                         <h1>On Air Sign</h1>
-                        <h2 class="subheading">Amazon Echo controlled LED sign</h2>
+                        <h2 class="subheading">Controlled by Zoom, Microsoft Teams, & Alexa</h2>
                         <!--
             <span class="meta">Posted by
               <a href="#">Start Bootstrap</a>
@@ -111,19 +111,62 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-md-10 mx-auto">
-                    <p>I made this on air sign out of Walnut and Curly Maple with RGB LEDs that I can control via Amazon Echo to let my family know when I am on a video call. I also created a windows desktop application that can detect when I am in a Zoom,
-                        WebEx or Microsoft Teams meeting and automatically turn on or off the my sign. Check out my YouTube video below for the full details of how I built this sign.
+                    <p>
+                        With all the virtual work meetings I do at home now, I needed a way to let the family know to put on 
+                        some pants before walking into the room. I built this sign out of Walnut, Curly Maple, and RGB LEDs 
+                        that will automatically turn on when I join a virtual meeting. I can also control it via Amazon Alexa.
                     </p>
-                    <div class="embed-container"><iframe src="https://www.youtube.com/embed/_AaS32MWL8E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-                    <br/><br/>
+                    <p>
+                        I made the case out of Walnut. I cut the sign front out of Curly Maple on my CNC.  I then placed white 
+                        acrylic behind it to defuse the RGB LEDs
+                    </p>
+                    <p>    
+                        I control the RGB LEDs via an ESP32 and three N-Channel MOSFETs. The ESP32 is running code to emulate 
+                        a Philips Hue Bridge with an Extended Color Light. This allows Amazon Echo to discover and control 
+                        the sign as if it was a Philips Extended Color Light with full support for colors and brightness. It 
+                        also supports color temperature, but instead of having the sign show different shades of white, I 
+                        chose to have the color temperature implement animation patterns. For example 'warm white' will cause 
+                        the On Air Sign to play a rainbow pattern by cycling through all the colors.
+                    </p>
+                    <p>
+                        What really makes this project awesome is how it automatically turns on when I join a virtual meeting. 
+                        This magic happens because of the companion software I wrote in C# that runs on my PC to detect a Zoom, 
+                        WebEx, Discord, and MicrosoftTeams Meeting by monitoring UDP traffic. This application automatically 
+                        turns on the sign when I join a virtual meeting and turns the sign off when I leave the meeting. 
+                    </p>
+                    <p>
+                        This sign provides a nice visual clue to my family that I am in a meeting WITH MY VIDEO CAMERA ON, 
+                        so don't embarrass yourself.    
+                    </p>
+                    <p>
+                        Below are all the videos that I have created to explain each part of this project in greater detail. 
+                        Here is a playlist of all the videos:  <a href="https://www.youtube.com/playlist?list=PLHnm1PvSaoHRiFqrzfFoChESNGGl6VIOy">My On Air Sign Project Playlist</a>
+                    </p>
 
-                    <p>In this video, I walk through the windows application I wrote to detech Zoom, WebEx, and Microsoft Teams meetings and automatically turn on the sign.
+                    <p>
+                        In this video, I walk through the windows application I wrote to detech Zoom, WebEx, and Microsoft 
+                        Teams meetings and automatically turn on the sign.
                     </p>
                     <div class="embed-container"><iframe src="https://www.youtube.com/embed/sqYLpXk6cFc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-                    <br/><br/>
-
+                    
+                    <p>
+                        Coding Alexa Support for ESP32 (Arduino)
+                    </p>
+                    <div class="embed-container"><iframe src="https://www.youtube.com/embed/11NMUUlDJmw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                    
                     <p>In this video, I walk through the woodworking that it took to build the case out of walnut and maple.</p>
                     <div class="embed-container"><iframe src="https://www.youtube.com/embed/yfulbrC-Noc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+                    <p>
+                        Alexa Voice Control for ESP32 (Arduino) by Emulating Philips Hue Light
+                    </p>
+                    <div class="embed-container"><iframe src="https://www.youtube.com/embed/7T4hS5EFB_I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                    
+                    <p>How to Build an RGB LED On Air Sign Controlled by Alexa out of Walnut/Curly Maple
+                    </p>
+                    <div class="embed-container"><iframe src="https://www.youtube.com/embed/_AaS32MWL8E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+
                     <br/><br/>
 
                     <h2>Parts List for the Electronics</h2>
@@ -176,8 +219,11 @@
                     <h2>Circuit Diagram</h2>
                     <p>
 
-                        <img src="diagram.png" class="img-fluid" />
-                        <img src="breadboard.png" class="img-fluid" />
+                        <img src="diagram.png" class="img-fluid mt-3" /> 
+                        <img src="breadboard.png" class="img-fluid mt-3" />
+                        <img src="circuit1.jpg" class="img-fluid mt-3" />
+                        <img src="leds.jpg" class="img-fluid mt-3" />
+                        <img src="inside1.jpg" class="img-fluid mt-3" />
                     </p>
 
 
