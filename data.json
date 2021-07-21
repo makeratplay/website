@@ -23,9 +23,6 @@
 
     },
 
-
-
-
     {
         "category": "woodworking",
         "name": "Computer and Project Desk",
@@ -76,7 +73,12 @@
             }
         ]        
     },
-
+    {
+        "category": "woodworking",
+        "name": "Mother's Day Gift",
+        "img": "assets/img/portfolio/thumbnails/48.jpg",
+        "description" : ""
+    },
     {
         "category": "Electronics",
         "name": "Alexa Voice Control",
@@ -193,6 +195,7 @@
         "category": "Model Train",
         "name": "HO Model Train Layout #3",
         "img": "assets/img/portfolio/thumbnails/5.jpg",
+
         "sections" : [
             {
                 "image" : "assets/img/portfolio/thumbnails/5.jpg"
