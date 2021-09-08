@@ -1,6 +1,6 @@
 [
     {
-        "category": "woodworking",
+        "category": "Woodworking",
         "name": "Spotify Player",
         "img": "assets/img/portfolio/thumbnails/46.jpg",
         "page": "projects/46/index.html"
@@ -8,7 +8,7 @@
     },  
 
     {
-        "category": "woodworking",
+        "category": "Woodworking",
         "name": "On Air Sign",
         "img": "assets/img/portfolio/thumbnails/43.jpg",
         "page": "projects/43/index.html"
@@ -24,14 +24,14 @@
     },
 
     {
-        "category": "woodworking",
+        "category": "Woodworking",
         "name": "Computer and Project Desk",
         "img": "assets/img/portfolio/thumbnails/1.jpg",
         "description" : "",
         "page": "projects/1/index.html"
     },
     {
-        "category": "woodworking",
+        "category": "Woodworking",
         "name": "French Cleat Tool Wall",
         "img": "assets/img/portfolio/thumbnails/2.jpg",
         "page": "projects/2/index.html",
@@ -60,7 +60,7 @@
 
     },
     {
-        "category": "woodworking",
+        "category": "Woodworking",
         "name": "YouTube Subscriber Tracker",
         "img": "assets/img/portfolio/thumbnails/3.jpg",
         "description" : "I upcycle an old Samsung Galaxy tablet, Walnut and Cherry into a beautiful display for my office wall.",
@@ -74,7 +74,7 @@
         ]        
     },
     {
-        "category": "woodworking",
+        "category": "Woodworking",
         "name": "Mother's Day Gift",
         "img": "assets/img/portfolio/thumbnails/48.jpg",
         "description" : ""
@@ -87,9 +87,17 @@
 
     }, 
 
+    {
+        "category": "Metalwork",
+        "name": "2021 Marching Band Props",
+        "img": "assets/img/portfolio/thumbnails/49.jpg",
+        "page": "projects/49/index.html"
+
+    },     
+
 
     {
-        "category": "woodworking",
+        "category": "Woodworking",
         "name": "Miter Sled Jig",
         "img": "assets/img/portfolio/thumbnails/42.jpg",
         "description" : "I built a miter sled jig for my table saw to make my project builds faster.",
@@ -147,7 +155,7 @@
         "page": "projects/40/index.html"
     },
     {
-        "category": "woodworking",
+        "category": "Woodworking",
         "name": "Camp Kitchen Chuck Boxes",
         "img": "assets/img/portfolio/thumbnails/4.jpg",
         "description" : "My check boxes I built for camping",
@@ -159,7 +167,7 @@
         
     },
     {
-        "category": "woodworking",
+        "category": "Woodworking",
         "name": "Patio Chair Prototype",
         "img": "assets/img/portfolio/thumbnails/44.jpg",
         "description" : "In preparation for building some patio chairs for the first time, I first build a prototype of the chair out of 2x6 SPF lumber.",
@@ -195,7 +203,7 @@
         "category": "Model Train",
         "name": "HO Model Train Layout #3",
         "img": "assets/img/portfolio/thumbnails/5.jpg",
-
+        "page": "projects/5/index.html",
         "sections" : [
             {
                 "image" : "assets/img/portfolio/thumbnails/5.jpg"
