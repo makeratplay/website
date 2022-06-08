@@ -95,6 +95,106 @@
 
     },     
 
+    {
+        "category": "Woodworking",
+        "name": "Custom Percussion Slap Stick",
+        "img": "assets/img/portfolio/thumbnails/50.jpg",
+        "description" : "Custom built slap sticks for the high school band to replace ones they broke.",
+        "sections" : [
+            {
+                "image" : "/assets/img/portfolio/projects/50/5.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/50/1.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/50/2.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/50/3.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/50/4.jpg"
+            }
+            ,
+            {
+                "image" : "/assets/img/portfolio/projects/50/6.jpg"
+            }
+        ]             
+    },
+
+    {
+        "category": "Woodworking",
+        "name": "Glowforge Stand",
+        "img": "assets/img/portfolio/thumbnails/51.jpg",
+        "description" : "Custom built stand for my Glowforge",
+        "sections" : [
+            {
+                "image" : "/assets/img/portfolio/projects/51/1.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/51/2.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/51/3.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/51/4.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/51/5.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/51/6.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/51/7.jpg"
+            }
+
+        ]             
+    },    
+
+    {
+        "category": "Electronics",
+        "name": "Air Quality Monitor",
+        "img": "assets/img/portfolio/thumbnails/52.jpg",
+        "description" : "",
+        "sections" : [
+            {
+                "image" : "/assets/img/portfolio/projects/52/1.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/52/2.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/52/3.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/52/4_1.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/52/4.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/52/5.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/52/6.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/52/7.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/52/8.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/52/9.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/52/10.jpg"
+            }
+        ]             
+    },
 
     {
         "category": "Woodworking",
