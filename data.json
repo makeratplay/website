@@ -87,41 +87,6 @@
 
     }, 
 
-    {
-        "category": "Metalwork",
-        "name": "2021 Marching Band Props",
-        "img": "assets/img/portfolio/thumbnails/49.jpg",
-        "page": "projects/49/index.html"
-
-    },     
-
-    {
-        "category": "Woodworking",
-        "name": "Custom Percussion Slap Stick",
-        "img": "assets/img/portfolio/thumbnails/50.jpg",
-        "description" : "Custom built slap sticks for the high school band to replace ones they broke.",
-        "sections" : [
-            {
-                "image" : "/assets/img/portfolio/projects/50/5.jpg"
-            },
-            {
-                "image" : "/assets/img/portfolio/projects/50/1.jpg"
-            },
-            {
-                "image" : "/assets/img/portfolio/projects/50/2.jpg"
-            },
-            {
-                "image" : "/assets/img/portfolio/projects/50/3.jpg"
-            },
-            {
-                "image" : "/assets/img/portfolio/projects/50/4.jpg"
-            }
-            ,
-            {
-                "image" : "/assets/img/portfolio/projects/50/6.jpg"
-            }
-        ]             
-    },
 
     {
         "category": "Woodworking",
@@ -192,6 +157,114 @@
             },
             {
                 "image" : "/assets/img/portfolio/projects/52/10.jpg"
+            }
+        ]             
+    },
+
+
+    {
+        "category": "Metalwork",
+        "name": "2021 Marching Band Props",
+        "img": "assets/img/portfolio/thumbnails/49.jpg",
+        "page": "projects/49/index.html"
+
+    },
+
+    {
+        "category": "Maker Project",
+        "name": "2020 Marching Band Props",
+        "img": "assets/img/portfolio/thumbnails/53.jpg",
+        "sections" : [
+            {
+                "image" : "/assets/img/portfolio/projects/53/1.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/53/2.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/53/3.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/53/4.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/53/5.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/53/6.jpg"
+            }
+        ]
+    },  
+
+    {
+        "category": "Maker Project",
+        "name": "2019 Marching Band Props",
+        "img": "assets/img/portfolio/thumbnails/19.jpg",
+        "sections" : [
+            {
+                "image" : "assets/img/portfolio/thumbnails/19.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/19/1.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/19/2.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/19/3.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/19/4.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/19/5.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/19/6.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/19/7.jpg"
+            }
+            
+        ]
+    },         
+    {
+        "category": "Woodworking",
+        "name": "2018 Marching Band Props",
+        "img": "assets/img/portfolio/thumbnails/11.jpg",
+        "sections" : [
+            {
+                "video" : "https://youtube.com/shorts/CLb6jjWv_H8"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/11/1.jpg"
+            }
+        ]         
+    },
+    {
+        "category": "Woodworking",
+        "name": "Custom Percussion Slap Stick",
+        "img": "assets/img/portfolio/thumbnails/50.jpg",
+        "description" : "Custom built slap sticks for the high school band to replace ones they broke.",
+        "sections" : [
+            {
+                "image" : "/assets/img/portfolio/projects/50/5.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/50/1.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/50/2.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/50/3.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/50/4.jpg"
+            }
+            ,
+            {
+                "image" : "/assets/img/portfolio/projects/50/6.jpg"
             }
         ]             
     },
@@ -302,14 +375,119 @@
     {
         "category": "Model Train",
         "name": "HO Model Train Layout #3",
+        "description" : "20x20 foot layout I built in our Green Hollow house from 2001-2007",
         "img": "assets/img/portfolio/thumbnails/5.jpg",
-        "page": "projects/5/index.html",
         "sections" : [
             {
-                "image" : "assets/img/portfolio/thumbnails/5.jpg"
+                "image" : "/assets/img/portfolio/projects/5/1.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/5/2.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/5/3.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/5/4.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/5/5.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/5/6.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/5/7.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/5/8.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/5/9.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/5/10.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/5/11.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/5/12.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/5/13.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/5/14.jpg"
+            }
+            ,
+            {
+                "image" : "/assets/img/portfolio/projects/5/15.jpg"
             }
         ]
     },
+
+    {
+        "category": "Model Train",
+        "name": "HO Train Layout #1",
+        "description" : "My first HO layout that I built when living in Nac circa 1998",
+        "img": "assets/img/portfolio/thumbnails/14.jpg",
+        "sections" : [
+            {
+                "image" : "/assets/img/portfolio/projects/14/1.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/14/2.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/14/3.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/14/4.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/14/5.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/14/6.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/14/7.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/14/8.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/14/9.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/14/10.jpg"
+            }
+        ]  
+    },
+    {
+        "category": "Model Train",
+        "name": "HO Train Layout #2",
+        "img": "assets/img/portfolio/thumbnails/15.jpg",
+        "sections" : [
+            {
+                "image" : "/assets/img/portfolio/projects/15/1.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/15/2.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/15/3.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/15/4.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/15/5.jpg"
+            }
+        ]  
+    },
+
     {
         "category": "3D Printing",
         "name": "Ender 3 Pro Printer",
@@ -437,16 +615,7 @@
             }
         ]   
     },
-    {
-        "category": "Woodworking",
-        "name": "2018 Marching Band Props",
-        "img": "assets/img/portfolio/thumbnails/11.jpg",
-        "sections" : [
-            {
-                "image" :  "assets/img/portfolio/thumbnails/11.jpg"
-            }
-        ]         
-    },
+
     {
         "category": "Woodworking",
         "name": "Garage Storage for Camp Chairs",
@@ -489,26 +658,7 @@
             }
         ]        
     },
-    {
-        "category": "Model Train",
-        "name": "HO Train Layout #1",
-        "img": "assets/img/portfolio/thumbnails/14.jpg",
-        "sections" : [
-            {
-                "image" :  "assets/img/portfolio/thumbnails/14.jpg"
-            }
-        ]  
-    },
-    {
-        "category": "Model Train",
-        "name": "HO Train Layout #2",
-        "img": "assets/img/portfolio/thumbnails/15.jpg",
-        "sections" : [
-            {
-                "image" :  "assets/img/portfolio/thumbnails/15.jpg"
-            }
-        ]  
-    },
+ 
   
     {
         "category": "Maker Project",
@@ -534,16 +684,7 @@
             }
         ]        
     },
-    {
-        "category": "Maker Project",
-        "name": "2019 Marching Band Props",
-        "img": "assets/img/portfolio/thumbnails/19.jpg",
-        "sections" : [
-            {
-                "image" : "assets/img/portfolio/thumbnails/19.jpg"
-            }
-        ]
-    },
+  
     {
         "category": "Woodworking",
         "name": "CNC Holddowns",
@@ -670,6 +811,15 @@
             },
             {
                 "image" : "/assets/img/portfolio/projects/28/4.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/28/5.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/28/6.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/28/7.jpg"
             }
         ]   
         
