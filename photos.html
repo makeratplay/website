@@ -87,91 +87,49 @@
                 </div>
                 <div class="col-lg-8 align-self-baseline">
                     <p class="text-white-75 font-weight-light mb-5">I enjoy making things. All kinds of things from woodworking and electronics to programming. </p>
-                    <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+                    <a class="btn btn-primary btn-xl js-scroll-trigger" href="#photos">Photos below</a>
                 </div>
             </div>
         </div>
     </header>
-    <!-- About-->
-    <section class="page-section bg-primary" id="about">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-8 text-center">
-                    <h2 class="text-white mt-0">Hello! I am Michael Hawkins</h2>
-                    <hr class="divider light my-4" />
-                    <p class="text-white-50 mb-4">This is a site to showcase my maker projects. Developing software has been my passion since I was ten 
-                        years old and creating my first programs on a Commodore VIC 20. 
-                        This passion now includes tinkering with electronics and woodworking. I produce videos for my projects and share them on my YouTube channel.</p>
-                    
-                    <div class="embed-container"><iframe src="https://www.youtube.com/embed/l6aASKz6Sv8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-                    <br/>
-                    <br/>
-                    <a class="btn btn-light btn-xl js-scroll-trigger" href="https://www.youtube.com/MakerAtPlay">Maker Channel</a>
-                    <a class="btn btn-light btn-xl js-scroll-trigger" href="https://www.youtube.com/channel/UCUCydzw0QXIrNXi9NYUXgQA">Coding Channel</a>
-                    <a class="btn btn-light btn-xl js-scroll-trigger" href="https://www.youtube.com/channel/UC-z1ccBjpKT2UmrpNh6Ulew">Woodworking Channel</a>
-       </div>
-            </div>
-        </div>
-    </section>
+
 
     <!-- Portfolio-->
-    <div id="portfolio">
-        <div class="container-fluid p-0">
-            <div class="row no-gutters">
+    <div id="portfolio" id="photos">
+        <div class="container-fluid ">
 
-                <div class="col-lg-4 col-sm-6" ng-repeat="item in vm.data" ng-click="vm.viewProject(item)">
-                    <a class="portfolio-box" href="#" data-toggle="modal" data-target="#project1">
-                        <img class="img-fluid" src="{{item.img}}" alt="" />
-                        <div class="portfolio-box-caption">
-                            <div class="project-category text-white-50">{{item.category}}</div>
-                            <div class="project-name">{{item.name}}</div>
-                            <br/>
-                            <i class=" text-white-50">click for more details</i>
+            <div class="row mt-4" ng-repeat="item in vm.data">
+                <div class="col-lg-12 col-sm-6">
+                    <h3 style="color:white">{{item.name}}</h3>
+                    <p style="color:white" class="mt-xl-4">{{item.description}}</p>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img class="img-fluid" src="{{item.img}}" alt="" />
                         </div>
-                    </a>
-                </div>
 
-                <div class="col-lg-4 col-sm-6 text-center" >
-                    <a class="m-4" href="photos.html"><h4>Just so me the photos!</h4></a>
+
+
+                        <div class="col-lg-3" ng-repeat="section in item.sections">
+                            <a ng-href="{{trustSrc(section.image)}}" target="_blank">
+                                <img style="max-height: 350px"  class="img-fluid  m-1" ng-show="section.image" ng-src="{{trustSrc(section.image)}}"/>
+                            </a> 
+                            <div ng-show="section.video" class="embed-container">
+                                <iframe  ng-show="section.video"  ng-src="{{trustSrc(section.video)}}"  
+                                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <p style="color:white">{{section.text}}</p>
+                            <div style="color:white" ng-bind-html="section.html"></div>                            
+                        </div>
+                    </div>
+                    
+                    
+                
                 </div>
                                     
             </div>
         </div>
     </div>
-    <!-- Call to action-->
-    <section class="page-section bg-dark text-white">
 
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-8 text-center">
-                    <h2 class="mt-0">Want to show your appreciation for my projects?</h2>
-                    <p class="text-white-50">Want to support my Diet Dr Pepper addiction and help me fund some <a href="toolwishlist/index.html">new tools</a> or projects?</p>
-                    <p class="text-white-50 mb-5">You can get $500 off a Glowforge pro <a href="https://glowforge.us/r/HEHIHWLU" target="_blank" rel="noopener noreferrer">here</a> and help me at the same time.</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
-                    <a href="http://www.patreon.com/makeratplay" target="_blank" rel="noopener noreferrer">
-                        <img class="inline-image alignnone wp-image-11069 size-full" src="assets/img/patreon.png" alt="patreon" width="148" height="53">
-                    </a>
-                </div>
-                <div class="col-lg-4 mr-auto text-center">
-                    <a href="https://buymeacoffee.com/makeratplay" target="_blank" rel="noopener noreferrer">
-                        <img class="inline-image alignnone wp-image-11069 size-full" src="assets/img/bmc-button.png" alt="buy me a coffee">
-                    </a>
-                </div>
-
-                <div class="col-lg-4 mr-auto text-center">
-                    <a href="supportme/index.html" target="_blank" rel="noopener noreferrer">
-                        Shop with my affiliate links
-                    </a>
-                </div>
-
-            </div>
-        
-        </div>
-
-    </section>
 
 
     <!-- Contact-->
@@ -237,16 +195,6 @@
         </div>
     </section>
 
-    <!-- Disqus comments-->
-    <section class="page-section bg-dark text-white" id="disqus">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <div id="disqus_thread"></div>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <script>
         (function() { // DON'T EDIT BELOW THIS LINE
@@ -282,9 +230,7 @@
                     <!-- <img class="img-fluid" src="{{vm.selectedProject.img}}" alt="" /> -->
 
                     <div style="margin-top: 40px;" class="mt-xl-4" ng-repeat="section in vm.selectedProject.sections">
-                        <a ng-href="{{trustSrc(section.image)}}" target="_blank">
-                            <img  class="img-fluid" ng-show="section.image" ng-src="{{trustSrc(section.image)}}"/>
-                        </a>
+                        <img  class="img-fluid" ng-show="section.image" ng-src="{{trustSrc(section.image)}}"/>
                         <div ng-show="section.video" class="embed-container">
                             <iframe  ng-show="section.video"  ng-src="{{trustSrc(section.video)}}"  
                             frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
