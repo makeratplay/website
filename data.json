@@ -167,7 +167,6 @@
         "name": "2021 Marching Band Props",
         "img": "assets/img/portfolio/thumbnails/49.jpg",
         "page": "projects/49/index.html"
-
     },
 
     {
@@ -177,6 +176,9 @@
         "sections" : [
             {
                 "video" : "https://www.youtube.com/embed/lHc5WUV0FhU"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/53/9.jpg"
             },
             {
                 "image" : "/assets/img/portfolio/projects/53/1.jpg"
@@ -195,6 +197,12 @@
             },
             {
                 "image" : "/assets/img/portfolio/projects/53/6.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/53/7.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/53/8.jpg"
             }
         ]
     },  
@@ -206,6 +214,9 @@
         "sections" : [
             {
                 "image" : "assets/img/portfolio/thumbnails/19.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/19/8.jpg"
             },
             {
                 "image" : "/assets/img/portfolio/projects/19/1.jpg"
@@ -242,7 +253,26 @@
             },
             {
                 "image" : "/assets/img/portfolio/projects/11/1.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/11/2.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/11/3.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/11/4.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/11/5.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/11/6.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/11/7.jpg"
             }
+            
         ]         
     },
     {
@@ -459,13 +489,13 @@
                 "image" : "/assets/img/portfolio/projects/14/7.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/14/8.jpg"
+                "image" : "/assets/img/portfolio/projects/14/8.JPG"
             },
             {
-                "image" : "/assets/img/portfolio/projects/14/9.jpg"
+                "image" : "/assets/img/portfolio/projects/14/9.JPG"
             },
             {
-                "image" : "/assets/img/portfolio/projects/14/10.jpg"
+                "image" : "/assets/img/portfolio/projects/14/10.JPG"
             }
         ]  
     },
