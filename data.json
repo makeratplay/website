@@ -176,6 +176,9 @@
         "img": "assets/img/portfolio/thumbnails/53.jpg",
         "sections" : [
             {
+                "video" : "https://www.youtube.com/embed/lHc5WUV0FhU"
+            },
+            {
                 "image" : "/assets/img/portfolio/projects/53/1.jpg"
             },
             {
@@ -234,7 +237,8 @@
         "img": "assets/img/portfolio/thumbnails/11.jpg",
         "sections" : [
             {
-                "video" : "https://youtube.com/shorts/CLb6jjWv_H8"
+                
+                "video" : "https://www.youtube.com/embed/CLb6jjWv_H8"
             },
             {
                 "image" : "/assets/img/portfolio/projects/11/1.jpg"
