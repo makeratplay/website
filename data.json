@@ -161,6 +161,38 @@
         ]             
     },
 
+    {
+        "category": "Metalwork",
+        "name": "2022 Marching Band Props",
+        "img": "assets/img/portfolio/thumbnails/54.jpg",
+        "sections" : [
+            {
+                "video" : "https://www.youtube.com/embed/sA98O7WxaHI"
+            },
+            {
+                "video" : "https://www.youtube.com/embed/2Fn327zVo7k"
+            },            
+            {
+                "image" : "/assets/img/portfolio/projects/54/fieldSetUp.png"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/54/fieldSetUp2.png"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/54/prop1.png"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/54/prop_parts.png"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/54/pins.png"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/54/bandProps_2022_coinFlip v10.png"
+            }
+        ]
+    },
+
 
     {
         "category": "Metalwork",
