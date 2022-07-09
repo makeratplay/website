@@ -165,6 +165,7 @@
         "category": "Metalwork",
         "name": "2022 Marching Band Props",
         "img": "assets/img/portfolio/thumbnails/54.jpg",
+        "page": "projects/54/index.html",
         "sections" : [
             {
                 "video" : "https://www.youtube.com/embed/sA98O7WxaHI"
