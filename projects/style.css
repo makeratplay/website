@@ -478,3 +478,9 @@ footer .copyright {
 .tool {
     margin: 50px;
 }
+
+
+.img-half {
+    max-width: 50%;
+    height: auto;
+  }
