@@ -73,12 +73,7 @@
             }
         ]        
     },
-    {
-        "category": "Woodworking",
-        "name": "Mother's Day Gift",
-        "img": "assets/img/portfolio/thumbnails/48.jpg",
-        "description" : ""
-    },
+
     {
         "category": "Electronics",
         "name": "Alexa Voice Control",
@@ -86,7 +81,12 @@
         "page": "projects/47/index.html"
 
     }, 
-
+    {
+        "category": "Woodworking",
+        "name": "Mother's Day Gift",
+        "img": "assets/img/portfolio/thumbnails/48.jpg",
+        "description" : ""
+    },
 
     {
         "category": "Woodworking",
@@ -850,18 +850,6 @@
         
     },
     {
-        "category": "Maker Project",
-        "name": "Lego Mindstorm Golf Ball Counter",
-        "img": "assets/img/portfolio/thumbnails/25.jpg",
-        "description" : "My oldest son built and programmed a golf ball counter using lego mindstorm.",
-        "sections" : [
-            {
-                "image" : "assets/img/portfolio/thumbnails/25.jpg"
-            }
-        ]   
-        
-    },
-    {
         "category": "Woodworking",
         "name": "Wii and Lego Pinewood Derby Car",
         "img": "assets/img/portfolio/thumbnails/26.jpg",
@@ -873,6 +861,20 @@
         ]   
         
     },
+
+    {
+        "category": "Maker Project",
+        "name": "Lego Mindstorm Golf Ball Counter",
+        "img": "assets/img/portfolio/thumbnails/25.jpg",
+        "description" : "My oldest son built and programmed a golf ball counter using lego mindstorm.",
+        "sections" : [
+            {
+                "image" : "assets/img/portfolio/thumbnails/25.jpg"
+            }
+        ]   
+        
+    },
+
     {
         "category": "Maker Project",
         "name": "Kanban Board for Kids Bed Time",
