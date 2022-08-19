@@ -315,6 +315,10 @@
         "sections" : [
             {
                 
+                "video" : "https://www.youtube.com/embed/iUEXcBYZqIc"
+            },            
+            {
+                
                 "video" : "https://www.youtube.com/embed/CLb6jjWv_H8"
             },
             {
@@ -337,6 +341,18 @@
             },
             {
                 "image" : "/assets/img/portfolio/projects/11/7.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/11/8.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/11/9.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/11/10.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/11/11.jpg"
             }
             
         ]         
