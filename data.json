@@ -403,6 +403,41 @@
         "img": "assets/img/portfolio/thumbnails/16.jpg",
         "page": "projects/1/index.html"
     },
+
+    {
+        "category": "Programming",
+        "name": "6502 Interactive Block Diagram",
+        "img": "assets/img/portfolio/thumbnails/7.jpg",
+        "page": "projects/7/index.html"
+    },
+    {
+        "category": "Programming",
+        "name": "Commodore VIC 20 Kernal Debug Tool | 6502 Emulator",
+        "img": "assets/img/portfolio/thumbnails/24.jpg",
+        "description" : "I have written a JavaScript program that loads an image of the Commodore VIC 20 Kernal ROM and allows me to step through the code as if I was in a debugger.",
+        "sections" : [
+            {
+                "video" : "https://www.youtube.com/embed/M5L0pI0AeQs"
+            },
+            {
+                "html" : "<p>Here is a link to a live demo page <a href='https://makeratplay.github.io/6502-Emulator/'>https://makeratplay.github.io/6502-Emulator/</a></p><p>Here is a link to source code <a href='https://github.com/makeratplay/6502-Emulator'>https://github.com/makeratplay/6502-Emulator</a></p>"
+            }
+        ]   
+        
+    },
+    {
+        "category": "Electronics",
+        "name": "Commodore VIC 20 to VGA Monitor",
+        "img": "assets/img/portfolio/thumbnails/21.jpg",
+        "description" : "How to hook your Commodore VIC 20 (or Commodore 64) to a VGA Monitor.",
+        "sections" : [
+            {
+                "video" : "https://www.youtube.com/embed/R111OGHoF0o"
+            }
+        ]   
+        
+    },   
+
     {
         "category": "Electronics",
         "name": "Ardunio Controlled Light Switches",
@@ -657,12 +692,8 @@
         
         
     },
-    {
-        "category": "Programming",
-        "name": "6502 Interactive Block Diagram",
-        "img": "assets/img/portfolio/thumbnails/7.jpg",
-        "page": "projects/7/index.html"
-    },
+ 
+
     {
         "category": "Programming",
         "name": "JavaScript Date Object and Time Zones",
@@ -811,18 +842,7 @@
             }
         ]
     },
-    {
-        "category": "Electronics",
-        "name": "Commodore VIC 20 to VGA Monitor",
-        "img": "assets/img/portfolio/thumbnails/21.jpg",
-        "description" : "How to hook your Commodore VIC 20 (or Commodore 64) to a VGA Monitor.",
-        "sections" : [
-            {
-                "video" : "https://www.youtube.com/embed/R111OGHoF0o"
-            }
-        ]   
-        
-    },
+
     {
         "category": "Programming",
         "name": "MLH Software Blackberry Apps",
@@ -853,18 +873,7 @@
         ]   
         
     },
-    {
-        "category": "Programming",
-        "name": "Commodore VIC 20 Kernal Debug Tool | 6502 Emulator",
-        "img": "assets/img/portfolio/thumbnails/24.jpg",
-        "description" : "I have written a JavaScript program that loads an image of the Commodore VIC 20 Kernal ROM and allows me to step through the code as if I was in a debugger.",
-        "sections" : [
-            {
-                "video" : "https://www.youtube.com/embed/M5L0pI0AeQs"
-            }
-        ]   
-        
-    },
+
     {
         "category": "Woodworking",
         "name": "Wii and Lego Pinewood Derby Car",
