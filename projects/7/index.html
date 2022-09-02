@@ -84,6 +84,7 @@
     <!-- Page Header -->
     <header class="masthead" style="background-image: url('masthead.jpg')">
         <div class="overlay"></div>
+
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-md-10 mx-auto">
@@ -115,7 +116,7 @@
                     </p>
 
                     <p>
-                        Here recently I have developed a bit a nostalgia for the 8-bit computing days and decided to write a 6502 emulator in JavaScript. My first goal was to just write an emulator good enough load the Commodre VIC 20 kernal and basic ROMs and be able to step
+                        Here recently I have developed a bit a nostalgia for the 8-bit computing days and decided to write a 6502 emulator in JavaScript. My first goal was to just write an emulator good enough load the Commodore VIC 20 kernel and basic ROMs and be able to step
                         the execution to see how they work. Below is a demo of that project.
                     </p>
 
@@ -124,9 +125,13 @@
                     </div>
 
                     <p>
-                        My next goal was to improve my emulator to support input via keyboard and to show video output. To acheive this goal I am going to need to improve the performance of my emulator and I thought I would also use this as an excuse to learn the true cycle
+                        My next goal was to improve my emulator to support input via keyboard and to show video output. To achieve this goal I am going to need to improve the performance of my emulator and I thought I would also use this as an excuse to learn the true cycle
                         timing of the 6502 instruction set.
                     </p>
+
+                    <p> <b>Update September 2022:</b> This project was been dormant for some tme. I have recently started working on it again
+                    and pushed my emulator source code to <a href="https://github.com/makeratplay/6502-Emulator">github</a> 
+                    and hosted a <a href="https://makeratplay.github.io/6502-Emulator/">live demo page</a>.  </p>
 
                     <p>
                         During my research, I found Garth Wilson's <a href="http://wilsonminesco.com/6502primer/">6502 PRIMER: Building your own 6502 computer</a> website. In his section on <a href="http://wilsonminesco.com/6502primer/MemMapReqs.html">memory map requirements</a>,
@@ -161,15 +166,16 @@
 
                     <h2 class="section-heading">Visual6502.org</h2>
                     <p>
-                        Visual 6502 is a complete digital model and transistor-level simulation of the 6502 chip. This model is very accurate and can run classic 6502 programs, including Atari games. The <a href="http://visual6502.org/JSSim/expert.html">advanced page</a>                        allows you to watch the value of any transistor that make up the internal registers and buses of the 6502. But you have to understand how to use and I found it to be a better of challenge to found simple source that explained it
-                        all. I will try and give an overview of what I have learned show far and how I used it study exactly how the processor executed <i>ADC #51</i> instruction.
+                        Visual 6502 is a complete digital model and transistor-level simulation of the 6502 chip. This model is very accurate and can run classic 6502 programs, including Atari games. The <a href="http://visual6502.org/JSSim/expert.html">advanced page</a>                        allows you to watch the value of any transistor that make up the internal registers and buses of the 6502. 
+                        But you have to understand how to use it and I found it to be a better of challenge to found a simple source that explained it
+                        all. I will try and give an overview of what I have learned show far and how I used it to study exactly how the processor executed <i>ADC #51</i> instruction.
                     </p>
 
                     <img class="popUpImg img-fluid" src="visual6502.jpg" alt="">
 
                     <p>
-                        The advance pages displays the visaul transistor simulator to the left. Memory is displayed in the top right with a set of buttons used to control the simulator. The most interesting part is trace section located on the bottom right. This section can
-                        tabulate the state of the machine, and any signals of interest, phase by phase or instruction by instruction. I normally click the "Hide Chip Layout" button since I am focusing on the logical behaviour and not the chip layout.
+                        The advance pages displays the visual transistor simulator to the left. Memory is displayed in the top right with a set of buttons used to control the simulator. The most interesting part is trace section located on the bottom right. This section can
+                        tabulate the state of the machine, and any signals of interest, phase by phase or instruction by instruction. I normally click the "Hide Chip Layout" button since I am focusing on the logical behavior and not the chip layout.
                     </p>
 
                     <h2 class="section-heading">Modifying the program </h2>
@@ -184,7 +190,7 @@
 
                     <h2 class="section-heading">Tracing machine state</h2>
                     <p>
-                        Once we have our program in memory, next we need to trace the machine state to see what is happeing in the 6502. The lower right pane offers some means of tracing signals of interest:
+                        Once we have our program in memory, next we need to trace the machine state to see what is happening in the 6502. The lower right pane offers some means of tracing signals of interest:
                     </p>
                     <ul>
                         <li> Trace More will add some pre-defined sets of signals to the tabulation

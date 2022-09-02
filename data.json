@@ -414,6 +414,7 @@
         "category": "Programming",
         "name": "Commodore VIC 20 Kernal Debug Tool | 6502 Emulator",
         "img": "assets/img/portfolio/thumbnails/24.jpg",
+        "page": "projects/24/index.html",
         "description" : "I have written a JavaScript program that loads an image of the Commodore VIC 20 Kernal ROM and allows me to step through the code as if I was in a debugger.",
         "sections" : [
             {
