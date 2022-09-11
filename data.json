@@ -390,40 +390,8 @@
         "name": "LiftBot 2000",
         "img": "assets/img/portfolio/thumbnails/55.jpg",
         "description" : "I built lift winch to help load items into a trailer",
+        "page": "projects/55/index.html",
         "sections" : [
-            {
-                "image" : "/assets/img/portfolio/projects/55/1.jpg"
-            },
-            {
-                "image" : "/assets/img/portfolio/projects/55/2.jpg"
-            },
-            {
-                "image" : "/assets/img/portfolio/projects/55/3.jpg"
-            },
-            {
-                "image" : "/assets/img/portfolio/projects/55/6.jpg"
-            },
-            {
-                "image" : "/assets/img/portfolio/projects/55/7.jpg"
-            },
-            {
-                "image" : "/assets/img/portfolio/projects/55/8.jpg"
-            },
-            {
-                "image" : "/assets/img/portfolio/projects/55/9.jpg"
-            },
-            {
-                "image" : "/assets/img/portfolio/projects/55/10.jpg"
-            },
-            {
-                "image" : "/assets/img/portfolio/projects/55/11.jpg"
-            },
-            {
-                "image" : "/assets/img/portfolio/projects/55/12.jpg"
-            },
-            {
-                "video" : "https://www.youtube.com/embed/H-c25r4jYFg"
-            }
         ]
 
     },      
