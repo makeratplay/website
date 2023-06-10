@@ -163,6 +163,13 @@
 
     {
         "category": "Metalwork",
+        "name": "2023 Marching Band Props",
+        "img": "assets/img/portfolio/thumbnails/57.jpg",
+        "page": "projects/57/index.html"
+    },
+
+    {
+        "category": "Metalwork",
         "name": "2022 Marching Band Props",
         "img": "assets/img/portfolio/thumbnails/54.jpg",
         "page": "projects/54/index.html",
