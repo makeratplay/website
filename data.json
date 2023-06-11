@@ -170,6 +170,13 @@
 
     {
         "category": "Metalwork",
+        "name": "2023 Winter Guard Props",
+        "img": "assets/img/portfolio/thumbnails/56.jpg",
+        "page": "projects/56/index.html"
+    },
+
+    {
+        "category": "Metalwork",
         "name": "2022 Marching Band Props",
         "img": "assets/img/portfolio/thumbnails/54.jpg",
         "page": "projects/54/index.html",
