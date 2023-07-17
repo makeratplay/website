@@ -168,12 +168,7 @@
         "page": "projects/57/index.html"
     },
 
-    {
-        "category": "Metalwork",
-        "name": "2023 Winter Guard Props",
-        "img": "assets/img/portfolio/thumbnails/56.jpg",
-        "page": "projects/56/index.html"
-    },
+
 
     {
         "category": "Metalwork",
@@ -241,6 +236,12 @@
         ]
     },
 
+    {
+        "category": "Metalwork",
+        "name": "2022 Winter Guard Props",
+        "img": "assets/img/portfolio/thumbnails/56.jpg",
+        "page": "projects/56/index.html"
+    },
 
     {
         "category": "Metalwork",
