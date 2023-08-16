@@ -484,3 +484,43 @@ footer .copyright {
     max-width: 50%;
     height: auto;
   }
+
+
+  .image-container2 {
+    width: 100%; /* Set the width of the container */
+    height: 0;   /* Initial height of 0, adjusted by padding */
+    padding-top: 56.25%; /* (Image height / Image width) * 100% for a 16:9 aspect ratio */
+  
+    /* position: relative; For positioning the image */
+ 
+    overflow: hidden;   /* Hide any overflowing content */
+  }
+  
+  .image-container2 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;  /* Image width fills the container width */
+    height: 100%; /* Image height fills the container height */
+    object-fit: cover; /* Crop the image to fill the container while maintaining aspect ratio */
+    margin-bottom: 0.5 rem;
+  }
+  
+  
+  .image-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 75%; /* 4:3 aspect ratio for portrait images */
+  
+    /* Adjust the aspect ratio for landscape images */
+  }
+  
+  .image-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Crop the image to fill the container while maintaining aspect ratio */
+  }
