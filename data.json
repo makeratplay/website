@@ -1,6 +1,6 @@
 [
     {
-        "category": "Woodworking",
+        "category": ["Woodworking", "Electronics"],
         "name": "Spotify Player",
         "img": "assets/img/portfolio/thumbnails/46.jpg",
         "page": "projects/46/index.html"
@@ -8,7 +8,7 @@
     },  
 
     {
-        "category": "Woodworking",
+        "category": ["Woodworking", "Electronics"],
         "name": "On Air Sign",
         "img": "assets/img/portfolio/thumbnails/43.jpg",
         "page": "projects/43/index.html"
@@ -16,7 +16,7 @@
     },  
 
     {
-        "category": "Woodworking",
+        "category": ["Woodworking"],
         "name": "Vivify Sign",
         "img": "assets/img/portfolio/thumbnails/33.jpg",
         "page": "projects/33/index.html"
@@ -24,14 +24,14 @@
     },
 
     {
-        "category": "Woodworking",
+        "category": ["Woodworking"],
         "name": "Computer and Project Desk",
         "img": "assets/img/portfolio/thumbnails/1.jpg",
         "description" : "",
         "page": "projects/1/index.html"
     },
     {
-        "category": "Woodworking",
+        "category": ["Woodworking"],
         "name": "French Cleat Tool Wall",
         "img": "assets/img/portfolio/thumbnails/2.jpg",
         "page": "projects/2/index.html",
@@ -60,7 +60,7 @@
 
     },
     {
-        "category": "Woodworking",
+        "category": ["Woodworking"],
         "name": "YouTube Subscriber Tracker",
         "img": "assets/img/portfolio/thumbnails/3.jpg",
         "description" : "I upcycle an old Samsung Galaxy tablet, Walnut and Cherry into a beautiful display for my office wall.",
@@ -75,21 +75,21 @@
     },
 
     {
-        "category": "Electronics",
+        "category": ["Electronics"],
         "name": "Alexa Voice Control",
         "img": "assets/img/portfolio/thumbnails/47.jpg",
         "page": "projects/47/index.html"
 
     }, 
     {
-        "category": "Woodworking",
+        "category": ["Woodworking", "Laser Cutter"],
         "name": "Mother's Day Gift",
         "img": "assets/img/portfolio/thumbnails/48.jpg",
         "description" : ""
     },
 
     {
-        "category": "Woodworking",
+        "category": ["Woodworking", "Laser Cutter"],
         "name": "Glowforge Stand",
         "img": "assets/img/portfolio/thumbnails/51.jpg",
         "description" : "Custom built stand for my Glowforge",
@@ -120,7 +120,7 @@
     },    
 
     {
-        "category": "Electronics",
+        "category": ["Electronics"],
         "name": "Air Quality Monitor",
         "img": "assets/img/portfolio/thumbnails/52.jpg",
         "description" : "",
@@ -162,7 +162,7 @@
     },
 
     {
-        "category": "Metalwork",
+        "category": ["Band Props", "Metalwork"],
         "name": "2023 Marching Band Props",
         "img": "assets/img/portfolio/thumbnails/57.jpg",
         "page": "projects/57/index.html"
@@ -171,7 +171,7 @@
 
 
     {
-        "category": "Metalwork",
+        "category": ["Band Props", "Metalwork"],
         "name": "2022 Marching Band Props",
         "img": "assets/img/portfolio/thumbnails/54.jpg",
         "page": "projects/54/index.html",
@@ -237,21 +237,21 @@
     },
 
     {
-        "category": "Metalwork",
+        "category": ["Band Props", "Metalwork"],
         "name": "2022 Winter Guard Props",
         "img": "assets/img/portfolio/thumbnails/56.jpg",
         "page": "projects/56/index.html"
     },
 
     {
-        "category": "Metalwork",
+        "category": ["Band Props", "Metalwork"],
         "name": "2021 Marching Band Props",
         "img": "assets/img/portfolio/thumbnails/49.jpg",
         "page": "projects/49/index.html"
     },
 
     {
-        "category": "Maker Project",
+        "category": ["Band Props"],
         "name": "2020 Marching Band Props",
         "img": "assets/img/portfolio/thumbnails/53.jpg",
         "sections" : [
@@ -289,7 +289,7 @@
     },  
 
     {
-        "category": "Maker Project",
+        "category": ["Band Props"],
         "name": "2019 Marching Band Props",
         "img": "assets/img/portfolio/thumbnails/19.jpg",
         "sections" : [
@@ -324,7 +324,7 @@
         ]
     },         
     {
-        "category": "Woodworking",
+        "category": ["Band Props", "Woodworking"],
         "name": "2018 Marching Band Props",
         "img": "assets/img/portfolio/thumbnails/11.jpg",
         "sections" : [
@@ -373,7 +373,7 @@
         ]         
     },
     {
-        "category": "Woodworking",
+        "category": ["Woodworking"],
         "name": "Custom Percussion Slap Stick",
         "img": "assets/img/portfolio/thumbnails/50.jpg",
         "description" : "Custom built slap sticks for the high school band to replace ones they broke.",
@@ -401,7 +401,7 @@
     },
 
     {
-        "category": "Metalwork",
+        "category": ["Metalwork"],
         "name": "LiftBot 2000",
         "img": "assets/img/portfolio/thumbnails/55.jpg",
         "description" : "I built lift winch to help load items into a trailer",
@@ -412,7 +412,7 @@
     },      
 
     {
-        "category": "Woodworking",
+        "category": ["Woodworking"],
         "name": "Miter Sled Jig",
         "img": "assets/img/portfolio/thumbnails/42.jpg",
         "description" : "I built a miter sled jig for my table saw to make my project builds faster.",
@@ -424,20 +424,20 @@
 
     },    
     {
-        "category": "Woodworking",
+        "category": ["Woodworking"],
         "name": "Computer desk and Shelves",
         "img": "assets/img/portfolio/thumbnails/16.jpg",
         "page": "projects/1/index.html"
     },
 
     {
-        "category": "Programming",
+        "category": ["Programming", "Electronics"],
         "name": "6502 Interactive Block Diagram",
         "img": "assets/img/portfolio/thumbnails/7.jpg",
         "page": "projects/7/index.html"
     },
     {
-        "category": "Programming",
+        "category": ["Programming"],
         "name": "Commodore VIC 20 Kernal Debug Tool | 6502 Emulator",
         "img": "assets/img/portfolio/thumbnails/24.jpg",
         "page": "projects/24/index.html",
@@ -453,7 +453,7 @@
         
     },
     {
-        "category": "Electronics",
+        "category": ["Electronics"],
         "name": "Commodore VIC 20 to VGA Monitor",
         "img": "assets/img/portfolio/thumbnails/21.jpg",
         "description" : "How to hook your Commodore VIC 20 (or Commodore 64) to a VGA Monitor.",
@@ -466,7 +466,7 @@
     },   
 
     {
-        "category": "Electronics",
+        "category": ["Electronics"],
         "name": "Ardunio Controlled Light Switches",
         "img": "assets/img/portfolio/thumbnails/17.jpg",
         "description" : "Ardunio Controlled Light Switches",
@@ -500,13 +500,13 @@
     },
  
     {
-        "category": "Electronics",
+        "category": ["Electronics"],
         "name": "16x2 LCD Module",
         "img": "assets/img/portfolio/thumbnails/40.jpg",
         "page": "projects/40/index.html"
     },
     {
-        "category": "Woodworking",
+        "category": ["Woodworking"],
         "name": "Camp Kitchen Chuck Boxes",
         "img": "assets/img/portfolio/thumbnails/4.jpg",
         "description" : "My check boxes I built for camping",
@@ -518,7 +518,7 @@
         
     },
     {
-        "category": "Woodworking",
+        "category": ["Woodworking"],
         "name": "Patio Chair Prototype",
         "img": "assets/img/portfolio/thumbnails/44.jpg",
         "description" : "In preparation for building some patio chairs for the first time, I first build a prototype of the chair out of 2x6 SPF lumber.",
@@ -529,7 +529,7 @@
         ]
     },       
     {
-        "category": "Electronics",
+        "category": ["Electronics"],
         "name": "Galaga Control Panel",
         "img": "assets/img/portfolio/thumbnails/41.jpg",
         "description" : "I purchased this Galaga control panel along with an original game PCB off ebay with the idea I will make it into a working console again someday.",
@@ -540,7 +540,7 @@
         ]
     },   
     {
-        "category": "Woodworking",
+        "category": ["Woodworking", "CNC"],
         "name": "CNC Table and Storage",
         "img": "assets/img/portfolio/thumbnails/9.jpg",
         "description" : "It was time for my Stepcraft 840 CNC to have a permanent home in the garage.",
@@ -551,7 +551,7 @@
         ]        
     },     
     {
-        "category": "Model Train",
+        "category": ["Model Train"],
         "name": "HO Model Train Layout #3",
         "description" : "20x20 foot layout I built in our Green Hollow house from 2001-2007",
         "img": "assets/img/portfolio/thumbnails/5.jpg",
@@ -606,7 +606,7 @@
     },
 
     {
-        "category": "Model Train",
+        "category": ["Model Train"],
         "name": "HO Train Layout #1",
         "description" : "My first HO layout that I built when living in Nac circa 1998",
         "img": "assets/img/portfolio/thumbnails/14.jpg",
@@ -644,7 +644,7 @@
         ]  
     },
     {
-        "category": "Model Train",
+        "category": ["Model Train"],
         "name": "HO Train Layout #2",
         "img": "assets/img/portfolio/thumbnails/15.jpg",
         "sections" : [
@@ -667,7 +667,7 @@
     },
 
     {
-        "category": "3D Printing",
+        "category": ["3D Printing"],
         "name": "Ender 3 Pro Printer",
         "img": "assets/img/portfolio/thumbnails/45.jpg",
         "description" : "I show you how to turn an image into a 3d print using Inkscape, Fusion 360 and Ultimaker Cura to create G-code file that your 3D printer can use to create the object.",
@@ -682,7 +682,7 @@
         ]
     },    
     {
-        "category": "Programming",
+        "category": ["Programming"],
         "name": "Blurts BlackBerry App",
         "img": "assets/img/portfolio/thumbnails/37.jpg",
         "description" : "BlackBerry application written in 2010 and published to BlackBerry App World as one of my MLH Software BlackBerry applications",
@@ -701,7 +701,7 @@
     },
 
     {
-        "category": "Maker Project",
+        "category": ["Maker Project"],
         "name": "Water Balloon Cannon",
         "img": "assets/img/portfolio/thumbnails/6.jpg",
         "description" : "The kids and I built a water ballon cannon",
@@ -722,7 +722,7 @@
  
 
     {
-        "category": "Programming",
+        "category": ["Programming"],
         "name": "JavaScript Date Object and Time Zones",
         "img": "assets/img/portfolio/thumbnails/34.jpg",
         "description" : "How to handle UTC and local time zone when turning a date string into a JavaScript Date object.",
@@ -733,7 +733,7 @@
         ]   
     },
     {
-        "category": "Maker Project",
+        "category": ["Maker Project", "CNC"],
         "name": "Yard Sign / Letters",
         "img": "assets/img/portfolio/thumbnails/8.jpg",
         "description" : "The PTA at my kiddo's school was looking for a cost-effective way to advertise events. Spelling out things with large yard letters seemed to fit the bill and gave me a great excuse to buy a drag knife for my CNC. Check out the video to see how the project worked out.",
@@ -744,7 +744,7 @@
         ]        
     },
     {
-        "category": "Programming",
+        "category": ["Programming"],
         "name": "Bingo Caller BlackBerry App",
         "img": "assets/img/portfolio/thumbnails/35.jpg",
         "description" : "BlackBerry application written in 2012 and published to BlackBerry App World as one of my MLH Software BlackBerry applications",
@@ -759,7 +759,7 @@
     },
 
     {
-        "category": "Programming",
+        "category": ["Programming"],
         "name": "Missed Call Alert BlackBerry App",
         "img": "assets/img/portfolio/thumbnails/38.jpg",
         "description" : "BlackBerry application written in 2009 and published to BlackBerry App World as one of my MLH Software BlackBerry applications",
@@ -773,7 +773,7 @@
         ]        
     },
     {
-        "category": "Woodworking",
+        "category": ["Woodworking"],
         "name": "Dust Collection System",
         "img": "assets/img/portfolio/thumbnails/10.jpg",
         "description" : "After sitting idle in the corner of my garage for 10 years, it is finally time to put my dust collector to work. In this video I show how I mounted it to the wall to free up floor space as well as make it a two stage system.",
@@ -791,7 +791,7 @@
     },
 
     {
-        "category": "Woodworking",
+        "category": ["Woodworking"],
         "name": "Garage Storage for Camp Chairs",
         "img": "assets/img/portfolio/thumbnails/12.jpg",
         "description" : "Reducing clutter in the garage with a french cleat storage bin to get the camp chairs off the floor.",
@@ -802,7 +802,7 @@
         ]   
     },
     {
-        "category": "Programming",
+        "category": ["Programming"],
         "name": "Code Life YouTube Channel",
         "img": "assets/img/portfolio/thumbnails/13.jpg",
         "description" : "Sharing some of my programming knowledge through videos on my Code Life YouTube channel",
@@ -819,7 +819,7 @@
         ]   
     },
     {
-        "category": "Programming",
+        "category": ["Programming"],
         "name": "Simply Solitaire BlackBerry App",
         "img": "assets/img/portfolio/thumbnails/39.jpg",
         "description" : "BlackBerry application written in 2010 and published to BlackBerry App World as one of my MLH Software BlackBerry applications",
@@ -835,7 +835,7 @@
  
   
     {
-        "category": "Maker Project",
+        "category": ["Maker Project"],
         "name": "Family Pacman Costume",
         "img": "assets/img/portfolio/thumbnails/18.jpg",
         "sections" : [
@@ -845,7 +845,7 @@
         ]
     },
     {
-        "category": "Programming",
+        "category": ["Programming"],
         "name": "Command Line BlackBerry App",
         "img": "assets/img/portfolio/thumbnails/36.jpg",
         "description" : "BlackBerry application written in 2012 and published to BlackBerry App World as one of my MLH Software BlackBerry applications",
@@ -860,7 +860,7 @@
     },
   
     {
-        "category": "Woodworking",
+        "category": ["Woodworking", "CNC"],
         "name": "CNC Holddowns",
         "img": "assets/img/portfolio/thumbnails/20.jpg",
         "sections" : [
@@ -871,7 +871,7 @@
     },
 
     {
-        "category": "Programming",
+        "category": ["Programming"],
         "name": "MLH Software Blackberry Apps",
         "img": "assets/img/portfolio/thumbnails/22.jpg",
         "description" : "When BlackBerry announced they were launching a app store in 2009, I jumped in and started developing BlackBerry apps. I created MLH Software for this work.",
@@ -889,7 +889,7 @@
            
     },
     {
-        "category": "Electronics",
+        "category": ["Electronics"],
         "name": "DIY Voice Controlled Light Switch",
         "img": "assets/img/portfolio/thumbnails/23.jpg",
         "description" : "In this video I walk you through all the components to get Amazon Echo and Google Home to control a DIY light switch I made.",
@@ -902,7 +902,7 @@
     },
 
     {
-        "category": "Woodworking",
+        "category": ["Woodworking"],
         "name": "Wii and Lego Pinewood Derby Car",
         "img": "assets/img/portfolio/thumbnails/26.jpg",
         "description" : "Two of my sons built pinewood drby cars in the style of a Lego block and Wii remote.",
@@ -915,7 +915,7 @@
     },
 
     {
-        "category": "Maker Project",
+        "category": ["Maker Project"],
         "name": "Lego Mindstorm Golf Ball Counter",
         "img": "assets/img/portfolio/thumbnails/25.jpg",
         "description" : "My oldest son built and programmed a golf ball counter using lego mindstorm.",
@@ -928,7 +928,7 @@
     },
 
     {
-        "category": "Maker Project",
+        "category": ["Maker Project"],
         "name": "Kanban Board for Kids Bed Time",
         "img": "assets/img/portfolio/thumbnails/27.jpg",
         "description" : "Kanban baord to help our kids remember their night time chores and activities",
@@ -949,7 +949,7 @@
         
     },
     {
-        "category": "Woodworking",
+        "category": ["Woodworking"],
         "name": "Custom Closet Built Ins",
         "img": "assets/img/portfolio/thumbnails/28.jpg",
         "description" : "Custom built closet shelves and drawers",
@@ -979,7 +979,7 @@
         
     },
     {
-        "category": "Woodworking",
+        "category":[ "Woodworking"],
         "name": "Custom Desk / Shelves Built Ins",
         "img": "assets/img/portfolio/thumbnails/29.jpg",
         "description" : "Custom desk and shelves in master bedroom",
@@ -994,7 +994,7 @@
         ]   
     },
     {
-        "category": "Marker Project",
+        "category": ["Maker Project"],
         "name": "Electronics Desk",
         "img": "assets/img/portfolio/thumbnails/30.jpg",
         "description" : "Electronics workstation setup. The Windows 98 screen should give you some clue to the age of this project.",
@@ -1008,7 +1008,7 @@
         ]   
     },
     {
-        "category": "Woodworking",
+        "category": ["Woodworking"],
         "name": "Workbench",
         "img": "assets/img/portfolio/thumbnails/31.jpg",
         "description" : "",
@@ -1019,7 +1019,7 @@
         ]   
     },
     {
-        "category": "Woodworking",
+        "category": ["Woodworking"],
         "name": "Mobile Bike Rack",
         "img": "assets/img/portfolio/thumbnails/32.jpg",
         "description" : "",
