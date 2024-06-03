@@ -1,5 +1,13 @@
 [
     {
+        "category": ["Woodworking"],
+        "name": "Miter Saw Sation",
+        "img": "assets/img/portfolio/thumbnails/58.jpg",
+        "page": "projects/58/index.html"
+
+    }, 
+
+    {
         "category": ["Woodworking", "Electronics"],
         "name": "Spotify Player",
         "img": "assets/img/portfolio/thumbnails/46.jpg",
