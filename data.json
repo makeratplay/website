@@ -100,7 +100,18 @@
         "category": ["Woodworking", "Laser Cutter"],
         "name": "Mother's Day Gift",
         "img": "assets/img/portfolio/thumbnails/48.jpg",
-        "description" : ""
+        "description" : "Made a Mother's Day gift for my wife using the Glowforge",
+        "sections" : [
+            {
+                "image" : "/assets/img/portfolio/thumbnails/48.jpg"
+            },
+            {
+                "image" : "/projects/48/20210508_115504.jpg"
+            },    
+            {
+                "image" : "/projects/48/20210505_194010.jpg"
+            }                    
+        ]        
     },
 
     {
@@ -129,6 +140,18 @@
             },
             {
                 "image" : "/assets/img/portfolio/projects/51/7.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/51/10.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/51/11.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/51/12.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/51/13.jpg"
             }
 
         ]             
