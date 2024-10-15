@@ -157,6 +157,37 @@
         ]             
     },    
 
+
+    {
+        "category": ["Woodworking", "Laser Cutter"],
+        "name": "Confirmation Gifts",
+        "img": "assets/img/portfolio/thumbnails/60.jpg",
+        "description" : "Create Confirmation gifts for confirmans using the Glowforge",
+        "sections" : [
+            {
+                "html" : "<p>The first year, I crafted them from acrylic, shaping each one into the form of their name with their class verse.</p>"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/60/1.jpg"
+            },
+            {
+                "html" : "<p>The next two years, I crafted them out of walnut, personalizing each with their name and confirmation verse on the front and their class verse on the back.</p>"
+            },            
+            {
+                "image" : "/assets/img/portfolio/projects/60/2.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/60/3.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/60/4.jpg"
+            },
+            {
+                "image" : "/assets/img/portfolio/projects/60/5.jpg"
+            }
+        ]             
+    },    
+
     {
         "category": ["Electronics"],
         "name": "Air Quality Monitor",
