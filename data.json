@@ -948,8 +948,11 @@
         "category": ["Maker Project"],
         "name": "Kanban Board for Kids Bed Time",
         "img": "assets/img/portfolio/thumbnails/27.jpg",
-        "description" : "Kanban baord to help our kids remember their night time chores and activities",
+        "description" : "Kanban baord to help our kids remember their night time chores and activities.",
         "sections" : [
+            {
+                "html" : "<p> I shared a cool life story about this Knaban board  <a href='https://www.linkedin.com/posts/hawkinsm_softwaredevelopment-agile-coaching-activity-7069809106093568000-GULU?utm_source=share&utm_medium=member_desktop'> on Linked </a> </p>"
+            },
             {
                 "image" : "/assets/img/portfolio/projects/27/1.jpg"
             },
