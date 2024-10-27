@@ -8,6 +8,14 @@
 
     {
         "category": ["Woodworking"],
+        "name": "The Paulk Smart Bench",
+        "img": "assets/img/portfolio/thumbnails/61.jpg",
+        "page": "projects/61/index.html"
+
+    }, 
+
+    {
+        "category": ["Woodworking"],
         "name": "Miter Saw Sation",
         "img": "assets/img/portfolio/thumbnails/58.jpg",
         "page": "projects/58/index.html"
