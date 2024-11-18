@@ -67,6 +67,48 @@
 <body>
     <h1>FTC Robot Programming Cheatsheet</h1>
     
+    <h2>Program Flow</h2>
+    <p> <a href="https://ftctechnh.github.io/ftc_app/doc/javadoc/com/qualcomm/robotcore/eventloop/opmode/LinearOpMode.html">LinearOpMode class</a>
+         vs <a href="https://ftctechnh.github.io/ftc_app/doc/javadoc/com/qualcomm/robotcore/eventloop/opmode/OpMode.html">OpMode class</a>  </p>
+    <pre>
+        <code>
+            // LinearOpMode
+            public class MyOpMode extends LinearOpMode {
+                @Override
+                public void runOpMode() {
+                    // Initialize the drive system variables.
+
+                    // Wait for the game to start (driver presses START)
+                    waitForStart();
+
+                    while (opModeIsActive()){
+                        // Code here
+                    } 
+                }
+            }
+
+            // OpMode
+            public class MyOpMode extends OpMode {
+
+                /**
+                * This method will be called once, when the INIT button is pressed.
+                */
+                @Override
+                public void init() {
+                    // Initialize the drive system variables.
+                }
+
+                /**
+                * This method will be called repeatedly during the period between when
+                * the START button is pressed and when the OpMode is stopped.
+                */
+                @Override
+                public void loop() {
+                    // Code here
+                }
+            }
+        </code>
+
     <h2>Motor Control with Encoder</h2>
     <p>Using encoders to control motors allows for precise movement. Below is an example of how to set up and use a motor with an encoder in Onbot Java:</p>
     <pre>
@@ -324,29 +366,42 @@
     <h2>Public Member Variables in OpMode Class</h2>
     <p>Public member variables in the <a href="https://ftctechnh.github.io/ftc_app/doc/javadoc/com/qualcomm/robotcore/eventloop/opmode/OpMode.html"></a>OpMode class</a> are used to store data that can be accessed throughout the OpMode. Below is an example of how to define and use public member variables in an OpMode class:</p>
     <pre>
-    <code>
+        <code>
+            /**
+            * Gamepad 1
+            */
+        public Gamepad gamepad1 = new Gamepad();
         /**
-        * Gamepad 1
-        */
-       public Gamepad gamepad1 = new Gamepad();
-       /**
-        * Gamepad 2
-        */
-       public Gamepad gamepad2 = new Gamepad();
-       /**
-        * Hardware Mappings
-        */
-       public HardwareMap hardwareMap = new HardwareMap();
-       /**
-        * Telemetry Data
-        */
-       public Telemetry telemetry = new Telemetry();
-       /**
-        * number of seconds this op mode has been running, this is updated before every call to loop.
-        */
-       public double time;
-    </code>
+            * Gamepad 2
+            */
+        public Gamepad gamepad2 = new Gamepad();
+        /**
+            * Hardware Mappings
+            */
+        public HardwareMap hardwareMap = new HardwareMap();
+        /**
+            * Telemetry Data
+            */
+        public Telemetry telemetry = new Telemetry();
+        /**
+            * number of seconds this op mode has been running, this is updated before every call to loop.
+            */
+        public double time;
+        </code>
     </pre>
+
+    <H2>ElapsedTime</H2>
+    <p>The <a href="https://ftctechnh.github.io/ftc_app/doc/javadoc/com/qualcomm/robotcore/util/ElapsedTime.html">ElapsedTime class</a> provides a simple handy timer to measure elapsed time intervals.</p>
+    <pre>
+        <code>
+            ElapsedTime runtime = new ElapsedTime();
+            runtime.reset();
+            while (runtime.seconds() < 5) {
+                // Do something for 5 seconds
+            }
+        </code>
+    </pre>
+
 
     <h2>Reference Doc</h2>
     <a href="https://ftc-resources.firstinspires.org/file/ftc/game/manual">2024-2025 FIRST® Tech Challenge INTO THE DEEP Competition Manual</a>
