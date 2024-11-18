@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-174557574-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-174557574-1');
+    </script>
+
+
+    <title>FTC Robot Programming Cheatsheet</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <meta property="og:title" content="FTC Robot Programming Cheatsheet" />
+    <meta property="og:site_name" content="FTC Robot Programming Cheatsheet" />
+    <meta property="og:description" content="" />
+    <meta name="description" content="" />
+    <meta property="og:image" content="" />
+
+    <meta name="author" content="Michael Hawkins" />
+    <meta name="p:domain_verify" content="7f14e2476e046f0fa6822fe6a41c9ad0" />
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="../style.css" rel="stylesheet">
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1, h2 {
+            color: #000000;
+        }
+        pre {
+            background-color: #ecf1f3;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <h1>FTC Robot Programming Cheatsheet</h1>
+    
+    <h2>Motor Control with Encoder</h2>
+    <p>Using encoders to control motors allows for precise movement. Below is an example of how to set up and use a motor with an encoder in Onbot Java:</p>
+    <pre>
+        <code>
+            // Declare motor
+            DcMotor motor;
+
+            // Initialize motor
+            motor = hardwareMap.get(DcMotor.class, "motorName");
+
+            // Set motor direction
+            motor.setDirection(DcMotor.Direction.FORWARD); // DcMotor.Direction.REVERSE
+
+            // Set ZeroPowerBehavior
+            motor.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.BRAKE); // DcMotor.ZeroPowerBehavior.FLOAT
+
+            // Reset encoder
+            motor.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
+
+            // Set target position
+            motor.setTargetPosition(1000);
+
+            // Set to RUN_TO_POSITION mode
+            motor.setMode(DcMotor.RunMode.RUN_TO_POSITION);
+
+            // Set motor power
+            motor.setPower(0.5);
+
+            // Wait until target position is reached
+            while (motor.isBusy()) {
+                // Optionally do something while waiting
+            }
+
+            // Stop motor
+            motor.setPower(0);
+        </code>
+    </pre>
+
+    <p>RobotAutoDriveByEncoder_Linear</p>
+    <pre>
+        <code>
+            @Override
+            public void runOpMode() {
+        
+                // Initialize the drive system variables.
+                leftDrive  = hardwareMap.get(DcMotor.class, "left_drive");
+                rightDrive = hardwareMap.get(DcMotor.class, "right_drive");
+        
+                // To drive forward, most robots need the motor on one side to be reversed, because the axles point in opposite directions.
+                // When run, this OpMode should start both motors driving forward. So adjust these two lines based on your first test drive.
+                // Note: The settings here assume direct drive on left and right wheels.  Gear Reduction or 90 Deg drives may require direction flips
+                leftDrive.setDirection(DcMotor.Direction.REVERSE);
+                rightDrive.setDirection(DcMotor.Direction.FORWARD);
+        
+                leftDrive.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
+                rightDrive.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
+        
+                leftDrive.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
+                rightDrive.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
+        
+                // Send telemetry message to indicate successful Encoder reset
+                telemetry.addData("Starting at",  "%7d :%7d",
+                                  leftDrive.getCurrentPosition(),
+                                  rightDrive.getCurrentPosition());
+                telemetry.update();
+        
+                // Wait for the game to start (driver presses START)
+                waitForStart();
+        
+                // Step through each leg of the path,
+                // Note: Reverse movement is obtained by setting a negative distance (not speed)
+                encoderDrive(DRIVE_SPEED,  48,  48, 5.0);  // S1: Forward 47 Inches with 5 Sec timeout
+                encoderDrive(TURN_SPEED,   12, -12, 4.0);  // S2: Turn Right 12 Inches with 4 Sec timeout
+                encoderDrive(DRIVE_SPEED, -24, -24, 4.0);  // S3: Reverse 24 Inches with 4 Sec timeout
+        
+                telemetry.addData("Path", "Complete");
+                telemetry.update();
+                sleep(1000);  // pause to display final telemetry message.
+            }
+        
+            /*
+             *  Method to perform a relative move, based on encoder counts.
+             *  Encoders are not reset as the move is based on the current position.
+             *  Move will stop if any of three conditions occur:
+             *  1) Move gets to the desired position
+             *  2) Move runs out of time
+             *  3) Driver stops the OpMode running.
+             */
+            public void encoderDrive(double speed,
+                                     double leftInches, double rightInches,
+                                     double timeoutS) {
+                int newLeftTarget;
+                int newRightTarget;
+        
+                // Ensure that the OpMode is still active
+                if (opModeIsActive()) {
+        
+                    // Determine new target position, and pass to motor controller
+                    newLeftTarget = leftDrive.getCurrentPosition() + (int)(leftInches * COUNTS_PER_INCH);
+                    newRightTarget = rightDrive.getCurrentPosition() + (int)(rightInches * COUNTS_PER_INCH);
+                    leftDrive.setTargetPosition(newLeftTarget);
+                    rightDrive.setTargetPosition(newRightTarget);
+        
+                    // Turn On RUN_TO_POSITION
+                    leftDrive.setMode(DcMotor.RunMode.RUN_TO_POSITION);
+                    rightDrive.setMode(DcMotor.RunMode.RUN_TO_POSITION);
+        
+                    // reset the timeout time and start motion.
+                    runtime.reset();
+                    leftDrive.setPower(Math.abs(speed));
+                    rightDrive.setPower(Math.abs(speed));
+        
+                    // keep looping while we are still active, and there is time left, and both motors are running.
+                    // Note: We use (isBusy() && isBusy()) in the loop test, which means that when EITHER motor hits
+                    // its target position, the motion will stop.  This is "safer" in the event that the robot will
+                    // always end the motion as soon as possible.
+                    // However, if you require that BOTH motors have finished their moves before the robot continues
+                    // onto the next step, use (isBusy() || isBusy()) in the loop test.
+                    while (opModeIsActive() &&
+                           (runtime.seconds() < timeoutS) &&
+                           (leftDrive.isBusy() && rightDrive.isBusy())) {
+        
+                        // Display it for the driver.
+                        telemetry.addData("Running to",  " %7d :%7d", newLeftTarget,  newRightTarget);
+                        telemetry.addData("Currently at",  " at %7d :%7d",
+                                                    leftDrive.getCurrentPosition(), rightDrive.getCurrentPosition());
+                        telemetry.update();
+                    }
+        
+                    // Stop all motion;
+                    leftDrive.setPower(0);
+                    rightDrive.setPower(0);
+        
+                    // Turn off RUN_TO_POSITION
+                    leftDrive.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
+                    rightDrive.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
+        
+                    sleep(250);   // optional pause after each move.
+                }
+            }
+
+        </code>
+    </pre>
+
+    <h2>Servo Control</h2>
+    <p>Servos are used for precise control of rotational position. Below is an example of how to set up and use a servo in Onbot Java:</p>
+    <pre>
+        <code>
+            // Declare servo
+            Servo servo;
+
+            // Initialize servo
+            servo = hardwareMap.get(Servo.class, "servoName");
+
+            // Set servo position (0.0 to 1.0)
+            servo.setPosition(0.5);
+
+            // Optionally, you can gradually move the servo to a position
+            for (double position = 0.0; position <= 1.0; position += 0.1) {
+                servo.setPosition(position);
+                sleep(100); // Wait for 100 milliseconds
+            }
+        </code>
+    </pre>
+
+    <h2>Telemetry</h2>
+    <p><a href="https://ftctechnh.github.io/ftc_app/doc/javadoc/org/firstinspires/ftc/robotcore/external/Telemetry.html">Telemetry</a> allows you to send data from your robot to the driver station for debugging and monitoring purposes. 
+        Below is an example of how to use telemetry in Onbot Java:</p>
+    <pre>
+        <code>
+            // Add data to telemetry
+            telemetry.addData("Status", "Initialized");
+
+            // Update telemetry
+            telemetry.update();
+
+            // Add more data to telemetry
+            telemetry.addData("Motor Power", motor.getPower());
+            telemetry.addData("Servo Position", servo.getPosition());
+
+            runtime.reset();
+            telemetry.addData("Run Time", runtime.toString());
+
+            // Update telemetry again
+            telemetry.update();
+
+            // Prevent telemetry from being cleared automatically when update() is called
+            telemetry.setAutoClear(false); 
+
+            // Multiple items per line can be displayed by starting with a call to addLine()
+            telemetry.addLine()
+                .addData("count", currentCount)
+                .addData("elapsedTime", "%.3f", seconds);
+            telemetry.addLine()
+                .addData("voltage", "%.1f", getCurrentVoltage())
+                .addData("orientation", "%s", getOrientation());
+            telemetry.update();
+
+            telemetry.addData("voltage", "%.1f volts", new Func<Double>() {
+                @Override public Double value() {
+                    return getBatteryVoltage();
+                }
+                });
+
+            // Computes the current battery voltage
+            double getBatteryVoltage() {
+                double result = Double.POSITIVE_INFINITY;
+                for (VoltageSensor sensor : hardwareMap.voltageSensor) {
+                    double voltage = sensor.getVoltage();
+                    if (voltage > 0) {
+                        result = Math.min(result, voltage);
+                    }
+                }
+                return result;
+            }
+        </code>
+    </pre>
+
+    <h2>Gamepad Input</h2>
+    <p><a href="https://ftctechnh.github.io/ftc_app/doc/javadoc/com/qualcomm/robotcore/hardware/Gamepad.html">Gamepad</a> input allows you to control your robot using a game controller. Below is an example of how to use gamepad input in Onbot Java:</p>
+    <pre>
+        <code>
+            double left;
+            double right;
+    
+            // Run wheels in tank mode (note: The joystick goes negative when pushed forward, so negate it)
+            left = -gamepad1.left_stick_y;
+            right = -gamepad1.right_stick_y;
+    
+            leftDrive.setPower(left);
+            rightDrive.setPower(right);
+    
+            // Use gamepad left & right Bumpers to open and close the claw
+            if (gamepad1.right_bumper)
+                clawOffset += CLAW_SPEED;
+            else if (gamepad1.left_bumper)
+                clawOffset -= CLAW_SPEED;
+    
+            // Move both servos to new position.  Assume servos are mirror image of each other.
+            clawOffset = Range.clip(clawOffset, -0.5, 0.5);
+            leftClaw.setPosition(MID_SERVO + clawOffset);
+            rightClaw.setPosition(MID_SERVO - clawOffset);
+    
+            // Use gamepad buttons to move the arm up (Y) and down (A)
+            if (gamepad1.y)
+                leftArm.setPower(ARM_UP_POWER);
+            else if (gamepad1.a)
+                leftArm.setPower(ARM_DOWN_POWER);
+            else
+                leftArm.setPower(0.0);
+        </code>
+    </pre>
+
+
+    <h2>Public Member Variables in OpMode Class</h2>
+    <p>Public member variables in the <a href="https://ftctechnh.github.io/ftc_app/doc/javadoc/com/qualcomm/robotcore/eventloop/opmode/OpMode.html"></a>OpMode class</a> are used to store data that can be accessed throughout the OpMode. Below is an example of how to define and use public member variables in an OpMode class:</p>
+    <pre>
+    <code>
+        /**
+        * Gamepad 1
+        */
+       public Gamepad gamepad1 = new Gamepad();
+       /**
+        * Gamepad 2
+        */
+       public Gamepad gamepad2 = new Gamepad();
+       /**
+        * Hardware Mappings
+        */
+       public HardwareMap hardwareMap = new HardwareMap();
+       /**
+        * Telemetry Data
+        */
+       public Telemetry telemetry = new Telemetry();
+       /**
+        * number of seconds this op mode has been running, this is updated before every call to loop.
+        */
+       public double time;
+    </code>
+    </pre>
+
+    <h2>Reference Doc</h2>
+    <a href="https://ftc-resources.firstinspires.org/file/ftc/game/manual">2024-2025 FIRST® Tech Challenge INTO THE DEEP Competition Manual</a>
+    <br/>
+    <a href="https://www.firstinspires.org/robotics/ftc/game-and-season">FTC Game and Season Info</a>
+    <br/>
+    <a href="https://github.com/FIRST-Tech-Challenge/FtcRobotController">FTC SDK GitHub Repository</a>
+    <br/>
+    <a href="https://github.com/mtoebes/ftc_app_decompiled/tree/master">FTC App Decompiled</a>
+    <br>
+    <a href="https://www.youtube.com/@ftc14840/videos">FTC 14840 Lesson Videos</a>
+</body>
+</html>
