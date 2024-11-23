@@ -371,36 +371,7 @@
         "category": ["Band Props"],
         "name": "2019 Marching Band Props",
         "img": "assets/img/portfolio/thumbnails/19.jpg",
-        "sections" : [
-            {
-                "image" : "assets/img/portfolio/thumbnails/19.jpg"
-            },
-            {
-                "image" : "/assets/img/portfolio/projects/19/8.jpg"
-            },
-            {
-                "image" : "/assets/img/portfolio/projects/19/1.jpg"
-            },
-            {
-                "image" : "/assets/img/portfolio/projects/19/2.jpg"
-            },
-            {
-                "image" : "/assets/img/portfolio/projects/19/3.jpg"
-            },
-            {
-                "image" : "/assets/img/portfolio/projects/19/4.jpg"
-            },
-            {
-                "image" : "/assets/img/portfolio/projects/19/5.jpg"
-            },
-            {
-                "image" : "/assets/img/portfolio/projects/19/6.jpg"
-            },
-            {
-                "image" : "/assets/img/portfolio/projects/19/7.jpg"
-            }
-            
-        ]
+        "page": "projects/19/index.html"
     },         
     {
         "category": ["Band Props", "Woodworking"],
