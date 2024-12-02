@@ -154,6 +154,7 @@
           </div>
 
           <div class="card" style="width: 18rem;" ng-repeat="item in vm.affiliateData[0]">
+            <img class="card-img-top" ng-show="item.Img" alt="{{item.Title}}" src="{{item.Img}}">
             <div class="card-body">
               <h5 class="card-title">{{item.Title}}</h5>
               <a class="social-link" ng-repeat="video in item.Videos" title="My video using this item" href="{{video}}" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube" style="margin: 5px;"></i></a>
@@ -166,6 +167,7 @@
 
         <div class="col-lg-3" style="">
           <div class="card" style="width: 18rem;" ng-repeat="item in vm.affiliateData[1]">
+            <img class="card-img-top" ng-show="item.Img" alt="{{item.Title}}" src="{{item.Img}}">
             <div class="card-body">
               <h5 class="card-title">{{item.Title}}</h5>
               <a class="social-link" ng-repeat="video in item.Videos" title="My video using this item" href="{{video}}" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube" style="margin: 5px;"></i></a>
@@ -179,6 +181,7 @@
 
         <div class="col-lg-3" style="">
           <div class="card" style="width: 18rem;" ng-repeat="item in vm.affiliateData[2]">
+            <img class="card-img-top" ng-show="item.Img" alt="{{item.Title}}" src="{{item.Img}}">
             <div class="card-body">
               <h5 class="card-title">{{item.Title}}</h5>
               <a class="social-link" ng-repeat="video in item.Videos" title="My video using this item" href="{{video}}" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube" style="margin: 5px;"></i></a>
@@ -191,6 +194,7 @@
 
         <div class="col-lg-3" style="">
           <div class="card" style="width: 18rem;" ng-repeat="item in vm.affiliateData[3]">
+            <img class="card-img-top" ng-show="item.Img" alt="{{item.Title}}" src="{{item.Img}}">
             <div class="card-body">
               <h5 class="card-title">{{item.Title}}</h5>
               <a class="social-link" ng-repeat="video in item.Videos" title="My video using this item" href="{{video}}" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube" style="margin: 5px;"></i></a>
