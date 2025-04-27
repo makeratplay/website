@@ -1,0 +1,68 @@
+{
+    "title": "2019 Marching Band Props",
+    "thumbnail": "assets/img/portfolio/thumbnails/19.jpg",
+    "template": "generator/templates/project_page.html",
+    "file": "projects/19/index.html",
+    "description": "The 2019 Marching Band Props were designed and built by the students in the Maker at Play program.",
+    "keywords": "Marching Band, Props, 2024, Concept Drawings, Progress Updates, Budget, Maker At Play",
+    "header":
+    {
+        "title": "2019 Marching Band Props",
+        "subtitle": "Marching Band Props"
+    },
+    "sections" : [
+        {
+            "title": "2019 Marching Band Props",
+            "subtitle": "Marching Band Props",
+            "text": "The 2019 Marching Band Props were designed and built by the students in the Maker at Play program. The props were designed to be modular and easily assembled and disassembled for transport and storage. The props were designed to be lightweight and durable and to be able to be used in a variety of configurations. The props were designed to be used in a variety of configurations and to be easily assembled and disassembled for transport and storage. The props were designed to be used in a variety of configurations and to be easily assembled and disassembled for transport and storage. The props were designed to be used in a variety of configurations and to be easily assembled and disassembled for transport and storage. The props were designed to be used in a variety of configurations and to be easily assembled and disassembled for transport and storage. The props were designed to be used in a variety of configurations and to be easily assembled and disassembled for transport and storage. The props were designed to be used in a variety of configurations and to be easily assembled and disassembled for transport and storage. The props were designed to be used in a variety of configurations and to be easily assembled and disassembled for transport and storage. The props were designed to be used in a variety of configurations and to be easily assembled and disassembled for transport and storage. The props were designed to be used in a variety of configurations and to be easily assembled and disassembled for transport and storage. The props were designed to be used in a variety of configurations and to be easily assembled and disassembled for transport and storage. The props were designed to be used in a variety of configurations and to be easily assembled and disassembled for transport and storage. The props were designed to be used in a variety of configurations and to be easily assembled and disassembled for transport and storage. The props were designed to be used in a variety of configurations and to be easily assembled and disassembled for transport and storage.",
+            "images": [
+                {
+                    "url": "/assets/img/portfolio/thumbnails/19.jpg",
+                    "title": "Image 8",
+                    "width": "800px"
+                },
+                {
+                    "url": "/assets/img/portfolio/projects/19/8.jpg",
+                    "title": "Image 1",
+                    "width": "800px"
+                },
+                {
+                    "url": "/assets/img/portfolio/projects/19/1.jpg",
+                    "title": "Image 2",
+                    "width": "800px"
+                },
+                {
+                    "url": "/assets/img/portfolio/projects/19/2.jpg",
+                    "title": "Image 3",
+                    "width": "800px"
+                },
+                {
+                    "url": "/assets/img/portfolio/projects/19/3.jpg",
+                    "title": "Image 4",
+                    "width": "800px"
+                },
+                {
+                    "url": "/assets/img/portfolio/projects/19/4.jpg",
+                    "title": "Image 5",
+                    "width": "800px"
+                },
+                {
+                    "url": "/assets/img/portfolio/projects/19/5.jpg",
+                    "title": "Image 6",
+                    "width": "800px"
+                },
+                {
+                    "url": "/assets/img/portfolio/projects/19/6.jpg",
+                    "title": "Image 7",
+                    "width": "800px"
+                },
+                {
+                    "url": "/assets/img/portfolio/projects/19/7.jpg",
+                    "title": "Image 7",
+                    "width": "800px"
+                }
+            ]
+        }
+    ]
+
+}
