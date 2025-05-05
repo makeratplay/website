@@ -1,1086 +1,1159 @@
 [
     {
-        "category": ["Band Props", "Metalwork"],
+        "category": [
+            "Band Props"
+        ],
+        "name": "2025 Marching Band Props",
+        "img": "assets/img/portfolio/thumbnails/63.jpg",
+        "page": "projects/63/index.html"
+    },
+    {
+        "category": [
+            "Band Props",
+            "Metalwork"
+        ],
         "name": "2024 Marching Band Props",
         "img": "assets/img/portfolio/thumbnails/59.jpg",
         "page": "projects/59/index.html"
     },
-
     {
-        "category": ["Woodworking"],
+        "category": [
+            "Woodworking"
+        ],
         "name": "The Paulk Smart Bench",
         "img": "assets/img/portfolio/thumbnails/61.jpg",
         "page": "projects/61/index.html"
-
-    }, 
-
+    },
     {
-        "category": ["Woodworking"],
+        "category": [
+            "Woodworking"
+        ],
         "name": "Miter Saw Sation",
         "img": "assets/img/portfolio/thumbnails/58.jpg",
         "page": "projects/58/index.html"
-
-    }, 
-
+    },
     {
-        "category": ["Woodworking", "Electronics"],
+        "category": [
+            "Woodworking",
+            "Electronics"
+        ],
         "name": "Spotify Player",
         "img": "assets/img/portfolio/thumbnails/46.jpg",
         "page": "projects/46/index.html"
-
-    },  
-
+    },
     {
-        "category": ["Woodworking", "Electronics"],
+        "category": [
+            "Woodworking",
+            "Electronics"
+        ],
         "name": "On Air Sign",
         "img": "assets/img/portfolio/thumbnails/43.jpg",
         "page": "projects/43/index.html"
-
-    },  
-
+    },
     {
-        "category": ["Woodworking"],
+        "category": [
+            "Woodworking"
+        ],
         "name": "Vivify Sign",
         "img": "assets/img/portfolio/thumbnails/33.jpg",
         "page": "projects/33/index.html"
-
     },
-
     {
-        "category": ["Woodworking"],
+        "category": [
+            "Woodworking"
+        ],
         "name": "Computer and Project Desk",
         "img": "assets/img/portfolio/thumbnails/1.jpg",
-        "description" : "",
+        "description": "",
         "page": "projects/1/index.html"
     },
     {
-        "category": ["Woodworking"],
+        "category": [
+            "Woodworking"
+        ],
         "name": "French Cleat Tool Wall",
         "img": "assets/img/portfolio/thumbnails/2.jpg",
         "page": "projects/2/index.html",
-        "description" : "This is my tool wall in the workshop. Below are my YouTube videos for the different tool holders that I have built for the wall.",
-        "sections" : [
+        "description": "This is my tool wall in the workshop. Below are my YouTube videos for the different tool holders that I have built for the wall.",
+        "sections": [
             {
-                "video" : "https://www.youtube.com/embed/20yIMUkYWkE"
+                "video": "https://www.youtube.com/embed/20yIMUkYWkE"
             },
             {
-                "video" : "https://www.youtube.com/embed/10w78wksMbc"
+                "video": "https://www.youtube.com/embed/10w78wksMbc"
             },
             {
-                "video" : "https://www.youtube.com/embed/N9kf6tZCCwA"
+                "video": "https://www.youtube.com/embed/N9kf6tZCCwA"
             },
             {
-                "video" : "https://www.youtube.com/embed/Qju0fMbmzlg"
+                "video": "https://www.youtube.com/embed/Qju0fMbmzlg"
             },
             {
-                "video" : "https://www.youtube.com/embed/zyzPwozfE78"
+                "video": "https://www.youtube.com/embed/zyzPwozfE78"
             },
             {
-                "video" : "https://www.youtube.com/embed/hipSH8gQcnE"
+                "video": "https://www.youtube.com/embed/hipSH8gQcnE"
             }
-            
         ]
-
     },
     {
-        "category": ["Woodworking"],
+        "category": [
+            "Woodworking"
+        ],
         "name": "YouTube Subscriber Tracker",
         "img": "assets/img/portfolio/thumbnails/3.jpg",
-        "description" : "I upcycle an old Samsung Galaxy tablet, Walnut and Cherry into a beautiful display for my office wall.",
-        "sections" : [
+        "description": "I upcycle an old Samsung Galaxy tablet, Walnut and Cherry into a beautiful display for my office wall.",
+        "sections": [
             {
-                "video" : "https://www.youtube.com/embed/CylIlaT87ps"
+                "video": "https://www.youtube.com/embed/CylIlaT87ps"
             },
             {
-                "video" : "https://www.youtube.com/embed/z_Rn1EgFv28"
+                "video": "https://www.youtube.com/embed/z_Rn1EgFv28"
             }
-        ]        
+        ]
     },
-
     {
-        "category": ["Electronics"],
+        "category": [
+            "Electronics"
+        ],
         "name": "Alexa Voice Control",
         "img": "assets/img/portfolio/thumbnails/47.jpg",
         "page": "projects/47/index.html"
-
-    }, 
+    },
     {
-        "category": ["Woodworking", "Laser Cutter"],
+        "category": [
+            "Woodworking",
+            "Laser Cutter"
+        ],
         "name": "Mother's Day Gift",
         "img": "assets/img/portfolio/thumbnails/48.jpg",
-        "description" : "Made a Mother's Day gift for my wife using the Glowforge",
-        "sections" : [
+        "description": "Made a Mother's Day gift for my wife using the Glowforge",
+        "sections": [
             {
-                "image" : "/assets/img/portfolio/thumbnails/48.jpg"
+                "image": "/assets/img/portfolio/thumbnails/48.jpg"
             },
             {
-                "image" : "/projects/48/20210508_115504.jpg"
-            },    
+                "image": "/projects/48/20210508_115504.jpg"
+            },
             {
-                "image" : "/projects/48/20210505_194010.jpg"
-            }                    
-        ]        
+                "image": "/projects/48/20210505_194010.jpg"
+            }
+        ]
     },
-
     {
-        "category": ["Woodworking", "Laser Cutter"],
+        "category": [
+            "Woodworking",
+            "Laser Cutter"
+        ],
         "name": "Glowforge Stand",
         "img": "assets/img/portfolio/thumbnails/51.jpg",
-        "description" : "Custom built stand for my Glowforge",
-        "sections" : [
+        "description": "Custom built stand for my Glowforge",
+        "sections": [
             {
-                "image" : "/assets/img/portfolio/projects/51/1.jpg"
+                "image": "/assets/img/portfolio/projects/51/1.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/51/2.jpg"
+                "image": "/assets/img/portfolio/projects/51/2.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/51/3.jpg"
+                "image": "/assets/img/portfolio/projects/51/3.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/51/4.jpg"
+                "image": "/assets/img/portfolio/projects/51/4.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/51/5.jpg"
+                "image": "/assets/img/portfolio/projects/51/5.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/51/6.jpg"
+                "image": "/assets/img/portfolio/projects/51/6.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/51/7.jpg"
+                "image": "/assets/img/portfolio/projects/51/7.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/51/10.jpg"
+                "image": "/assets/img/portfolio/projects/51/10.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/51/11.jpg"
+                "image": "/assets/img/portfolio/projects/51/11.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/51/12.jpg"
+                "image": "/assets/img/portfolio/projects/51/12.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/51/13.jpg"
+                "image": "/assets/img/portfolio/projects/51/13.jpg"
             }
-
-        ]             
-    },    
-
-
+        ]
+    },
     {
-        "category": ["Woodworking", "Laser Cutter"],
+        "category": [
+            "Woodworking",
+            "Laser Cutter"
+        ],
         "name": "Confirmation Gifts",
         "img": "assets/img/portfolio/thumbnails/60.jpg",
-        "description" : "Create Confirmation gifts for confirmans using the Glowforge",
-        "sections" : [
+        "description": "Create Confirmation gifts for confirmans using the Glowforge",
+        "sections": [
             {
-                "html" : "<p>The first year, I crafted them from acrylic, shaping each one into the form of their name with their class verse.</p>"
+                "html": "<p>The first year, I crafted them from acrylic, shaping each one into the form of their name with their class verse.</p>"
             },
             {
-                "image" : "/assets/img/portfolio/projects/60/1.jpg"
+                "image": "/assets/img/portfolio/projects/60/1.jpg"
             },
             {
-                "html" : "<p>The next two years, I crafted them out of walnut, personalizing each with their name and confirmation verse on the front and their class verse on the back.</p>"
-            },            
-            {
-                "image" : "/assets/img/portfolio/projects/60/2.jpg"
+                "html": "<p>The next two years, I crafted them out of walnut, personalizing each with their name and confirmation verse on the front and their class verse on the back.</p>"
             },
             {
-                "image" : "/assets/img/portfolio/projects/60/3.jpg"
+                "image": "/assets/img/portfolio/projects/60/2.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/60/4.jpg"
+                "image": "/assets/img/portfolio/projects/60/3.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/60/5.jpg"
+                "image": "/assets/img/portfolio/projects/60/4.jpg"
+            },
+            {
+                "image": "/assets/img/portfolio/projects/60/5.jpg"
             }
-        ]             
-    },    
-
+        ]
+    },
     {
-        "category": ["Electronics"],
+        "category": [
+            "Electronics"
+        ],
         "name": "Air Quality Monitor",
         "img": "assets/img/portfolio/thumbnails/52.jpg",
-        "description" : "",
-        "sections" : [
+        "description": "",
+        "sections": [
             {
-                "image" : "/assets/img/portfolio/projects/52/1.jpg"
+                "image": "/assets/img/portfolio/projects/52/1.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/52/2.jpg"
+                "image": "/assets/img/portfolio/projects/52/2.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/52/3.jpg"
+                "image": "/assets/img/portfolio/projects/52/3.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/52/4_1.jpg"
+                "image": "/assets/img/portfolio/projects/52/4_1.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/52/4.jpg"
+                "image": "/assets/img/portfolio/projects/52/4.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/52/5.jpg"
+                "image": "/assets/img/portfolio/projects/52/5.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/52/6.jpg"
+                "image": "/assets/img/portfolio/projects/52/6.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/52/7.jpg"
+                "image": "/assets/img/portfolio/projects/52/7.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/52/8.jpg"
+                "image": "/assets/img/portfolio/projects/52/8.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/52/9.jpg"
+                "image": "/assets/img/portfolio/projects/52/9.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/52/10.jpg"
+                "image": "/assets/img/portfolio/projects/52/10.jpg"
             }
-        ]             
+        ]
     },
-
-
-
     {
-        "category": ["Band Props", "Metalwork"],
+        "category": [
+            "Band Props",
+            "Metalwork"
+        ],
         "name": "2023 Marching Band Props",
         "img": "assets/img/portfolio/thumbnails/57.jpg",
         "page": "projects/57/index.html"
     },
-
-
-
     {
-        "category": ["Band Props", "Metalwork"],
+        "category": [
+            "Band Props",
+            "Metalwork"
+        ],
         "name": "2022 Marching Band Props",
         "img": "assets/img/portfolio/thumbnails/54.jpg",
         "page": "projects/54/index.html",
-        "sections" : [
+        "sections": [
             {
-                "video" : "https://www.youtube.com/embed/sA98O7WxaHI"
+                "video": "https://www.youtube.com/embed/sA98O7WxaHI"
             },
             {
-                "video" : "https://www.youtube.com/embed/2Fn327zVo7k"
-            },            
-            {
-                "image" : "/assets/img/portfolio/projects/54/fieldSetUp.png"
+                "video": "https://www.youtube.com/embed/2Fn327zVo7k"
             },
             {
-                "image" : "/assets/img/portfolio/projects/54/fieldSetUp2.png"
+                "image": "/assets/img/portfolio/projects/54/fieldSetUp.png"
             },
             {
-                "image" : "/assets/img/portfolio/projects/54/prop1.png"
+                "image": "/assets/img/portfolio/projects/54/fieldSetUp2.png"
             },
             {
-                "image" : "/assets/img/portfolio/projects/54/prop_parts.png"
+                "image": "/assets/img/portfolio/projects/54/prop1.png"
             },
             {
-                "image" : "/assets/img/portfolio/projects/54/pins.png"
+                "image": "/assets/img/portfolio/projects/54/prop_parts.png"
             },
             {
-                "image" : "/assets/img/portfolio/projects/54/bandProps_2022_coinFlip v10.png"
+                "image": "/assets/img/portfolio/projects/54/pins.png"
             },
             {
-                "image" : "/assets/img/portfolio/projects/54/1.jpg"
+                "image": "/assets/img/portfolio/projects/54/bandProps_2022_coinFlip v10.png"
             },
             {
-                "image" : "/assets/img/portfolio/projects/54/2.jpg"
+                "image": "/assets/img/portfolio/projects/54/1.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/54/3.jpg"
+                "image": "/assets/img/portfolio/projects/54/2.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/54/4.jpg"
+                "image": "/assets/img/portfolio/projects/54/3.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/54/5.jpg"
+                "image": "/assets/img/portfolio/projects/54/4.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/54/6.jpg"
+                "image": "/assets/img/portfolio/projects/54/5.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/54/7.jpg"
+                "image": "/assets/img/portfolio/projects/54/6.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/54/8.jpg"
+                "image": "/assets/img/portfolio/projects/54/7.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/54/9.jpg"
+                "image": "/assets/img/portfolio/projects/54/8.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/54/10.jpg"
+                "image": "/assets/img/portfolio/projects/54/9.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/54/11.jpg"
+                "image": "/assets/img/portfolio/projects/54/10.jpg"
+            },
+            {
+                "image": "/assets/img/portfolio/projects/54/11.jpg"
             }
         ]
     },
-
     {
-        "category": ["Band Props", "Metalwork"],
+        "category": [
+            "Band Props",
+            "Metalwork"
+        ],
         "name": "2022 Winter Guard Props",
         "img": "assets/img/portfolio/thumbnails/56.jpg",
         "page": "projects/56/index.html"
     },
-
     {
-        "category": ["Band Props", "Metalwork"],
+        "category": [
+            "Band Props",
+            "Metalwork"
+        ],
         "name": "2021 Marching Band Props",
         "img": "assets/img/portfolio/thumbnails/49.jpg",
         "page": "projects/49/index.html"
     },
-
     {
-        "category": ["Band Props"],
+        "category": [
+            "Band Props"
+        ],
         "name": "2020 Marching Band Props",
         "img": "assets/img/portfolio/thumbnails/53.jpg",
-        "sections" : [
+        "sections": [
             {
-                "video" : "https://www.youtube.com/embed/lHc5WUV0FhU"
+                "video": "https://www.youtube.com/embed/lHc5WUV0FhU"
             },
             {
-                "image" : "/assets/img/portfolio/projects/53/9.jpg"
+                "image": "/assets/img/portfolio/projects/53/9.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/53/1.jpg"
+                "image": "/assets/img/portfolio/projects/53/1.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/53/2.jpg"
+                "image": "/assets/img/portfolio/projects/53/2.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/53/3.jpg"
+                "image": "/assets/img/portfolio/projects/53/3.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/53/4.jpg"
+                "image": "/assets/img/portfolio/projects/53/4.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/53/5.jpg"
+                "image": "/assets/img/portfolio/projects/53/5.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/53/6.JPG"
+                "image": "/assets/img/portfolio/projects/53/6.JPG"
             },
             {
-                "image" : "/assets/img/portfolio/projects/53/7.jpg"
+                "image": "/assets/img/portfolio/projects/53/7.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/53/8.jpg"
+                "image": "/assets/img/portfolio/projects/53/8.jpg"
             }
         ]
-    },  
-
+    },
     {
-        "category": ["Band Props"],
+        "category": [
+            "Band Props"
+        ],
         "name": "2019 Marching Band Props",
         "img": "assets/img/portfolio/thumbnails/19.jpg",
         "page": "projects/19/index.html"
-    },         
+    },
     {
-        "category": ["Band Props", "Woodworking"],
+        "category": [
+            "Band Props",
+            "Woodworking"
+        ],
         "name": "2018 Marching Band Props",
         "img": "assets/img/portfolio/thumbnails/11.jpg",
-        "sections" : [
+        "sections": [
             {
-                
-                "video" : "https://www.youtube.com/embed/iUEXcBYZqIc"
-            },            
-            {
-                
-                "video" : "https://www.youtube.com/embed/CLb6jjWv_H8"
+                "video": "https://www.youtube.com/embed/iUEXcBYZqIc"
             },
             {
-                "image" : "/assets/img/portfolio/projects/11/1.jpg"
+                "video": "https://www.youtube.com/embed/CLb6jjWv_H8"
             },
             {
-                "image" : "/assets/img/portfolio/projects/11/2.jpg"
+                "image": "/assets/img/portfolio/projects/11/1.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/11/3.jpg"
+                "image": "/assets/img/portfolio/projects/11/2.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/11/4.jpg"
+                "image": "/assets/img/portfolio/projects/11/3.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/11/5.jpg"
+                "image": "/assets/img/portfolio/projects/11/4.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/11/6.jpg"
+                "image": "/assets/img/portfolio/projects/11/5.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/11/7.jpg"
+                "image": "/assets/img/portfolio/projects/11/6.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/11/8.jpg"
+                "image": "/assets/img/portfolio/projects/11/7.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/11/9.jpg"
+                "image": "/assets/img/portfolio/projects/11/8.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/11/10.jpg"
+                "image": "/assets/img/portfolio/projects/11/9.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/11/11.jpg"
+                "image": "/assets/img/portfolio/projects/11/10.jpg"
+            },
+            {
+                "image": "/assets/img/portfolio/projects/11/11.jpg"
             }
-            
-        ]         
+        ]
     },
     {
-        "category": ["Woodworking"],
+        "category": [
+            "Woodworking"
+        ],
         "name": "Custom Percussion Slap Stick",
         "img": "assets/img/portfolio/thumbnails/50.jpg",
-        "description" : "Custom built slap sticks for the high school band to replace ones they broke.",
-        "sections" : [
+        "description": "Custom built slap sticks for the high school band to replace ones they broke.",
+        "sections": [
             {
-                "image" : "/assets/img/portfolio/projects/50/5.jpg"
+                "image": "/assets/img/portfolio/projects/50/5.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/50/1.jpg"
+                "image": "/assets/img/portfolio/projects/50/1.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/50/2.jpg"
+                "image": "/assets/img/portfolio/projects/50/2.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/50/3.jpg"
+                "image": "/assets/img/portfolio/projects/50/3.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/50/4.jpg"
+                "image": "/assets/img/portfolio/projects/50/4.jpg"
+            },
+            {
+                "image": "/assets/img/portfolio/projects/50/6.jpg"
             }
-            ,
-            {
-                "image" : "/assets/img/portfolio/projects/50/6.jpg"
-            }
-        ]             
+        ]
     },
-
     {
-        "category": ["Metalwork"],
+        "category": [
+            "Metalwork"
+        ],
         "name": "LiftBot 2000",
         "img": "assets/img/portfolio/thumbnails/55.jpg",
-        "description" : "I built lift winch to help load items into a trailer",
+        "description": "I built lift winch to help load items into a trailer",
         "page": "projects/55/index.html",
-        "sections" : [
-        ]
-
-    },      
-
+        "sections": []
+    },
     {
-        "category": ["Woodworking"],
+        "category": [
+            "Woodworking"
+        ],
         "name": "Miter Sled Jig",
         "img": "assets/img/portfolio/thumbnails/42.jpg",
-        "description" : "I built a miter sled jig for my table saw to make my project builds faster.",
-        "sections" : [
+        "description": "I built a miter sled jig for my table saw to make my project builds faster.",
+        "sections": [
             {
-                "video" : "https://www.youtube.com/embed/gFVQs7_1cGM"
+                "video": "https://www.youtube.com/embed/gFVQs7_1cGM"
             }
         ]
-
-    },    
+    },
     {
-        "category": ["Woodworking"],
+        "category": [
+            "Woodworking"
+        ],
         "name": "Computer desk and Shelves",
         "img": "assets/img/portfolio/thumbnails/16.jpg",
         "page": "projects/1/index.html"
     },
-
     {
-        "category": ["Programming", "Electronics"],
+        "category": [
+            "Programming",
+            "Electronics"
+        ],
         "name": "6502 Interactive Block Diagram",
         "img": "assets/img/portfolio/thumbnails/7.jpg",
         "page": "projects/7/index.html"
     },
     {
-        "category": ["Programming"],
+        "category": [
+            "Programming"
+        ],
         "name": "Commodore VIC 20 Kernal Debug Tool | 6502 Emulator",
         "img": "assets/img/portfolio/thumbnails/24.jpg",
         "page": "projects/24/index.html",
-        "description" : "I have written a JavaScript program that loads an image of the Commodore VIC 20 Kernal ROM and allows me to step through the code as if I was in a debugger.",
-        "sections" : [
+        "description": "I have written a JavaScript program that loads an image of the Commodore VIC 20 Kernal ROM and allows me to step through the code as if I was in a debugger.",
+        "sections": [
             {
-                "video" : "https://www.youtube.com/embed/M5L0pI0AeQs"
+                "video": "https://www.youtube.com/embed/M5L0pI0AeQs"
             },
             {
-                "html" : "<p>Here is a link to a live demo page <a href='https://makeratplay.github.io/6502-Emulator/'>https://makeratplay.github.io/6502-Emulator/</a></p><p>Here is a link to source code <a href='https://github.com/makeratplay/6502-Emulator'>https://github.com/makeratplay/6502-Emulator</a></p>"
+                "html": "<p>Here is a link to a live demo page <a href='https://makeratplay.github.io/6502-Emulator/'>https://makeratplay.github.io/6502-Emulator/</a></p><p>Here is a link to source code <a href='https://github.com/makeratplay/6502-Emulator'>https://github.com/makeratplay/6502-Emulator</a></p>"
             }
-        ]   
-        
+        ]
     },
     {
-        "category": ["Electronics"],
+        "category": [
+            "Electronics"
+        ],
         "name": "Commodore VIC 20 to VGA Monitor",
         "img": "assets/img/portfolio/thumbnails/21.jpg",
-        "description" : "How to hook your Commodore VIC 20 (or Commodore 64) to a VGA Monitor.",
-        "sections" : [
+        "description": "How to hook your Commodore VIC 20 (or Commodore 64) to a VGA Monitor.",
+        "sections": [
             {
-                "video" : "https://www.youtube.com/embed/R111OGHoF0o"
+                "video": "https://www.youtube.com/embed/R111OGHoF0o"
             }
-        ]   
-        
-    },   
-
+        ]
+    },
     {
-        "category": ["Electronics"],
+        "category": [
+            "Electronics"
+        ],
         "name": "Ardunio Controlled Light Switches",
         "img": "assets/img/portfolio/thumbnails/17.jpg",
-        "description" : "Ardunio Controlled Light Switches",
-        "sections" : [
+        "description": "Ardunio Controlled Light Switches",
+        "sections": [
             {
-                "image" : "/assets/img/portfolio/projects/17/1.jpg"
+                "image": "/assets/img/portfolio/projects/17/1.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/17/2.jpg"
+                "image": "/assets/img/portfolio/projects/17/2.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/17/3.jpg"
+                "image": "/assets/img/portfolio/projects/17/3.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/17/4.jpg"
+                "image": "/assets/img/portfolio/projects/17/4.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/17/5.jpg"
+                "image": "/assets/img/portfolio/projects/17/5.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/17/6.jpg"
+                "image": "/assets/img/portfolio/projects/17/6.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/17/7.jpg"
+                "image": "/assets/img/portfolio/projects/17/7.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/17/8.jpg"
+                "image": "/assets/img/portfolio/projects/17/8.jpg"
             }
-            
-        ]             
+        ]
     },
- 
     {
-        "category": ["Electronics"],
+        "category": [
+            "Electronics"
+        ],
         "name": "16x2 LCD Module",
         "img": "assets/img/portfolio/thumbnails/40.jpg",
         "page": "projects/40/index.html"
     },
     {
-        "category": ["Woodworking"],
+        "category": [
+            "Woodworking"
+        ],
         "name": "Camp Kitchen Chuck Boxes",
         "img": "assets/img/portfolio/thumbnails/4.jpg",
-        "description" : "My check boxes I built for camping",
-        "sections" : [
+        "description": "My check boxes I built for camping",
+        "sections": [
             {
-                "video" : "https://www.youtube.com/embed/iaTxj4XuZVc"
+                "video": "https://www.youtube.com/embed/iaTxj4XuZVc"
             }
         ]
-        
     },
     {
-        "category": ["Woodworking"],
+        "category": [
+            "Woodworking"
+        ],
         "name": "Patio Chair Prototype",
         "img": "assets/img/portfolio/thumbnails/44.jpg",
-        "description" : "In preparation for building some patio chairs for the first time, I first build a prototype of the chair out of 2x6 SPF lumber.",
-        "sections" : [
+        "description": "In preparation for building some patio chairs for the first time, I first build a prototype of the chair out of 2x6 SPF lumber.",
+        "sections": [
             {
-                "video" : "https://www.youtube.com/embed/n93UHhFiY-4"
+                "video": "https://www.youtube.com/embed/n93UHhFiY-4"
             }
         ]
-    },       
+    },
     {
-        "category": ["Electronics"],
+        "category": [
+            "Electronics"
+        ],
         "name": "Galaga Control Panel",
         "img": "assets/img/portfolio/thumbnails/41.jpg",
-        "description" : "I purchased this Galaga control panel along with an original game PCB off ebay with the idea I will make it into a working console again someday.",
-        "sections" : [
+        "description": "I purchased this Galaga control panel along with an original game PCB off ebay with the idea I will make it into a working console again someday.",
+        "sections": [
             {
-                "image" : "assets/img/portfolio/thumbnails/41.jpg"
+                "image": "assets/img/portfolio/thumbnails/41.jpg"
             }
         ]
-    },   
+    },
     {
-        "category": ["Woodworking", "CNC"],
+        "category": [
+            "Woodworking",
+            "CNC"
+        ],
         "name": "CNC Table and Storage",
         "img": "assets/img/portfolio/thumbnails/9.jpg",
-        "description" : "It was time for my Stepcraft 840 CNC to have a permanent home in the garage.",
-        "sections" : [
+        "description": "It was time for my Stepcraft 840 CNC to have a permanent home in the garage.",
+        "sections": [
             {
-                "video" : "https://www.youtube.com/embed/8srHhqvFcLk"
-            }
-        ]        
-    },     
-    {
-        "category": ["Model Train"],
-        "name": "HO Model Train Layout #3",
-        "description" : "20x20 foot layout I built in our Green Hollow house from 2001-2007",
-        "img": "assets/img/portfolio/thumbnails/5.jpg",
-        "sections" : [
-            {
-                "image" : "/assets/img/portfolio/projects/5/1.JPG"
-            },
-            {
-                "image" : "/assets/img/portfolio/projects/5/2.JPG"
-            },
-            {
-                "image" : "/assets/img/portfolio/projects/5/3.JPG"
-            },
-            {
-                "image" : "/assets/img/portfolio/projects/5/4.JPG"
-            },
-            {
-                "image" : "/assets/img/portfolio/projects/5/5.JPG"
-            },
-            {
-                "image" : "/assets/img/portfolio/projects/5/6.JPG"
-            },
-            {
-                "image" : "/assets/img/portfolio/projects/5/7.jpg"
-            },
-            {
-                "image" : "/assets/img/portfolio/projects/5/8.jpg"
-            },
-            {
-                "image" : "/assets/img/portfolio/projects/5/9.JPG"
-            },
-            {
-                "image" : "/assets/img/portfolio/projects/5/10.JPG"
-            },
-            {
-                "image" : "/assets/img/portfolio/projects/5/11.jpg"
-            },
-            {
-                "image" : "/assets/img/portfolio/projects/5/12.JPG"
-            },
-            {
-                "image" : "/assets/img/portfolio/projects/5/13.JPG"
-            },
-            {
-                "image" : "/assets/img/portfolio/projects/5/14.JPG"
-            }
-            ,
-            {
-                "image" : "/assets/img/portfolio/projects/5/15.JPG"
+                "video": "https://www.youtube.com/embed/8srHhqvFcLk"
             }
         ]
     },
-
     {
-        "category": ["Model Train"],
-        "name": "HO Train Layout #1",
-        "description" : "My first HO layout that I built when living in Nac circa 1998",
-        "img": "assets/img/portfolio/thumbnails/14.jpg",
-        "sections" : [
+        "category": [
+            "Model Train"
+        ],
+        "name": "HO Model Train Layout #3",
+        "description": "20x20 foot layout I built in our Green Hollow house from 2001-2007",
+        "img": "assets/img/portfolio/thumbnails/5.jpg",
+        "sections": [
             {
-                "image" : "/assets/img/portfolio/projects/14/1.jpg"
+                "image": "/assets/img/portfolio/projects/5/1.JPG"
             },
             {
-                "image" : "/assets/img/portfolio/projects/14/2.jpg"
+                "image": "/assets/img/portfolio/projects/5/2.JPG"
             },
             {
-                "image" : "/assets/img/portfolio/projects/14/3.jpg"
+                "image": "/assets/img/portfolio/projects/5/3.JPG"
             },
             {
-                "image" : "/assets/img/portfolio/projects/14/4.jpg"
+                "image": "/assets/img/portfolio/projects/5/4.JPG"
             },
             {
-                "image" : "/assets/img/portfolio/projects/14/5.jpg"
+                "image": "/assets/img/portfolio/projects/5/5.JPG"
             },
             {
-                "image" : "/assets/img/portfolio/projects/14/6.jpg"
+                "image": "/assets/img/portfolio/projects/5/6.JPG"
             },
             {
-                "image" : "/assets/img/portfolio/projects/14/7.jpg"
+                "image": "/assets/img/portfolio/projects/5/7.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/14/8.JPG"
+                "image": "/assets/img/portfolio/projects/5/8.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/14/9.JPG"
+                "image": "/assets/img/portfolio/projects/5/9.JPG"
             },
             {
-                "image" : "/assets/img/portfolio/projects/14/10.JPG"
+                "image": "/assets/img/portfolio/projects/5/10.JPG"
+            },
+            {
+                "image": "/assets/img/portfolio/projects/5/11.jpg"
+            },
+            {
+                "image": "/assets/img/portfolio/projects/5/12.JPG"
+            },
+            {
+                "image": "/assets/img/portfolio/projects/5/13.JPG"
+            },
+            {
+                "image": "/assets/img/portfolio/projects/5/14.JPG"
+            },
+            {
+                "image": "/assets/img/portfolio/projects/5/15.JPG"
             }
-        ]  
+        ]
     },
     {
-        "category": ["Model Train"],
+        "category": [
+            "Model Train"
+        ],
+        "name": "HO Train Layout #1",
+        "description": "My first HO layout that I built when living in Nac circa 1998",
+        "img": "assets/img/portfolio/thumbnails/14.jpg",
+        "sections": [
+            {
+                "image": "/assets/img/portfolio/projects/14/1.jpg"
+            },
+            {
+                "image": "/assets/img/portfolio/projects/14/2.jpg"
+            },
+            {
+                "image": "/assets/img/portfolio/projects/14/3.jpg"
+            },
+            {
+                "image": "/assets/img/portfolio/projects/14/4.jpg"
+            },
+            {
+                "image": "/assets/img/portfolio/projects/14/5.jpg"
+            },
+            {
+                "image": "/assets/img/portfolio/projects/14/6.jpg"
+            },
+            {
+                "image": "/assets/img/portfolio/projects/14/7.jpg"
+            },
+            {
+                "image": "/assets/img/portfolio/projects/14/8.JPG"
+            },
+            {
+                "image": "/assets/img/portfolio/projects/14/9.JPG"
+            },
+            {
+                "image": "/assets/img/portfolio/projects/14/10.JPG"
+            }
+        ]
+    },
+    {
+        "category": [
+            "Model Train"
+        ],
         "name": "HO Train Layout #2",
         "img": "assets/img/portfolio/thumbnails/15.jpg",
-        "sections" : [
+        "sections": [
             {
-                "image" : "/assets/img/portfolio/projects/15/1.jpg"
+                "image": "/assets/img/portfolio/projects/15/1.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/15/2.jpg"
+                "image": "/assets/img/portfolio/projects/15/2.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/15/3.jpg"
+                "image": "/assets/img/portfolio/projects/15/3.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/15/4.jpg"
+                "image": "/assets/img/portfolio/projects/15/4.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/15/5.jpg"
+                "image": "/assets/img/portfolio/projects/15/5.jpg"
             }
-        ]  
+        ]
     },
-
     {
-        "category": ["3D Printing"],
+        "category": [
+            "3D Printing"
+        ],
         "name": "Ender 3 Pro Printer",
         "img": "assets/img/portfolio/thumbnails/45.jpg",
-        "description" : "I show you how to turn an image into a 3d print using Inkscape, Fusion 360 and Ultimaker Cura to create G-code file that your 3D printer can use to create the object.",
-        "sections" : [
+        "description": "I show you how to turn an image into a 3d print using Inkscape, Fusion 360 and Ultimaker Cura to create G-code file that your 3D printer can use to create the object.",
+        "sections": [
             {
-                "video" : "https://www.youtube.com/embed/JJSkR_ZPrRA"
-                
+                "video": "https://www.youtube.com/embed/JJSkR_ZPrRA"
             },
             {
-                "video" : "https://www.youtube.com/embed/zMgoZUHFnKo"
+                "video": "https://www.youtube.com/embed/zMgoZUHFnKo"
             }
         ]
-    },    
+    },
     {
-        "category": ["Programming"],
+        "category": [
+            "Programming"
+        ],
         "name": "Blurts BlackBerry App",
         "img": "assets/img/portfolio/thumbnails/37.jpg",
-        "description" : "BlackBerry application written in 2010 and published to BlackBerry App World as one of my MLH Software BlackBerry applications",
-        "sections" : [
+        "description": "BlackBerry application written in 2010 and published to BlackBerry App World as one of my MLH Software BlackBerry applications",
+        "sections": [
             {
-                "html" : "<p>Blurts - Notifications from your BlackBerry® to your PC via Bluetooth. See who is calling, emailing or BBM™ without taking your BlackBerry® out of your pocket, purse, or holster.</p><p><a href='http://mlhsoftware.com/Blurts/index.html/'>Blurts web page</a></p><p><a href='https://appworld.blackberry.com/webstore/content/4298/?lang=en'>App on BlackBerry App World</a></p><p><a href='https://github.com/makeratplay/BlackBerry-Blurts'>Source Code on GitHub</a></p>"
+                "html": "<p>Blurts - Notifications from your BlackBerry® to your PC via Bluetooth. See who is calling, emailing or BBM™ without taking your BlackBerry® out of your pocket, purse, or holster.</p><p><a href='http://mlhsoftware.com/Blurts/index.html/'>Blurts web page</a></p><p><a href='https://appworld.blackberry.com/webstore/content/4298/?lang=en'>App on BlackBerry App World</a></p><p><a href='https://github.com/makeratplay/BlackBerry-Blurts'>Source Code on GitHub</a></p>"
             },
             {
-                "video" : "https://www.youtube.com/embed/PTcSq364rfA",
-                "text" : "Interop New York 2009 - My demo of Blurts with David Pogue (11/18/2009)"
+                "video": "https://www.youtube.com/embed/PTcSq364rfA",
+                "text": "Interop New York 2009 - My demo of Blurts with David Pogue (11/18/2009)"
             },
             {
-                "video" : "https://www.youtube.com/embed/5324D5pYxHM"
+                "video": "https://www.youtube.com/embed/5324D5pYxHM"
             }
-        ]        
+        ]
     },
-
     {
-        "category": ["Maker Project"],
+        "category": [
+            "Maker Project"
+        ],
         "name": "Water Balloon Cannon",
         "img": "assets/img/portfolio/thumbnails/6.jpg",
-        "description" : "The kids and I built a water ballon cannon",
-        "sections" : [
+        "description": "The kids and I built a water ballon cannon",
+        "sections": [
             {
-                "video" : "https://www.youtube.com/embed/8EFuVv9fllA"
+                "video": "https://www.youtube.com/embed/8EFuVv9fllA"
             },
             {
-                "video" : "https://www.youtube.com/embed/TUkJiov0kYA"
+                "video": "https://www.youtube.com/embed/TUkJiov0kYA"
             },
             {
-                "video" : "https://www.youtube.com/embed/28_pOiN-w7A"
+                "video": "https://www.youtube.com/embed/28_pOiN-w7A"
             }
         ]
-        
-        
     },
- 
-
     {
-        "category": ["Programming"],
+        "category": [
+            "Programming"
+        ],
         "name": "JavaScript Date Object and Time Zones",
         "img": "assets/img/portfolio/thumbnails/34.jpg",
-        "description" : "How to handle UTC and local time zone when turning a date string into a JavaScript Date object.",
-        "sections" : [
+        "description": "How to handle UTC and local time zone when turning a date string into a JavaScript Date object.",
+        "sections": [
             {
-                "video" : "https://www.youtube.com/embed/oKFb2Us9kmg"
+                "video": "https://www.youtube.com/embed/oKFb2Us9kmg"
             }
-        ]   
+        ]
     },
     {
-        "category": ["Maker Project", "CNC"],
+        "category": [
+            "Maker Project",
+            "CNC"
+        ],
         "name": "Yard Sign / Letters",
         "img": "assets/img/portfolio/thumbnails/8.jpg",
-        "description" : "The PTA at my kiddo's school was looking for a cost-effective way to advertise events. Spelling out things with large yard letters seemed to fit the bill and gave me a great excuse to buy a drag knife for my CNC. Check out the video to see how the project worked out.",
-        "sections" : [
+        "description": "The PTA at my kiddo's school was looking for a cost-effective way to advertise events. Spelling out things with large yard letters seemed to fit the bill and gave me a great excuse to buy a drag knife for my CNC. Check out the video to see how the project worked out.",
+        "sections": [
             {
-                "video" : "https://www.youtube.com/embed/lqTllidmOF4"
+                "video": "https://www.youtube.com/embed/lqTllidmOF4"
             }
-        ]        
+        ]
     },
     {
-        "category": ["Programming"],
+        "category": [
+            "Programming"
+        ],
         "name": "Bingo Caller BlackBerry App",
         "img": "assets/img/portfolio/thumbnails/35.jpg",
-        "description" : "BlackBerry application written in 2012 and published to BlackBerry App World as one of my MLH Software BlackBerry applications",
-        "sections" : [
+        "description": "BlackBerry application written in 2012 and published to BlackBerry App World as one of my MLH Software BlackBerry applications",
+        "sections": [
             {
-                "image" :  "assets/img/portfolio/thumbnails/35.jpg"
+                "image": "assets/img/portfolio/thumbnails/35.jpg"
             },
             {
-                "html" : "<p>Have a BlackBerry and some Bingo cards but no Bingo cage? Bingo Caller automatically selects numbers randomly for a game of 75 ball Bingo.</p><p>Note: This app is NOT a Bingo game, it just simulates a bingo cage by randomly selecting Bingo balls. You need your own Bingo cards to play a game of Bingo.</p><p><a href='http://mlhsoftware.com/'>MLH Software web page</a></p><p><a href='https://appworld.blackberry.com/webstore/content/107276/?countrycode=US&amp;lang=en'>App on BlackBerry App World</a></p><p><a href='https://github.com/makeratplay/BlackBerry-BingoCaller'>Source Code on GitHub</a></p>"
+                "html": "<p>Have a BlackBerry and some Bingo cards but no Bingo cage? Bingo Caller automatically selects numbers randomly for a game of 75 ball Bingo.</p><p>Note: This app is NOT a Bingo game, it just simulates a bingo cage by randomly selecting Bingo balls. You need your own Bingo cards to play a game of Bingo.</p><p><a href='http://mlhsoftware.com/'>MLH Software web page</a></p><p><a href='https://appworld.blackberry.com/webstore/content/107276/?countrycode=US&amp;lang=en'>App on BlackBerry App World</a></p><p><a href='https://github.com/makeratplay/BlackBerry-BingoCaller'>Source Code on GitHub</a></p>"
             }
-        ]        
+        ]
     },
-
     {
-        "category": ["Programming"],
+        "category": [
+            "Programming"
+        ],
         "name": "Missed Call Alert BlackBerry App",
         "img": "assets/img/portfolio/thumbnails/38.jpg",
-        "description" : "BlackBerry application written in 2009 and published to BlackBerry App World as one of my MLH Software BlackBerry applications",
-        "sections" : [
+        "description": "BlackBerry application written in 2009 and published to BlackBerry App World as one of my MLH Software BlackBerry applications",
+        "sections": [
             {
-                "image" :  "assets/img/portfolio/thumbnails/38.jpg"
+                "image": "assets/img/portfolio/thumbnails/38.jpg"
             },
             {
-                "html" : "<p>Missed Call Alert detects missed phone calls and creates a recurring audible alert based on active profile settings.</p><p><a href='http://mlhsoftware.com/MissedCallAlert/index.html'>App web page</a></p><p><a href='https://appworld.blackberry.com/webstore/content/3606/?lang=en&countrycode=US'>App on BlackBerry App World</a></p><p><a href='https://github.com/makeratplay/BlackBerry-MissedCallAlert'>Source Code on GitHub</a></p>"
+                "html": "<p>Missed Call Alert detects missed phone calls and creates a recurring audible alert based on active profile settings.</p><p><a href='http://mlhsoftware.com/MissedCallAlert/index.html'>App web page</a></p><p><a href='https://appworld.blackberry.com/webstore/content/3606/?lang=en&countrycode=US'>App on BlackBerry App World</a></p><p><a href='https://github.com/makeratplay/BlackBerry-MissedCallAlert'>Source Code on GitHub</a></p>"
             }
-        ]        
+        ]
     },
     {
-        "category": ["Woodworking"],
+        "category": [
+            "Woodworking"
+        ],
         "name": "Dust Collection System",
         "img": "assets/img/portfolio/thumbnails/10.jpg",
-        "description" : "After sitting idle in the corner of my garage for 10 years, it is finally time to put my dust collector to work. In this video I show how I mounted it to the wall to free up floor space as well as make it a two stage system.",
-        "sections" : [
+        "description": "After sitting idle in the corner of my garage for 10 years, it is finally time to put my dust collector to work. In this video I show how I mounted it to the wall to free up floor space as well as make it a two stage system.",
+        "sections": [
             {
-                "video" : "https://www.youtube.com/embed/ZfoB_zHH4gw"
+                "video": "https://www.youtube.com/embed/ZfoB_zHH4gw"
             },
             {
-                "video" : "https://www.youtube.com/embed/G2OFlK7CMIw"
+                "video": "https://www.youtube.com/embed/G2OFlK7CMIw"
             },
             {
-                "video" : "https://www.youtube.com/embed/TYTvoLe30BE"
+                "video": "https://www.youtube.com/embed/TYTvoLe30BE"
             }
-        ]   
+        ]
     },
-
     {
-        "category": ["Woodworking"],
+        "category": [
+            "Woodworking"
+        ],
         "name": "Garage Storage for Camp Chairs",
         "img": "assets/img/portfolio/thumbnails/12.jpg",
-        "description" : "Reducing clutter in the garage with a french cleat storage bin to get the camp chairs off the floor.",
-        "sections" : [
+        "description": "Reducing clutter in the garage with a french cleat storage bin to get the camp chairs off the floor.",
+        "sections": [
             {
-                "video" : "https://www.youtube.com/embed/_OUWdmXqfo4"
+                "video": "https://www.youtube.com/embed/_OUWdmXqfo4"
             }
-        ]   
+        ]
     },
     {
-        "category": ["Programming"],
+        "category": [
+            "Programming"
+        ],
         "name": "Code Life YouTube Channel",
         "img": "assets/img/portfolio/thumbnails/13.jpg",
-        "description" : "Sharing some of my programming knowledge through videos on my Code Life YouTube channel",
-        "sections" : [
+        "description": "Sharing some of my programming knowledge through videos on my Code Life YouTube channel",
+        "sections": [
             {
-                "video" : "https://www.youtube.com/embed/oKFb2Us9kmg"
+                "video": "https://www.youtube.com/embed/oKFb2Us9kmg"
             },
             {
-                "video" : "https://www.youtube.com/embed/ds1hy-3vCiY"
+                "video": "https://www.youtube.com/embed/ds1hy-3vCiY"
             },
             {
-                "video" : "https://www.youtube.com/embed/JVNW-bTlaxI"
+                "video": "https://www.youtube.com/embed/JVNW-bTlaxI"
             }
-        ]   
+        ]
     },
     {
-        "category": ["Programming"],
+        "category": [
+            "Programming"
+        ],
         "name": "Simply Solitaire BlackBerry App",
         "img": "assets/img/portfolio/thumbnails/39.jpg",
-        "description" : "BlackBerry application written in 2010 and published to BlackBerry App World as one of my MLH Software BlackBerry applications",
-        "sections" : [
+        "description": "BlackBerry application written in 2010 and published to BlackBerry App World as one of my MLH Software BlackBerry applications",
+        "sections": [
             {
-                "image" :  "assets/img/portfolio/thumbnails/39.jpg"
+                "image": "assets/img/portfolio/thumbnails/39.jpg"
             },
             {
-                "html" : "<p>Simply Solitaire is the classic card game also known as Klondike. Designed specifically for BlackBerry smartphone with Trackball/Trackpad, or Touchscreen for best user experience.</p><p><a href='http://mlhsoftware.com/SimplySolitaire/index.html'>App web page</a></p><p><a href='https://github.com/makeratplay/BlackBerry-SimplySolitaire'>Source Code on GitHub</a></p>"
+                "html": "<p>Simply Solitaire is the classic card game also known as Klondike. Designed specifically for BlackBerry smartphone with Trackball/Trackpad, or Touchscreen for best user experience.</p><p><a href='http://mlhsoftware.com/SimplySolitaire/index.html'>App web page</a></p><p><a href='https://github.com/makeratplay/BlackBerry-SimplySolitaire'>Source Code on GitHub</a></p>"
             }
-        ]        
+        ]
     },
- 
-  
     {
-        "category": ["Maker Project"],
+        "category": [
+            "Maker Project"
+        ],
         "name": "Family Pacman Costume",
         "img": "assets/img/portfolio/thumbnails/18.jpg",
-        "sections" : [
+        "sections": [
             {
-                "image" : "assets/img/portfolio/thumbnails/18.jpg"
+                "image": "assets/img/portfolio/thumbnails/18.jpg"
             }
         ]
     },
     {
-        "category": ["Programming"],
+        "category": [
+            "Programming"
+        ],
         "name": "Command Line BlackBerry App",
         "img": "assets/img/portfolio/thumbnails/36.jpg",
-        "description" : "BlackBerry application written in 2012 and published to BlackBerry App World as one of my MLH Software BlackBerry applications",
-        "sections" : [
+        "description": "BlackBerry application written in 2012 and published to BlackBerry App World as one of my MLH Software BlackBerry applications",
+        "sections": [
             {
-                "image" : "assets/img/portfolio/thumbnails/36.jpg"
+                "image": "assets/img/portfolio/thumbnails/36.jpg"
             },
             {
-                "html" : "<p>Your BlackBerry has a great keyboard so why not have a command line interface to get more use out of your keyboard.</p><p><a href='http://mlhsoftware.com/'>MLH Software web page</a></p><p><a href='https://appworld.blackberry.com/webstore/content/107276/?countrycode=US&amp;lang=en'>App on BlackBerry App World</a></p> <p><a href='https://github.com/makeratplay/BlackBerry-CommandLine'>Source Code on GitHub</a></p> "
-            }
-        ]        
-    },
-  
-    {
-        "category": ["Woodworking", "CNC"],
-        "name": "CNC Holddowns",
-        "img": "assets/img/portfolio/thumbnails/20.jpg",
-        "sections" : [
-            {
-                "image" : "assets/img/portfolio/thumbnails/20.jpg"
+                "html": "<p>Your BlackBerry has a great keyboard so why not have a command line interface to get more use out of your keyboard.</p><p><a href='http://mlhsoftware.com/'>MLH Software web page</a></p><p><a href='https://appworld.blackberry.com/webstore/content/107276/?countrycode=US&amp;lang=en'>App on BlackBerry App World</a></p> <p><a href='https://github.com/makeratplay/BlackBerry-CommandLine'>Source Code on GitHub</a></p> "
             }
         ]
     },
-
     {
-        "category": ["Programming"],
+        "category": [
+            "Woodworking",
+            "CNC"
+        ],
+        "name": "CNC Holddowns",
+        "img": "assets/img/portfolio/thumbnails/20.jpg",
+        "sections": [
+            {
+                "image": "assets/img/portfolio/thumbnails/20.jpg"
+            }
+        ]
+    },
+    {
+        "category": [
+            "Programming"
+        ],
         "name": "MLH Software Blackberry Apps",
         "img": "assets/img/portfolio/thumbnails/22.jpg",
-        "description" : "When BlackBerry announced they were launching a app store in 2009, I jumped in and started developing BlackBerry apps. I created MLH Software for this work.",
-        "sections" : [
+        "description": "When BlackBerry announced they were launching a app store in 2009, I jumped in and started developing BlackBerry apps. I created MLH Software for this work.",
+        "sections": [
             {
-                "video" : "https://www.youtube.com/embed/PTcSq364rfA",
-                "text" : "Interop New York 2009 - My demo of Blurts with David Pogue (11/18/2009)"
+                "video": "https://www.youtube.com/embed/PTcSq364rfA",
+                "text": "Interop New York 2009 - My demo of Blurts with David Pogue (11/18/2009)"
             },
             {
-                "video" : "https://www.youtube.com/embed/STor4N0M7kk",
-                "text" : "My Cameo in  CrackBerry App Awards 2010: Walkabout Video"
+                "video": "https://www.youtube.com/embed/STor4N0M7kk",
+                "text": "My Cameo in  CrackBerry App Awards 2010: Walkabout Video"
             }
-            
-        ]     
-           
+        ]
     },
     {
-        "category": ["Electronics"],
+        "category": [
+            "Electronics"
+        ],
         "name": "DIY Voice Controlled Light Switch",
         "img": "assets/img/portfolio/thumbnails/23.jpg",
-        "description" : "In this video I walk you through all the components to get Amazon Echo and Google Home to control a DIY light switch I made.",
-        "sections" : [
+        "description": "In this video I walk you through all the components to get Amazon Echo and Google Home to control a DIY light switch I made.",
+        "sections": [
             {
-                "video" : "https://www.youtube.com/embed/G1hEVNBhOe4"
+                "video": "https://www.youtube.com/embed/G1hEVNBhOe4"
             }
-        ]   
-        
+        ]
     },
-
     {
-        "category": ["Woodworking"],
+        "category": [
+            "Woodworking"
+        ],
         "name": "Wii and Lego Pinewood Derby Car",
         "img": "assets/img/portfolio/thumbnails/26.jpg",
-        "description" : "Two of my sons built pinewood drby cars in the style of a Lego block and Wii remote.",
-        "sections" : [
+        "description": "Two of my sons built pinewood drby cars in the style of a Lego block and Wii remote.",
+        "sections": [
             {
                 "image": "assets/img/portfolio/thumbnails/26.jpg"
             }
-        ]   
-        
+        ]
     },
-
     {
-        "category": ["Maker Project"],
+        "category": [
+            "Maker Project"
+        ],
         "name": "Lego Mindstorm Golf Ball Counter",
         "img": "assets/img/portfolio/thumbnails/25.jpg",
-        "description" : "My oldest son built and programmed a golf ball counter using lego mindstorm.",
-        "sections" : [
+        "description": "My oldest son built and programmed a golf ball counter using lego mindstorm.",
+        "sections": [
             {
-                "image" : "assets/img/portfolio/thumbnails/25.jpg"
+                "image": "assets/img/portfolio/thumbnails/25.jpg"
             }
-        ]   
-        
+        ]
     },
-
     {
-        "category": ["Maker Project"],
+        "category": [
+            "Maker Project"
+        ],
         "name": "Kanban Board for Kids Bed Time",
         "img": "assets/img/portfolio/thumbnails/27.jpg",
-        "description" : "Kanban baord to help our kids remember their night time chores and activities.",
-        "sections" : [
+        "description": "Kanban baord to help our kids remember their night time chores and activities.",
+        "sections": [
             {
-                "html" : "<p> I shared a cool life story about this Knaban board  <a href='https://www.linkedin.com/posts/hawkinsm_softwaredevelopment-agile-coaching-activity-7069809106093568000-GULU?utm_source=share&utm_medium=member_desktop'> on Linked </a> </p>"
+                "html": "<p> I shared a cool life story about this Knaban board  <a href='https://www.linkedin.com/posts/hawkinsm_softwaredevelopment-agile-coaching-activity-7069809106093568000-GULU?utm_source=share&utm_medium=member_desktop'> on Linked </a> </p>"
             },
             {
-                "image" : "/assets/img/portfolio/projects/27/1.jpg"
+                "image": "/assets/img/portfolio/projects/27/1.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/27/3.jpg"
+                "image": "/assets/img/portfolio/projects/27/3.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/27/4.jpg"
+                "image": "/assets/img/portfolio/projects/27/4.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/27/2.jpg"
+                "image": "/assets/img/portfolio/projects/27/2.jpg"
             }
-        ]   
-        
+        ]
     },
     {
-        "category": ["Woodworking"],
+        "category": [
+            "Woodworking"
+        ],
         "name": "Custom Closet Built Ins",
         "img": "assets/img/portfolio/thumbnails/28.jpg",
-        "description" : "Custom built closet shelves and drawers",
-        "sections" : [
+        "description": "Custom built closet shelves and drawers",
+        "sections": [
             {
-                "image" : "/assets/img/portfolio/projects/28/1.jpg"
+                "image": "/assets/img/portfolio/projects/28/1.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/28/2.jpg"
+                "image": "/assets/img/portfolio/projects/28/2.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/28/3.jpg"
+                "image": "/assets/img/portfolio/projects/28/3.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/28/4.jpg"
+                "image": "/assets/img/portfolio/projects/28/4.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/28/5.JPG"
+                "image": "/assets/img/portfolio/projects/28/5.JPG"
             },
             {
-                "image" : "/assets/img/portfolio/projects/28/6.JPG"
+                "image": "/assets/img/portfolio/projects/28/6.JPG"
             },
             {
-                "image" : "/assets/img/portfolio/projects/28/7.JPG"
+                "image": "/assets/img/portfolio/projects/28/7.JPG"
             }
-        ]   
-        
+        ]
     },
     {
-        "category":[ "Woodworking"],
+        "category": [
+            "Woodworking"
+        ],
         "name": "Custom Desk / Shelves Built Ins",
         "img": "assets/img/portfolio/thumbnails/29.jpg",
-        "description" : "Custom desk and shelves in master bedroom",
-        "sections" : [
+        "description": "Custom desk and shelves in master bedroom",
+        "sections": [
             {
-                "image" : "/assets/img/portfolio/projects/29/1.jpg"
+                "image": "/assets/img/portfolio/projects/29/1.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/29/2.jpg",
-                "text" : "The missing drawerfront is actually a pull out keyboard tray"
+                "image": "/assets/img/portfolio/projects/29/2.jpg",
+                "text": "The missing drawerfront is actually a pull out keyboard tray"
             }
-        ]   
+        ]
     },
     {
-        "category": ["Maker Project"],
+        "category": [
+            "Maker Project"
+        ],
         "name": "Electronics Desk",
         "img": "assets/img/portfolio/thumbnails/30.jpg",
-        "description" : "Electronics workstation setup. The Windows 98 screen should give you some clue to the age of this project.",
-        "sections" : [
+        "description": "Electronics workstation setup. The Windows 98 screen should give you some clue to the age of this project.",
+        "sections": [
             {
-                "image" : "/assets/img/portfolio/projects/30/1.jpg"
+                "image": "/assets/img/portfolio/projects/30/1.jpg"
             },
             {
-                "image" : "/assets/img/portfolio/projects/30/2.jpg"
+                "image": "/assets/img/portfolio/projects/30/2.jpg"
             }
-        ]   
+        ]
     },
     {
-        "category": ["Woodworking"],
+        "category": [
+            "Woodworking"
+        ],
         "name": "Workbench",
         "img": "assets/img/portfolio/thumbnails/31.jpg",
-        "description" : "",
-        "sections" : [
+        "description": "",
+        "sections": [
             {
-                "image" : "/assets/img/portfolio/projects/31/1.jpg"
+                "image": "/assets/img/portfolio/projects/31/1.jpg"
             }
-        ]   
+        ]
     },
     {
-        "category": ["Woodworking"],
+        "category": [
+            "Woodworking"
+        ],
         "name": "Mobile Bike Rack",
         "img": "assets/img/portfolio/thumbnails/32.jpg",
-        "description" : "",
-        "sections" : [
+        "description": "",
+        "sections": [
             {
-                "image" : "/assets/img/portfolio/projects/32/1.jpg"
+                "image": "/assets/img/portfolio/projects/32/1.jpg"
             }
-        ]   
+        ]
     }
 ]
-
