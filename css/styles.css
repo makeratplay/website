@@ -10239,3 +10239,61 @@ header.masthead h1 {
 }
 
 
+/* New Content Notification Banner Styles */
+#newContentBanner {
+    position: fixed;
+    top: 72px; /* Position below the navbar */
+    left: 0;
+    right: 0;
+    z-index: 1040;
+    background: linear-gradient(45deg, #f46239, #ffa726);
+    border: none;
+    border-radius: 0;
+    color: white;
+    font-weight: 500;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    animation: slideDown 0.5s ease-out;
+}
+
+#newContentBanner .alert-link {
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom-color 0.3s ease;
+}
+
+#newContentBanner .alert-link:hover {
+    color: white;
+    text-decoration: none;
+    border-bottom-color: white;
+}
+
+#newContentBanner .close {
+    color: white;
+    opacity: 0.8;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-shadow: none;
+}
+
+#newContentBanner .close:hover {
+    color: white;
+    opacity: 1;
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Adjust masthead padding to account for banner when shown */
+body.banner-shown .masthead {
+    padding-top: 120px;
+}

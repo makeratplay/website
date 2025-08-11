@@ -93,3 +93,35 @@ app.controller('AppController', function($http, $scope, $sce) {
 
 });
 
+// New Content Banner Control
+document.addEventListener('DOMContentLoaded', function() {
+    showNewContentNotification();
+});
+
+function showNewContentNotification() {
+    const banner = document.getElementById('newContentBanner');
+    const lastDismissed = localStorage.getItem('newContentBannerDismissed');
+    const newContentDate = '2025-08-10'; // Update this date when you add new content
+    
+    // Show banner if it hasn't been dismissed or if it was dismissed before the new content date
+    if (!lastDismissed || new Date(lastDismissed) < new Date(newContentDate)) {
+        banner.style.display = 'block';
+        document.body.classList.add('banner-shown');
+    }
+    
+    // Handle banner dismissal
+    banner.addEventListener('closed.bs.alert', function() {
+        localStorage.setItem('newContentBannerDismissed', new Date().toISOString());
+        document.body.classList.remove('banner-shown');
+    });
+    
+    // For Bootstrap 4 compatibility, also listen for the close button click
+    const closeButton = banner.querySelector('.close');
+    if (closeButton) {
+        closeButton.addEventListener('click', function() {
+            localStorage.setItem('newContentBannerDismissed', new Date().toISOString());
+            document.body.classList.remove('banner-shown');
+        });
+    }
+}
+
