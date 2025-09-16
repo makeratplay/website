@@ -100,7 +100,7 @@
                 spinner.className = 'loading-spinner';
 
                 // Create text node
-                const textNode = document.createTextNode('Loading blog post...');
+                const textNode = document.createTextNode('Loading blog post from tumblr...');
 
                 // Append spinner and text to loading message
                 loadingMessage.appendChild(spinner);
