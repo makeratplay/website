@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200" role="img" aria-labelledby="title desc">
-  <title id="title">More photos coming soon</title>
-  <desc id="desc">Placeholder graphic for future project photos</desc>
-  <rect width="100%" height="100%" fill="#e9ecef"/>
-  <rect x="2" y="2" width="796" height="196" fill="none" stroke="#adb5bd" stroke-width="2" stroke-dasharray="12 8"/>
-  <text x="400" y="95" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="22" fill="#495057">More build &amp; field photos</text>
-  <text x="400" y="128" text-anchor="middle" font-family="system-ui,Segoe UI,sans-serif" font-size="16" fill="#6c757d">Placeholder  replace with images when ready</text>
-</svg>
