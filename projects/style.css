@@ -516,6 +516,10 @@ footer .copyright {
     margin: 0.75rem 0;
 }
 
+.blog-post .blog-post-body .blog-post-video {
+    margin: 0.75rem 0;
+}
+
 .tool {
     margin: 50px;
 }
