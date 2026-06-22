@@ -475,6 +475,47 @@ footer .copyright {
     height: 100%;
 }
 
+.blog-post .blog-post-body {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 1rem 1.25rem;
+    font-size: 16px;
+    line-height: 1.5;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.blog-post .blog-post-body p {
+    margin: 0.75rem 0;
+}
+
+.blog-post .blog-post-body p:first-of-type {
+    margin-top: 0;
+}
+
+.blog-post .blog-post-body p:last-of-type {
+    margin-bottom: 0;
+}
+
+.blog-post .blog-post-body h5 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin: 0 0 0.5rem 0;
+}
+
+.blog-post .blog-post-body ul {
+    margin: 0.75rem 0;
+    padding-left: 1.25rem;
+}
+
+.blog-post .blog-post-body img {
+    margin: 0;
+}
+
+.blog-post .blog-post-body .blog-post-images {
+    margin: 0.75rem 0;
+}
+
 .tool {
     margin: 50px;
 }

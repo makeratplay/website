@@ -88,6 +88,10 @@
     function addLoadingMessages() {
         const blogPosts = document.querySelectorAll('.blog-post');
         blogPosts.forEach(function (blogPost) {
+            if (!blogPost.querySelector('.tumblr-post')) {
+                return;
+            }
+
             const h4 = blogPost.querySelector('h4');
             if (h4 && !blogPost.querySelector('.loading-message')) {
                 // Create loading message element
