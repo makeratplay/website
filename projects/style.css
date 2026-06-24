@@ -475,6 +475,16 @@ footer .copyright {
     height: 100%;
 }
 
+.blog-post {
+    padding-top: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.blog-post > h4 {
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+}
+
 .blog-post .blog-post-body {
     background: #fff;
     border: 1px solid #ddd;
