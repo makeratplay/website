@@ -615,6 +615,48 @@ footer .copyright {
     margin: 0.75rem 0;
 }
 
+.progress-timeline {
+    position: relative;
+    margin: 1rem 0 0 0.75rem;
+    padding: 0;
+    list-style: none;
+    border-left: 2px solid #dee2e6;
+}
+
+.progress-timeline-item {
+    position: relative;
+    margin: 0 0 1.5rem 0;
+    padding: 0 0 0 1.25rem;
+}
+
+.progress-timeline-item:last-child {
+    margin-bottom: 0;
+}
+
+.progress-timeline-item::before {
+    content: "";
+    position: absolute;
+    left: -0.45rem;
+    top: 0.35rem;
+    width: 0.75rem;
+    height: 0.75rem;
+    border-radius: 50%;
+    background: #6c757d;
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 2px #dee2e6;
+}
+
+.progress-timeline-date {
+    display: block;
+    margin-bottom: 0.25rem;
+    color: #212529;
+}
+
+.progress-timeline-item p {
+    margin-bottom: 0;
+    color: #495057;
+}
+
 .tool {
     margin: 50px;
 }
