@@ -657,6 +657,36 @@ footer .copyright {
     color: #495057;
 }
 
+.progress-days-cards {
+    margin-top: 1rem;
+}
+
+.progress-days-card {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.progress-days-count {
+    line-height: 1;
+}
+
+.progress-days-number {
+    font-size: 2.75rem;
+    font-weight: 700;
+    color: #212529;
+}
+
+.progress-days-label {
+    display: block;
+    margin-top: 0.35rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #6c757d;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
 .tool {
     margin: 50px;
 }
