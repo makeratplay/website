@@ -577,6 +577,25 @@ footer .copyright {
     margin: 0.75rem 0;
 }
 
+#version-3 a.version-gallery-thumb {
+    display: block;
+    position: relative;
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+}
+
+#version-3 a.version-gallery-thumb img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    max-width: none;
+    object-fit: cover;
+    object-position: center;
+}
+
 .blog-post .blog-post-body .blog-post-images .col-6 > a,
 .blog-post .blog-post-body .blog-post-images .col-4 > a {
     display: block;
