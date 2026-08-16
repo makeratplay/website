@@ -635,19 +635,12 @@ footer .copyright {
 }
 
 #progressblog,
-.progress-blog-controls,
 #progressblog-posts .blog-post {
     scroll-margin-top: 5.5rem;
 }
 
 .progress-blog-controls {
-    position: sticky;
-    top: 4.25rem;
-    z-index: 4;
     margin-top: 0.75rem;
-    padding: 0.75rem 0 0.5rem;
-    background: #fff;
-    border-bottom: 1px solid #eee;
 }
 
 .progress-blog-months {
