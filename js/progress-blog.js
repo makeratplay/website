@@ -128,12 +128,99 @@
                 enableLiteYouTube(postEl);
             }
         });
+
+        (scope || postsEl).querySelectorAll('video').forEach(function (video) {
+            video.pause();
+        });
+    }
+
+    function deferTumblrEmbed(el) {
+        el.classList.remove('tumblr-post');
+        el.classList.add('tumblr-post-deferred');
+        el.querySelectorAll('iframe').forEach(function (iframe) {
+            iframe.remove();
+        });
+        if (!el.querySelector('a')) {
+            var href = el.getAttribute('data-href') || '';
+            if (href) {
+                var link = document.createElement('a');
+                link.href = href;
+                link.textContent = href;
+                el.appendChild(link);
+            }
+        }
+    }
+
+    function deferTumblrInPost(postEl) {
+        postEl.querySelectorAll('.tumblr-post').forEach(deferTumblrEmbed);
+
+        postEl.querySelectorAll('iframe.tumblr-embed').forEach(function (iframe) {
+            var src = (iframe.getAttribute('src') || '').split('?')[0];
+            var placeholder = document.createElement('div');
+            placeholder.className = 'tumblr-post-deferred';
+            if (src) {
+                placeholder.setAttribute('data-href', src);
+                var link = document.createElement('a');
+                link.href = src;
+                link.textContent = src;
+                placeholder.appendChild(link);
+            }
+            iframe.parentNode.replaceChild(placeholder, iframe);
+        });
+    }
+
+    function activateTumblrEmbed(el) {
+        el.classList.remove('tumblr-post-deferred');
+        el.classList.add('tumblr-post');
+    }
+
+    function reloadTumblrEmbeds() {
+        var script = document.createElement('script');
+        script.src = 'https://assets.tumblr.com/post.js';
+        script.async = true;
+        document.body.appendChild(script);
+    }
+
+    function postTitle(el, h4, h5) {
+        if (h5) {
+            return h5.textContent.trim();
+        }
+
+        var clone = el.cloneNode(true);
+        var heading = clone.querySelector('h4');
+        if (heading) {
+            heading.remove();
+        }
+        clone.querySelectorAll('.tumblr-post, .tumblr-post-deferred, script, iframe, img, video, .blog-post-images, .blog-post-video').forEach(function (node) {
+            node.remove();
+        });
+        var extra = clone.textContent.replace(/\s+/g, ' ').trim();
+        if (extra && extra.length <= 90 && extra.toLowerCase().indexOf('http') !== 0) {
+            return extra;
+        }
+
+        var tumblrLink = el.querySelector('.tumblr-post a[href*="tumblr.com"], .tumblr-post-deferred a[href*="tumblr.com"]');
+        var href = tumblrLink && tumblrLink.getAttribute('href');
+        if (href) {
+            var slug = href.replace(/\/$/, '').split('/').pop();
+            if (slug && slug !== 'v2' && !/^\d+$/.test(slug) && slug.indexOf('http') !== 0) {
+                return slug.replace(/-/g, ' ');
+            }
+        }
+
+        return h4 ? h4.textContent.trim() : 'Untitled';
     }
 
     function collectPosts() {
         var seenIds = {};
+        var postEls = postsEl.querySelectorAll(':scope > .blog-post');
+        if (!postEls.length) {
+            postEls = postsEl.querySelectorAll(':scope > .col-lg-6, :scope > .col-md-6');
+        }
 
-        posts = Array.prototype.map.call(postsEl.querySelectorAll(':scope > .blog-post'), function (el) {
+        posts = Array.prototype.map.call(postEls, function (el) {
+            el.classList.add('blog-post');
+
             var h4 = el.querySelector('h4');
             var h5 = el.querySelector('h5');
             var parsed = parsePostDate(h4 ? h4.textContent : '');
@@ -155,6 +242,9 @@
             });
 
             enableLiteYouTube(el);
+            var title = postTitle(el, h4, h5);
+            var searchText = el.textContent.toLowerCase();
+            deferTumblrInPost(el);
 
             return {
                 el: el,
@@ -162,8 +252,8 @@
                 date: parsed,
                 monthKey: parsed ? parsed.monthKey : '',
                 monthLabel: parsed ? parsed.monthLabel : 'Undated',
-                title: h5 ? h5.textContent.trim() : (h4 ? h4.textContent.trim() : 'Untitled'),
-                searchText: el.textContent.toLowerCase()
+                title: title,
+                searchText: searchText
             };
         });
 
@@ -299,11 +389,28 @@
             shownSet[post.id] = true;
         });
 
+        var needTumblr = false;
         posts.forEach(function (post) {
             var isVisible = !!shownSet[post.id];
             post.el.classList.toggle('is-visible', isVisible);
             post.el.hidden = !isVisible;
+
+            if (isVisible) {
+                post.el.querySelectorAll('.tumblr-post-deferred').forEach(function (el) {
+                    activateTumblrEmbed(el);
+                    needTumblr = true;
+                });
+            } else {
+                deferTumblrInPost(post.el);
+                post.el.querySelectorAll('video').forEach(function (video) {
+                    video.pause();
+                });
+            }
         });
+
+        if (needTumblr) {
+            reloadTumblrEmbeds();
+        }
 
         postsEl.classList.add('is-ready');
         if (!controlsEl.dataset.ready) {

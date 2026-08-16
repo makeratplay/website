@@ -69,6 +69,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script async src="https://assets.tumblr.com/post.js"></script>
+    <script>document.documentElement.classList.add('progress-blog-enhance');</script>
 
 
 </head>
@@ -571,7 +572,10 @@
 
             <section class="py-5">
                 <h2 id="progressblog">Progress Blog</h2>
-                <div class="row">
+                <p class="text-muted mb-3">Workshop build notes, newest first. Choose a month or search to browse
+                    without loading every post at once.</p>
+                <div id="progress-blog-controls" class="progress-blog-controls mb-4"></div>
+                <div class="row" id="progressblog-posts">
 
                     <div class="col-lg-6 col-md-6 blog-post">
                         <h4 style="text-align: center;">Wednesday, October 8, 2025</h4>
@@ -1214,6 +1218,7 @@
     </div>
 
     <!-- Iframe Monitor Script -->
+    <script src="/js/progress-blog.js"></script>
     <script src="/js/iframe-monitor.js"></script>
 </body>
 

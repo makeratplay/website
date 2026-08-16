@@ -65,6 +65,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script async src="https://assets.tumblr.com/post.js"></script>
+    <script>document.documentElement.classList.add('progress-blog-enhance');</script>
 
 
 </head>
@@ -665,7 +666,10 @@
 
             <section class="py-5">
                 <h2 id="progressblog">Progress Blog</h2>
-                <div class="row">
+                <p class="text-muted mb-3">Workshop build notes, newest first. Choose a month or search to browse
+                    without loading every post at once.</p>
+                <div id="progress-blog-controls" class="progress-blog-controls mb-4"></div>
+                <div class="row" id="progressblog-posts">
 
                     <div class="col-lg-6 col-md-6 blog-post">
                         <h4 style="text-align: center;">Sunday, October 6, 2024</h4>
@@ -745,25 +749,25 @@
                             <div class="row blog-post-images">
                                 <div class="col-6 mb-2">
                                     <a href="10-06-2024_1.jpg" target="_blank" rel="noopener noreferrer">
-                                        <img src="10-06-2024_1.jpg" class="img-fluid rounded"
+                                        <img loading="lazy" src="10-06-2024_1.jpg" class="img-fluid rounded"
                                             alt="Marching band performing on the field at night with clock-themed props">
                                     </a>
                                 </div>
                                 <div class="col-6 mb-2">
                                     <a href="10-06-2024_2.jpg" target="_blank" rel="noopener noreferrer">
-                                        <img src="10-06-2024_2.jpg" class="img-fluid rounded"
+                                        <img loading="lazy" src="10-06-2024_2.jpg" class="img-fluid rounded"
                                             alt="Clock, hourglass, and alarm clock props lined up on the football field">
                                     </a>
                                 </div>
                                 <div class="col-6 mb-2">
                                     <a href="10-06-2024_3.jpg" target="_blank" rel="noopener noreferrer">
-                                        <img src="10-06-2024_3.jpg" class="img-fluid rounded"
+                                        <img loading="lazy" src="10-06-2024_3.jpg" class="img-fluid rounded"
                                             alt="Back props and front sideline screens arranged on the field before the show">
                                     </a>
                                 </div>
                                 <div class="col-6 mb-2">
                                     <a href="10-06-2024_4.jpg" target="_blank" rel="noopener noreferrer">
-                                        <img src="10-06-2024_4.jpg" class="img-fluid rounded"
+                                        <img loading="lazy" src="10-06-2024_4.jpg" class="img-fluid rounded"
                                             alt="Props staged on the track at night with volunteers nearby">
                                     </a>
                                 </div>
@@ -779,7 +783,7 @@
                     </div>
 
 
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-6 col-md-6 blog-post">
                         <h4 style="text-align: center;">Thursday, October 3, 2024</h4>
                         <div class="tumblr-post"
                             data-href="https://embed.tumblr.com/embed/post/t:VLR5iaqPPi2gE0XKW_FKGg/763376606726258688/v2"
@@ -788,7 +792,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-6 col-md-6 blog-post">
                         <h4 style="text-align: center;">Sunday, September 29, 2024</h4>
                         <div class="tumblr-post"
                             data-href="https://embed.tumblr.com/embed/post/t:VLR5iaqPPi2gE0XKW_FKGg/762997607510540288/v2"
@@ -798,7 +802,7 @@
                     </div>
 
 
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-6 col-md-6 blog-post">
                         <h4 style="text-align: center;">Saturday, September 28, 2024</h4>
                         <div class="tumblr-post"
                             data-href="https://embed.tumblr.com/embed/post/t:VLR5iaqPPi2gE0XKW_FKGg/762905560584781824/v2"
@@ -808,7 +812,7 @@
                     </div>
 
 
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-6 col-md-6 blog-post">
                         <h4 style="text-align: center;">Thursday, September 26, 2024</h4>
                         <div class="tumblr-post"
                             data-href="https://embed.tumblr.com/embed/post/t:VLR5iaqPPi2gE0XKW_FKGg/762813769617408000/v2"
@@ -817,7 +821,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-6 col-md-6 blog-post">
                         <h4 style="text-align: center;">Tuesday, September 24, 2024</h4>
                         <div class="tumblr-post"
                             data-href="https://embed.tumblr.com/embed/post/t:VLR5iaqPPi2gE0XKW_FKGg/762599855974711296/v2"
@@ -826,7 +830,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-6 col-md-6 blog-post">
                         <h4 style="text-align: center;">Monday, September 23, 2024</h4>
                         <div class="tumblr-post"
                             data-href="https://embed.tumblr.com/embed/post/t:VLR5iaqPPi2gE0XKW_FKGg/762816857363382272/v2"
@@ -836,7 +840,7 @@
                     </div>
 
 
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-6 col-md-6 blog-post">
                         <h4 style="text-align: center;">Sunday, September 22, 2024</h4>
                         <p style="text-align: center;"> <i>blog post to come</i> <br />In morning (before work session)
                             cut EMT, drilled EMT, drilled holes for wheel plate parts
@@ -845,7 +849,7 @@
                     </div>
 
 
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-6 col-md-6 blog-post">
                         <h4 style="text-align: center;">Saturday, September 21, 2024</h4>
                         <p style="text-align: center;"> <i>blog post to come</i> <br />Home Depot to buy paint and
                             acetone
@@ -853,7 +857,7 @@
                     </div>
 
 
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-6 col-md-6 blog-post">
                         <h4 style="text-align: center;">Friday, September 20, 2024</h4>
                         <div class="tumblr-post"
                             data-href="https://embed.tumblr.com/embed/post/t:VLR5iaqPPi2gE0XKW_FKGg/762832828660662272/v2"
@@ -863,14 +867,14 @@
                     </div>
 
 
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-6 col-md-6 blog-post">
                         <h4 style="text-align: center;">Thursday, September 19, 2024</h4>
                         <p style="text-align: center;"> <i>blog post to come</i> <br />I chose to avoid a sweaty night
                             and worked through designs for the 12x12 EMT frames, ordering bolts and pins from
                             McMaster-Carr.</p>
                     </div>
 
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-6 col-md-6 blog-post">
                         <h4 style="text-align: center;">Wednesday, September 18, 2024</h4>
                         <div class="tumblr-post"
                             data-href="https://embed.tumblr.com/embed/post/t:VLR5iaqPPi2gE0XKW_FKGg/762018845936451584/v2"
@@ -879,7 +883,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-6 col-md-6 blog-post">
                         <h4 style="text-align: center;">Tuesday, September 17, 2024</h4>
                         <div class="tumblr-post"
                             data-href="https://embed.tumblr.com/embed/post/t:VLR5iaqPPi2gE0XKW_FKGg/761927996933292032/v2"
@@ -889,7 +893,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-6 col-md-6 blog-post">
                         <h4 style="text-align: center;">Monday, September 16, 2024</h4>
                         <div class="tumblr-post"
                             data-href="https://embed.tumblr.com/embed/post/t:VLR5iaqPPi2gE0XKW_FKGg/761837230837858304/v2"
@@ -897,7 +901,7 @@
                                 href="https://www.tumblr.com/mlhblog/761837230837858304/welcome-to-a-monday-night-in-the-makeratplay-props">https://www.tumblr.com/mlhblog/761837230837858304/welcome-to-a-monday-night-in-the-makeratplay-props</a>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-6 col-md-6 blog-post">
                         <h4 style="text-align: center;">Sunday, September 15, 2024</h4>
                         <div class="tumblr-post"
                             data-href="https://embed.tumblr.com/embed/post/t:VLR5iaqPPi2gE0XKW_FKGg/761741610633527296/v2"
@@ -906,7 +910,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-6 col-md-6 blog-post">
                         <h4 style="text-align: center;">Saturday, September 14, 2024</h4>
                         <div class="tumblr-post"
                             data-href="https://embed.tumblr.com/embed/post/t:VLR5iaqPPi2gE0XKW_FKGg/761740580813406208/v2"
@@ -915,7 +919,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-6 col-md-6 blog-post">
                         <h4 style="text-align: center;">Friday, September 13, 2024</h4>
                         <div class="tumblr-post"
                             data-href="https://embed.tumblr.com/embed/post/t:VLR5iaqPPi2gE0XKW_FKGg/761738936999706624/v2"
@@ -924,7 +928,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-6 col-md-6 blog-post">
                         <h4 style="text-align: center;">Thursday, September 12, 2024</h4>
                         <div class="tumblr-post"
                             data-href="https://embed.tumblr.com/embed/post/t:VLR5iaqPPi2gE0XKW_FKGg/761737184921485312/v2"
@@ -933,7 +937,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-6 col-md-6 blog-post">
                         <h4 style="text-align: center;">Sunday, September 8, 2024</h4>
                         <div class="tumblr-post"
                             data-href="https://embed.tumblr.com/embed/post/Nti6SwyLgBeijufWuWjC4w/761096466599116800"
@@ -942,7 +946,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-6 col-md-6 blog-post">
                         <h4 style="text-align: center;">Saturday, September 7, 2024</h4>
                         <div class="tumblr-post"
                             data-href="https://embed.tumblr.com/embed/post/t:VLR5iaqPPi2gE0XKW_FKGg/761743366606176256/v2"
@@ -953,7 +957,7 @@
                     </div>
 
 
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-6 col-md-6 blog-post">
                         <h4 style="text-align: center;">Wednesday, September 4, 2024</h4>
                         <div class="tumblr-post"
                             data-href="https://embed.tumblr.com/embed/post/t:VLR5iaqPPi2gE0XKW_FKGg/761872763801780225/v2"
@@ -962,7 +966,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-6 col-md-6 blog-post">
                         <h4 style="text-align: center;">Tuesday, September 3, 2024</h4>
                         <div class="tumblr-post"
                             data-href="https://embed.tumblr.com/embed/post/t:VLR5iaqPPi2gE0XKW_FKGg/761995546570407936/v2"
@@ -971,7 +975,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-6 col-md-6 blog-post">
                         <h4 style="text-align: center;">Monday, September 2, 2024</h4>
                         <p style="text-align: center;"> <i>blog post to come</i> <br />We taped 6x6 coroplast together;
                             layout out prop paper cuts to figure out a plan for their frames;
@@ -980,48 +984,48 @@
                             Started welding front screen carts. </p>
                     </div>
 
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-6 col-md-6 blog-post">
                         <h4 style="text-align: center;">Sunday, September 1, 2024</h4>
                         <p style="text-align: center;"> <i>blog post to come</i> <br />Prep metal for front screen carts
                         </p>
                     </div>
 
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-6 col-md-6 blog-post">
                         <h4 style="text-align: center;">Saturday, August 31, 2024</h4>
                         <p style="text-align: center;"> <i>blog post to come</i> <br />Built prototype expandable media
                             frame</p>
                     </div>
 
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-6 col-md-6 blog-post">
                         <h4 style="text-align: center;">Sunday, August 25, 2024</h4>
                         <p style="text-align: center;"> <i>blog post to come</i> <br />finished welding all 22 front
                             screens</p>
                     </div>
 
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-6 col-md-6 blog-post">
                         <h4 style="text-align: center;">Saturday, August 24, 2024</h4>
                         <p style="text-align: center;"> <i>blog post to come</i> <br />welded screens and took stage to
                             band practice for directors to see and use</p>
                     </div>
 
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-6 col-md-6 blog-post">
                         <h4 style="text-align: center;">Friday, August 23, 2024</h4>
                         <p style="text-align: center;"> <i>blog post to come</i> <br />CAD work on media frames and
                             screen cart</p>
                     </div>
 
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-6 col-md-6 blog-post">
                         <h4 style="text-align: center;">Thursday, August 22, 2024</h4>
                         <p>Painted stage metal</p>
                     </div>
 
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-6 col-md-6 blog-post">
                         <h4 style="text-align: center;">Wednesday, August 21, 2024</h4>
                         <p style="text-align: center;"> <i>blog post to come</i> <br />setup gas for welding. Welded
                             braces and feet for stage</p>
                     </div>
 
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-6 col-md-6 blog-post">
                         <h4 style="text-align: center;">Wednesday, August 21, 2024</h4>
                         <div class="tumblr-post"
                             data-href="https://embed.tumblr.com/embed/post/Nti6SwyLgBeijufWuWjC4w/761441428026130432"
@@ -1030,7 +1034,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-6 col-md-6 blog-post">
                         <h4 style="text-align: center;">Tuesday, August 20, 2024</h4>
                         <div class="tumblr-post"
                             data-href="https://embed.tumblr.com/embed/post/Nti6SwyLgBeijufWuWjC4w/761112979637977088"
@@ -1040,7 +1044,7 @@
 
                     </div>
 
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-6 col-md-6 blog-post">
                         <h4 style="text-align: center;">Sunday, August 18, 2024</h4>
                         <div class="tumblr-post"
                             data-href="https://embed.tumblr.com/embed/post/Nti6SwyLgBeijufWuWjC4w/761112634850426880"
@@ -1049,18 +1053,18 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-6 col-md-6 blog-post">
                         <h4 style="text-align: center;">Friday, August 16, 2024</h4>
                         <p style="text-align: center;"> <i>blog post to come</i> <br />CAD work on back props</p>
                     </div>
 
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-6 col-md-6 blog-post">
                         <h4 style="text-align: center;">Monday, August 12, 2024</h4>
                         <p style="text-align: center;"> <i>blog post to come</i> <br /> Built a second screen frame to
                             test leg angle, cut 45s on all the 48" pieces</p>
                     </div>
 
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-6 col-md-6 blog-post">
                         <h4 style="text-align: center;">Sunday, August 11, 2024</h4>
                         <div class="tumblr-post"
                             data-href="https://embed.tumblr.com/embed/post/Nti6SwyLgBeijufWuWjC4w/761111034067091456"
@@ -1069,7 +1073,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-6 col-md-6 blog-post">
                         <h4 style="text-align: center;">Saturday, August 10, 2024</h4>
                         <div class="tumblr-post"
                             data-href="https://embed.tumblr.com/embed/post/Nti6SwyLgBeijufWuWjC4w/761109835134681088"
@@ -1078,7 +1082,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-6 col-md-6 blog-post">
                         <h4 style="text-align: center;">Friday, August 9, 2024</h4>
                         <div class="tumblr-post"
                             data-href="https://embed.tumblr.com/embed/post/Nti6SwyLgBeijufWuWjC4w/761108349063430144"
@@ -1087,7 +1091,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-6 col-md-6 blog-post">
                         <h4 style="text-align: center;">Thursday, August 8, 2024</h4>
                         <div class="tumblr-post"
                             data-href="https://embed.tumblr.com/embed/post/t:VLR5iaqPPi2gE0XKW_FKGg/761106130726453248/v2"
@@ -1096,65 +1100,65 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-6 col-md-6 blog-post">
                         <h4 style="text-align: center;">August 5, 2024</h4>
                         <p style="text-align: center;"> <i>blog post to come</i> <br />Placed metal order for front
                             screens and stage</p>
                     </div>
 
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-6 col-md-6 blog-post">
                         <h4 style="text-align: center;">August 4, 2024</h4>
                         <p style="text-align: center;"> <i>blog post to come</i> <br />More CAD work on Stage and
                             generated Drawings for Front Screens</p>
                     </div>
 
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-6 col-md-6 blog-post">
                         <h4 style="text-align: center;">August 3, 2024</h4>
                         <p style="text-align: center;"> <i>blog post to come</i> <br />More CAD work on Stage</p>
                     </div>
 
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-6 col-md-6 blog-post">
                         <h4 style="text-align: center;">July 30, 2024</h4>
                         <p style="text-align: center;"> <i>blog post to come</i> <br />Printed art work and stitched
                             together back props</p>
                     </div>
 
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-6 col-md-6 blog-post">
                         <h4 style="text-align: center;">July 23, 2024</h4>
                         <p style="text-align: center;"> <i>blog post to come</i> <br />More CAD work on front screens
                         </p>
                     </div>
 
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-6 col-md-6 blog-post">
                         <h4 style="text-align: center;">July 20, 2024</h4>
                         <p style="text-align: center;"> <i>blog post to come</i> <br />CAD work on front screens</p>
                     </div>
 
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-6 col-md-6 blog-post">
                         <h4 style="text-align: center;">July 15, 2024</h4>
                         <p style="text-align: center;"> <i>blog post to come</i> <br />CAD work on Stage</p>
                     </div>
 
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-6 col-md-6 blog-post">
                         <h4 style="text-align: center;">July 14, 2024</h4>
                         <p style="text-align: center;"> <i>blog post to come</i> <br />CAD work on Stage and front
                             screens</p>
                     </div>
 
 
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-6 col-md-6 blog-post">
                         <h4 style="text-align: center;">July 5, 2024</h4>
                         <p style="text-align: center;"> <i>blog post to come</i> <br />CAD work on back props frame</p>
                     </div>
 
 
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-6 col-md-6 blog-post">
                         <h4 style="text-align: center;">April 30, 2024</h4>
                         <p style="text-align: center;"> <i>blog post to come</i> <br />First meeting with Reid</p>
                     </div>
 
 
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-6 col-md-6 blog-post">
                         <h4 style="text-align: center;">Tuesday, April 9, 2024</h4>
                         <div class="tumblr-post"
                             data-href="https://embed.tumblr.com/embed/post/t:VLR5iaqPPi2gE0XKW_FKGg/761468489316892672/v2"
@@ -1445,6 +1449,9 @@
     <div id="imgViewer" class="modal" onclick="this.style.display = 'none';">
     </div>
 
+    <script src="/js/progress-blog.js"></script>
+    <script src="/js/iframe-monitor.js"></script>
+    <script src="/js/blog-post-images.js"></script>
     <script>
         $('.popUpImg').on('click', function (e) {
             $('#imgViewer').html('').append($(e.currentTarget).clone().removeClass('popUpImg').addClass('modal-content'));
