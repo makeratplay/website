@@ -61,6 +61,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script async src="https://assets.tumblr.com/post.js"></script>
+    <script>document.documentElement.classList.add('progress-blog-enhance');</script>
 
 </head>
 
@@ -744,60 +745,60 @@
                         <ul class="progress-timeline">
 
                             <li class="progress-timeline-item">
-                                <span class="progress-timeline-date"><strong>July 11, 2026</strong></span>
+                                <span class="progress-timeline-date"><strong><a href="#blog-2026-07-11">July 11, 2026</a></strong></span>
                                 <p>First parent volunteer workday — all twelve plywood sheets cut into treads,
                                     platforms, and slide panels; stair treads routed and painted; base frames sprayed
                                     black; stair welds ground for primer.</p>
                             </li>
                             <li class="progress-timeline-item">
-                                <span class="progress-timeline-date"><strong>June 19, 2026 –</strong></span>
+                                <span class="progress-timeline-date"><strong><a href="#blog-2026-06">June 19, 2026 –</a></strong></span>
                                 <p>Welding production — steps, platform tops, platform legs, and wheel plate
                                     sub-assemblies; 84-inch pieces drilled and assembled; evening fabrication sessions
                                     continue.</p>
                             </li>
                             <li class="progress-timeline-item">
-                                <span class="progress-timeline-date"><strong>June 13–17, 2026</strong></span>
+                                <span class="progress-timeline-date"><strong><a href="#blog-2026-06-13">June 13–17, 2026</a></strong></span>
                                 <p>Manufacturing phase: chop-saw fences dialed in, hundreds of pieces cut toward ~600
                                     parts for twelve identical props.</p>
                             </li>
                             <li class="progress-timeline-item">
-                                <span class="progress-timeline-date"><strong>June 12, 2026</strong></span>
+                                <span class="progress-timeline-date"><strong><a href="#blog-2026-06-12">June 12, 2026</a></strong></span>
                                 <p>Metal delivery — 215 pieces of stock (~$3,300) unloaded and sorted in the workshop.
                                 </p>
                             </li>
                             <li class="progress-timeline-item">
-                                <span class="progress-timeline-date"><strong>June 6–11, 2026</strong></span>
+                                <span class="progress-timeline-date"><strong><a href="#blog-2026-06-06">June 6–11, 2026</a></strong></span>
                                 <p>Final CAD and coroplast sheet layouts; dock stages halved to one 4&nbsp;×&nbsp;8
                                     section each; front screens increased to 10; metal order placed.</p>
                             </li>
                             <li class="progress-timeline-item">
-                                <span class="progress-timeline-date"><strong>May 22–26, 2026</strong></span>
+                                <span class="progress-timeline-date"><strong><a href="#blog-2026-05-22">May 22–26, 2026</a></strong></span>
                                 <p>Prototype platform rebuilt — larger 4&nbsp;×&nbsp;3&nbsp;ft deck, lower height, flag
                                     trough; second school test at Audition Camp.</p>
                             </li>
                             <li class="progress-timeline-item">
-                                <span class="progress-timeline-date"><strong>May 14–17, 2026</strong></span>
+                                <span class="progress-timeline-date"><strong><a href="#blog-2026-05-14">May 14–17, 2026</a></strong></span>
                                 <p>First school user test: slide angle validated, platform comfort flagged; version 2
                                     CAD mockups drawn for a lower, roomier top deck.</p>
                             </li>
                             <li class="progress-timeline-item">
-                                <span class="progress-timeline-date"><strong>May 8, 2026</strong></span>
+                                <span class="progress-timeline-date"><strong><a href="#blog-2026-05-08">May 8, 2026</a></strong></span>
                                 <p>Prototype declared ready to leave the shop for its first real-world evaluation with
                                     students and the band director.</p>
                             </li>
                             <li class="progress-timeline-item">
-                                <span class="progress-timeline-date"><strong>April 2026</strong></span>
+                                <span class="progress-timeline-date"><strong><a href="#blog-2026-04">April 2026</a></strong></span>
                                 <p>First full prototype assembled and shared with leadership (~$700/prop estimate);
                                     build
                                     logs cover wheels, platforms, and slide; show reveal parent/student meeting.</p>
                             </li>
                             <li class="progress-timeline-item">
-                                <span class="progress-timeline-date"><strong>March 2026</strong></span>
+                                <span class="progress-timeline-date"><strong><a href="#blog-2026-03">March 2026</a></strong></span>
                                 <p>Prototype build begins in the workshop — foundation framing and early fabrication.
                                 </p>
                             </li>
                             <li class="progress-timeline-item">
-                                <span class="progress-timeline-date"><strong>February 2026</strong></span>
+                                <span class="progress-timeline-date"><strong><a href="#blog-2026-02">February 2026</a></strong></span>
                                 <p>Props kickoff with band leadership; <em>Relativity</em>-inspired stair/slide concept;
                                     first CAD mockups and design review (8–12 mirrored props).</p>
                             </li>
@@ -807,7 +808,10 @@
 
                 <section class="py-5 mt-4 pt-4 border-top">
                     <h2 id="progressblog">Progress Blog</h2>
-                    <div class="row">
+                    <p class="text-muted mb-3">Workshop build notes, newest first. Choose a month or search to browse
+                        without loading every post at once.</p>
+                    <div id="progress-blog-controls" class="progress-blog-controls mb-4"></div>
+                    <div class="row" id="progressblog-posts">
 
                         <div class="col-lg-6 col-md-6 blog-post">
                             <h4 style="text-align: center;">Friday, August 7, 2026</h4>
@@ -858,13 +862,13 @@
                                 <p>Just a little more welding to go.</p>
                                 <div class="blog-post-images mb-2">
                                     <a href="08-07-2026_1.png" target="_blank" rel="noopener noreferrer">
-                                        <img src="08-07-2026_1.png" class="img-fluid rounded"
+                                        <img loading="lazy" src="08-07-2026_1.png" class="img-fluid rounded"
                                             alt="Six remaining staircase props standing on wheels in the workshop">
                                     </a>
                                 </div>
                                 <div class="blog-post-video">
                                     <div style="position:relative;width:100%;height:0;padding-bottom:56.25%;">
-                                        <iframe src="https://www.youtube.com/embed/0fX3gtDDmKE"
+                                        <iframe loading="lazy" src="https://www.youtube.com/embed/0fX3gtDDmKE"
                                             title="August 7, 2026 — the subassembly piles disappear" frameborder="0"
                                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                             allowfullscreen
@@ -925,26 +929,26 @@
                                 <div class="row blog-post-images">
                                     <div class="col-4 mb-2">
                                         <a href="08-05-2026_1.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="08-05-2026_1.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="08-05-2026_1.png" class="img-fluid rounded"
                                                 alt="Base fixtured on the welding table for the second batch of props">
                                         </a>
                                     </div>
                                     <div class="col-4 mb-2">
                                         <a href="08-05-2026_2.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="08-05-2026_2.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="08-05-2026_2.png" class="img-fluid rounded"
                                                 alt="Platform and base clamped square on the welding table">
                                         </a>
                                     </div>
                                     <div class="col-4 mb-2">
                                         <a href="08-05-2026_3.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="08-05-2026_3.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="08-05-2026_3.png" class="img-fluid rounded"
                                                 alt="Three second-batch props on wheels with Base #4 on the table">
                                         </a>
                                     </div>
                                 </div>
                                 <div class="blog-post-video">
                                     <div style="position:relative;width:100%;height:0;padding-bottom:56.25%;">
-                                        <iframe src="https://www.youtube.com/embed/6oe2i18vTbY"
+                                        <iframe loading="lazy" src="https://www.youtube.com/embed/6oe2i18vTbY"
                                             title="August 5, 2026 — starting the second six" frameborder="0"
                                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                             allowfullscreen
@@ -977,13 +981,13 @@
                                 <div class="row blog-post-images">
                                     <div class="col-6 mb-2">
                                         <a href="08-02-2026_1.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="08-02-2026_1.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="08-02-2026_1.png" class="img-fluid rounded"
                                                 alt="Flag trough prototype mounted across the prop base">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="08-02-2026_2.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="08-02-2026_2.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="08-02-2026_2.png" class="img-fluid rounded"
                                                 alt="Instrument shelf and flag trough installed under the stairs">
                                         </a>
                                     </div>
@@ -997,7 +1001,7 @@
                                 </p>
                                 <div class="blog-post-images mb-2">
                                     <a href="08-02-2026_3.png" target="_blank" rel="noopener noreferrer">
-                                        <img src="08-02-2026_3.png" class="img-fluid rounded"
+                                        <img loading="lazy" src="08-02-2026_3.png" class="img-fluid rounded"
                                             alt="Two staircase props loaded inside the cargo trailer">
                                     </a>
                                 </div>
@@ -1012,7 +1016,7 @@
                                 </p>
                                 <div class="blog-post-images mb-2">
                                     <a href="08-02-2026_4.png" target="_blank" rel="noopener noreferrer">
-                                        <img src="08-02-2026_4.png" class="img-fluid rounded"
+                                        <img loading="lazy" src="08-02-2026_4.png" class="img-fluid rounded"
                                             alt="Six props lined up under the stadium home stands">
                                     </a>
                                 </div>
@@ -1034,7 +1038,7 @@
                                 <p>Six to go.</p>
                                 <div class="blog-post-video">
                                     <div style="position:relative;width:100%;height:0;padding-bottom:56.25%;">
-                                        <iframe src="https://www.youtube.com/embed/Njz8Zcj4KQ8"
+                                        <iframe loading="lazy" src="https://www.youtube.com/embed/Njz8Zcj4KQ8"
                                             title="August 2, 2026 — the first six delivered" frameborder="0"
                                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                             allowfullscreen
@@ -1119,20 +1123,20 @@
                                 <div class="row blog-post-images">
                                     <div class="col-6 mb-2">
                                         <a href="08-01-2026_1.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="08-01-2026_1.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="08-01-2026_1.png" class="img-fluid rounded"
                                                 alt="Six finished staircase props lined up on the driveway">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="08-01-2026_2.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="08-01-2026_2.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="08-01-2026_2.png" class="img-fluid rounded"
                                                 alt="Band parents assembling staircase props during the workday">
                                         </a>
                                     </div>
                                 </div>
                                 <div class="blog-post-video">
                                     <div style="position:relative;width:100%;height:0;padding-bottom:56.25%;">
-                                        <iframe src="https://www.youtube.com/embed/6jSjEOQ7cJs"
+                                        <iframe loading="lazy" src="https://www.youtube.com/embed/6jSjEOQ7cJs"
                                             title="August 1, 2026 — six props completed" frameborder="0"
                                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                             allowfullscreen
@@ -1205,20 +1209,20 @@
                                 <div class="row blog-post-images">
                                     <div class="col-6 mb-2">
                                         <a href="07-31-2026_1.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="07-31-2026_1.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="07-31-2026_1.png" class="img-fluid rounded"
                                                 alt="Miter saw trimming slide bridge tubes on the welding table">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="07-31-2026_2.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="07-31-2026_2.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="07-31-2026_2.png" class="img-fluid rounded"
                                                 alt="Six completed prop frames ready for the Saturday workday">
                                         </a>
                                     </div>
                                 </div>
                                 <div class="blog-post-video">
                                     <div style="position:relative;width:100%;height:0;padding-bottom:56.25%;">
-                                        <iframe src="https://www.youtube.com/embed/Pum1KC0Bqss"
+                                        <iframe loading="lazy" src="https://www.youtube.com/embed/Pum1KC0Bqss"
                                             title="July 31, 2026 — ready for the workday" frameborder="0"
                                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                             allowfullscreen
@@ -1281,13 +1285,13 @@
                                 <p>The first half of the production run is almost complete.</p>
                                 <div class="blog-post-images mb-2">
                                     <a href="07-30-2026_1.png" target="_blank" rel="noopener noreferrer">
-                                        <img src="07-30-2026_1.png" class="img-fluid rounded"
+                                        <img loading="lazy" src="07-30-2026_1.png" class="img-fluid rounded"
                                             alt="Six welded staircase props filling the workshop floor">
                                     </a>
                                 </div>
                                 <div class="blog-post-video">
                                     <div style="position:relative;width:100%;height:0;padding-bottom:56.25%;">
-                                        <iframe src="https://www.youtube.com/embed/zZxOFWF-znE"
+                                        <iframe loading="lazy" src="https://www.youtube.com/embed/zZxOFWF-znE"
                                             title="July 30, 2026 — six props take shape" frameborder="0"
                                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                             allowfullscreen
@@ -1331,7 +1335,7 @@
                                 </p>
                                 <div class="blog-post-images mb-2">
                                     <a href="07-29-2026_1.png" target="_blank" rel="noopener noreferrer">
-                                        <img src="07-29-2026_1.png" class="img-fluid rounded"
+                                        <img loading="lazy" src="07-29-2026_1.png" class="img-fluid rounded"
                                             alt="Shattered rear window of the pickup truck after a golf ball hit">
                                     </a>
                                 </div>
@@ -1356,7 +1360,7 @@
                                 </p>
                                 <div class="blog-post-video">
                                     <div style="position:relative;width:100%;height:0;padding-bottom:56.25%;">
-                                        <iframe src="https://www.youtube.com/embed/m4tLbjlSPzA"
+                                        <iframe loading="lazy" src="https://www.youtube.com/embed/m4tLbjlSPzA"
                                             title="July 29, 2026 — an unexpected interruption" frameborder="0"
                                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                             allowfullscreen
@@ -1428,26 +1432,26 @@
                                 <div class="row blog-post-images">
                                     <div class="col-4 mb-2">
                                         <a href="07-28-2026_1.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="07-28-2026_1.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="07-28-2026_1.png" class="img-fluid rounded"
                                                 alt="Prop fixtured on the welding table with squares and clamps">
                                         </a>
                                     </div>
                                     <div class="col-4 mb-2">
                                         <a href="07-28-2026_2.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="07-28-2026_2.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="07-28-2026_2.png" class="img-fluid rounded"
                                                 alt="Prop assembly on the welding table with extension for the base">
                                         </a>
                                     </div>
                                     <div class="col-4 mb-2">
                                         <a href="07-28-2026_3.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="07-28-2026_3.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="07-28-2026_3.png" class="img-fluid rounded"
                                                 alt="Three fully welded staircase props lined up in the workshop">
                                         </a>
                                     </div>
                                 </div>
                                 <div class="blog-post-video">
                                     <div style="position:relative;width:100%;height:0;padding-bottom:56.25%;">
-                                        <iframe src="https://www.youtube.com/embed/Yq3VnEmN-Y0"
+                                        <iframe loading="lazy" src="https://www.youtube.com/embed/Yq3VnEmN-Y0"
                                             title="July 28, 2026 — finding the rhythm" frameborder="0"
                                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                             allowfullscreen
@@ -1514,20 +1518,20 @@
                                 <div class="row blog-post-images">
                                     <div class="col-6 mb-2">
                                         <a href="07-27-2026_1.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="07-27-2026_1.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="07-27-2026_1.png" class="img-fluid rounded"
                                                 alt="Fresh shielding gas cylinder with Harris regulator gauges">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="07-27-2026_2.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="07-27-2026_2.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="07-27-2026_2.png" class="img-fluid rounded"
                                                 alt="Prop #1 and Prop #2 staircase frames side by side in the workshop">
                                         </a>
                                     </div>
                                 </div>
                                 <div class="blog-post-video">
                                     <div style="position:relative;width:100%;height:0;padding-bottom:56.25%;">
-                                        <iframe src="https://www.youtube.com/embed/wyS08zXbVk8"
+                                        <iframe loading="lazy" src="https://www.youtube.com/embed/wyS08zXbVk8"
                                             title="July 27, 2026 — back to welding" frameborder="0"
                                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                             allowfullscreen
@@ -1584,7 +1588,7 @@
                                 <div class="blog-post-images mb-2">
                                     <a href="07-26-2026_3.png" target="_blank" rel="noopener noreferrer"
                                         class="blog-post-image-contain rounded">
-                                        <img src="07-26-2026_3.png" class="img-fluid rounded"
+                                        <img loading="lazy" src="07-26-2026_3.png" class="img-fluid rounded"
                                             alt="Shop drawing for the slide bridge tube with miter angles">
                                     </a>
                                 </div>
@@ -1609,13 +1613,13 @@
                                 <div class="row blog-post-images">
                                     <div class="col-6 mb-2">
                                         <a href="07-26-2026_1.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="07-26-2026_1.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="07-26-2026_1.png" class="img-fluid rounded"
                                                 alt="CAD render of plywood flag holder trough">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="07-26-2026_2.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="07-26-2026_2.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="07-26-2026_2.png" class="img-fluid rounded"
                                                 alt="CAD render of staircase prop with plywood flag holder">
                                         </a>
                                     </div>
@@ -1635,7 +1639,7 @@
                                 </p>
                                 <div class="blog-post-video">
                                     <div style="position:relative;width:100%;height:0;padding-bottom:56.25%;">
-                                        <iframe src="https://www.youtube.com/embed/XrGLRamL_Ik"
+                                        <iframe loading="lazy" src="https://www.youtube.com/embed/XrGLRamL_Ik"
                                             title="July 26, 2026 — a day of drilling" frameborder="0"
                                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                             allowfullscreen
@@ -1721,50 +1725,50 @@
                                 <div class="row blog-post-images">
                                     <div class="col-4 mb-2">
                                         <a href="07-25-2026_1.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="07-25-2026_1.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="07-25-2026_1.png" class="img-fluid rounded"
                                                 alt="Susie moving the heat press delivery through the prop frames">
                                         </a>
                                     </div>
                                     <div class="col-4 mb-2">
                                         <a href="07-25-2026_2.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="07-25-2026_2.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="07-25-2026_2.png" class="img-fluid rounded"
                                                 alt="Slide assembly fixtured on the welding table">
                                         </a>
                                     </div>
                                     <div class="col-4 mb-2">
                                         <a href="07-25-2026_3.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="07-25-2026_3.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="07-25-2026_3.png" class="img-fluid rounded"
                                                 alt="Welding table with extension set up for prop base assembly">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="07-25-2026_4.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="07-25-2026_4.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="07-25-2026_4.png" class="img-fluid rounded"
                                                 alt="Stack of completed slide assemblies on the shop floor">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="07-25-2026_5.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="07-25-2026_5.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="07-25-2026_5.png" class="img-fluid rounded"
                                                 alt="Staircase prop with slide assembly attached">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="07-25-2026_6.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="07-25-2026_6.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="07-25-2026_6.png" class="img-fluid rounded"
                                                 alt="Fireball Monster Square holding frame pieces square for welding">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="07-25-2026_7.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="07-25-2026_7.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="07-25-2026_7.png" class="img-fluid rounded"
                                                 alt="Monster Square fixturing the slide rails at 45 degrees">
                                         </a>
                                     </div>
                                 </div>
                                 <div class="blog-post-video">
                                     <div style="position:relative;width:100%;height:0;padding-bottom:56.25%;">
-                                        <iframe src="https://www.youtube.com/embed/4XbTb1LwOIs"
+                                        <iframe loading="lazy" src="https://www.youtube.com/embed/4XbTb1LwOIs"
                                             title="July 25, 2026 — back in the shop" frameborder="0"
                                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                             allowfullscreen
@@ -1848,38 +1852,38 @@
                                 <div class="row blog-post-images">
                                     <div class="col-4 mb-2">
                                         <a href="07-18-2026_1.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="07-18-2026_1.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="07-18-2026_1.png" class="img-fluid rounded"
                                                 alt="Angle iron slide rails fitted to the prop corner">
                                         </a>
                                     </div>
                                     <div class="col-4 mb-2">
                                         <a href="07-18-2026_2.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="07-18-2026_2.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="07-18-2026_2.png" class="img-fluid rounded"
                                                 alt="Slide rail clamped to the platform while verifying dimensions">
                                         </a>
                                     </div>
                                     <div class="col-4 mb-2">
                                         <a href="07-18-2026_3.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="07-18-2026_3.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="07-18-2026_3.png" class="img-fluid rounded"
                                                 alt="First staircase prop standing on yellow casters in the workshop">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="07-18-2026_4.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="07-18-2026_4.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="07-18-2026_4.png" class="img-fluid rounded"
                                                 alt="Milling machine drilling carriage bolt holes in slide rails">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="07-18-2026_5.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="07-18-2026_5.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="07-18-2026_5.png" class="img-fluid rounded"
                                                 alt="Locating pin jig for spacing holes in the angle iron rails">
                                         </a>
                                     </div>
                                 </div>
                                 <div class="blog-post-video">
                                     <div style="position:relative;width:100%;height:0;padding-bottom:56.25%;">
-                                        <iframe src="https://www.youtube.com/embed/qtzN0LG3IHQ"
+                                        <iframe loading="lazy" src="https://www.youtube.com/embed/qtzN0LG3IHQ"
                                             title="July 18, 2026 — one more shop day before vacation" frameborder="0"
                                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                             allowfullscreen
@@ -1917,13 +1921,13 @@
                                 <div class="row blog-post-images">
                                     <div class="col-12 mb-2">
                                         <a href="07-14-2026_1.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="07-14-2026_1.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="07-14-2026_1.png" class="img-fluid rounded"
                                                 alt="Fusion 360 renders of staircase props with coroplast artwork">
                                         </a>
                                     </div>
                                     <div class="col-12 mb-2">
                                         <a href="07-14-2026_2.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="07-14-2026_2.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="07-14-2026_2.png" class="img-fluid rounded"
                                                 alt="Red and blue geometric coroplast artwork panel">
                                         </a>
                                     </div>
@@ -1940,7 +1944,7 @@
                                 <div class="blog-post-images mb-2">
                                     <a href="07-14-2026_3.png" target="_blank" rel="noopener noreferrer"
                                         class="blog-post-image-contain rounded">
-                                        <img src="07-14-2026_3.png" class="img-fluid rounded"
+                                        <img loading="lazy" src="07-14-2026_3.png" class="img-fluid rounded"
                                             alt="CAD details showing flag storage, instrument shelf, and hinged access flap">
                                     </a>
                                 </div>
@@ -1951,7 +1955,7 @@
                                 <div class="blog-post-images mb-2">
                                     <a href="07-14-2026_4.png" target="_blank" rel="noopener noreferrer"
                                         class="blog-post-image-contain rounded">
-                                        <img src="07-14-2026_4.png" class="img-fluid rounded"
+                                        <img loading="lazy" src="07-14-2026_4.png" class="img-fluid rounded"
                                             alt="CAD render of dock-themed stage prop with water and piling artwork">
                                     </a>
                                 </div>
@@ -1965,13 +1969,13 @@
                                 <div class="row blog-post-images">
                                     <div class="col-12 mb-2">
                                         <a href="07-14-2026_5.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="07-14-2026_5.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="07-14-2026_5.png" class="img-fluid rounded"
                                                 alt="CAD render of media frame with tessellation artwork">
                                         </a>
                                     </div>
                                     <div class="col-12 mb-2">
                                         <a href="07-14-2026_6.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="07-14-2026_6.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="07-14-2026_6.png" class="img-fluid rounded"
                                                 alt="Eight media frame coroplast panels with Escher-style patterns">
                                         </a>
                                     </div>
@@ -1984,21 +1988,21 @@
                                 <div class="blog-post-images mb-2">
                                     <a href="07-14-2026_7.png" target="_blank" rel="noopener noreferrer"
                                         class="blog-post-image-contain rounded">
-                                        <img src="07-14-2026_7.png" class="img-fluid rounded"
+                                        <img loading="lazy" src="07-14-2026_7.png" class="img-fluid rounded"
                                             alt="Front sideline screen CAD with bird and fish tessellation">
                                     </a>
                                 </div>
                                 <div class="blog-post-images mb-2">
                                     <a href="07-14-2026_8.png" target="_blank" rel="noopener noreferrer"
                                         class="blog-post-image-contain rounded">
-                                        <img src="07-14-2026_8.png" class="img-fluid rounded"
+                                        <img loading="lazy" src="07-14-2026_8.png" class="img-fluid rounded"
                                             alt="Five-panel front screen artwork with cyan to magenta gradient">
                                     </a>
                                 </div>
                                 <div class="blog-post-images mb-2">
                                     <a href="07-14-2026_9.png" target="_blank" rel="noopener noreferrer"
                                         class="blog-post-image-contain rounded">
-                                        <img src="07-14-2026_9.png" class="img-fluid rounded"
+                                        <img loading="lazy" src="07-14-2026_9.png" class="img-fluid rounded"
                                             alt="Five-panel front screen artwork with red to yellow scale gradient">
                                     </a>
                                 </div>
@@ -2070,13 +2074,13 @@
                                 </p>
                                 <div class="blog-post-images mb-2">
                                     <a href="07-13-2026_1.png" target="_blank" rel="noopener noreferrer">
-                                        <img src="07-13-2026_1.png" class="img-fluid rounded"
+                                        <img loading="lazy" src="07-13-2026_1.png" class="img-fluid rounded"
                                             alt="Prop #1 — base, platform, and stairs welded together on the welding table">
                                     </a>
                                 </div>
                                 <div class="blog-post-video">
                                     <div style="position:relative;width:100%;height:0;padding-bottom:56.25%;">
-                                        <iframe src="https://www.youtube.com/embed/DWoxQWcI09I"
+                                        <iframe loading="lazy" src="https://www.youtube.com/embed/DWoxQWcI09I"
                                             title="July 13, 2026 — the first complete prop" frameborder="0"
                                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                             allowfullscreen
@@ -2135,38 +2139,38 @@
                                 <div class="row blog-post-images">
                                     <div class="col-4 mb-2">
                                         <a href="07-12-2026_1.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="07-12-2026_1.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="07-12-2026_1.png" class="img-fluid rounded"
                                                 alt="Susie spray-painting stair step assemblies on the driveway">
                                         </a>
                                     </div>
                                     <div class="col-4 mb-2">
                                         <a href="07-12-2026_2.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="07-12-2026_2.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="07-12-2026_2.png" class="img-fluid rounded"
                                                 alt="Platform assembly fixtured on the Fireball welding table">
                                         </a>
                                     </div>
                                     <div class="col-4 mb-2">
                                         <a href="07-12-2026_3.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="07-12-2026_3.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="07-12-2026_3.png" class="img-fluid rounded"
                                                 alt="Completed platform assembly beside painted stair frames">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="07-12-2026_4.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="07-12-2026_4.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="07-12-2026_4.png" class="img-fluid rounded"
                                                 alt="Workshop filled with painted stairs, platforms, and base frames">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="07-12-2026_5.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="07-12-2026_5.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="07-12-2026_5.png" class="img-fluid rounded"
                                                 alt="Stacks of base frames and stair assemblies crowding the shop">
                                         </a>
                                     </div>
                                 </div>
                                 <div class="blog-post-video">
                                     <div style="position:relative;width:100%;height:0;padding-bottom:56.25%;">
-                                        <iframe src="https://www.youtube.com/embed/Ku8rVmVJNSo"
+                                        <iframe loading="lazy" src="https://www.youtube.com/embed/Ku8rVmVJNSo"
                                             title="July 12, 2026 — making room for the next step" frameborder="0"
                                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                             allowfullscreen
@@ -2234,32 +2238,32 @@
                                 <div class="row blog-post-images">
                                     <div class="col-6 mb-2">
                                         <a href="07-11-2026_1.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="07-11-2026_1.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="07-11-2026_1.png" class="img-fluid rounded"
                                                 alt="Volunteers spray-painting and prepping steel frames in the driveway">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="07-11-2026_2.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="07-11-2026_2.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="07-11-2026_2.png" class="img-fluid rounded"
                                                 alt="Workshop assembly line with plywood cutting and metal grinding">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="07-11-2026_3.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="07-11-2026_3.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="07-11-2026_3.png" class="img-fluid rounded"
                                                 alt="Driveway workday with prop assembly and painted base frames">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="07-11-2026_4.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="07-11-2026_4.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="07-11-2026_4.png" class="img-fluid rounded"
                                                 alt="Stacks of painted plywood panels and black steel base frames">
                                         </a>
                                     </div>
                                 </div>
                                 <div class="blog-post-video">
                                     <div style="position:relative;width:100%;height:0;padding-bottom:56.25%;">
-                                        <iframe src="https://www.youtube.com/embed/vMHg9-NMKKA"
+                                        <iframe loading="lazy" src="https://www.youtube.com/embed/vMHg9-NMKKA"
                                             title="July 11, 2026 — the first volunteer workday" frameborder="0"
                                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                             allowfullscreen
@@ -2312,13 +2316,13 @@
                                 <div class="row blog-post-images">
                                     <div class="col-6 mb-2">
                                         <a href="07-09-2026_2.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="07-09-2026_2.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="07-09-2026_2.png" class="img-fluid rounded"
                                                 alt="Pickup truck at The Plywood Company of Fort Worth warehouse">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="07-09-2026_3.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="07-09-2026_3.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="07-09-2026_3.png" class="img-fluid rounded"
                                                 alt="Twelve sheets of plywood loaded in the truck bed">
                                         </a>
                                     </div>
@@ -2367,20 +2371,20 @@
                                 <div class="row blog-post-images">
                                     <div class="col-6 mb-2">
                                         <a href="07-08-2026_1.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="07-08-2026_1.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="07-08-2026_1.png" class="img-fluid rounded"
                                                 alt="Workshop with stair assemblies stacked and paint rack by the garage door">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="07-08-2026_2.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="07-08-2026_2.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="07-08-2026_2.png" class="img-fluid rounded"
                                                 alt="Ground base assemblies stacked beside stair frames and red paint rack">
                                         </a>
                                     </div>
                                 </div>
                                 <div class="blog-post-video">
                                     <div style="position:relative;width:100%;height:0;padding-bottom:56.25%;">
-                                        <iframe src="https://www.youtube.com/embed/ZOxR2doMST4"
+                                        <iframe loading="lazy" src="https://www.youtube.com/embed/ZOxR2doMST4"
                                             title="July 8, 2026 — many hands make light work" frameborder="0"
                                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                             allowfullscreen
@@ -2427,20 +2431,20 @@
                                 <div class="row blog-post-images">
                                     <div class="col-6 mb-2">
                                         <a href="07-07-2026_1.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="07-07-2026_1.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="07-07-2026_1.png" class="img-fluid rounded"
                                                 alt="Stack of all twelve completed three-step stair assemblies">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="07-07-2026_2.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="07-07-2026_2.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="07-07-2026_2.png" class="img-fluid rounded"
                                                 alt="Workshop floor with stacks of finished stair and frame subassemblies">
                                         </a>
                                     </div>
                                 </div>
                                 <div class="blog-post-video">
                                     <div style="position:relative;width:100%;height:0;padding-bottom:56.25%;">
-                                        <iframe src="https://www.youtube.com/embed/Hl6mprL2tbE"
+                                        <iframe loading="lazy" src="https://www.youtube.com/embed/Hl6mprL2tbE"
                                             title="July 7, 2026 — a major milestone" frameborder="0"
                                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                             allowfullscreen
@@ -2493,20 +2497,20 @@
                                 <div class="row blog-post-images">
                                     <div class="col-6 mb-2">
                                         <a href="07-06-2026_1.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="07-06-2026_1.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="07-06-2026_1.png" class="img-fluid rounded"
                                                 alt="Three-step stair assembly fixtured on Fireball welding table">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="07-06-2026_2.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="07-06-2026_2.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="07-06-2026_2.png" class="img-fluid rounded"
                                                 alt="Stack of completed three-step stair assemblies on the workshop floor">
                                         </a>
                                     </div>
                                 </div>
                                 <div class="blog-post-video">
                                     <div style="position:relative;width:100%;height:0;padding-bottom:56.25%;">
-                                        <iframe src="https://www.youtube.com/embed/AiGHSEWoZg8"
+                                        <iframe loading="lazy" src="https://www.youtube.com/embed/AiGHSEWoZg8"
                                             title="July 6, 2026 — halfway through the stair assemblies" frameborder="0"
                                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                             allowfullscreen
@@ -2576,31 +2580,31 @@
                                 <div class="row blog-post-images">
                                     <div class="col-4 mb-2">
                                         <a href="07-05-2026_1.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="07-05-2026_1.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="07-05-2026_1.png" class="img-fluid rounded"
                                                 alt="Amazon shipping boxes with caster hardware on the driveway">
                                         </a>
                                     </div>
                                     <div class="col-4 mb-2">
                                         <a href="07-05-2026_2.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="07-05-2026_2.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="07-05-2026_2.png" class="img-fluid rounded"
                                                 alt="Stair frame fixtured vertically on Fireball welding table with extension blocks">
                                         </a>
                                     </div>
                                     <div class="col-4 mb-2">
                                         <a href="07-05-2026_3.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="07-05-2026_3.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="07-05-2026_3.png" class="img-fluid rounded"
                                                 alt="Workshop view of stair assembly on welding table with stacks of frames outside">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="07-05-2026_4.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="07-05-2026_4.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="07-05-2026_4.png" class="img-fluid rounded"
                                                 alt="Extension blocks and clamps holding step frames on the welding table">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="07-05-2026_5.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="07-05-2026_5.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="07-05-2026_5.png" class="img-fluid rounded"
                                                 alt="Completed three-step stair subassembly standing on the welding table">
                                         </a>
                                     </div>
@@ -2608,13 +2612,13 @@
                                 <div class="blog-post-images mb-2">
                                     <a href="07-05-2026_6.png" target="_blank" rel="noopener noreferrer"
                                         class="blog-post-image-contain rounded">
-                                        <img src="07-05-2026_6.png" class="img-fluid rounded"
+                                        <img loading="lazy" src="07-05-2026_6.png" class="img-fluid rounded"
                                             alt="CAD rendering of three-step stair fixture on Fireball welding table">
                                     </a>
                                 </div>
                                 <div class="blog-post-video">
                                     <div style="position:relative;width:100%;height:0;padding-bottom:56.25%;">
-                                        <iframe src="https://www.youtube.com/embed/EuBYzpaVIkY"
+                                        <iframe loading="lazy" src="https://www.youtube.com/embed/EuBYzpaVIkY"
                                             title="July 5, 2026 — building the stairs" frameborder="0"
                                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                             allowfullscreen
@@ -2665,13 +2669,13 @@
                                 </p>
                                 <div class="blog-post-images mb-2">
                                     <a href="07-02-2026_1.png" target="_blank" rel="noopener noreferrer">
-                                        <img src="07-02-2026_1.png" class="img-fluid rounded"
+                                        <img loading="lazy" src="07-02-2026_1.png" class="img-fluid rounded"
                                             alt="Top step assembly fixtured on Fireball welding table with clamps and welding gear">
                                     </a>
                                 </div>
                                 <div class="blog-post-video">
                                     <div style="position:relative;width:100%;height:0;padding-bottom:56.25%;">
-                                        <iframe src="https://www.youtube.com/embed/tqp55fd-aRQ"
+                                        <iframe loading="lazy" src="https://www.youtube.com/embed/tqp55fd-aRQ"
                                             title="July 2, 2026 — back to welding" frameborder="0"
                                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                             allowfullscreen
@@ -2724,7 +2728,7 @@
                                 </p>
                                 <div class="blog-post-video">
                                     <div style="position:relative;width:100%;height:0;padding-bottom:56.25%;">
-                                        <iframe src="https://www.youtube.com/embed/ybPuzzXHnrM"
+                                        <iframe loading="lazy" src="https://www.youtube.com/embed/ybPuzzXHnrM"
                                             title="July 1, 2026 — preparing for paint" frameborder="0"
                                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                             allowfullscreen
@@ -2800,32 +2804,32 @@
                                 <div class="row blog-post-images">
                                     <div class="col-6 mb-2">
                                         <a href="06-30-2026_1.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="06-30-2026_1.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="06-30-2026_1.png" class="img-fluid rounded"
                                                 alt="Lower step subassembly fixtured on Fireball welding table">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="06-30-2026_2.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="06-30-2026_2.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="06-30-2026_2.png" class="img-fluid rounded"
                                                 alt="Step assembly clamped in fixture with angle grinder on table">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="06-30-2026_3.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="06-30-2026_3.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="06-30-2026_3.png" class="img-fluid rounded"
                                                 alt="Stacks of left-hand and right-hand lower step assemblies">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="06-30-2026_4.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="06-30-2026_4.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="06-30-2026_4.png" class="img-fluid rounded"
                                                 alt="Workshop floor with stacks of stair and platform subassemblies">
                                         </a>
                                     </div>
                                 </div>
                                 <div class="blog-post-video">
                                     <div style="position:relative;width:100%;height:0;padding-bottom:56.25%;">
-                                        <iframe src="https://www.youtube.com/embed/S9ksYA3_tr0"
+                                        <iframe loading="lazy" src="https://www.youtube.com/embed/S9ksYA3_tr0"
                                             title="June 30, 2026 — every project has a mistake" frameborder="0"
                                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                             allowfullscreen
@@ -2903,31 +2907,31 @@
                                 <div class="row blog-post-images">
                                     <div class="col-4 mb-2">
                                         <a href="06-27-2026_1.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="06-27-2026_1.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="06-27-2026_1.png" class="img-fluid rounded"
                                                 alt="Base frame subassembly clamped on Fireball welding table">
                                         </a>
                                     </div>
                                     <div class="col-4 mb-2">
                                         <a href="06-27-2026_2.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="06-27-2026_2.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="06-27-2026_2.png" class="img-fluid rounded"
                                                 alt="Large base frame on welding table with custom extension support">
                                         </a>
                                     </div>
                                     <div class="col-4 mb-2">
                                         <a href="06-27-2026_3.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="06-27-2026_3.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="06-27-2026_3.png" class="img-fluid rounded"
                                                 alt="Completed base frame standing on edge on welding table">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="06-27-2026_4.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="06-27-2026_4.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="06-27-2026_4.png" class="img-fluid rounded"
                                                 alt="Stacks of completed base frames on workshop floor">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="06-27-2026_5.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="06-27-2026_5.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="06-27-2026_5.png" class="img-fluid rounded"
                                                 alt="Close-up stack of welded base frames with wheel plate mounts">
                                         </a>
                                     </div>
@@ -2935,13 +2939,13 @@
                                 <div class="blog-post-images mb-2">
                                     <a href="drawing-base-a.png" target="_blank" rel="noopener noreferrer"
                                         class="blog-post-image-contain rounded">
-                                        <img src="drawing-base-a.png" class="img-fluid rounded"
+                                        <img loading="lazy" src="drawing-base-a.png" class="img-fluid rounded"
                                             alt="Engineering drawing: Base A dimensions and part list">
                                     </a>
                                 </div>
                                 <div class="blog-post-video">
                                     <div style="position:relative;width:100%;height:0;padding-bottom:56.25%;">
-                                        <iframe src="https://www.youtube.com/embed/PabumYsDqNU"
+                                        <iframe loading="lazy" src="https://www.youtube.com/embed/PabumYsDqNU"
                                             title="June 27, 2026 — twelve base frames complete" frameborder="0"
                                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                             allowfullscreen
@@ -3000,19 +3004,19 @@
                                 <div class="row blog-post-images">
                                     <div class="col-4 mb-2">
                                         <a href="06-26-2026_1.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="06-26-2026_1.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="06-26-2026_1.png" class="img-fluid rounded"
                                                 alt="Lower step assembly fixtured on edge on Fireball welding table">
                                         </a>
                                     </div>
                                     <div class="col-4 mb-2">
                                         <a href="06-26-2026_2.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="06-26-2026_2.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="06-26-2026_2.png" class="img-fluid rounded"
                                                 alt="Step fixture setup with stop blocks on welding table">
                                         </a>
                                     </div>
                                     <div class="col-4 mb-2">
                                         <a href="06-26-2026_3.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="06-26-2026_3.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="06-26-2026_3.png" class="img-fluid rounded"
                                                 alt="Stack of twelve completed lower step assemblies">
                                         </a>
                                     </div>
@@ -3020,13 +3024,13 @@
                                 <div class="blog-post-images mb-2">
                                     <a href="drawing-three-steps.png" target="_blank" rel="noopener noreferrer"
                                         class="blog-post-image-contain rounded">
-                                        <img src="drawing-three-steps.png" class="img-fluid rounded"
+                                        <img loading="lazy" src="drawing-three-steps.png" class="img-fluid rounded"
                                             alt="Engineering drawing: three steps subassembly dimensions and part list">
                                     </a>
                                 </div>
                                 <div class="blog-post-video">
                                     <div style="position:relative;width:100%;height:0;padding-bottom:56.25%;">
-                                        <iframe src="https://www.youtube.com/embed/97EMmeEyfAM"
+                                        <iframe loading="lazy" src="https://www.youtube.com/embed/97EMmeEyfAM"
                                             title="June 26, 2026 — a fixture for the first step" frameborder="0"
                                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                             allowfullscreen
@@ -3087,19 +3091,19 @@
                                 <div class="row blog-post-images">
                                     <div class="col-12 mb-2">
                                         <a href="06-25-2026_1.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="06-25-2026_1.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="06-25-2026_1.png" class="img-fluid rounded"
                                                 alt="Stack of welded L-shaped subassemblies on Fireball welding table">
                                         </a>
                                     </div>
                                     <div class="col-12 mb-2">
                                         <a href="05-17-2026_email_2.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="05-17-2026_email_2.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="05-17-2026_email_2.png" class="img-fluid rounded"
                                                 alt="CAD rendering of prop showing plywood top, slide, and steps on metal frame">
                                         </a>
                                     </div>
                                     <div class="col-12 mb-2">
                                         <a href="plywood_layout.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="plywood_layout.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="plywood_layout.png" class="img-fluid rounded"
                                                 alt="Plywood sheet layout showing slides, tops, and steps with scrap areas">
                                         </a>
                                     </div>
@@ -3107,13 +3111,13 @@
                                 <div class="blog-post-images mb-2">
                                     <a href="drawing-plywood-layout.png" target="_blank" rel="noopener noreferrer"
                                         class="blog-post-image-contain rounded">
-                                        <img src="drawing-plywood-layout.png" class="img-fluid rounded"
+                                        <img loading="lazy" src="drawing-plywood-layout.png" class="img-fluid rounded"
                                             alt="Engineering drawing: plywood cut layout with dimensions">
                                     </a>
                                 </div>
                                 <div class="blog-post-video">
                                     <div style="position:relative;width:100%;height:0;padding-bottom:56.25%;">
-                                        <iframe src="https://www.youtube.com/embed/2iWjQoy3P38"
+                                        <iframe loading="lazy" src="https://www.youtube.com/embed/2iWjQoy3P38"
                                             title="June 25, 2026 — more progress and material planning" frameborder="0"
                                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                             allowfullscreen
@@ -3184,19 +3188,19 @@
                                 <div class="row blog-post-images">
                                     <div class="col-4 mb-2">
                                         <a href="06-24-2026_1.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="06-24-2026_1.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="06-24-2026_1.png" class="img-fluid rounded"
                                                 alt="Wheel plate sub-assembly clamped on Fireball welding table">
                                         </a>
                                     </div>
                                     <div class="col-4 mb-2">
                                         <a href="06-24-2026_2.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="06-24-2026_2.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="06-24-2026_2.png" class="img-fluid rounded"
                                                 alt="Wheel plates welded to square tubing on welding table">
                                         </a>
                                     </div>
                                     <div class="col-4 mb-2">
                                         <a href="06-24-2026_3.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="06-24-2026_3.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="06-24-2026_3.png" class="img-fluid rounded"
                                                 alt="Stacks of welded wheel plate sub-assemblies on workshop floor">
                                         </a>
                                     </div>
@@ -3204,13 +3208,13 @@
                                 <div class="blog-post-images mb-2">
                                     <a href="drawing-wheel-plates.png" target="_blank" rel="noopener noreferrer"
                                         class="blog-post-image-contain rounded">
-                                        <img src="drawing-wheel-plates.png" class="img-fluid rounded"
+                                        <img loading="lazy" src="drawing-wheel-plates.png" class="img-fluid rounded"
                                             alt="Engineering drawing: wheel plates sub-assembly dimensions">
                                     </a>
                                 </div>
                                 <div class="blog-post-video">
                                     <div style="position:relative;width:100%;height:0;padding-bottom:56.25%;">
-                                        <iframe src="https://www.youtube.com/embed/UPbMzMF_4tc"
+                                        <iframe loading="lazy" src="https://www.youtube.com/embed/UPbMzMF_4tc"
                                             title="June 24, 2026 — wheel plate sub-assemblies" frameborder="0"
                                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                             allowfullscreen
@@ -3276,43 +3280,43 @@
                                 <div class="row blog-post-images">
                                     <div class="col-4 mb-2">
                                         <a href="06-23-2026_3.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="06-23-2026_3.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="06-23-2026_3.png" class="img-fluid rounded"
                                                 alt="Welding gas cylinder strapped in pickup truck bed">
                                         </a>
                                     </div>
                                     <div class="col-4 mb-2">
                                         <a href="06-23-2026_4.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="06-23-2026_4.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="06-23-2026_4.png" class="img-fluid rounded"
                                                 alt="Gas regulator gauges showing tank pressure and flow rate">
                                         </a>
                                     </div>
                                     <div class="col-4 mb-2">
                                         <a href="06-23-2026_5.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="06-23-2026_5.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="06-23-2026_5.png" class="img-fluid rounded"
                                                 alt="Airgas store exterior">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="06-23-2026_1.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="06-23-2026_1.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="06-23-2026_1.png" class="img-fluid rounded"
                                                 alt="Stacks of metal tubing and wheel plate components on workshop floor">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="06-23-2026_2.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="06-23-2026_2.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="06-23-2026_2.png" class="img-fluid rounded"
                                                 alt="Prefabricated steel frames and mounting pieces on workshop floor">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="06-23-2026_6.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="06-23-2026_6.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="06-23-2026_6.png" class="img-fluid rounded"
                                                 alt="Wheel plates clamped on welding table ready for welding">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="06-23-2026_7.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="06-23-2026_7.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="06-23-2026_7.png" class="img-fluid rounded"
                                                 alt="Wheel plate welded to square tubing on Fireball welding table">
                                         </a>
                                     </div>
@@ -3320,13 +3324,13 @@
                                 <div class="blog-post-images mb-2">
                                     <a href="drawing-wheel-plates.png" target="_blank" rel="noopener noreferrer"
                                         class="blog-post-image-contain rounded">
-                                        <img src="drawing-wheel-plates.png" class="img-fluid rounded"
+                                        <img loading="lazy" src="drawing-wheel-plates.png" class="img-fluid rounded"
                                             alt="Engineering drawing: wheel plates sub-assembly dimensions">
                                     </a>
                                 </div>
                                 <div class="blog-post-video">
                                     <div style="position:relative;width:100%;height:0;padding-bottom:56.25%;">
-                                        <iframe src="https://www.youtube.com/embed/L0SLOH4KtS0"
+                                        <iframe loading="lazy" src="https://www.youtube.com/embed/L0SLOH4KtS0"
                                             title="June 23, 2026 — wheel plates" frameborder="0"
                                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                             allowfullscreen
@@ -3383,25 +3387,25 @@
                                 <div class="row blog-post-images">
                                     <div class="col-6 mb-2">
                                         <a href="06-22-2026_1.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="06-22-2026_1.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="06-22-2026_1.png" class="img-fluid rounded"
                                                 alt="Selfie of Michael and Susie in the workshop after a day of metalwork">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="06-22-2026_2.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="06-22-2026_2.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="06-22-2026_2.png" class="img-fluid rounded"
                                                 alt="Stacks of welded metal frames and tubing bundles on workshop floor">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="06-22-2026_3.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="06-22-2026_3.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="06-22-2026_3.png" class="img-fluid rounded"
                                                 alt="Platform leg frame clamped on welding table for assembly">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="06-22-2026_4.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="06-22-2026_4.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="06-22-2026_4.png" class="img-fluid rounded"
                                                 alt="Platform leg sub-assembly clamped on fixture welding table">
                                         </a>
                                     </div>
@@ -3409,13 +3413,13 @@
                                 <div class="blog-post-images mb-2">
                                     <a href="drawing-platform-leg.png" target="_blank" rel="noopener noreferrer"
                                         class="blog-post-image-contain rounded">
-                                        <img src="drawing-platform-leg.png" class="img-fluid rounded"
+                                        <img loading="lazy" src="drawing-platform-leg.png" class="img-fluid rounded"
                                             alt="Engineering drawing: platform leg dimensions and part list">
                                     </a>
                                 </div>
                                 <div class="blog-post-video">
                                     <div style="position:relative;width:100%;height:0;padding-bottom:56.25%;">
-                                        <iframe src="https://www.youtube.com/embed/Unfs-_GJjH4"
+                                        <iframe loading="lazy" src="https://www.youtube.com/embed/Unfs-_GJjH4"
                                             title="June 22, 2026 — platform legs" frameborder="0"
                                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                             allowfullscreen
@@ -3471,31 +3475,31 @@
                                 <div class="row blog-post-images">
                                     <div class="col-4 mb-2">
                                         <a href="06-20-2026_5.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="06-20-2026_5.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="06-20-2026_5.png" class="img-fluid rounded"
                                                 alt="Workshop overview with stacks of welded frames and cut metal tubing">
                                         </a>
                                     </div>
                                     <div class="col-4 mb-2">
                                         <a href="06-20-2026_2.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="06-20-2026_2.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="06-20-2026_2.png" class="img-fluid rounded"
                                                 alt="Susie drilling holes in 84-inch tubing on milling machine">
                                         </a>
                                     </div>
                                     <div class="col-4 mb-2">
                                         <a href="06-20-2026_3.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="06-20-2026_3.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="06-20-2026_3.png" class="img-fluid rounded"
                                                 alt="Close-up of drill press boring hole in square metal tubing">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="06-20-2026_4.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="06-20-2026_4.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="06-20-2026_4.png" class="img-fluid rounded"
                                                 alt="Platform top frame clamped on welding table for assembly">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="06-20-2026_1.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="06-20-2026_1.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="06-20-2026_1.png" class="img-fluid rounded"
                                                 alt="Susie cleaning metal with angle grinder at welding table">
                                         </a>
                                     </div>
@@ -3503,13 +3507,13 @@
                                 <div class="blog-post-images mb-2">
                                     <a href="drawing-platform-top.png" target="_blank" rel="noopener noreferrer"
                                         class="blog-post-image-contain rounded">
-                                        <img src="drawing-platform-top.png" class="img-fluid rounded"
+                                        <img loading="lazy" src="drawing-platform-top.png" class="img-fluid rounded"
                                             alt="Engineering drawing: platform top dimensions and part list">
                                     </a>
                                 </div>
                                 <div class="blog-post-video">
                                     <div style="position:relative;width:100%;height:0;padding-bottom:56.25%;">
-                                        <iframe src="https://www.youtube.com/embed/SbQ8FVYFpiI"
+                                        <iframe loading="lazy" src="https://www.youtube.com/embed/SbQ8FVYFpiI"
                                             title="June 20, 2026 — steps and platform tops" frameborder="0"
                                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                             allowfullscreen
@@ -3567,25 +3571,25 @@
                                 <div class="row blog-post-images">
                                     <div class="col-6 mb-2">
                                         <a href="06-19-2026_1.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="06-19-2026_1.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="06-19-2026_1.png" class="img-fluid rounded"
                                                 alt="Stacks of welded frames and bundled metal stock on workshop floor">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="06-19-2026_2.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="06-19-2026_2.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="06-19-2026_2.png" class="img-fluid rounded"
                                                 alt="Cutting 84-inch tubing with chop saw on welding table">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="06-19-2026_3.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="06-19-2026_3.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="06-19-2026_3.png" class="img-fluid rounded"
                                                 alt="Stack of cut square tubing on welding table ready for fabrication">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="06-19-2026_4.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="06-19-2026_4.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="06-19-2026_4.png" class="img-fluid rounded"
                                                 alt="Step frame clamped on welding table with drawing marked x36">
                                         </a>
                                     </div>
@@ -3593,13 +3597,13 @@
                                 <div class="blog-post-images mb-2">
                                     <a href="drawing-step.png" target="_blank" rel="noopener noreferrer"
                                         class="blog-post-image-contain rounded">
-                                        <img src="drawing-step.png" class="img-fluid rounded"
+                                        <img loading="lazy" src="drawing-step.png" class="img-fluid rounded"
                                             alt="Engineering drawing: step subassembly dimensions and part list">
                                     </a>
                                 </div>
                                 <div class="blog-post-video">
                                     <div style="position:relative;width:100%;height:0;padding-bottom:56.25%;">
-                                        <iframe src="https://www.youtube.com/embed/wGnkKp43Vw8"
+                                        <iframe loading="lazy" src="https://www.youtube.com/embed/wGnkKp43Vw8"
                                             title="June 19, 2026 — welding begins" frameborder="0"
                                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                             allowfullscreen
@@ -3647,20 +3651,20 @@
                                 <div class="row blog-post-images">
                                     <div class="col-6 mb-2">
                                         <a href="06-17-2026_1.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="06-17-2026_1.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="06-17-2026_1.png" class="img-fluid rounded"
                                                 alt="Chop saw on welding table with stacks of cut steel tubing">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="06-17-2026_2.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="06-17-2026_2.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="06-17-2026_2.png" class="img-fluid rounded"
                                                 alt="Metal chop saw clamped to fixture table cutting square tubing">
                                         </a>
                                     </div>
                                 </div>
                                 <div class="blog-post-images mb-2">
                                     <a href="06-17-2026_3.png" target="_blank" rel="noopener noreferrer">
-                                        <img src="06-17-2026_3.png" class="img-fluid rounded"
+                                        <img loading="lazy" src="06-17-2026_3.png" class="img-fluid rounded"
                                             alt="Organized stacks of cut steel stock on workshop floor">
                                     </a>
                                 </div>
@@ -3687,7 +3691,7 @@
                                 </p>
                                 <div class="blog-post-video">
                                     <div style="position:relative;width:100%;height:0;padding-bottom:56.25%;">
-                                        <iframe src="https://www.youtube.com/embed/K71II-Dm8RQ"
+                                        <iframe loading="lazy" src="https://www.youtube.com/embed/K71II-Dm8RQ"
                                             title="June 17, 2026 — production cutting marathon" frameborder="0"
                                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                             allowfullscreen
@@ -3738,26 +3742,26 @@
                                 <div class="row blog-post-images">
                                     <div class="col-4 mb-2">
                                         <a href="06-16-2026_1.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="06-16-2026_1.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="06-16-2026_1.png" class="img-fluid rounded"
                                                 alt="Rolling cart with organized stacks of cut metal tubing in workshop">
                                         </a>
                                     </div>
                                     <div class="col-4 mb-2">
                                         <a href="06-16-2026_2.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="06-16-2026_2.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="06-16-2026_2.png" class="img-fluid rounded"
                                                 alt="Stacks of cut square tubing on workbench and lower shelf">
                                         </a>
                                     </div>
                                     <div class="col-4 mb-2">
                                         <a href="06-16-2026_3.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="06-16-2026_3.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="06-16-2026_3.png" class="img-fluid rounded"
                                                 alt="Organized piles of cut tubing, flat bar, and angle iron on floor">
                                         </a>
                                     </div>
                                 </div>
                                 <div class="blog-post-video">
                                     <div style="position:relative;width:100%;height:0;padding-bottom:56.25%;">
-                                        <iframe src="https://www.youtube.com/embed/5nu1fxuOZaw"
+                                        <iframe loading="lazy" src="https://www.youtube.com/embed/5nu1fxuOZaw"
                                             title="June 16, 2026 — day 5 of production" frameborder="0"
                                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                             allowfullscreen
@@ -3777,13 +3781,13 @@
                                 <div class="row blog-post-images">
                                     <div class="col-6 mb-2">
                                         <a href="06-15-2026_1.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="06-15-2026_1.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="06-15-2026_1.png" class="img-fluid rounded"
                                                 alt="Organized stacks of cut square tubing on workshop floor">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="06-15-2026_2.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="06-15-2026_2.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="06-15-2026_2.png" class="img-fluid rounded"
                                                 alt="Chop saw on welding table cutting square tubing">
                                         </a>
                                     </div>
@@ -3799,19 +3803,19 @@
                                 <div class="row blog-post-images">
                                     <div class="col-4 mb-2">
                                         <a href="06-14-2026_1.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="06-14-2026_1.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="06-14-2026_1.png" class="img-fluid rounded"
                                                 alt="Chop saw motor housing disassembled for maintenance">
                                         </a>
                                     </div>
                                     <div class="col-4 mb-2">
                                         <a href="06-14-2026_2.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="06-14-2026_2.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="06-14-2026_2.png" class="img-fluid rounded"
                                                 alt="Bundled steel stock organized on workshop floor">
                                         </a>
                                     </div>
                                     <div class="col-4 mb-2">
                                         <a href="06-14-2026_3.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="06-14-2026_3.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="06-14-2026_3.png" class="img-fluid rounded"
                                                 alt="Susie drilling holes in tubing on milling machine">
                                         </a>
                                     </div>
@@ -3866,32 +3870,32 @@
                                 <div class="row blog-post-images">
                                     <div class="col-6 mb-2">
                                         <a href="06-13-2026_1.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="06-13-2026_1.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="06-13-2026_1.png" class="img-fluid rounded"
                                                 alt="Bundles of square steel tubing and angle iron on workshop floor">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="06-13-2026_2.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="06-13-2026_2.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="06-13-2026_2.png" class="img-fluid rounded"
                                                 alt="Chop saw on welding table with square tubing ready to cut">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="06-13-2026_3.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="06-13-2026_3.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="06-13-2026_3.png" class="img-fluid rounded"
                                                 alt="Chop saw fence setup for repeatable cuts on fixture table">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="06-13-2026_4.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="06-13-2026_4.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="06-13-2026_4.png" class="img-fluid rounded"
                                                 alt="Chop saw set to 45 degrees with repeatable stop block">
                                         </a>
                                     </div>
                                 </div>
                                 <div class="blog-post-video">
                                     <div style="position:relative;width:100%;height:0;padding-bottom:56.25%;">
-                                        <iframe src="https://www.youtube.com/embed/x-d5wb0Lyls"
+                                        <iframe loading="lazy" src="https://www.youtube.com/embed/x-d5wb0Lyls"
                                             title="June 13, 2026 — cutting and drilling" frameborder="0"
                                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                             allowfullscreen
@@ -3933,13 +3937,13 @@
                                 <div class="row blog-post-images">
                                     <div class="col-12 mb-2">
                                         <a href="06-12-2026_1.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="06-12-2026_1.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="06-12-2026_1.png" class="img-fluid rounded"
                                                 alt="Metal Supermarkets delivery truck loaded with steel tubing">
                                         </a>
                                     </div>
                                     <div class="col-12 mb-2">
                                         <a href="06-12-2026_2.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="06-12-2026_2.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="06-12-2026_2.png" class="img-fluid rounded"
                                                 alt="Steel tubing sorted on workshop floor ready for fabrication">
                                         </a>
                                     </div>
@@ -3971,7 +3975,7 @@
                                 <p>Time to get to work.</p>
                                 <div class="blog-post-video">
                                     <div style="position:relative;width:100%;height:0;padding-bottom:56.25%;">
-                                        <iframe src="https://www.youtube.com/embed/KL2GxHMeoMU"
+                                        <iframe loading="lazy" src="https://www.youtube.com/embed/KL2GxHMeoMU"
                                             title="June 12, 2026 — metal delivery" frameborder="0"
                                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                             allowfullscreen
@@ -3990,7 +3994,7 @@
                                 <p>Placed metal order for the 12 stair props.</p>
                                 <div class="blog-post-images mb-2">
                                     <a href="06-11-2026_email_1.png" target="_blank" rel="noopener noreferrer">
-                                        <img src="06-11-2026_email_1.png" class="img-fluid rounded"
+                                        <img loading="lazy" src="06-11-2026_email_1.png" class="img-fluid rounded"
                                             alt="Metal Supermarkets customer order for stair prop materials">
                                     </a>
                                 </div>
@@ -4009,7 +4013,7 @@
                                 <p>We are also going to 10 front screens.</p>
                                 <div class="blog-post-images mb-2">
                                     <a href="06-10-2026_email_1.png" target="_blank" rel="noopener noreferrer">
-                                        <img src="06-10-2026_email_1.png" class="img-fluid rounded"
+                                        <img loading="lazy" src="06-10-2026_email_1.png" class="img-fluid rounded"
                                             alt="CAD mockup: revised dock stage with single 4 by 8 section">
                                     </a>
                                 </div>
@@ -4056,13 +4060,13 @@
                                 <div class="row blog-post-images">
                                     <div class="col-12 mb-2">
                                         <a href="06-06-2026_email_1.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="06-06-2026_email_1.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="06-06-2026_email_1.png" class="img-fluid rounded"
                                                 alt="CAD mockup: mirrored stair/slide pair with labeled coroplast panels">
                                         </a>
                                     </div>
                                     <div class="col-12 mb-2">
                                         <a href="06-06-2026_email_2.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="06-06-2026_email_2.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="06-06-2026_email_2.png" class="img-fluid rounded"
                                                 alt="Coroplast sheet layout and cut measurements for one mirrored pair">
                                         </a>
                                     </div>
@@ -4083,7 +4087,7 @@
                                 </p>
                                 <div class="blog-post-images mb-2">
                                     <a href="06-06-2026_email_3.png" target="_blank" rel="noopener noreferrer">
-                                        <img src="06-06-2026_email_3.png" class="img-fluid rounded"
+                                        <img loading="lazy" src="06-06-2026_email_3.png" class="img-fluid rounded"
                                             alt="CAD mockup: stage with coroplast on three sides and three-step access stairs">
                                     </a>
                                 </div>
@@ -4096,7 +4100,7 @@
                                 </p>
                                 <div class="blog-post-images mb-2">
                                     <a href="06-06-2026_email_4.png" target="_blank" rel="noopener noreferrer">
-                                        <img src="06-06-2026_email_4.png" class="img-fluid rounded"
+                                        <img loading="lazy" src="06-06-2026_email_4.png" class="img-fluid rounded"
                                             alt="CAD mockup: back media frame with three vertical coroplast panels">
                                     </a>
                                 </div>
@@ -4113,7 +4117,7 @@
                                 </ul>
                                 <div class="blog-post-images mb-2">
                                     <a href="06-06-2026_email_5.png" target="_blank" rel="noopener noreferrer">
-                                        <img src="06-06-2026_email_5.png" class="img-fluid rounded"
+                                        <img loading="lazy" src="06-06-2026_email_5.png" class="img-fluid rounded"
                                             alt="CAD field layout: stair props, media frames, stages, and front screens">
                                     </a>
                                 </div>
@@ -4142,13 +4146,13 @@
                                 <div class="row blog-post-images">
                                     <div class="col-12 mb-2">
                                         <a href="06-06-2026_email_6.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="06-06-2026_email_6.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="06-06-2026_email_6.png" class="img-fluid rounded"
                                                 alt="CAD mockup: twelve stair props loaded in two 26-foot box trucks">
                                         </a>
                                     </div>
                                     <div class="col-12 mb-2">
                                         <a href="06-06-2026_email_7.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="06-06-2026_email_7.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="06-06-2026_email_7.png" class="img-fluid rounded"
                                                 alt="CAD mockup: stage props stacked two-high in 20-foot trailer">
                                         </a>
                                     </div>
@@ -4219,13 +4223,13 @@
                                 <div class="row blog-post-images">
                                     <div class="col-6 mb-2">
                                         <a href="05-26-2026_1.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="05-26-2026_1.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="05-26-2026_1.png" class="img-fluid rounded"
                                                 alt="Revised prototype loaded in pickup truck for transport to audition camp">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="05-26-2026_2.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="05-26-2026_2.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="05-26-2026_2.png" class="img-fluid rounded"
                                                 alt="Band director evaluating revised prototype at Griffin Middle School">
                                         </a>
                                     </div>
@@ -4252,20 +4256,20 @@
                                 <div class="row blog-post-images">
                                     <div class="col-6 mb-2">
                                         <a href="05-25-2026_email_1.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="05-25-2026_email_1.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="05-25-2026_email_1.png" class="img-fluid rounded"
                                                 alt="Updated prototype with larger platform, side handles, and slide">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="05-25-2026_email_2.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="05-25-2026_email_2.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="05-25-2026_email_2.png" class="img-fluid rounded"
                                                 alt="Side view of revised prototype on street showing platform and slide">
                                         </a>
                                     </div>
                                 </div>
                                 <div class="blog-post-video">
                                     <div style="position:relative;width:100%;height:0;padding-bottom:56.25%;">
-                                        <iframe src="https://www.youtube.com/embed/CSydMH6QKlM"
+                                        <iframe loading="lazy" src="https://www.youtube.com/embed/CSydMH6QKlM"
                                             title="May 25, 2026 — version 2 prototype" frameborder="0"
                                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                             allowfullscreen
@@ -4284,7 +4288,7 @@
                                 <p>Continued to work on changes to prototype slide.</p>
                                 <div class="blog-post-images mb-2">
                                     <a href="05-24-2026_1.png" target="_blank" rel="noopener noreferrer">
-                                        <img src="05-24-2026_1.png" class="img-fluid rounded"
+                                        <img loading="lazy" src="05-24-2026_1.png" class="img-fluid rounded"
                                             alt="Prototype with plywood platform and stairs on casters in workshop">
                                     </a>
                                 </div>
@@ -4299,13 +4303,13 @@
                                 <div class="row blog-post-images">
                                     <div class="col-6 mb-2">
                                         <a href="05-23-2026_1.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="05-23-2026_1.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="05-23-2026_1.png" class="img-fluid rounded"
                                                 alt="Prototype frame with stairs and expanded metal platform in workshop">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="05-23-2026_2.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="05-23-2026_2.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="05-23-2026_2.png" class="img-fluid rounded"
                                                 alt="New platform frame clamped for welding with gusset plate">
                                         </a>
                                     </div>
@@ -4360,20 +4364,20 @@
                                 <div class="row blog-post-images">
                                     <div class="col-6 mb-2">
                                         <a href="05-22-2026_1.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="05-22-2026_1.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="05-22-2026_1.png" class="img-fluid rounded"
                                                 alt="Prototype frame with original platform cut away and removed">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="05-22-2026_2.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="05-22-2026_2.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="05-22-2026_2.png" class="img-fluid rounded"
                                                 alt="Detached stairs and mesh platform beside base frame on workshop floor">
                                         </a>
                                     </div>
                                 </div>
                                 <div class="blog-post-video">
                                     <div style="position:relative;width:100%;height:0;padding-bottom:56.25%;">
-                                        <iframe src="https://www.youtube.com/embed/g55aCI5O3bo"
+                                        <iframe loading="lazy" src="https://www.youtube.com/embed/g55aCI5O3bo"
                                             title="May 22, 2026 — platform redo" frameborder="0"
                                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                             allowfullscreen
@@ -4398,13 +4402,13 @@
                                 <div class="row blog-post-images">
                                     <div class="col-6 mb-2">
                                         <a href="05-17-2026_email_1.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="05-17-2026_email_1.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="05-17-2026_email_1.png" class="img-fluid rounded"
                                                 alt="CAD mockup: first proposed platform revision">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="05-17-2026_email_2.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="05-17-2026_email_2.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="05-17-2026_email_2.png" class="img-fluid rounded"
                                                 alt="CAD mockup: alternate view of first platform revision">
                                         </a>
                                     </div>
@@ -4427,13 +4431,13 @@
                                 <div class="row blog-post-images">
                                     <div class="col-6 mb-2">
                                         <a href="05-17-2026_email_3.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="05-17-2026_email_3.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="05-17-2026_email_3.png" class="img-fluid rounded"
                                                 alt="CAD mockup: revised design with larger platform and coroplast side panel">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="05-17-2026_email_4.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="05-17-2026_email_4.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="05-17-2026_email_4.png" class="img-fluid rounded"
                                                 alt="CAD mockup: rear view of revised design with flag trough">
                                         </a>
                                     </div>
@@ -4453,19 +4457,19 @@
                                 <div class="row blog-post-images">
                                     <div class="col-4 mb-2">
                                         <a href="05-17-2026_email_5.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="05-17-2026_email_5.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="05-17-2026_email_5.png" class="img-fluid rounded"
                                                 alt="Coroplast mockup: slide side with Paradox artwork">
                                         </a>
                                     </div>
                                     <div class="col-4 mb-2">
                                         <a href="05-17-2026_email_6.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="05-17-2026_email_6.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="05-17-2026_email_6.png" class="img-fluid rounded"
                                                 alt="Coroplast mockup: stair side with Paradox artwork">
                                         </a>
                                     </div>
                                     <div class="col-4 mb-2">
                                         <a href="05-17-2026_email_7.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="05-17-2026_email_7.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="05-17-2026_email_7.png" class="img-fluid rounded"
                                                 alt="Coroplast mockup: front panel with Paradox artwork">
                                         </a>
                                     </div>
@@ -4530,13 +4534,13 @@
                                 </p>
                                 <div class="blog-post-images mb-2">
                                     <a href="05-14-2026_1.png" target="_blank" rel="noopener noreferrer">
-                                        <img src="05-14-2026_1.png" class="img-fluid rounded"
+                                        <img loading="lazy" src="05-14-2026_1.png" class="img-fluid rounded"
                                             alt="Prototype loaded in pickup truck with slide extending past tailgate">
                                     </a>
                                 </div>
                                 <div class="blog-post-video">
                                     <div style="position:relative;width:100%;height:0;padding-bottom:56.25%;">
-                                        <iframe src="https://www.youtube.com/embed/qScuaOkIjJY"
+                                        <iframe loading="lazy" src="https://www.youtube.com/embed/qScuaOkIjJY"
                                             title="May 14, 2026 — putting prototype to the feedback test"
                                             frameborder="0"
                                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -4590,13 +4594,13 @@
                                 <p>We'll soon find out how close we are.</p>
                                 <div class="blog-post-images mb-2">
                                     <a href="05-08-2026_email_1.png" target="_blank" rel="noopener noreferrer">
-                                        <img src="05-08-2026_email_1.png" class="img-fluid rounded"
+                                        <img loading="lazy" src="05-08-2026_email_1.png" class="img-fluid rounded"
                                             alt="Student testing slide transition on prototype at band camp">
                                     </a>
                                 </div>
                                 <div class="blog-post-video">
                                     <div style="position:relative;width:100%;height:0;padding-bottom:56.25%;">
-                                        <iframe src="https://www.youtube.com/embed/faLPyhZwPOk"
+                                        <iframe loading="lazy" src="https://www.youtube.com/embed/faLPyhZwPOk"
                                             title="May 8, 2026 — ready for the first user test" frameborder="0"
                                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                             allowfullscreen
@@ -4655,32 +4659,32 @@
                                 <div class="row blog-post-images">
                                     <div class="col-6 mb-2">
                                         <a href="04-12-2026_email_1.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="04-12-2026_email_1.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="04-12-2026_email_1.png" class="img-fluid rounded"
                                                 alt="Completed prototype side view with stairs, slide, and recessed casters">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="04-12-2026_email_2.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="04-12-2026_email_2.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="04-12-2026_email_2.png" class="img-fluid rounded"
                                                 alt="Prototype profile view showing plywood slide and diamond-plate treads">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="04-12-2026_email_3.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="04-12-2026_email_3.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="04-12-2026_email_3.png" class="img-fluid rounded"
                                                 alt="Rear view of completed prototype with stairs and slide">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="04-12-2026_email_4.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="04-12-2026_email_4.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="04-12-2026_email_4.png" class="img-fluid rounded"
                                                 alt="Tape measure confirming 69-inch platform height">
                                         </a>
                                     </div>
                                 </div>
                                 <div class="blog-post-video">
                                     <div style="position:relative;width:100%;height:0;padding-bottom:56.25%;">
-                                        <iframe src="https://www.youtube.com/embed/vl0xjwwaXEQ"
+                                        <iframe loading="lazy" src="https://www.youtube.com/embed/vl0xjwwaXEQ"
                                             title="April 12, 2026 prototype overview" frameborder="0"
                                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                             allowfullscreen
@@ -4744,50 +4748,50 @@
                                 <div class="row blog-post-images">
                                     <div class="col-4 mb-2">
                                         <a href="04-11-2026_1.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="04-11-2026_1.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="04-11-2026_1.png" class="img-fluid rounded"
                                                 alt="Platform subassembly clamped on welding table">
                                         </a>
                                     </div>
                                     <div class="col-4 mb-2">
                                         <a href="04-11-2026_2.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="04-11-2026_2.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="04-11-2026_2.png" class="img-fluid rounded"
                                                 alt="Expanded metal and flat bar on fixture table for tread cutting">
                                         </a>
                                     </div>
                                     <div class="col-4 mb-2">
                                         <a href="04-11-2026_3.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="04-11-2026_3.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="04-11-2026_3.png" class="img-fluid rounded"
                                                 alt="Platform frame with expanded metal mesh fitted">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="04-11-2026_4.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="04-11-2026_4.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="04-11-2026_4.png" class="img-fluid rounded"
                                                 alt="Upright structure with platform on welding table">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="04-11-2026_5.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="04-11-2026_5.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="04-11-2026_5.png" class="img-fluid rounded"
                                                 alt="Mounting plate welded to frame on fixture table">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="04-11-2026_6.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="04-11-2026_6.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="04-11-2026_6.png" class="img-fluid rounded"
                                                 alt="Completed staircase with expanded metal treads standing in workshop">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="04-11-2026_7.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="04-11-2026_7.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="04-11-2026_7.png" class="img-fluid rounded"
                                                 alt="Staircase on welding table during final assembly">
                                         </a>
                                     </div>
                                 </div>
                                 <div class="blog-post-video">
                                     <div style="position:relative;width:100%;height:0;padding-bottom:56.25%;">
-                                        <iframe src="https://www.youtube.com/embed/mEG_QGs1Heo"
+                                        <iframe loading="lazy" src="https://www.youtube.com/embed/mEG_QGs1Heo"
                                             title="April 11, 2026 — it finally looks like a staircase" frameborder="0"
                                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                             allowfullscreen
@@ -4831,32 +4835,32 @@
                                 <div class="row blog-post-images">
                                     <div class="col-6 mb-2">
                                         <a href="04-09-2026_1.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="04-09-2026_1.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="04-09-2026_1.png" class="img-fluid rounded"
                                                 alt="Wheel mounting plate welded to support bracket">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="04-09-2026_2.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="04-09-2026_2.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="04-09-2026_2.png" class="img-fluid rounded"
                                                 alt="Wheel assembly clamped on welding table">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="04-09-2026_3.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="04-09-2026_3.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="04-09-2026_3.png" class="img-fluid rounded"
                                                 alt="Base frame with wheel assemblies welded in place">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="04-09-2026_4.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="04-09-2026_4.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="04-09-2026_4.png" class="img-fluid rounded"
                                                 alt="Prototype base frame with four wheel mounting points">
                                         </a>
                                     </div>
                                 </div>
                                 <div class="blog-post-video">
                                     <div style="position:relative;width:100%;height:0;padding-bottom:56.25%;">
-                                        <iframe src="https://www.youtube.com/embed/SYfkgzWGcWg"
+                                        <iframe loading="lazy" src="https://www.youtube.com/embed/SYfkgzWGcWg"
                                             title="April 9, 2026 — making progress one evening at a time"
                                             frameborder="0"
                                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -4916,13 +4920,13 @@
                                 <div class="row blog-post-images">
                                     <div class="col-6 mb-2">
                                         <a href="04-08-2026_1.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="04-08-2026_1.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="04-08-2026_1.png" class="img-fluid rounded"
                                                 alt="Stair sides and cross supports clamped on Fireball welding table">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="04-08-2026_2.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="04-08-2026_2.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="04-08-2026_2.png" class="img-fluid rounded"
                                                 alt="Stair assembly welded on fixture table with clamps holding cross members square">
                                         </a>
                                     </div>
@@ -4941,13 +4945,13 @@
                                 </p>
                                 <div class="blog-post-images mb-2">
                                     <a href="04-08-2026_3.png" target="_blank" rel="noopener noreferrer">
-                                        <img src="04-08-2026_3.png" class="img-fluid rounded"
+                                        <img loading="lazy" src="04-08-2026_3.png" class="img-fluid rounded"
                                             alt="Dry fit of base, platform, stair assembly, and slide angle iron in workshop">
                                     </a>
                                 </div>
                                 <div class="blog-post-video">
                                     <div style="position:relative;width:100%;height:0;padding-bottom:56.25%;">
-                                        <iframe src="https://www.youtube.com/embed/cPEM0Yd8W4U"
+                                        <iframe loading="lazy" src="https://www.youtube.com/embed/cPEM0Yd8W4U"
                                             title="April 8, 2026 prototype build — seeing the shape of the prop"
                                             frameborder="0"
                                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -5023,25 +5027,25 @@
                                 <div class="row blog-post-images">
                                     <div class="col-6 mb-2">
                                         <a href="04-04-2026_1.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="04-04-2026_1.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="04-04-2026_1.png" class="img-fluid rounded"
                                                 alt="Platform assembly on welding table with vertical legs and design sketches on cabinet">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="04-04-2026_2.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="04-04-2026_2.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="04-04-2026_2.png" class="img-fluid rounded"
                                                 alt="Tall platform frame with four vertical legs on welding fixture table">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="04-04-2026_3.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="04-04-2026_3.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="04-04-2026_3.png" class="img-fluid rounded"
                                                 alt="Close-up: measuring caster swivel radius on welding table">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="04-04-2026_4.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="04-04-2026_4.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="04-04-2026_4.png" class="img-fluid rounded"
                                                 alt="Caster wheel mounted to plate on welding table for layout testing">
                                         </a>
                                     </div>
@@ -5054,13 +5058,13 @@
                                 </p>
                                 <div class="blog-post-images mb-2">
                                     <a href="04-04-2026_5.png" target="_blank" rel="noopener noreferrer">
-                                        <img src="04-04-2026_5.png" class="img-fluid rounded"
+                                        <img loading="lazy" src="04-04-2026_5.png" class="img-fluid rounded"
                                             alt="Stair runner leaned against platform assembly showing full prop proportions">
                                     </a>
                                 </div>
                                 <div class="blog-post-video">
                                     <div style="position:relative;width:100%;height:0;padding-bottom:56.25%;">
-                                        <iframe src="https://www.youtube.com/embed/1SrDwj5GSBM"
+                                        <iframe loading="lazy" src="https://www.youtube.com/embed/1SrDwj5GSBM"
                                             title="April 4, 2026 prototype build — wheels, platforms, and practical problems"
                                             frameborder="0"
                                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -5122,32 +5126,32 @@
                                 <div class="row blog-post-images">
                                     <div class="col-6 mb-2">
                                         <a href="03-29-2026_1.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="03-29-2026_1.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="03-29-2026_1.png" class="img-fluid rounded"
                                                 alt="Top platform frame clamped on Fireball welding table with mitered corners">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="03-29-2026_2.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="03-29-2026_2.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="03-29-2026_2.png" class="img-fluid rounded"
                                                 alt="Completed base frame on workshop floor next to welding table">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="03-29-2026_3.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="03-29-2026_3.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="03-29-2026_3.png" class="img-fluid rounded"
                                                 alt="Base frame assembly on welding table with clamps and positioning blocks">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="03-29-2026_4.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="03-29-2026_4.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="03-29-2026_4.png" class="img-fluid rounded"
                                                 alt="Workshop view: base frame welded on Fireball table with gas cylinder">
                                         </a>
                                     </div>
                                 </div>
                                 <div class="blog-post-video">
                                     <div style="position:relative;width:100%;height:0;padding-bottom:56.25%;">
-                                        <iframe src="https://www.youtube.com/embed/r1iJtcVoeOA"
+                                        <iframe loading="lazy" src="https://www.youtube.com/embed/r1iJtcVoeOA"
                                             title="March 29, 2026 prototype build — building the foundation"
                                             frameborder="0"
                                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -5237,25 +5241,25 @@
                                 <div class="row blog-post-images">
                                     <div class="col-6 mb-2">
                                         <a href="03-21-2026_1.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="03-21-2026_1.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="03-21-2026_1.png" class="img-fluid rounded"
                                                 alt="Workshop view: stair runner welded on Fireball welding table with fixtures">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="03-21-2026_2.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="03-21-2026_2.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="03-21-2026_2.png" class="img-fluid rounded"
                                                 alt="Stair runner assembly on welding table with MIG welder and gas cylinder">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="03-21-2026_3.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="03-21-2026_3.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="03-21-2026_3.png" class="img-fluid rounded"
                                                 alt="Close-up: square tubing clamped in fixtures for 90-degree stair joints">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="03-21-2026_4.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="03-21-2026_4.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="03-21-2026_4.png" class="img-fluid rounded"
                                                 alt="Workshop overview: prototype stair runners on welding table">
                                         </a>
                                     </div>
@@ -5322,13 +5326,13 @@
                                 <div class="row blog-post-images">
                                     <div class="col-6 mb-2">
                                         <a href="mockup_v2_1.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="mockup_v2_1.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="mockup_v2_1.png" class="img-fluid rounded"
                                                 alt="CAD rendering: revised design with deeper top platform and side handles">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="mockup_v2_2.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="mockup_v2_2.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="mockup_v2_2.png" class="img-fluid rounded"
                                                 alt="CAD rendering: single unit and L-shaped pair with performer silhouettes for scale">
                                         </a>
                                     </div>
@@ -5392,25 +5396,25 @@
                                 <div class="row blog-post-images">
                                     <div class="col-6 mb-2">
                                         <a href="mockup_v1_1.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="mockup_v1_1.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="mockup_v1_1.png" class="img-fluid rounded"
                                                 alt="CAD rendering: mirrored stair/slide pairs with performer silhouettes for scale">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="mockup_v1_2.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="mockup_v1_2.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="mockup_v1_2.png" class="img-fluid rounded"
                                                 alt="CAD rendering: single unit and back-to-back pair configurations">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="mockup_v1_3.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="mockup_v1_3.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="mockup_v1_3.png" class="img-fluid rounded"
                                                 alt="CAD rendering: stair and slide side of first mockup unit">
                                         </a>
                                     </div>
                                     <div class="col-6 mb-2">
                                         <a href="mockup_v1_4.png" target="_blank" rel="noopener noreferrer">
-                                            <img src="mockup_v1_4.png" class="img-fluid rounded"
+                                            <img loading="lazy" src="mockup_v1_4.png" class="img-fluid rounded"
                                                 alt="CAD rendering: front view of staircase treads and slide surface">
                                         </a>
                                     </div>
@@ -5567,6 +5571,7 @@
     <div id="imgViewer" class="modal"></div>
 
     <!-- Iframe Monitor Script -->
+    <script src="/js/progress-blog.js"></script>
     <script src="/js/iframe-monitor.js"></script>
     <script src="/js/blog-post-images.js"></script>
     <script src="/js/project-days.js"></script>
