@@ -634,6 +634,7 @@ footer .copyright {
     margin: 0.75rem 0;
 }
 
+article h2[id],
 #progressblog,
 #progressblog-posts .blog-post {
     scroll-margin-top: 5.5rem;
