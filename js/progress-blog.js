@@ -440,7 +440,9 @@
             }
         }
 
-        setHash(options.postId || ('blog-' + monthKey));
+        if (options.updateHash !== false) {
+            setHash(options.postId || ('blog-' + monthKey));
+        }
     }
 
     function showSearch(query) {
@@ -522,7 +524,22 @@
             return;
         }
 
-        showMonth(months.length ? months[0].key : '', { scroll: false });
+        var currentHash = window.location.hash.replace(/^#/, '');
+        var preserveHash = currentHash && currentHash.indexOf('blog-') !== 0;
+        showMonth(months.length ? months[0].key : '', {
+            scroll: false,
+            updateHash: !preserveHash
+        });
+
+        if (preserveHash) {
+            var section = document.getElementById(currentHash);
+            if (section) {
+                section.scrollIntoView({
+                    behavior: options.smooth === false ? 'auto' : 'smooth',
+                    block: 'start'
+                });
+            }
+        }
     }
 
     function init() {

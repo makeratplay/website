@@ -640,6 +640,67 @@ article h2[id],
     scroll-margin-top: 5.5rem;
 }
 
+.section-share {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.75rem;
+    height: 1.75rem;
+    margin-left: 0.35em;
+    vertical-align: middle;
+    color: #868e96;
+    text-decoration: none;
+    border-radius: 0.25rem;
+}
+
+.section-share:focus,
+.section-share:hover {
+    color: #0085A1;
+    text-decoration: none;
+}
+
+.section-share:focus {
+    outline: 2px solid #0085A1;
+    outline-offset: 2px;
+}
+
+.section-share.is-copied {
+    color: #28a745;
+}
+
+.section-share svg {
+    width: 0.9rem;
+    height: 0.9rem;
+}
+
+.section-share-feedback {
+    position: absolute;
+    left: calc(100% + 0.4rem);
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0.2rem 0.45rem;
+    border-radius: 0.25rem;
+    background: #212529;
+    color: #fff;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    white-space: nowrap;
+    pointer-events: none;
+}
+
+.section-share-feedback::after {
+    content: '';
+    position: absolute;
+    right: 100%;
+    top: 50%;
+    margin-top: -5px;
+    border: 5px solid transparent;
+    border-right-color: #212529;
+}
+
 .progress-blog-controls {
     margin-top: 0.75rem;
 }
