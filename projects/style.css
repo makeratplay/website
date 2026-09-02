@@ -577,7 +577,7 @@ footer .copyright {
     margin: 0.75rem 0;
 }
 
-#version-3 a.version-gallery-thumb {
+.version-gallery a.version-gallery-thumb {
     display: block;
     position: relative;
     width: 100%;
@@ -585,7 +585,7 @@ footer .copyright {
     overflow: hidden;
 }
 
-#version-3 a.version-gallery-thumb img {
+.version-gallery a.version-gallery-thumb img {
     position: absolute;
     top: 0;
     left: 0;
@@ -593,6 +593,25 @@ footer .copyright {
     height: 100%;
     max-width: none;
     object-fit: cover;
+    object-position: center;
+}
+
+.media-frame-refresh a.cad-gallery-thumb {
+    display: block;
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+}
+
+.media-frame-refresh a.cad-gallery-thumb img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    max-width: none;
+    object-fit: contain;
     object-position: center;
 }
 
