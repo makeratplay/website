@@ -6,3 +6,6 @@ projects/63/Backplanels4.avi
 scripts/tumblr-publisher/.env
 scripts/tumblr-publisher/token.json
 scripts/tumblr-publisher/published.json
+
+# Cursor chat copies of attached images (sanitized Windows paths)
+**/f__Users_*
