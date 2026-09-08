@@ -51,11 +51,14 @@
         return match ? match[1] : null;
     }
 
-    function createLiteYouTube(videoId, title) {
+    function createLiteYouTube(videoId, title, options) {
         var lite = document.createElement('button');
         lite.type = 'button';
-        lite.className = 'yt-lite';
+        lite.className = 'yt-lite' + (options && options.vertical ? ' yt-lite-short' : '');
         lite.setAttribute('data-youtube-id', videoId);
+        if (options && options.vertical) {
+            lite.setAttribute('data-aspect', '9/16');
+        }
         lite.setAttribute('aria-label', 'Play video: ' + title);
 
         var thumb = document.createElement('img');
@@ -76,6 +79,18 @@
         return lite;
     }
 
+    function isVerticalEmbed(iframe, wrap) {
+        if (iframe && iframe.closest && iframe.closest('.blog-post-video-short')) {
+            return true;
+        }
+        if (!wrap || !wrap.style) {
+            return false;
+        }
+        var paddingBottom = wrap.style.paddingBottom || '';
+        var value = parseFloat(paddingBottom);
+        return paddingBottom.indexOf('%') !== -1 && value > 100;
+    }
+
     function replaceIframeWithLite(iframe) {
         var src = iframe.getAttribute('src') || iframe.getAttribute('data-src') || '';
         iframe.removeAttribute('src');
@@ -87,8 +102,9 @@
         }
 
         var title = iframe.getAttribute('title') || 'Play video';
-        var lite = createLiteYouTube(videoId, title);
         var wrap = iframe.parentNode;
+        var vertical = isVerticalEmbed(iframe, wrap);
+        var lite = createLiteYouTube(videoId, title, { vertical: vertical });
 
         if (wrap && wrap.children.length === 1 && wrap.style && wrap.style.paddingBottom) {
             wrap.parentNode.replaceChild(lite, wrap);
@@ -107,8 +123,13 @@
             return;
         }
 
+        var vertical = lite.classList.contains('yt-lite-short') ||
+            lite.getAttribute('data-aspect') === '9/16' ||
+            !!(lite.closest && lite.closest('.blog-post-video-short'));
         var wrap = document.createElement('div');
-        wrap.style.cssText = 'position:relative;width:100%;height:0;padding-bottom:56.25%;';
+        wrap.style.cssText = vertical
+            ? 'position:relative;width:100%;max-width:280px;height:0;padding-bottom:177.78%;margin-left:auto;margin-right:auto;'
+            : 'position:relative;width:100%;height:0;padding-bottom:56.25%;';
 
         var iframe = document.createElement('iframe');
         iframe.src = 'https://www.youtube-nocookie.com/embed/' + videoId + '?autoplay=1';

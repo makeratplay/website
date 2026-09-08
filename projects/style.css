@@ -653,6 +653,17 @@ footer .copyright {
     margin: 0.75rem 0;
 }
 
+.blog-post .blog-post-body .blog-post-video-short {
+    text-align: center;
+}
+
+.blog-post .blog-post-body .blog-post-video-short .yt-lite,
+.blog-post .blog-post-body .blog-post-video-short > div {
+    max-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 article h2[id],
 #progressblog,
 #progressblog-posts .blog-post {
@@ -811,6 +822,11 @@ html.progress-blog-enhance #progressblog-posts.is-ready > .blog-post:not(.is-vis
     background: #000;
     cursor: pointer;
     aspect-ratio: 16 / 9;
+}
+
+.yt-lite-short,
+.blog-post-video-short .yt-lite {
+    aspect-ratio: 9 / 16;
 }
 
 .yt-lite img {
