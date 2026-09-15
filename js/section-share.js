@@ -72,7 +72,12 @@
 
         link.addEventListener('click', function (event) {
             event.preventDefault();
+            event.stopPropagation();
             var url = sectionUrl(id);
+            var details = heading.closest('details');
+            if (details) {
+                details.open = true;
+            }
 
             if (history.replaceState) {
                 history.replaceState(null, '', '#' + id);

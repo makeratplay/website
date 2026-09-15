@@ -1009,6 +1009,61 @@ html.progress-blog-enhance #progressblog-posts.is-ready > .blog-post:not(.is-vis
     outline-offset: 2px;
 }
 
+.progress-timeline-wrap {
+    margin: 0;
+}
+
+.progress-timeline-summary {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    list-style: none;
+}
+
+.progress-timeline-summary::-webkit-details-marker,
+.progress-timeline-summary::marker {
+    display: none;
+    content: none;
+}
+
+.progress-timeline-summary h2 {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    gap: 0.55rem;
+}
+
+.progress-timeline-summary h2::after {
+    content: "";
+    display: inline-block;
+    width: 0.55em;
+    height: 0.55em;
+    margin-top: 0.1em;
+    border-right: 0.15em solid #6c757d;
+    border-bottom: 0.15em solid #6c757d;
+    transform: rotate(45deg);
+    transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.progress-timeline-wrap[open] .progress-timeline-summary h2::after {
+    margin-top: 0.35em;
+    transform: rotate(-135deg);
+}
+
+.progress-timeline-summary:hover h2::after,
+.progress-timeline-summary:focus h2::after {
+    border-color: #0085A1;
+}
+
+.progress-timeline-summary:focus {
+    outline: none;
+}
+
+.progress-timeline-summary:focus-visible {
+    outline: 2px solid #0085A1;
+    outline-offset: 4px;
+}
+
 .progress-timeline {
     position: relative;
     margin: 1rem 0 0 0.75rem;

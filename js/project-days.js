@@ -15,4 +15,13 @@
             label.textContent = days === 1 ? 'day' : 'days';
         }
     });
+
+    var timeline = document.querySelector('details.progress-timeline-wrap');
+    function openTimelineIfTargeted() {
+        if (timeline && window.location.hash === '#progress') {
+            timeline.open = true;
+        }
+    }
+    openTimelineIfTargeted();
+    window.addEventListener('hashchange', openTimelineIfTargeted);
 })();
