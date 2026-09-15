@@ -350,6 +350,100 @@
             : '';
     }
 
+    function escapeHtml(text) {
+        return String(text || '')
+            .replace(/&/g, '&amp;')
+            .replace(/</g, '&lt;')
+            .replace(/"/g, '&quot;')
+            .replace(/'/g, '&#39;');
+    }
+
+    function postsByDayForMonth(monthKey) {
+        var byDay = {};
+        posts.forEach(function (post) {
+            if (!post.date || post.monthKey !== monthKey) {
+                return;
+            }
+            var day = post.date.day;
+            if (!byDay[day]) {
+                byDay[day] = [];
+            }
+            byDay[day].push(post);
+        });
+        return byDay;
+    }
+
+    function calendarHtml(monthKey) {
+        if (searchQuery) {
+            return '<p class="progress-blog-calendar-note text-muted small mb-0">' +
+                'Clear search to browse posts by calendar day.' +
+                '</p>';
+        }
+
+        if (!monthKey) {
+            return '';
+        }
+
+        var parts = monthKey.split('-');
+        var year = parseInt(parts[0], 10);
+        var monthIndex = parseInt(parts[1], 10) - 1;
+        if (!year || monthIndex < 0 || monthIndex > 11) {
+            return '';
+        }
+
+        var monthLabel = MONTH_NAMES[monthIndex] + ' ' + year;
+        var firstWeekday = new Date(year, monthIndex, 1).getDay();
+        var daysInMonth = new Date(year, monthIndex + 1, 0).getDate();
+        var byDay = postsByDayForMonth(monthKey);
+        var weekdayLabels = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+        var cells = [];
+        var i;
+
+        for (i = 0; i < firstWeekday; i += 1) {
+            cells.push('<span class="progress-blog-cal-day is-empty" aria-hidden="true"></span>');
+        }
+
+        for (i = 1; i <= daysInMonth; i += 1) {
+            var dayPosts = byDay[i];
+            if (dayPosts && dayPosts.length) {
+                var post = dayPosts[0];
+                var label = MONTH_NAMES[monthIndex] + ' ' + i + ', ' + year + ': ' + post.title;
+                if (dayPosts.length > 1) {
+                    label += ' (+' + (dayPosts.length - 1) + ' more)';
+                }
+                cells.push(
+                    '<button type="button" class="progress-blog-cal-day has-post"' +
+                    ' data-post-id="' + escapeHtml(post.id) + '"' +
+                    ' aria-label="' + escapeHtml(label) + '">' +
+                    '<span class="progress-blog-cal-num">' + i + '</span>' +
+                    '<span class="progress-blog-cal-dot" aria-hidden="true"></span>' +
+                    '</button>'
+                );
+            } else {
+                cells.push(
+                    '<span class="progress-blog-cal-day">' +
+                    '<span class="progress-blog-cal-num">' + i + '</span>' +
+                    '</span>'
+                );
+            }
+        }
+
+        while (cells.length % 7 !== 0) {
+            cells.push('<span class="progress-blog-cal-day is-empty" aria-hidden="true"></span>');
+        }
+
+        return '<div class="progress-blog-calendar" role="group" aria-label="' +
+            escapeHtml(monthLabel) + ' post calendar">' +
+            '<p class="progress-blog-calendar-title mb-0">' + escapeHtml(monthLabel) + '</p>' +
+            '<div class="progress-blog-calendar-weekdays" aria-hidden="true">' +
+                weekdayLabels.map(function (day) {
+                    return '<span>' + day + '</span>';
+                }).join('') +
+            '</div>' +
+            '<div class="progress-blog-calendar-grid">' + cells.join('') + '</div>' +
+            '</div>';
+    }
+
     function updateControls() {
         controlsEl.querySelectorAll('[data-month]').forEach(function (button) {
             var pressed = !searchQuery && button.getAttribute('data-month') === activeMonth;
@@ -361,13 +455,18 @@
         if (jump) {
             jump.innerHTML = '<option value="">Jump to a post</option>' +
                 visiblePosts().map(function (post) {
-                    return '<option value="' + post.id + '">' + post.title.replace(/</g, '&lt;') + '</option>';
+                    return '<option value="' + post.id + '">' + escapeHtml(post.title) + '</option>';
                 }).join('');
         }
 
         var status = controlsEl.querySelector('.progress-blog-status');
         if (status) {
             status.innerHTML = statusText();
+        }
+
+        var calendarWrap = controlsEl.querySelector('.progress-blog-calendar-wrap');
+        if (calendarWrap) {
+            calendarWrap.innerHTML = calendarHtml(activeMonth);
         }
     }
 
@@ -385,20 +484,25 @@
             '<div class="progress-blog-months" role="group" aria-label="Browse posts by month">' +
                 monthButtons +
             '</div>' +
-            '<div class="progress-blog-tools">' +
-                '<label class="progress-blog-search-label">' +
-                    '<span class="sr-only">Search posts</span>' +
-                    '<input type="search" class="form-control form-control-sm progress-blog-search"' +
-                    ' placeholder="Search posts">' +
-                '</label>' +
-                '<label class="progress-blog-jump-label">' +
-                    '<span class="sr-only">Jump to a post</span>' +
-                    '<select class="form-control form-control-sm progress-blog-jump">' +
-                        '<option value="">Jump to a post</option>' +
-                    '</select>' +
-                '</label>' +
-            '</div>' +
-            '<p class="progress-blog-status text-muted small mb-0"></p>';
+            '<div class="progress-blog-browse">' +
+                '<div class="progress-blog-calendar-wrap"></div>' +
+                '<div class="progress-blog-tools-panel">' +
+                    '<div class="progress-blog-tools">' +
+                        '<label class="progress-blog-search-label">' +
+                            '<span class="sr-only">Search posts</span>' +
+                            '<input type="search" class="form-control form-control-sm progress-blog-search"' +
+                            ' placeholder="Search posts">' +
+                        '</label>' +
+                        '<label class="progress-blog-jump-label">' +
+                            '<span class="sr-only">Jump to a post</span>' +
+                            '<select class="form-control form-control-sm progress-blog-jump">' +
+                                '<option value="">Jump to a post</option>' +
+                            '</select>' +
+                        '</label>' +
+                    '</div>' +
+                    '<p class="progress-blog-status text-muted small mb-0"></p>' +
+                '</div>' +
+            '</div>';
 
         updateControls();
     }
@@ -472,8 +576,35 @@
         applyVisibility();
     }
 
+    function jumpToPost(id) {
+        if (!id) {
+            return;
+        }
+        var post = posts.find(function (item) {
+            return item.id === id;
+        });
+        if (!post) {
+            return;
+        }
+        if (searchQuery) {
+            var el = document.getElementById(id);
+            if (el) {
+                el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+            setHash(id);
+            return;
+        }
+        showMonth(post.monthKey, { postId: id });
+    }
+
     function bindControls() {
         controlsEl.addEventListener('click', function (event) {
+            var dayButton = event.target.closest('[data-post-id]');
+            if (dayButton && controlsEl.contains(dayButton)) {
+                jumpToPost(dayButton.getAttribute('data-post-id'));
+                return;
+            }
+
             var button = event.target.closest('[data-month]');
             if (!button) {
                 return;
@@ -497,25 +628,8 @@
             if (!event.target.classList.contains('progress-blog-jump')) {
                 return;
             }
-            var id = event.target.value;
-            if (!id) {
-                return;
-            }
-            var post = posts.find(function (item) {
-                return item.id === id;
-            });
-            if (!post) {
-                return;
-            }
-            if (searchQuery) {
-                var el = document.getElementById(id);
-                if (el) {
-                    el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-                }
-                setHash(id);
-                return;
-            }
-            showMonth(post.monthKey, { postId: id });
+            jumpToPost(event.target.value);
+            event.target.value = '';
         });
     }
 
