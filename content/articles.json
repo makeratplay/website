@@ -1,7 +1,10 @@
 [
   {
     "slug": "ai-made-code-cheap",
-    "type": "article",
+    "category": [
+      "article",
+      "CTO thoughts"
+    ],
     "title": "AI Made Code Cheap. That Was Never What Customers Paid For.",
     "date": "2026-11-05",
     "status": "Published on LinkedIn",
@@ -19,7 +22,10 @@
   },
   {
     "slug": "good-software-engineer",
-    "type": "article",
+    "category": [
+      "article",
+      "CTO thoughts"
+    ],
     "title": "If AI Can Write the Code, What Makes a Good Software Engineer?",
     "date": "2026-10-26",
     "status": "Published on LinkedIn",
@@ -37,7 +43,10 @@
   },
   {
     "slug": "future-senior-engineers",
-    "type": "article",
+    "category": [
+      "article",
+      "CTO thoughts"
+    ],
     "title": "If AI writes all the entry-level code, where do future senior engineers come from?",
     "date": "2026-10-19",
     "status": "Published on LinkedIn",
@@ -55,7 +64,9 @@
   },
   {
     "slug": "company-like-that",
-    "type": "CTO thoughts",
+    "category": [
+      "CTO thoughts"
+    ],
     "title": "How do I get a job at a company like that?",
     "date": "2026-10-14",
     "status": "Published on LinkedIn",
@@ -72,7 +83,10 @@
   },
   {
     "slug": "ai-skill-amplifying-tool",
-    "type": "article",
+    "category": [
+      "article",
+      "CTO thoughts"
+    ],
     "title": "AI is a skill-amplifying tool, not a skill-replacing one.",
     "date": "2025-12-12",
     "status": "Published on LinkedIn",
@@ -89,7 +103,9 @@
   },
   {
     "slug": "ai-coding-in-production",
-    "type": "article",
+    "category": [
+      "article"
+    ],
     "title": "AI Coding in Production: Lessons from 18 Months in the Real World",
     "date": "2025-10-27",
     "status": "Published on Axuall",
@@ -106,7 +122,9 @@
   },
   {
     "slug": "bedtime-kanban",
-    "type": "maker thoughts",
+    "category": [
+      "CTO thoughts"
+    ],
     "title": "A bedtime Kanban board came full circle",
     "date": "2023-05-31",
     "status": "Published on LinkedIn",
@@ -123,7 +141,9 @@
   },
   {
     "slug": "patient-discovery-cto",
-    "type": "CTO thoughts",
+    "category": [
+      "CTO thoughts"
+    ],
     "title": "Joining Patient Discovery as Chief Technology Officer",
     "date": "2021-09-23",
     "status": "Published on LinkedIn",
@@ -141,7 +161,9 @@
   },
   {
     "slug": "axuall-cto",
-    "type": "CTO thoughts",
+    "category": [
+      "CTO thoughts"
+    ],
     "title": "Joining Axuall as Chief Technology Officer",
     "date": "2023-01-10",
     "status": "Published on LinkedIn",
