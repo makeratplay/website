@@ -18,11 +18,12 @@
     "details": "An eight-foot shelf layout with a runaround, Peco Code 100 turnouts, and a car float as its only interchange."
   },
   {
-    "slug": "found-object-robots",
-    "title": "Found-Object Robot Sculptures",
-    "status": "Exploring",
-    "summary": "Expressive sculptures with a common ESP32 sensor and control platform.",
-    "updated": "2026-11-05",
-    "details": "Exploring LEDs, temperature sensors, displays, sound, optional motion, and simple programmable behaviors."
+    "slug": "project-ideas",
+    "title": "My backlog of project ideas",
+    "status": "Ideas",
+    "summary": "Projects I'm considering before they earn a spot on the bench.",
+    "image": "/workbench/project-ideas/masthead.jpg",
+    "updated": "2026-11-08",
+    "details": "A running list of ideas, starting with found-object robot sculptures."
   }
 ]
