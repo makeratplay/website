@@ -1,10 +1,29 @@
 [
   {
+    "slug": "ai-made-code-cheap",
+    "title": "AI Made Code Cheap. That Was Never What Customers Paid For.",
+    "date": "2026-11-05",
+    "status": "Published on LinkedIn",
+    "summary": "Enterprise software still requires architecture, reliability, and understanding customers.",
+    "url": "https://www.linkedin.com/pulse/ai-made-code-cheap-never-whole-product-michael-hawkins-fxlqc/",
+    "image": "/blog/ai-made-code-cheap/1793894481915.png",
+    "topics": [
+      "Software & AI",
+      "Healthcare Technology"
+    ],
+    "audiences": [
+      "Technology Leaders",
+      "Engineers"
+    ]
+  },
+  {
     "slug": "good-software-engineer",
     "title": "If AI Can Write the Code, What Makes a Good Software Engineer?",
-    "date": "2026-10-22",
+    "date": "2026-10-26",
     "status": "Published on LinkedIn",
     "summary": "Why engineering ownership and understanding the whole system matter.",
+    "url": "https://www.linkedin.com/pulse/ai-can-write-code-what-makes-good-software-engineer-michael-hawkins-cntic/",
+    "image": "/blog/good-software-engineer/1793035748897.png",
     "topics": [
       "Software & AI",
       "Career & Leadership"
@@ -15,14 +34,114 @@
     ]
   },
   {
-    "slug": "ai-made-code-cheap",
-    "title": "AI Made Code Cheap. That Was Never What Customers Paid For.",
-    "date": "2026-11-01",
-    "status": "Draft",
-    "summary": "Enterprise software still requires architecture, reliability, and understanding customers.",
+    "slug": "future-senior-engineers",
+    "title": "If AI writes all the entry-level code, where do future senior engineers come from?",
+    "date": "2026-10-19",
+    "status": "Published on LinkedIn",
+    "summary": "If AI takes the work that trains junior engineers, the industry still has to develop its future seniors.",
+    "url": "https://www.linkedin.com/pulse/ai-writes-all-entry-level-code-where-do-future-senior-michael-hawkins-npwoc/",
+    "image": "/blog/future-senior-engineers/1792439848397.jpg",
     "topics": [
       "Software & AI",
-      "Healthcare Technology"
+      "Career & Leadership"
+    ],
+    "audiences": [
+      "Engineers",
+      "Technology Leaders"
+    ]
+  },
+  {
+    "slug": "company-like-that",
+    "title": "How do I get a job at a company like that?",
+    "date": "2026-10-14",
+    "status": "Published on LinkedIn",
+    "summary": "What some people see as the risk of a startup, I see as opportunity and a team small enough to know everyone.",
+    "url": "https://lnkd.in/p/g9FN3hKE",
+    "image": "/blog/company-like-that/1791991100796.jpg",
+    "topics": [
+      "Career & Leadership"
+    ],
+    "audiences": [
+      "Engineers",
+      "Technology Leaders"
+    ]
+  },
+  {
+    "slug": "ai-skill-amplifying-tool",
+    "title": "AI is a skill-amplifying tool, not a skill-replacing one.",
+    "date": "2025-12-12",
+    "status": "Published on LinkedIn",
+    "summary": "At a recent advisory board meeting, I had the chance to share what I have learned from introducing AI assisted coding tools to my team. I wanted to pass it along here since others may find it useful too.",
+    "url": "https://www.linkedin.com/pulse/ai-skill-amplifying-tool-skill-replacing-one-michael-hawkins-eyspc/",
+    "image": "/blog/ai-skill-amplifying-tool/1765727487482.png",
+    "topics": [
+      "Software & AI"
+    ],
+    "audiences": [
+      "Engineers",
+      "Technology Leaders"
+    ]
+  },
+  {
+    "slug": "ai-coding-in-production",
+    "title": "AI Coding in Production: Lessons from 18 Months in the Real World",
+    "date": "2025-10-27",
+    "status": "Published on Axuall",
+    "summary": "Early last year, I began encouraging my engineering team to incorporate AI and LLM-assisted coding tools into their daily workflow. Since then, we've learned a lot about what works, what doesn't, and how these tools can genuinely change the way we build software. I recently wrote a blog post that shares what we've observed and how things are going so far.",
+    "url": "https://axuall.com/post/ai-coding-in-production-lessons-from-18-months-in-the-real-world",
+    "image": "/blog/ai-coding-in-production/1762301197675.jpg",
+    "topics": [
+      "Software & AI"
+    ],
+    "audiences": [
+      "Engineers",
+      "Technology Leaders"
+    ]
+  },
+  {
+    "slug": "bedtime-kanban",
+    "title": "A bedtime Kanban board came full circle",
+    "date": "2023-05-31",
+    "status": "Published on LinkedIn",
+    "summary": "When my son was seven, he used a bedtime Kanban board inspired by the Agile coaching we brought into MEDHOST. Eleven years later, as an Axuall intern, he met that same coach without knowing she had already shaped his routine.",
+    "url": "https://www.linkedin.com/posts/hawkinsm_softwaredevelopment-agile-coaching-share-7069809103027535872-5qyP",
+    "image": "/blog/bedtime-kanban/1685573840562.jpg",
+    "topics": [
+      "Career & Leadership"
+    ],
+    "audiences": [
+      "Engineers",
+      "Technology Leaders"
+    ]
+  },
+  {
+    "slug": "patient-discovery-cto",
+    "title": "Joining Patient Discovery as Chief Technology Officer",
+    "date": "2021-09-23",
+    "status": "Published on LinkedIn",
+    "summary": "Patient Discovery announced that I had joined the company as Chief Technology Officer.",
+    "url": "https://lnkd.in/p/gcxF47Yr",
+    "image": "/blog/patient-discovery-cto/1632401502984.jpg",
+    "topics": [
+      "Healthcare Technology",
+      "Career & Leadership"
+    ],
+    "audiences": [
+      "Technology Leaders",
+      "Engineers"
+    ]
+  },
+  {
+    "slug": "axuall-cto",
+    "title": "Joining Axuall as Chief Technology Officer",
+    "date": "2023-01-10",
+    "status": "Published on LinkedIn",
+    "summary": "Axuall announced my appointment as Chief Technology Officer.",
+    "url": "https://lnkd.in/p/gcenmGSr",
+    "image": "/blog/axuall-cto/1673370713731.jpg",
+    "topics": [
+      "Healthcare Technology",
+      "Career & Leadership"
     ],
     "audiences": [
       "Technology Leaders",
