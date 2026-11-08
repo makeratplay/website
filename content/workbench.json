@@ -13,10 +13,11 @@
     "slug": "esp32-internet-radio",
     "title": "ESP32 Internet Radio",
     "status": "Building",
-    "summary": "ESP32-C6 Wi-Fi radio with LCD, I²S audio, and AWS IoT controls.",
+    "summary": "An Instructables newsletter sparked a five-day experiment: building an ESP32 internet radio with ChatGPT and AWS IoT Core.",
     "image": "/workbench/esp32-internet-radio/2026-11-08.png",
-    "updated": "2026-11-06",
-    "details": "Testing station switching, stream decoding, playlist handling, and recovery from stalled streams."
+    "updated": "2026-11-08",
+    "details": "Inspired by a clever enclosure, I explored stereo audio, rechargeable power, and cloud-based controls. Within five days I had a working internet radio responding to MQTT commands, with a web frontend still to build.",
+    "inspiration": "https://www.instructables.com/DIY-Cute-Mini-Internet-Radio/"
   },
   {
     "slug": "new-york-harbor-layout",
