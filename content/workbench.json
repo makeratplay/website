@@ -4,6 +4,7 @@
     "title": "ESP32 Internet Radio",
     "status": "Building",
     "summary": "ESP32-C6 Wi-Fi radio with LCD, I²S audio, and AWS IoT controls.",
+    "image": "/workbench/esp32-internet-radio/2026-11-08.png",
     "updated": "2026-11-06",
     "details": "Testing station switching, stream decoding, playlist handling, and recovery from stalled streams."
   },
@@ -12,6 +13,7 @@
     "title": "New York Harbor HO Layout",
     "status": "Planning",
     "summary": "Portable waterfront switching layout with a car float and brick warehouses.",
+    "image": "/workbench/new-york-harbor-layout/2026-11-08.png",
     "updated": "2026-11-05",
     "details": "An eight-foot shelf layout with a runaround, Peco Code 100 turnouts, and a car float as its only interchange."
   },
