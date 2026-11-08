@@ -132,15 +132,21 @@
 
 
 
-    <section class="page-section" id="workbench-preview"><div class="container text-center"><h2>Currently on My Workbench</h2><hr class="divider my-4"><p>Projects I'm building, testing, and exploring.</p><div class="editorial-grid" data-type="workbench" data-limit="3"></div><a class="btn btn-primary btn-xl mt-4" href="/workbench/">Visit the Workbench</a></div></section>
+    <section class="page-section" id="workbench-preview"><div class="container text-center"><h2>Currently on My Workbench</h2><hr class="divider my-4"><p>Projects I'm building, testing, and exploring.</p><div class="editorial-grid" data-type="workbench" data-limit="3"></div><a class="btn btn-primary btn-xl mt-4" id="workbench-count" href="/workbench/">Visit the Workbench</a></div></section>
     <!-- Portfolio-->
     <section id="portfolio" class="bg-primary">
         <div class="container-fluid p-0 bg-primary">
-            <div class="row justify-content-center">
-                <div class="col text-center">
-                    <button ng-repeat="category in vm.categories" class="btn btn-sm m-2"
+            <div class="text-center pt-5 pb-4 px-3">
+                <h2 class="mt-0">Projects</h2>
+                <hr class="divider my-4">
+                <p class="mb-3">Filter by category</p>
+                <div role="group" aria-label="Filter projects by category">
+                    <button type="button" class="btn btn-sm m-2"
+                        ng-class="{'btn-dark':!vm.category,'btn-light':vm.category}"
+                        ng-click="vm.setCategory('')" ng-attr-aria-pressed="{{!vm.category}}">All</button>
+                    <button type="button" ng-repeat="category in vm.categories" class="btn btn-sm m-2"
                         ng-class="{'btn-light':vm.category!=category,'btn-dark':vm.category==category}"
-                        ng-click="vm.setCategory( category) "> {{category}} </button>
+                        ng-click="vm.setCategory(category)" ng-attr-aria-pressed="{{vm.category==category}}">{{category}}</button>
                 </div>
             </div>
             <div class="row no-gutters">
@@ -394,28 +400,6 @@
         </div>
     </section>
 
-    <!-- Disqus comments-->
-    <section class="page-section bg-dark text-white" id="disqus">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <div id="disqus_thread"></div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <script>
-        (function () { // DON'T EDIT BELOW THIS LINE
-            var d = document,
-                s = d.createElement('script');
-            s.src = 'https://makeratplay.disqus.com/embed.js';
-            s.setAttribute('data-timestamp', +new Date());
-            (d.head || d.body).appendChild(s);
-        })();
-    </script>
-
-
     <!-- Modal -->
     <div class="modal fade" id="projectModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
         aria-hidden="true">
@@ -465,7 +449,7 @@
         <div class="container">
 
             <div class="small text-center text-muted">
-                <p class="copyright text-muted">Copyright &copy; Maker At Play 2020</p>
+                <p class="copyright text-muted">Copyright &copy; Maker At Play <span class="copyright-year"></span></p>
             </div>
         </div>
     </footer>
