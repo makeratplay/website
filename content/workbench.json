@@ -1,5 +1,14 @@
 [
   {
+    "slug": "helper9",
+    "title": "Helper9",
+    "status": "Building",
+    "summary": "Family calendar and organization app for meals, tasks, notes, and expenses.",
+    "image": "/workbench/helper9/masthead.jpg",
+    "updated": "2026-11-08",
+    "details": "A family organization app that brings calendars, meal planning, tasks, journaling, and expenses into one place."
+  },
+  {
     "slug": "esp32-internet-radio",
     "title": "ESP32 Internet Radio",
     "status": "Building",
