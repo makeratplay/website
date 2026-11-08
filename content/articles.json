@@ -1,0 +1,3777 @@
+[
+  {
+    "slug": "esp32-internet-radio",
+    "category": [
+      "workbench"
+    ],
+    "title": "ESP32 Internet Radio",
+    "date": "2026-11-08",
+    "status": "Building",
+    "summary": "An Instructables newsletter sparked a five-day experiment: building an ESP32 internet radio with ChatGPT and AWS IoT Core.",
+    "url": "/workbench/esp32-internet-radio/",
+    "image": "/workbench/esp32-internet-radio/masthead.jpg",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "new-york-harbor-layout",
+    "category": [
+      "workbench"
+    ],
+    "title": "New York Harbor HO Layout",
+    "date": "2026-11-08",
+    "status": "Planning",
+    "summary": "After 16 years without a layout, the model railroad bug is back. I'm planning a compact New York Harbor switching shelf.",
+    "url": "/workbench/new-york-harbor-layout/",
+    "image": "/workbench/new-york-harbor-layout/masthead.jpg",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "ai-made-code-cheap",
+    "category": [
+      "article",
+      "CTO thoughts",
+      "LinkedIn"
+    ],
+    "title": "AI Made Code Cheap. That Was Never What Customers Paid For.",
+    "date": "2026-11-05",
+    "status": "Published on LinkedIn",
+    "summary": "Enterprise software still requires architecture, reliability, and understanding customers.",
+    "url": "https://www.linkedin.com/pulse/ai-made-code-cheap-never-whole-product-michael-hawkins-fxlqc/",
+    "image": "/blog/ai-made-code-cheap/1793894481915.png",
+    "topics": [
+      "Software & AI",
+      "Healthcare Technology"
+    ],
+    "audiences": [
+      "Technology Leaders",
+      "Engineers"
+    ]
+  },
+  {
+    "slug": "good-software-engineer",
+    "category": [
+      "article",
+      "CTO thoughts",
+      "LinkedIn"
+    ],
+    "title": "If AI Can Write the Code, What Makes a Good Software Engineer?",
+    "date": "2026-10-26",
+    "status": "Published on LinkedIn",
+    "summary": "Why engineering ownership and understanding the whole system matter.",
+    "url": "https://www.linkedin.com/pulse/ai-can-write-code-what-makes-good-software-engineer-michael-hawkins-cntic/",
+    "image": "/blog/good-software-engineer/1793035748897.png",
+    "topics": [
+      "Software & AI",
+      "Career & Leadership"
+    ],
+    "audiences": [
+      "Engineers",
+      "Technology Leaders"
+    ]
+  },
+  {
+    "slug": "future-senior-engineers",
+    "category": [
+      "article",
+      "CTO thoughts",
+      "LinkedIn"
+    ],
+    "title": "If AI writes all the entry-level code, where do future senior engineers come from?",
+    "date": "2026-10-19",
+    "status": "Published on LinkedIn",
+    "summary": "If AI takes the work that trains junior engineers, the industry still has to develop its future seniors.",
+    "url": "https://www.linkedin.com/pulse/ai-writes-all-entry-level-code-where-do-future-senior-michael-hawkins-npwoc/",
+    "image": "/blog/future-senior-engineers/1792439848397.jpg",
+    "topics": [
+      "Software & AI",
+      "Career & Leadership"
+    ],
+    "audiences": [
+      "Engineers",
+      "Technology Leaders"
+    ]
+  },
+  {
+    "slug": "company-like-that",
+    "category": [
+      "CTO thoughts",
+      "LinkedIn"
+    ],
+    "title": "How do I get a job at a company like that?",
+    "date": "2026-10-14",
+    "status": "Published on LinkedIn",
+    "summary": "What some people see as the risk of a startup, I see as opportunity and a team small enough to know everyone.",
+    "url": "https://lnkd.in/p/g9FN3hKE",
+    "image": "/blog/company-like-that/1791991100796.jpg",
+    "topics": [
+      "Career & Leadership"
+    ],
+    "audiences": [
+      "Engineers",
+      "Technology Leaders"
+    ]
+  },
+  {
+    "slug": "full-props-monday-night",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Full Props on a Monday Night",
+    "date": "2026-10-05",
+    "status": "Progress blog",
+    "summary": "Media frames and sideline screens came out for a full-props Monday rehearsal ahead of the Birdville contest.",
+    "url": "/projects/64/index.html#blog-2026-10-05",
+    "image": "/projects/64/10-05-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "end-of-an-era",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "The End of an Era (and a Steak Dinner)",
+    "date": "2026-10-04",
+    "status": "Progress blog",
+    "summary": "The stair prototype was cut up for scrap and the garage was cleared after four months as the props workshop.",
+    "url": "/projects/64/index.html#blog-2026-10-04",
+    "image": "/projects/64/10-04-2026.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "all-dressed-up",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "All Dressed Up and Nowhere to Go",
+    "date": "2026-10-03",
+    "status": "Progress blog",
+    "summary": "Rain canceled the USBands contest after the props were loaded, then unloaded, and the band performed indoors.",
+    "url": "/projects/64/index.html#blog-2026-10-03",
+    "image": "/projects/64/10-03-2026.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "coroplast-easter-egg-hunt",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "The Great Coroplast Easter Egg Hunt",
+    "date": "2026-10-02",
+    "status": "Progress blog",
+    "summary": "Double-sided tape failed on the black stair panels during the football game, and five panels had to be recovered from the track.",
+    "url": "/projects/64/index.html#blog-2026-10-02",
+    "image": "/projects/64/10-02-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "october-brings-the-rain",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "October Brings the Rain",
+    "date": "2026-10-01",
+    "status": "Progress blog",
+    "summary": "Rain is forecast through Saturday's contest, and the remaining black Coroplast stair panels were handed off for painting.",
+    "url": "/projects/64/index.html#blog-2026-10-01",
+    "image": "/projects/64/10-01-2026_2.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "helper9",
+    "category": [
+      "workbench"
+    ],
+    "title": "Helper9",
+    "date": "2026-10-01",
+    "status": "Building",
+    "summary": "From a single-shot email-to-calendar AI prompt to an agentic family assistant with tools for multi-step tasks.",
+    "url": "/workbench/helper9/",
+    "image": "/workbench/helper9/masthead.jpg",
+    "topics": [
+      "Software & AI"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "project-ideas",
+    "category": [
+      "workbench"
+    ],
+    "title": "My backlog of project ideas",
+    "date": "2026-10-01",
+    "status": "Ideas",
+    "summary": "Projects I'm considering before they earn a spot on the bench.",
+    "url": "/workbench/project-ideas/",
+    "image": "/workbench/project-ideas/masthead.jpg",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "a-little-more-coroplast-a-little-more-progress",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "A Little More Coroplast, A Little More Progress",
+    "date": "2026-09-30",
+    "status": "Progress blog",
+    "summary": "Black Coroplast panels were cut for the remaining nine stair props from leftover sheets.",
+    "url": "/projects/64/index.html#blog-2026-09-30",
+    "image": "https://i.ytimg.com/vi/VSq3qrIfmNA/hqdefault.jpg",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "sometimes-black-is-better",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Sometimes Black Is Better",
+    "date": "2026-09-29",
+    "status": "Progress blog",
+    "summary": "Black Coroplast panels went behind the stairs on three props so you can't see through the steps.",
+    "url": "/projects/64/index.html#blog-2026-09-29",
+    "image": "/projects/64/09-29-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "handrails-flag-tubes-and-a-golf-cart-mystery",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Handrails, Flag Tubes, and a Golf Cart Mystery",
+    "date": "2026-09-28",
+    "status": "Progress blog",
+    "summary": "Flag tubes went on props 11 and 12, and the prototype handrail passed its first rehearsal test.",
+    "url": "/projects/64/index.html#blog-2026-09-28",
+    "image": "/projects/64/09-28-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "one-handrail-down-eleven-to-go",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "One Handrail Down, Eleven to Go?",
+    "date": "2026-09-27",
+    "status": "Progress blog",
+    "summary": "Prop 12 got a prototype EMT handrail, shortened so it can stay on in the trucks.",
+    "url": "/projects/64/index.html#blog-2026-09-27",
+    "image": "/projects/64/09-27-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "contest-day-show-time",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Contest Day! Show Time!",
+    "date": "2026-09-26",
+    "status": "Progress blog",
+    "summary": "First contest in Melissa. The props fit the trucks, and setup and the field exit went smoothly.",
+    "url": "/projects/64/index.html#blog-2026-09-26",
+    "image": "/projects/64/09-26-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "do-we-really-need-handrails",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Do We Really Need Handrails?",
+    "date": "2026-09-25",
+    "status": "Progress blog",
+    "summary": "USBands confirmed the stair props meet the rules they will honor, so full safety railings are no longer required.",
+    "url": "/projects/64/index.html#blog-2026-09-25",
+    "image": "/projects/64/09-25-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "a-last-minute-safety-challenge",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "A Last-Minute Safety Challenge",
+    "date": "2026-09-24",
+    "status": "Progress blog",
+    "summary": "A four-foot contest rule meant the stair props needed safety railings, and two removable designs were modeled.",
+    "url": "/projects/64/index.html#blog-2026-09-24",
+    "image": "/projects/64/09-24-2026_3.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "giving-the-props-their-numbers",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Giving the Props Their Numbers",
+    "date": "2026-09-23",
+    "status": "Progress blog",
+    "summary": "LEGO models were used to assign each stair prop a drill number so all 12 match their roles in the show.",
+    "url": "/projects/64/index.html#blog-2026-09-23",
+    "image": "/projects/64/09-23-2026_2.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "one-more-wind-test",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "One More Wind Test",
+    "date": "2026-09-22",
+    "status": "Progress blog",
+    "summary": "Zip ties were added so Coroplast can't pull off the media frames, and the frames survived another blow-over.",
+    "url": "/projects/64/index.html#blog-2026-09-22",
+    "image": "/projects/64/09-22-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "the-new-racks-get-their-first-test",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "The New Racks Get Their First Test",
+    "date": "2026-09-21",
+    "status": "Progress blog",
+    "summary": "All four wheel racks were mounted, and the new trailer storage system passed its first rehearsal test.",
+    "url": "/projects/64/index.html#blog-2026-09-21",
+    "image": "/projects/64/09-21-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "everything-gets-a-home",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Everything Gets a Home",
+    "date": "2026-09-20",
+    "status": "Progress blog",
+    "summary": "A full-size driveway layout became a wall rack for the media-frame rails, and the remaining wheel racks were welded.",
+    "url": "/projects/64/index.html#blog-2026-09-20",
+    "image": "/projects/64/09-20-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "giving-the-media-frames-a-home",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Giving the Media Frames a Home",
+    "date": "2026-09-19",
+    "status": "Progress blog",
+    "summary": "A high Coroplast shelf and the first media-frame wheel rack were built so each piece has a home in the trailer.",
+    "url": "/projects/64/index.html#blog-2026-09-19",
+    "image": "/projects/64/09-19-2026_6.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "more-flag-experiments",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "More Flag Experiments",
+    "date": "2026-09-15",
+    "status": "Progress blog",
+    "summary": "Smaller concrete form tubes were nested inside the flag holders, and white panels between the steps were tested and rejected.",
+    "url": "/projects/64/index.html#blog-2026-09-15",
+    "image": "/projects/64/09-15-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "96-feet-of-props",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "96 Feet of Props",
+    "date": "2026-09-13",
+    "status": "Progress blog",
+    "summary": "All eight media frames were finished with Coroplast artwork and lined up as a 96-foot wall of props.",
+    "url": "/projects/64/index.html#blog-2026-09-13",
+    "image": "/projects/64/09-13-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "rethinking-the-flag-troughs",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Rethinking the Flag Troughs",
+    "date": "2026-09-10",
+    "status": "Progress blog",
+    "summary": "Concrete form tubes were tested as larger flag holders under the stair props.",
+    "url": "/projects/64/index.html#blog-2026-09-10",
+    "image": "/projects/64/09-10-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "velcro-assembly-and-a-little-more-trial-and-error",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Velcro, Assembly, and a Little More Trial and Error",
+    "date": "2026-09-07",
+    "status": "Progress blog",
+    "summary": "Stage steps were completed, all eight media frames were assembled, and the first frame got its Coroplast.",
+    "url": "/projects/64/index.html#blog-2026-09-07",
+    "image": "/projects/64/09-07-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "a-day-of-paint",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "A Day of Paint",
+    "date": "2026-09-06",
+    "status": "Progress blog",
+    "summary": "A day of painting the finished stage-step and media-frame steel before the artwork goes on.",
+    "url": "/projects/64/index.html#blog-2026-09-06",
+    "image": "/projects/64/09-06-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "the-props-come-alive",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "The Props Come Alive",
+    "date": "2026-09-05",
+    "status": "Progress blog",
+    "summary": "A parent and student workday put Coroplast artwork on ten sideline screens and all twelve stair props.",
+    "url": "/projects/64/index.html#blog-2026-09-05",
+    "image": "/projects/64/09-05-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "testing-the-new-media-frame-design",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Testing the New Media Frame Design",
+    "date": "2026-09-04",
+    "status": "Progress blog",
+    "summary": "A full-size Coroplast test validated the new media-frame trough, and angle-iron troughs were welded onto the remaining frames.",
+    "url": "/projects/64/index.html#blog-2026-09-04",
+    "image": "/projects/64/09-04-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "definitely-not-a-band-free-night",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Definitely Not a Band-Free Night",
+    "date": "2026-09-03",
+    "status": "Progress blog",
+    "summary": "No shop time, but a Thursday home football game still meant a night with the band.",
+    "url": "/projects/64/index.html#blog-2026-09-03",
+    "image": "/projects/64/09-03-2026_4.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "a-better-way-the-second-time",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "A Better Way the Second Time",
+    "date": "2026-09-02",
+    "status": "Progress blog",
+    "summary": "The second stage-step frame was welded with a better assembly sequence than the first.",
+    "url": "/projects/64/index.html#blog-2026-09-02",
+    "image": "/projects/64/09-02-2026_3.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "band-props-division",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Band Props Division",
+    "date": "2026-09-01",
+    "status": "Progress blog",
+    "summary": "No fabrication, but a booster meeting and a new Band Props Division shirt design.",
+    "url": "/projects/64/index.html#blog-2026-09-01",
+    "image": "/projects/64/09-01-2026_2.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "from-2d-to-3d",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "From 2D to 3D",
+    "date": "2026-08-31",
+    "status": "Progress blog",
+    "summary": "The first stage-step frame went from flat parts to a welded assembly.",
+    "url": "/projects/64/index.html#blog-2026-08-31",
+    "image": "/projects/64/08-31-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "switching-from-steel-to-plywood",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Switching from Steel to Plywood",
+    "date": "2026-08-30",
+    "status": "Progress blog",
+    "summary": "With the welder down, the day shifted to plywood for the remaining flag troughs and stage steps.",
+    "url": "/projects/64/index.html#blog-2026-08-30",
+    "image": "/projects/64/08-30-2026_2.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "when-the-welder-has-other-plans",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "When the Welder Has Other Plans",
+    "date": "2026-08-29",
+    "status": "Progress blog",
+    "summary": "Stage-step welding started, then the MIG welder failed mid-build.",
+    "url": "/projects/64/index.html#blog-2026-08-29",
+    "image": "/projects/64/08-29-2026_3.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "more-metal-cutting",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "More Metal Cutting",
+    "date": "2026-08-28",
+    "status": "Progress blog",
+    "summary": "More steel was cut for the eighth media frame and the stage steps.",
+    "url": "/projects/64/index.html#blog-2026-08-28",
+    "image": "/projects/64/08-28-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "trust-but-verify",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Trust, but Verify",
+    "date": "2026-08-27",
+    "status": "Progress blog",
+    "summary": "The Tulsa Coroplast load was sorted, and missing staircase back panels were caught before the game.",
+    "url": "/projects/64/index.html#blog-2026-08-27",
+    "image": "/projects/64/08-27-2026_2.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "the-annual-coroplast-road-trip",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "The Annual Coroplast Road Trip",
+    "date": "2026-08-26",
+    "status": "Progress blog",
+    "summary": "The annual Tulsa run to pick up the printed show artwork, with missing panels reprinted on site.",
+    "url": "/projects/64/index.html#blog-2026-08-26",
+    "image": "/projects/64/08-26-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "from-cad-to-the-real-frame",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "From CAD to the Real Frame",
+    "date": "2026-08-25",
+    "status": "Progress blog",
+    "summary": "Media-frame measurements from CAD were checked against a real assembled frame before more parts were cut.",
+    "url": "/projects/64/index.html#blog-2026-08-25",
+    "image": "/projects/64/08-25-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "media-frame-production",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Media Frame Production",
+    "date": "2026-08-24",
+    "status": "Progress blog",
+    "summary": "Bottom rails were welded to the modified corners, and the middle support rail moved into production.",
+    "url": "/projects/64/index.html#blog-2026-08-24",
+    "image": "/projects/64/08-24-2026_4.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "rethinking-the-media-frames",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Rethinking the Media Frames",
+    "date": "2026-08-23",
+    "status": "Progress blog",
+    "summary": "Media frames were redesigned with a bottom angle-iron trough and a bolted middle support rail.",
+    "url": "/projects/64/index.html#blog-2026-08-23",
+    "image": "/projects/64/08-23-2026_2.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "back-to-cutting-steel",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Back to Cutting Steel",
+    "date": "2026-08-22",
+    "status": "Progress blog",
+    "summary": "The new stage-step steel was broken down, with mitered corners so open tube ends stay hidden.",
+    "url": "/projects/64/index.html#blog-2026-08-22",
+    "image": "/projects/64/08-22-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "restocking-the-workshop",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Restocking the Workshop",
+    "date": "2026-08-21",
+    "status": "Progress blog",
+    "summary": "Steel for the stage steps, an eighth media frame, and frame modifications was picked up and unloaded.",
+    "url": "/projects/64/index.html#blog-2026-08-21",
+    "image": "https://i.ytimg.com/vi/ExC2q06bHOk/hqdefault.jpg",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "on-to-the-next-props",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "On to the Next Props",
+    "date": "2026-08-18",
+    "status": "Progress blog",
+    "summary": "With the stair props done, work turned to steps for the two reused 4-by-8 stages.",
+    "url": "/projects/64/index.html#blog-2026-08-18",
+    "image": "/projects/64/08-18-2026_2.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "the-other-marching-season-workshop",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "The Other Marching Season Workshop",
+    "date": "2026-08-17",
+    "status": "Progress blog",
+    "summary": "While the garage filled with steel, the living room became the shop for this year's drill-spot shirts.",
+    "url": "/projects/64/index.html#blog-2026-08-17",
+    "image": "/projects/64/08-03-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "finishing-touches-delivery-and-whats-next",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Finishing Touches, Delivery, and What's Next",
+    "date": "2026-08-16",
+    "status": "Progress blog",
+    "summary": "Instrument shelves were finished, the last staircase props were delivered, and seven media frames came home.",
+    "url": "/projects/64/index.html#blog-2026-08-16",
+    "image": "/projects/64/08-16-2026_2.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "the-final-six-come-together",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "The Final Six Come Together",
+    "date": "2026-08-15",
+    "status": "Progress blog",
+    "summary": "A parent workday put plywood and Polywall on the final six props, so all twelve staircases are built.",
+    "url": "/projects/64/index.html#blog-2026-08-15",
+    "image": "/projects/64/08-15-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "getting-ahead-on-paint",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Getting Ahead on Paint",
+    "date": "2026-08-12",
+    "status": "Progress blog",
+    "summary": "Four of the next six frames were painted early so Saturday's workday would not stall at the one paint sprayer.",
+    "url": "/projects/64/index.html#blog-2026-08-12",
+    "image": "/projects/64/08-12-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "the-metalwork-is-done",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "The Metalwork Is Done",
+    "date": "2026-08-08",
+    "status": "Progress blog",
+    "summary": "The last welds went in, and metal fabrication for all twelve staircase props is done.",
+    "url": "/projects/64/index.html#blog-2026-08-08",
+    "image": "/projects/64/08-08-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "the-subassembly-piles-disappear",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "The Subassembly Piles Disappear",
+    "date": "2026-08-07",
+    "status": "Progress blog",
+    "summary": "Props 4, 5, and 6 moved through the welding table until the subassembly piles were gone.",
+    "url": "/projects/64/index.html#blog-2026-08-07",
+    "image": "/projects/64/08-07-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "starting-the-second-six",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Starting the Second Six",
+    "date": "2026-08-05",
+    "status": "Progress blog",
+    "summary": "The second batch started, with a better sequence for platforms, stairs, slides, and wheels.",
+    "url": "/projects/64/index.html#blog-2026-08-05",
+    "image": "/projects/64/08-05-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "the-first-six-delivered",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "The First Six Delivered",
+    "date": "2026-08-02",
+    "status": "Progress blog",
+    "summary": "A prototype instrument shelf was finished, and the first six props were delivered to the school.",
+    "url": "/projects/64/index.html#blog-2026-08-02",
+    "image": "/projects/64/08-02-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "six-props-completed",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Six Props Completed",
+    "date": "2026-08-01",
+    "status": "Progress blog",
+    "summary": "The second parent workday painted the first six props and installed plywood and Polywall.",
+    "url": "/projects/64/index.html#blog-2026-08-01",
+    "image": "/projects/64/08-01-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "ready-for-the-workday",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Ready for the Workday",
+    "date": "2026-07-31",
+    "status": "Progress blog",
+    "summary": "A supply run for plywood, Polywall, and bolts, plus a flag-trough prototype, ahead of Saturday's workday.",
+    "url": "/projects/64/index.html#blog-2026-07-31",
+    "image": "/projects/64/07-31-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "six-props-take-shape",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Six Props Take Shape",
+    "date": "2026-07-30",
+    "status": "Progress blog",
+    "summary": "Prop 6 came together, and the first six staircase frames now fill the workshop floor.",
+    "url": "/projects/64/index.html#blog-2026-07-30",
+    "image": "/projects/64/07-30-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "an-unexpected-interruption",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "An Unexpected Interruption",
+    "date": "2026-07-29",
+    "status": "Progress blog",
+    "summary": "Production kept moving until a golf ball shattered the truck's rear window.",
+    "url": "/projects/64/index.html#blog-2026-07-29",
+    "image": "/projects/64/07-29-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "finding-the-rhythm",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Finding the Rhythm",
+    "date": "2026-07-28",
+    "status": "Progress blog",
+    "summary": "The slide on the first prop was finished on the welding table, and the assembly rhythm started to settle in.",
+    "url": "/projects/64/index.html#blog-2026-07-28",
+    "image": "/projects/64/07-28-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "back-to-welding",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Back to Welding",
+    "date": "2026-07-27",
+    "status": "Progress blog",
+    "summary": "A fresh bottle of shielding gas, then back to welding after the weekend ran dry.",
+    "url": "/projects/64/index.html#blog-2026-07-27",
+    "image": "/projects/64/07-27-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "a-day-of-drilling",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "A Day of Drilling",
+    "date": "2026-07-26",
+    "status": "Progress blog",
+    "summary": "With the gas bottle empty, the day went to drilling and enlarging the wheel-plate holes.",
+    "url": "/projects/64/index.html#blog-2026-07-26",
+    "image": "/projects/64/07-26-2026_3.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "back-in-the-shop",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Back in the Shop",
+    "date": "2026-07-25",
+    "status": "Progress blog",
+    "summary": "Back from vacation, the remaining slide holes were drilled and the slide fixtures were worked out.",
+    "url": "/projects/64/index.html#blog-2026-07-25",
+    "image": "/projects/64/07-25-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "one-more-shop-day-before-vacation",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "One More Shop Day Before Vacation",
+    "date": "2026-07-18",
+    "status": "Progress blog",
+    "summary": "One more shop day before vacation: wheels on the first prop, and the slide rails fitted.",
+    "url": "/projects/64/index.html#blog-2026-07-18",
+    "image": "/projects/64/07-18-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "the-artwork-arrives",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "The Artwork Arrives",
+    "date": "2026-07-14",
+    "status": "Progress blog",
+    "summary": "The show artwork arrived and the Coroplast layouts were checked in Fusion, including hinged flag access on the staircase backs.",
+    "url": "/projects/64/index.html#blog-2026-07-14",
+    "image": "/projects/64/07-14-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "the-first-complete-prop",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "The First Complete Prop",
+    "date": "2026-07-13",
+    "status": "Progress blog",
+    "summary": "The first complete prop, base, platform, and stairs welded together, and a wheel bolt-pattern problem showed up early.",
+    "url": "/projects/64/index.html#blog-2026-07-13",
+    "image": "/projects/64/07-13-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "making-room-for-the-next-step",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Making Room for the Next Step",
+    "date": "2026-07-12",
+    "status": "Progress blog",
+    "summary": "All twelve platforms were welded, and the stair assemblies were painted to clear the table for the next step.",
+    "url": "/projects/64/index.html#blog-2026-07-12",
+    "image": "/projects/64/07-12-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "the-first-volunteer-workday",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "The First Volunteer Workday",
+    "date": "2026-07-11",
+    "status": "Progress blog",
+    "summary": "The first parent workday cut all twelve plywood sheets into treads, platforms, and slide panels.",
+    "url": "/projects/64/index.html#blog-2026-07-11",
+    "image": "/projects/64/07-11-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "a-plywood-run",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "A Plywood Run",
+    "date": "2026-07-09",
+    "status": "Progress blog",
+    "summary": "A run to the plywood warehouse so Saturday's workday has all twelve sheets ready to cut.",
+    "url": "/projects/64/index.html#blog-2026-07-09",
+    "image": "/projects/64/07-09-2026_2.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "many-hands-make-light-work",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Many Hands Make Light Work",
+    "date": "2026-07-08",
+    "status": "Progress blog",
+    "summary": "Another band dad helped grind the twelve base assemblies so they would be ready for paint.",
+    "url": "/projects/64/index.html#blog-2026-07-08",
+    "image": "/projects/64/07-08-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "a-major-milestone",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "A Major Milestone",
+    "date": "2026-07-07",
+    "status": "Progress blog",
+    "summary": "The last six stair assemblies were welded, and all twelve three-step stairs are done.",
+    "url": "/projects/64/index.html#blog-2026-07-07",
+    "image": "/projects/64/07-07-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "halfway-through-the-stair-assemblies",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Halfway Through the Stair Assemblies",
+    "date": "2026-07-06",
+    "status": "Progress blog",
+    "summary": "More stair assemblies, after grinding joints so the welds stay clean.",
+    "url": "/projects/64/index.html#blog-2026-07-06",
+    "image": "/projects/64/07-06-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "building-the-stairs",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Building the Stairs",
+    "date": "2026-07-05",
+    "status": "Progress blog",
+    "summary": "The casters arrived, the last top steps were welded, and stair assembly could start.",
+    "url": "/projects/64/index.html#blog-2026-07-05",
+    "image": "/projects/64/07-05-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "back-to-welding-2026-07-02",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Back to Welding",
+    "date": "2026-07-02",
+    "status": "Progress blog",
+    "summary": "Six more top-step assemblies, with the fixture making the work repeatable.",
+    "url": "/projects/64/index.html#blog-2026-07-02",
+    "image": "/projects/64/07-02-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "preparing-for-paint",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Preparing for Paint",
+    "date": "2026-07-01",
+    "status": "Progress blog",
+    "summary": "An HVLP sprayer and a gallon of paint were tested so the workday would not depend on rattle cans.",
+    "url": "/projects/64/index.html#blog-2026-07-01",
+    "image": "https://i.ytimg.com/vi/ybPuzzXHnrM/hqdefault.jpg",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "every-project-has-a-mistake",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Every Project Has a Mistake",
+    "date": "2026-06-30",
+    "status": "Progress blog",
+    "summary": "All twelve lower steps were welded, then a mistake in the fixture showed up.",
+    "url": "/projects/64/index.html#blog-2026-06-30",
+    "image": "/projects/64/06-30-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "twelve-base-frames-complete",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Twelve Base Frames Complete",
+    "date": "2026-06-27",
+    "status": "Progress blog",
+    "summary": "All twelve base frames were completed, the largest subassembly on the welding table.",
+    "url": "/projects/64/index.html#blog-2026-06-27",
+    "image": "/projects/64/06-27-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "a-fixture-for-the-first-step",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "A Fixture for the First Step",
+    "date": "2026-06-26",
+    "status": "Progress blog",
+    "summary": "A fixture for welding the lower steps on edge, then all twelve of those assemblies.",
+    "url": "/projects/64/index.html#blog-2026-06-26",
+    "image": "/projects/64/06-26-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "more-progress-and-material-planning",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "More Progress and Material Planning",
+    "date": "2026-06-25",
+    "status": "Progress blog",
+    "summary": "Smaller parts were welded into the next staircase subassembly, and materials for the rest of the build were planned.",
+    "url": "/projects/64/index.html#blog-2026-06-25",
+    "image": "/projects/64/06-25-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "wheel-plate-sub-assemblies",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Wheel Plate Sub-Assemblies",
+    "date": "2026-06-24",
+    "status": "Progress blog",
+    "summary": "Wheel-plate subassemblies were finished so the first step and the wheel mount go on as one piece.",
+    "url": "/projects/64/index.html#blog-2026-06-24",
+    "image": "/projects/64/06-24-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "wheel-plates",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Wheel Plates",
+    "date": "2026-06-23",
+    "status": "Progress blog",
+    "summary": "Wheel-plate production, after a lunch-break run for shielding gas.",
+    "url": "/projects/64/index.html#blog-2026-06-23",
+    "image": "/projects/64/06-23-2026_3.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "platform-legs",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Platform Legs",
+    "date": "2026-06-22",
+    "status": "Progress blog",
+    "summary": "Platform leg assemblies were welded after a day of cleaning steel.",
+    "url": "/projects/64/index.html#blog-2026-06-22",
+    "image": "/projects/64/06-22-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "steps-and-platform-tops",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Steps and Platform Tops",
+    "date": "2026-06-20",
+    "status": "Progress blog",
+    "summary": "Steps and platform tops moved ahead while the long tubes were drilled and cleaned.",
+    "url": "/projects/64/index.html#blog-2026-06-20",
+    "image": "/projects/64/06-20-2026_5.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "welding-begins",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Welding Begins",
+    "date": "2026-06-19",
+    "status": "Progress blog",
+    "summary": "Cutting wrapped up and welding began, turning the pile of parts into the first frames.",
+    "url": "/projects/64/index.html#blog-2026-06-19",
+    "image": "/projects/64/06-19-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "production-cutting-marathon",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Production Cutting Marathon",
+    "date": "2026-06-17",
+    "status": "Progress blog",
+    "summary": "A fifth straight day of cutting stock into the parts for twelve staircase props.",
+    "url": "/projects/64/index.html#blog-2026-06-17",
+    "image": "/projects/64/06-17-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "day-4-of-production",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Day 4 of Production",
+    "date": "2026-06-16",
+    "status": "Progress blog",
+    "summary": "Day four of breaking stock into the roughly 600 pieces the twelve props need.",
+    "url": "/projects/64/index.html#blog-2026-06-16",
+    "image": "/projects/64/06-16-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "cutting-and-drilling",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Cutting and Drilling",
+    "date": "2026-06-15",
+    "status": "Progress blog",
+    "summary": "More of the stock was cut to length and drilled, then sorted into stacks.",
+    "url": "/projects/64/index.html#blog-2026-06-15",
+    "image": "/projects/64/06-15-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "cutting-and-drilling-2026-06-14",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Cutting and Drilling",
+    "date": "2026-06-14",
+    "status": "Progress blog",
+    "summary": "Cutting and drilling continued, including a stop to service the chop saw.",
+    "url": "/projects/64/index.html#blog-2026-06-14",
+    "image": "/projects/64/06-14-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "cutting-and-drilling-2026-06-13",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Cutting and Drilling",
+    "date": "2026-06-13",
+    "status": "Progress blog",
+    "summary": "Production cutting started, with a chop-saw fence set up for repeatable miter cuts.",
+    "url": "/projects/64/index.html#blog-2026-06-13",
+    "image": "/projects/64/06-13-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "metal-has-arrived",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Metal Has Arrived",
+    "date": "2026-06-12",
+    "status": "Progress blog",
+    "summary": "The metal delivery arrived: 215 pieces of stock, about $3,300, unloaded into the workshop.",
+    "url": "/projects/64/index.html#blog-2026-06-12",
+    "image": "/projects/64/06-12-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "metal-order-placed",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Metal Order Placed",
+    "date": "2026-06-11",
+    "status": "Progress blog",
+    "summary": "The metal order for all twelve stair props was placed.",
+    "url": "/projects/64/index.html#blog-2026-06-11",
+    "image": "/projects/64/06-11-2026_email_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "design-updates-and-decision",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Design Updates and Decision",
+    "date": "2026-06-10",
+    "status": "Progress blog",
+    "summary": "The dock stages were cut to a single 4-by-8 section each, and the front screens went to ten.",
+    "url": "/projects/64/index.html#blog-2026-06-10",
+    "image": "/projects/64/06-10-2026_email_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "coroplast-layouts-for-the-final-design",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Coroplast Layouts for the Final Design",
+    "date": "2026-06-06",
+    "status": "Progress blog",
+    "summary": "With the designs locked, the CAD drawings and Coroplast sheet layouts were finished.",
+    "url": "/projects/64/index.html#blog-2026-06-06",
+    "image": "/projects/64/06-06-2026_email_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "from-prototype-to-production",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "From Prototype to Production",
+    "date": "2026-05-26",
+    "status": "Progress blog",
+    "summary": "The revised prototype went back to audition camp for a second look.",
+    "url": "/projects/64/index.html#blog-2026-05-26",
+    "image": "/projects/64/05-26-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "updated-prototype-ready-for-another-look",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Updated Prototype Ready for Another Look",
+    "date": "2026-05-25",
+    "status": "Progress blog",
+    "summary": "The latest platform and slide changes were finished and ready to take to camp.",
+    "url": "/projects/64/index.html#blog-2026-05-25",
+    "image": "/projects/64/05-25-2026_email_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "prototype-slide-changes",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Prototype Slide Changes",
+    "date": "2026-05-24",
+    "status": "Progress blog",
+    "summary": "More work on the prototype slide.",
+    "url": "/projects/64/index.html#blog-2026-05-24",
+    "image": "/projects/64/05-24-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "new-platform-welded",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "New Platform Welded",
+    "date": "2026-05-23",
+    "status": "Progress blog",
+    "summary": "The new, larger platform was welded onto the prototype.",
+    "url": "/projects/64/index.html#blog-2026-05-23",
+    "image": "/projects/64/05-23-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "platform-redo",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Platform Redo",
+    "date": "2026-05-22",
+    "status": "Progress blog",
+    "summary": "The original platform was cut off so the prototype could be rebuilt lower and larger.",
+    "url": "/projects/64/index.html#blog-2026-05-22",
+    "image": "/projects/64/05-22-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "a-lower-roomier-top-platform",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "A Lower, Roomier Top Platform",
+    "date": "2026-05-17",
+    "status": "Progress blog",
+    "summary": "A first platform revision was drawn, then replaced with a lower 4-by-3-foot deck that still fits the truck.",
+    "url": "/projects/64/index.html#blog-2026-05-17",
+    "image": "/projects/64/05-17-2026_email_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "putting-prototype-to-the-feedback-test",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Putting Prototype to the Feedback Test",
+    "date": "2026-05-14",
+    "status": "Progress blog",
+    "summary": "Students climbed and slid the prototype at school, and the platform came back as the thing to change.",
+    "url": "/projects/64/index.html#blog-2026-05-14",
+    "image": "/projects/64/05-14-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "ready-for-the-first-user-test",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Ready for the First User Test",
+    "date": "2026-05-08",
+    "status": "Progress blog",
+    "summary": "The prototype was ready to leave the shop for its first test with students and the director.",
+    "url": "/projects/64/index.html#blog-2026-05-08",
+    "image": "/projects/64/05-08-2026_email_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "one-prototype-and-a-700-estimate",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "One Prototype and a $700 Estimate",
+    "date": "2026-04-12",
+    "status": "Progress blog",
+    "summary": "The first full prototype was sent for review, with a rough cost of $700 per prop.",
+    "url": "/projects/64/index.html#blog-2026-04-12",
+    "image": "/projects/64/04-12-2026_email_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "it-finally-looks-like-a-staircase",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "It Finally Looks Like a Staircase",
+    "date": "2026-04-11",
+    "status": "Progress blog",
+    "summary": "Stair frames, platform, and base came together until the prototype finally looked like a staircase.",
+    "url": "/projects/64/index.html#blog-2026-04-11",
+    "image": "/projects/64/04-11-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "making-progress-one-evening-at-a-time",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Making Progress One Evening at a Time",
+    "date": "2026-04-09",
+    "status": "Progress blog",
+    "summary": "An evening session welding wheel plates into the base frame.",
+    "url": "/projects/64/index.html#blog-2026-04-09",
+    "image": "/projects/64/04-09-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "seeing-the-shape-of-the-prop",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Seeing the Shape of the Prop",
+    "date": "2026-04-08",
+    "status": "Progress blog",
+    "summary": "A short weeknight session bracing the platform and grinding the stair sides.",
+    "url": "/projects/64/index.html#blog-2026-04-08",
+    "image": "/projects/64/04-08-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "wheels-platforms-and-practical-problems",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Wheels, Platforms, and Practical Problems",
+    "date": "2026-04-04",
+    "status": "Progress blog",
+    "summary": "Work on the top platform, the piece students stand on before they slide.",
+    "url": "/projects/64/index.html#blog-2026-04-04",
+    "image": "/projects/64/04-04-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "building-the-foundation",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Building the Foundation",
+    "date": "2026-03-29",
+    "status": "Progress blog",
+    "summary": "The prototype base frame was cut and welded from 1.5-inch square tube.",
+    "url": "/projects/64/index.html#blog-2026-03-29",
+    "image": "/projects/64/03-29-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "time-to-build-a-prototype",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Time to Build a Prototype",
+    "date": "2026-03-21",
+    "status": "Progress blog",
+    "summary": "With metal in the shop, the staircase idea left the CAD model and became a prototype.",
+    "url": "/projects/64/index.html#blog-2026-03-21",
+    "image": "/projects/64/03-21-2026_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "first-design-review",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "First Design Review",
+    "date": "2026-02-24",
+    "status": "Progress blog",
+    "summary": "The first design review asked for a larger top platform so students have room to turn around.",
+    "url": "/projects/64/index.html#blog-2026-02-24",
+    "image": "/projects/64/mockup_v2_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "first-staircase-mockup",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "First Staircase Mockup",
+    "date": "2026-02-22",
+    "status": "Progress blog",
+    "summary": "The first Fusion 360 mockup of the Escher-inspired stair and slide props.",
+    "url": "/projects/64/index.html#blog-2026-02-22",
+    "image": "/projects/64/mockup_v1_1.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "props-kickoff",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Props Kickoff",
+    "date": "2026-02-17",
+    "status": "Progress blog",
+    "summary": "Props kickoff with the director and designer, built around an Escher staircase of 8 to 12 mirrored props.",
+    "url": "/projects/64/index.html#blog-2026-02-17",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "ai-skill-amplifying-tool",
+    "category": [
+      "article",
+      "CTO thoughts",
+      "LinkedIn"
+    ],
+    "title": "AI is a skill-amplifying tool, not a skill-replacing one.",
+    "date": "2025-12-12",
+    "status": "Published on LinkedIn",
+    "summary": "At a recent advisory board meeting, I had the chance to share what I have learned from introducing AI assisted coding tools to my team. I wanted to pass it along here since others may find it useful too.",
+    "url": "https://www.linkedin.com/pulse/ai-skill-amplifying-tool-skill-replacing-one-michael-hawkins-eyspc/",
+    "image": "/blog/ai-skill-amplifying-tool/1765727487482.png",
+    "topics": [
+      "Software & AI"
+    ],
+    "audiences": [
+      "Engineers",
+      "Technology Leaders"
+    ]
+  },
+  {
+    "slug": "ai-coding-in-production",
+    "category": [
+      "article",
+      "LinkedIn"
+    ],
+    "title": "AI Coding in Production: Lessons from 18 Months in the Real World",
+    "date": "2025-10-27",
+    "status": "Published on Axuall",
+    "summary": "Early last year, I began encouraging my engineering team to incorporate AI and LLM-assisted coding tools into their daily workflow. Since then, we've learned a lot about what works, what doesn't, and how these tools can genuinely change the way we build software. I recently wrote a blog post that shares what we've observed and how things are going so far.",
+    "url": "https://axuall.com/post/ai-coding-in-production-lessons-from-18-months-in-the-real-world",
+    "image": "/blog/ai-coding-in-production/1762301197675.jpg",
+    "topics": [
+      "Software & AI"
+    ],
+    "audiences": [
+      "Engineers",
+      "Technology Leaders"
+    ]
+  },
+  {
+    "slug": "first-contest-bandtober-begins",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "First Contest — Bandtober Begins",
+    "date": "2025-10-04",
+    "status": "Progress blog",
+    "summary": "The props went to the first contest in Denton, and two back props blew over in the prelims wind.",
+    "url": "/projects/63/index.html#blog-2025-10-04",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ],
+    "image": "https://64.media.tumblr.com/84fda2480989b105cf21ade0dad8cc38/50355e156a21a8e7-d9/s640x960/8772c58bd21a4023e105a5905ac7c9525d7bc010.png"
+  },
+  {
+    "slug": "homecoming-parade-fun",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Homecoming Parade Fun",
+    "date": "2025-10-01",
+    "status": "Progress blog",
+    "summary": "Homecoming parade day, with the booster golf cart decorated as an airport luggage cart.",
+    "url": "/projects/63/index.html#blog-2025-10-01",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ],
+    "image": "https://64.media.tumblr.com/2089c7d947baf956c8982d6ccdcaa045/48aaf91b0f779b5f-8d/s640x960/4c3a39aade412ee98f32fc47328201f91c746bd1.png"
+  },
+  {
+    "slug": "first-rehearsal-with-full-props",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "First Rehearsal with Full Props",
+    "date": "2025-09-29",
+    "status": "Progress blog",
+    "summary": "The first full rehearsal put the stage, 74 spears, eight sideline screens, and seven back props on the field.",
+    "url": "/projects/63/index.html#blog-2025-09-29",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ],
+    "image": "https://64.media.tumblr.com/2777fc0657ffd6e9480312d82e12d6c7/3ffaf069cfac34f8-95/s640x960/5f5a23874a5c56a07f8deb314adc48663682f104.png"
+  },
+  {
+    "slug": "home-stretch",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Home Stretch",
+    "date": "2025-09-28",
+    "status": "Progress blog",
+    "summary": "The last three drums were wrapped in vinyl and padded, and Coroplast went on the stage sides.",
+    "url": "/projects/63/index.html#blog-2025-09-28",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ],
+    "image": "https://64.media.tumblr.com/73509df14447fbd3b4d72023808d1fbe/866ed17f441718c2-8e/s640x960/96811c029f1790d4f7705e4bdb1400a84f73b064.png"
+  },
+  {
+    "slug": "long-saturday-in-the-props-shop-my-feet-hurt",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Long Saturday in the Props Shop (My Feet Hurt)",
+    "date": "2025-09-27",
+    "status": "Progress blog",
+    "summary": "More neon pink paint finished the spear tips after an early cross country meet.",
+    "url": "/projects/63/index.html#blog-2025-09-27",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ],
+    "image": "https://64.media.tumblr.com/bff1d9837c3f8508a2e69727f4c65d5f/7d756b20dfc75f4b-94/s640x960/1498071454765e896f876e39b21cb67797589d0c.png"
+  },
+  {
+    "slug": "friday-night-lights-props-edition",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Friday Night Lights: Props Edition",
+    "date": "2025-09-26",
+    "status": "Progress blog",
+    "summary": "EMT frames were painted black, spear tips went neon pink, and four broken tips were repaired a week before the first contest.",
+    "url": "/projects/63/index.html#blog-2025-09-26",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ],
+    "image": "https://64.media.tumblr.com/ac3b6727b7584ef1e040de08b9b975a5/af43cca4ce849791-03/s640x960/8e10b7a5c34d75829c9ca659503e9884ef03ea72.png"
+  },
+  {
+    "slug": "friday-night-lights-thursday-edition",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Friday Night Lights (Thursday Edition)",
+    "date": "2025-09-25",
+    "status": "Progress blog",
+    "summary": "An away football game meant loading and moving band equipment, with no props work.",
+    "url": "/projects/63/index.html#blog-2025-09-25",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ],
+    "image": "https://64.media.tumblr.com/ccfb2caef645a4ddda0020f0448dd736/8d33704080b4462a-3d/s640x960/76be1698b45d45fada2bd2d220861e93a93a4ae5.png"
+  },
+  {
+    "slug": "wednesday-evening-in-the-props-workshop",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Wednesday Evening in the Props Workshop",
+    "date": "2025-09-24",
+    "status": "Progress blog",
+    "summary": "Three media frames were extended, redrilled, and painted so all seven would match.",
+    "url": "/projects/63/index.html#blog-2025-09-24",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ],
+    "image": "https://64.media.tumblr.com/f2f0d26791ff606e881a5828f4824f4c/6da83eff910f3111-17/s640x960/62897ea6305267cca6e157e8e08da64beaf14cd0.png"
+  },
+  {
+    "slug": "chipping-away-at-the-to-do-list",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Chipping Away at the To-Do List",
+    "date": "2025-09-23",
+    "status": "Progress blog",
+    "summary": "Stage panels were cut to length, and Coroplast went up on the back props that already had their bottom pieces.",
+    "url": "/projects/63/index.html#blog-2025-09-23",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ],
+    "image": "https://64.media.tumblr.com/cae62146e548ea89b21aa63649707952/d5c218963aa0bb65-6e/s640x960/b94e9712b87ccbf25cc8ef3924a2104ae0dd2030.png"
+  },
+  {
+    "slug": "heading-into-the-home-stretch",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Heading into the Home Stretch",
+    "date": "2025-09-22",
+    "status": "Progress blog",
+    "summary": "The remaining tasks were mapped out, with Saturday as the finish line and Sunday left for loading the trailer.",
+    "url": "/projects/63/index.html#blog-2025-09-22",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ],
+    "image": "https://64.media.tumblr.com/59b12debf526139e846797fc114c1934/87dc257a450bbcb6-ea/s640x960/91cbf1ede0904d746873b9ccd21f9ec5d953f736.png"
+  },
+  {
+    "slug": "sideline-screens-back-props-and-stage-drums",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Sideline Screens, Back Props, and Stage Drums",
+    "date": "2025-09-21",
+    "status": "Progress blog",
+    "summary": "Braces were built to hang the faux barrel drums off the front of the stage at 22 degrees.",
+    "url": "/projects/63/index.html#blog-2025-09-21",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ],
+    "image": "https://64.media.tumblr.com/f0de4299e660dd630f0759623309036a/10e2a32fd29e0eb9-53/s640x960/1b3090936dd423c17dba325f047eda40ecfea022.png"
+  },
+  {
+    "slug": "back-prop-progress",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Back Prop Progress",
+    "date": "2025-09-20",
+    "status": "Progress blog",
+    "summary": "Twenty-one EMT hangers were welded for the back-prop Coroplast, and new wheels went on the screen carts.",
+    "url": "/projects/63/index.html#blog-2025-09-20",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ],
+    "image": "https://64.media.tumblr.com/d268843fb461e3523879ca0e81ffcad4/c09d2f71b92cff8f-de/s640x960/a4c906b3549a1ae57af09a67c1e3459c98575bc2.png"
+  },
+  {
+    "slug": "friday-night-lights-props-first",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Friday Night Lights, Props First",
+    "date": "2025-09-19",
+    "status": "Progress blog",
+    "summary": "A prototype EMT frame hanger was tested in the shop before the home football game.",
+    "url": "/projects/63/index.html#blog-2025-09-19",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ],
+    "image": "https://64.media.tumblr.com/689a6f0d901bbd4269ab4268a0addffb/c4fb9cf212b061b3-87/s640x960/19c37adc81201cff5dcb6c7be6ea76438c11d2c5.png"
+  },
+  {
+    "slug": "media-frame-layout-and-emt-run",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Media Frame Layout and EMT Run",
+    "date": "2025-09-18",
+    "status": "Progress blog",
+    "summary": "An 8-foot media frame was laid out with its Coroplast to check the plan, then it was off for more EMT.",
+    "url": "/projects/63/index.html#blog-2025-09-18",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ],
+    "image": "https://64.media.tumblr.com/6268dbe5b086ebb6bac952ceaba8235e/0925881d66f49b81-f1/s640x960/acfa6c632b240fc18f8136a135a4f68a46ca5894.png"
+  },
+  {
+    "slug": "spreadsheets-and-planning-day",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Spreadsheets and Planning Day",
+    "date": "2025-09-17",
+    "status": "Progress blog",
+    "summary": "The day went to planning media frames so all seven back props would share one size.",
+    "url": "/projects/63/index.html#blog-2025-09-17",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ],
+    "image": "https://64.media.tumblr.com/347957a3bbd77344e70e6841b5f7249c/d023ee3397bd8d18-ef/s640x960/f0ec6a16b7b1f3d5af1db981cee6fd1d216cb4e0.png"
+  },
+  {
+    "slug": "giant-puzzle-pieces",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Giant Puzzle Pieces",
+    "date": "2025-09-16",
+    "status": "Progress blog",
+    "summary": "Forty-two sheets of lava-printed Coroplast were sorted into the seven back props.",
+    "url": "/projects/63/index.html#blog-2025-09-16",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ],
+    "image": "https://64.media.tumblr.com/4e472bb745adefa6efe8957d75c8ee0f/5e8eac866ed7f27c-54/s640x960/0ab2cc6d207940dda7487311192cdd4ccc637d36.png"
+  },
+  {
+    "slug": "building-the-faux-barrels",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Building the Faux Barrels",
+    "date": "2025-09-15",
+    "status": "Progress blog",
+    "summary": "The real faux barrel drums were built from plywood after the Saturday mock-up got a thumbs up.",
+    "url": "/projects/63/index.html#blog-2025-09-15",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ],
+    "image": "https://64.media.tumblr.com/3f4578e96afabf0d5f5efe49632c5e8b/5ecc01d29c3781c3-c4/s640x960/a5862b1b2d0052475e91a714c71f2a9119cb49c8.png"
+  },
+  {
+    "slug": "sunday-fun-day-in-the-props-sweatshop",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Sunday Fun Day in the Props Sweatshop",
+    "date": "2025-09-14",
+    "status": "Progress blog",
+    "summary": "Clamps were made so students can lock the stage sections together inside a five-minute setup.",
+    "url": "/projects/63/index.html#blog-2025-09-14",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ],
+    "image": "https://64.media.tumblr.com/00a4472e743372453a9138fe8f20e5ff/65b8ffc9cd842abb-aa/s640x960/1f14269bee718f7fee84fcbb460c2462c1e4d7b1.png"
+  },
+  {
+    "slug": "spears-stages-and-mock-ups",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Spears, Stages, and Mock-Ups",
+    "date": "2025-09-13",
+    "status": "Progress blog",
+    "summary": "Spear bases were made smaller after rehearsal showed they were binding in the racks.",
+    "url": "/projects/63/index.html#blog-2025-09-13",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ],
+    "image": "https://64.media.tumblr.com/010917429f9cc1307fa363dcf0b62fe4/21d3b033cddad954-0f/s640x960/299ee228d5ae1d3da6383f3370b40afd51eca769.png"
+  },
+  {
+    "slug": "coroplast-road-trip",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Coroplast Road Trip",
+    "date": "2025-09-11",
+    "status": "Progress blog",
+    "summary": "A rented cargo trailer made the Dallas-to-Tulsa run to pick up the Coroplast order.",
+    "url": "/projects/63/index.html#blog-2025-09-11",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ],
+    "image": "https://64.media.tumblr.com/16627bde48d7825dd9aaa9207d5e1c07/1142f0c89051fde3-db/s640x960/06c9ef2c1f6a50d40550f0c4742f759fb417b684.png"
+  },
+  {
+    "slug": "props-make-their-first-appearance-at-rehearsal",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Props Make Their First Appearance at Rehearsal",
+    "date": "2025-09-09",
+    "status": "Progress blog",
+    "summary": "The stage and spears came out for their first rehearsal, and the stage rolled better on pavement than on turf.",
+    "url": "/projects/63/index.html#blog-2025-09-09",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ],
+    "image": "https://64.media.tumblr.com/d61f262745c55ae3ea47407aea864653/b915d3b89a6e2cad-8a/s640x960/951a86c276adda1d1543406c53f4d85ca69d39e3.png"
+  },
+  {
+    "slug": "loading-up-for-rehearsal",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Loading Up for Rehearsal",
+    "date": "2025-09-08",
+    "status": "Progress blog",
+    "summary": "The 20-foot trailer came home with the stages and spear racks, and the spear tips went on.",
+    "url": "/projects/63/index.html#blog-2025-09-08",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ],
+    "image": "https://64.media.tumblr.com/220b75336c772003f34864644155d581/acf6a540c96106b6-8a/s640x960/9912e47ed865a2ec19962a88b100d3d5569c17c5.png"
+  },
+  {
+    "slug": "slow-but-steady-progress",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Slow but Steady Progress",
+    "date": "2025-09-07",
+    "status": "Progress blog",
+    "summary": "A third wheel bar kept the curved stage steps from tipping, and more wheels were ordered.",
+    "url": "/projects/63/index.html#blog-2025-09-07",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ],
+    "image": "https://64.media.tumblr.com/9d4b88bd8afaceae526023e5507568af/d0c64d40d0044106-d5/s640x960/18cb8a8ed1b96f42136aae1bc874e25558828223.png"
+  },
+  {
+    "slug": "big-milestone-stages-assembled",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Big Milestone: Stages Assembled",
+    "date": "2025-09-06",
+    "status": "Progress blog",
+    "summary": "The stage-step welding wrapped up, and a parent work session assembled the stages.",
+    "url": "/projects/63/index.html#blog-2025-09-06",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ],
+    "image": "https://64.media.tumblr.com/d2345c5448a46b9fec263ab451d5a8fe/80a68cb8b450b6ba-c1/s640x960/065e4628cf8883368ccdbd1694e72487601214ea.jpg"
+  },
+  {
+    "slug": "quick-session-on-the-stage-steps",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Quick Session on the Stage Steps",
+    "date": "2025-09-05",
+    "status": "Progress blog",
+    "summary": "Center braces and expanded metal went onto the stage steps ahead of the parent paint session.",
+    "url": "/projects/63/index.html#blog-2025-09-05",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ],
+    "image": "https://64.media.tumblr.com/ee33aff32b1e571c640fc19d7ef1a90b/3b31a548e9871036-61/s640x960/5ee20f93d0a55dc8b7f9dafd94b0253cfd08f7b8.png"
+  },
+  {
+    "slug": "going-vertical-with-the-stage-steps",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Going Vertical with the Stage Steps",
+    "date": "2025-09-03",
+    "status": "Progress blog",
+    "summary": "Legs and steps were welded onto the base frame, and the metal chop saw got a new blade.",
+    "url": "/projects/63/index.html#blog-2025-09-03",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ],
+    "image": "https://64.media.tumblr.com/9c32724b31a3076c9a3158c9fcc062ba/82222a38b11b2f15-cd/s640x960/2b4b2a0c297988f04499c89aaab04566ac7ac84b.png"
+  },
+  {
+    "slug": "welding-gas-run-and-stage-tops-finished",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Welding Gas Run and Stage Tops Finished",
+    "date": "2025-09-02",
+    "status": "Progress blog",
+    "summary": "A second trip to Airgas brought home the shielding gas, and the last three stage tops were finished that night.",
+    "url": "/projects/63/index.html#blog-2025-09-02",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ],
+    "image": "https://64.media.tumblr.com/f8d0b36bf4679ecbfd6b2def97b3c740/8bf222b0635516e9-1e/s640x960/587966da791a2a782f135807bfc957dae0f21e88.png"
+  },
+  {
+    "slug": "lots-of-props-labor-on-labor-day",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Lots of Props Labor on Labor Day",
+    "date": "2025-09-01",
+    "status": "Progress blog",
+    "summary": "A narrower vinyl jig and a crew of band parents finished wrapping all 72 spears.",
+    "url": "/projects/63/index.html#blog-2025-09-01",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ],
+    "image": "https://64.media.tumblr.com/083468db96c66d3e0775404827ac5696/c1de801c0a8458f9-e2/s640x960/038ba55b7a3297d16f898807d214096f58bc220e.png"
+  },
+  {
+    "slug": "stage-steps-coming-together",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Stage Steps Coming Together",
+    "date": "2025-08-31",
+    "status": "Progress blog",
+    "summary": "The angled frame pieces for the stage steps were cut, then welded using the first section as a template.",
+    "url": "/projects/63/index.html#blog-2025-08-31",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ],
+    "image": "https://64.media.tumblr.com/3fa6be96782f084f64592b84c67b279d/be8f1d841b1fe490-f7/s640x960/08720e17a4627cb28ead44fd8cbcea3d1f3de872.png"
+  },
+  {
+    "slug": "switching-gears-building-the-stage-stairs",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Switching Gears: Building the Stage Stairs",
+    "date": "2025-08-30",
+    "status": "Progress blog",
+    "summary": "The stairs were redesigned as solid units, and the 14 angled base pieces were cut.",
+    "url": "/projects/63/index.html#blog-2025-08-30",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ],
+    "image": "https://64.media.tumblr.com/721effa8d9847dd829177387795725d8/7d72f57ea2c59e56-66/s640x960/bf882216bfb55e5c0adedc8027c5ec3befd2dfa4.png"
+  },
+  {
+    "slug": "back-in-the-shop-after-a-short-break",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Back in the Shop After a Short Break",
+    "date": "2025-08-29",
+    "status": "Progress blog",
+    "summary": "After a work trip, the stage-top bottom welds went quickly and the oversized expanded metal did not.",
+    "url": "/projects/63/index.html#blog-2025-08-29",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ],
+    "image": "https://64.media.tumblr.com/fe0c9a81d623bb5e35fb6434195dceab/46ac87e213d911ef-f7/s640x960/43636ccb4874bfb4d5a9577573c357f510dd4b4c.png"
+  },
+  {
+    "slug": "second-prop-volunteer-workday",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Second Prop Volunteer Workday",
+    "date": "2025-08-24",
+    "status": "Progress blog",
+    "summary": "Parents finished painting stage parts and ran a spear production line, routing each pipe twice.",
+    "url": "/projects/63/index.html#blog-2025-08-24",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ],
+    "image": "https://64.media.tumblr.com/15d8cd81f19d03c27428444526457a66/657e1606c5071ce4-5c/s640x960/80d04377fcb43b23caf429526e10195a480b546e.png"
+  },
+  {
+    "slug": "first-prop-volunteer-workday",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "First Prop Volunteer Workday",
+    "date": "2025-08-23",
+    "status": "Progress blog",
+    "summary": "The first parent workday painted the spear racks, cut 72 PVC spears, and broke down plywood for the tips.",
+    "url": "/projects/63/index.html#blog-2025-08-23",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ],
+    "image": "https://64.media.tumblr.com/ae8c8f4d4df1632629e772cd76d8f69d/31a4e5ceec8bada0-f1/s640x960/750826cfbb56fe178ceb5ef4e29fc991c76e306b.png"
+  },
+  {
+    "slug": "stage-tops-moving-forward",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Stage Tops Moving Forward",
+    "date": "2025-08-22",
+    "status": "Progress blog",
+    "summary": "Pin cleats and the top-side cross bracing were welded on the stage tops.",
+    "url": "/projects/63/index.html#blog-2025-08-22",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ],
+    "image": "https://64.media.tumblr.com/32eb51e7a6ef6c0d92fb758ac41d8907/1bc6b3de8e977d34-cc/s640x960/9d905aa86b6eabb21d20c2ada8c9268050ba579c.png"
+  },
+  {
+    "slug": "back-in-the-shop-after-a-few-days-away",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Back in the Shop After a Few Days Away",
+    "date": "2025-08-21",
+    "status": "Progress blog",
+    "summary": "Welds were ground on two stage tops, pin cleats went on, and the spear-tip plywood got a coat of white.",
+    "url": "/projects/63/index.html#blog-2025-08-21",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ],
+    "image": "https://64.media.tumblr.com/ae548ddf8145e0df710cdb8d884f3603/947e251cf822494e-41/s640x960/9c175b49a9045b5d077b97818776858014d6d434.png"
+  },
+  {
+    "slug": "a-break-from-props-but-not-from-band",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "A Break from Props, but Not from Band",
+    "date": "2025-08-20",
+    "status": "Progress blog",
+    "summary": "No shop time, but a look at the new district fine-arts box trucks the bands will use.",
+    "url": "/projects/63/index.html#blog-2025-08-20",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ],
+    "image": "https://64.media.tumblr.com/20b6737f1e676f44bc49e8f6b27afae0/76c16dd6a5a23cd2-15/s640x960/da4bc081d5428ebaddb32743b86b8fbac7e270d9.png"
+  },
+  {
+    "slug": "props-shopping-day",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Props Shopping Day",
+    "date": "2025-08-19",
+    "status": "Progress blog",
+    "summary": "A Home Depot run picked up PVC, plywood, and flat black paint for the first parent workday.",
+    "url": "/projects/63/index.html#blog-2025-08-19",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ],
+    "image": "https://64.media.tumblr.com/bace2aa2578c09889c5a7ae65a34d051/16a74aeb448b002e-49/s640x960/95deb5f95208f415c6e9903171c56a98e423dbc8.png"
+  },
+  {
+    "slug": "making-progress-on-the-stage-tops",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Making Progress on the Stage Tops",
+    "date": "2025-08-17",
+    "status": "Progress blog",
+    "summary": "The six remaining stage tops turned into a long list of angled cuts, frames, and pin cleats.",
+    "url": "/projects/63/index.html#blog-2025-08-17",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ],
+    "image": "https://64.media.tumblr.com/8b7cc31858ceeaa3d4516111574638bb/9d15af02d17ae9f8-13/s640x960/7aa3c01a93fadd57cd1504d3bd93412c8ace4904.png"
+  },
+  {
+    "slug": "saturday-in-the-shop",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Saturday in the Shop",
+    "date": "2025-08-16",
+    "status": "Progress blog",
+    "summary": "Pin holes were drilled and wheels went on one stage to test the design.",
+    "url": "/projects/63/index.html#blog-2025-08-16",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ],
+    "image": "https://64.media.tumblr.com/6dd20d922611658deb2d6f6353481d8c/c1911144ad51a547-c5/s640x960/cf6a080447a79261c72eef3441e8ff555065f69b.png"
+  },
+  {
+    "slug": "checking-more-tasks-off-the-list",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Checking More Tasks Off the List",
+    "date": "2025-08-15",
+    "status": "Progress blog",
+    "summary": "The remaining stage-side cleats and center braces were welded, then 72 wheel-mount holes were drilled.",
+    "url": "/projects/63/index.html#blog-2025-08-15",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ],
+    "image": "https://64.media.tumblr.com/105ff3ee86e2564b3a497a11dd71715b/a1285f4b2e9674aa-dd/s640x960/aef1fb94d25d23f3693f68aa243f79dd5f8dfa71.png"
+  },
+  {
+    "slug": "long-day-in-the-props-workshop",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Long Day in the Props Workshop",
+    "date": "2025-08-14",
+    "status": "Progress blog",
+    "summary": "Five of seven stage end supports were finished, and the last pieces of metal were left for the metal store.",
+    "url": "/projects/63/index.html#blog-2025-08-14",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ],
+    "image": "https://64.media.tumblr.com/39e46eea237b5823e7c89e8a3cd2c601/c6b41e9e92431945-ec/s640x960/0761f61baf09963cf9ec8664b0fd6a4c681d50ee.png"
+  },
+  {
+    "slug": "cutting-stage-braces",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Cutting Stage Braces",
+    "date": "2025-08-13",
+    "status": "Progress blog",
+    "summary": "The stage end braces started with 3-inch pieces cut at 45 degrees.",
+    "url": "/projects/63/index.html#blog-2025-08-13",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ],
+    "image": "https://64.media.tumblr.com/0dfe8dda2df956b7ceaf62e5603fc765/220b0832e87d0abd-7b/s640x960/20c7b8a8d05f26cf367afec7cd59d5e0c02844a6.png"
+  },
+  {
+    "slug": "stage-side-frames-progress",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Stage Side Frames Progress",
+    "date": "2025-08-12",
+    "status": "Progress blog",
+    "summary": "The last five stage side frames were welded, and pins dropped through the matching holes.",
+    "url": "/projects/63/index.html#blog-2025-08-12",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ],
+    "image": "https://64.media.tumblr.com/a1033af6a2674f184048accb114ad545/a197a8e3af29b9a3-ad/s640x960/bcf9ddf7e31fc93f365bee16f4a795b15aba206b.png"
+  },
+  {
+    "slug": "dialing-in-the-stage-frame-setup",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Dialing in the Stage Frame Setup",
+    "date": "2025-08-11",
+    "status": "Progress blog",
+    "summary": "The welding fixture was adjusted so a finished side frame could lift out after the reference points were off.",
+    "url": "/projects/63/index.html#blog-2025-08-11",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ],
+    "image": "https://64.media.tumblr.com/b4d4aa06903804f55bca0cc6c71af87f/b5e7915f14b3a703-25/s640x960/9fbb905469c6dc923359dc8ebaa651c6766a4219.png"
+  },
+  {
+    "slug": "precision-day",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Precision Day",
+    "date": "2025-08-10",
+    "status": "Progress blog",
+    "summary": "Holes were drilled in the 8-foot stage pieces so the side panels would be interchangeable.",
+    "url": "/projects/63/index.html#blog-2025-08-10",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ],
+    "image": "https://64.media.tumblr.com/0b34953aac6df184f966016a47d36aed/78a53fac26aa9c32-eb/s640x960/12b4b79a6a5aafae5db32f5434fe401b91f0b479.png"
+  },
+  {
+    "slug": "spear-racks-finished-at-last",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Spear Racks, Finished at Last",
+    "date": "2025-08-09",
+    "status": "Progress blog",
+    "summary": "The last spear-rack welds went in, a bigger job than six frames once each rack had to hold 12 spears.",
+    "url": "/projects/63/index.html#blog-2025-08-09",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ],
+    "image": "https://64.media.tumblr.com/4eaaf047a5eff11f6d33a709371e2184/b53238592ca866ba-dc/s640x960/6f982e086d385274f676671aee0872b0bb47d3d4.png"
+  },
+  {
+    "slug": "friday-night-on-the-spear-racks",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Friday Night on the Spear Racks",
+    "date": "2025-08-08",
+    "status": "Progress blog",
+    "summary": "A 90-minute session welding more of the spear holders.",
+    "url": "/projects/63/index.html#blog-2025-08-08",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ],
+    "image": "https://64.media.tumblr.com/4368ceb9f397b095e109288ff9809ae7/670fe928112a3029-79/s640x960/1c097d7bd548e8816181a565529c8ffecd14eddd.png"
+  },
+  {
+    "slug": "out-of-wire-and-gas",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Out of Wire and Gas",
+    "date": "2025-08-04",
+    "status": "Progress blog",
+    "summary": "Welding wire and gas ran out before the last spear rack's top supports were on.",
+    "url": "/projects/63/index.html#blog-2025-08-04",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ],
+    "image": "https://64.media.tumblr.com/40f710995c11a673978f248ddfcbdad4/a91455e57eff7d6d-d0/s640x960/eb8f5d6f18e664440b827d08aae088a4cd775dd2.png"
+  },
+  {
+    "slug": "sunday-props-day",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Sunday Props Day",
+    "date": "2025-08-03",
+    "status": "Progress blog",
+    "summary": "One spear rack was finished and three more got their top holders.",
+    "url": "/projects/63/index.html#blog-2025-08-03",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ],
+    "image": "https://64.media.tumblr.com/4a93f36e3c1d80897be4a97d2292d6da/aa973ebfeecd8ffa-79/s640x960/d8bde912032e95fad72f80d36afa77dd4affee45.png"
+  },
+  {
+    "slug": "shop-progress-update",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Shop Progress Update",
+    "date": "2025-08-02",
+    "status": "Progress blog",
+    "summary": "Nine stage wheel frames were welded, and both ends of 72 spear pipes were ground with a jig.",
+    "url": "/projects/63/index.html#blog-2025-08-02",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ],
+    "image": "https://64.media.tumblr.com/4dd88d8dfcecfc4f2277b8cb41fa08b4/0654baee627c856d-c8/s640x960/a2643dcec085779997bcd4298a5daded4273380f.png"
+  },
+  {
+    "slug": "cutting-45s-for-stage-wheel-parts",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Cutting 45s for Stage Wheel Parts",
+    "date": "2025-08-01",
+    "status": "Progress blog",
+    "summary": "The stage wheel frames were cut from 1-inch tubing so no open tube ends would show.",
+    "url": "/projects/63/index.html#blog-2025-08-01",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ],
+    "image": "https://64.media.tumblr.com/eef08ac1a40545d21a727612455238d2/150f4bcef44397d3-3d/s640x960/97a904e1cbfb3b43298b6199d24899904be236c9.png"
+  },
+  {
+    "slug": "metal-delivery-day",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Metal Delivery Day",
+    "date": "2025-07-29",
+    "status": "Progress blog",
+    "summary": "The steel for the three stages and the steps was picked up from Metal Supermarkets.",
+    "url": "/projects/63/index.html#blog-2025-07-29",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ],
+    "image": "https://64.media.tumblr.com/ec6e935606434eb39a3e7be12cd8e423/36a1251abe325648-16/s640x960/81e4f8f290bcf1a9a0e33263af7b37e450f1cf64.png"
+  },
+  {
+    "slug": "spear-rack-welding",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Spear Rack Welding",
+    "date": "2025-07-27",
+    "status": "Progress blog",
+    "summary": "Spear rack frames were welded and the legs went on.",
+    "url": "/projects/63/index.html#blog-2025-07-27",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ],
+    "image": "https://64.media.tumblr.com/751be874e0ff090979669749e1cbc845/648130e30cd23bb4-60/s640x960/4fb63bcd2121f4b8caaf99a7ec41d1a49aab803b.png"
+  },
+  {
+    "slug": "spear-rack-decision",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Spear Rack Decision",
+    "date": "2025-07-15",
+    "status": "Progress blog",
+    "summary": "The spears will angle toward the audience, and the stage design is still open.",
+    "url": "/projects/63/index.html#blog-2025-07-15",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ],
+    "image": "https://64.media.tumblr.com/41500cdf02507390e32e9421d0046bf2/5a355c5c340fb019-b5/s640x960/4edfb7ee0c6636ed04f2d4ee915f35fff560f580.png"
+  },
+  {
+    "slug": "rethinking-the-drum-design",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Rethinking the Drum Design",
+    "date": "2025-07-13",
+    "status": "Progress blog",
+    "summary": "The drums moved into the prop itself so the performers look like they are drumming on rock or wood.",
+    "url": "/projects/63/index.html#blog-2025-07-13",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ],
+    "image": "https://64.media.tumblr.com/526351d6851c85655aca6b24f9a7797e/c3138acf1e8213c3-63/s640x960/e932a87f43c8bd53d43686ee7b46eac74d780daf.png"
+  },
+  {
+    "slug": "stage-design-update-ribs-and-drums",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Stage Design Update: Ribs and Drums",
+    "date": "2025-07-08",
+    "status": "Progress blog",
+    "summary": "The foam bone came off the front of the stage, replaced by Coroplast ribs and three drums.",
+    "url": "/projects/63/index.html#blog-2025-07-08",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ],
+    "image": "https://64.media.tumblr.com/5c2f37ad9154809179e15d8c6f5dec51/7661ab6388ee5d41-47/s640x960/a0658d8776eba380ddfcad0b1e6d100fa12f665c.png"
+  },
+  {
+    "slug": "first-look-at-2025-prop-designs",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "First Look at 2025 Prop Designs",
+    "date": "2025-07-06",
+    "status": "Progress blog",
+    "summary": "The first designs went out for review, including 72 bamboo spears on six racks.",
+    "url": "/projects/63/index.html#blog-2025-07-06",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ],
+    "image": "https://64.media.tumblr.com/f035bf11ca11672db4b27f56aaf32d29/e1fa6d5c65a9099f-e9/s640x960/a4aad7799e4c3173847dcd956835ba89cbdd9cf5.png"
+  },
+  {
+    "slug": "2025-props-workshop-kickoff",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "2025 Props Workshop Kickoff",
+    "date": "2025-06-05",
+    "status": "Progress blog",
+    "summary": "The season planning meeting kept last year's front screen and added six spear racks along the front.",
+    "url": "/projects/63/index.html#blog-2025-06-05",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ],
+    "image": "https://64.media.tumblr.com/631130548ae8e33c68531469e36852f8/f2a64e71a9a0f332-30/s640x960/00bbf09ba31323fd052ef9a539aecc2d18f72f61.png"
+  },
+  {
+    "slug": "what-a-week-for-the-props-workshop",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "What a Week for the Props Workshop",
+    "date": "2024-10-06",
+    "status": "Progress blog",
+    "summary": "The first contest put 16 back props, 22 sideline screens, the sundial tarp, and the stage on the field, and the band left as grand champions.",
+    "url": "/projects/59/index.html#blog-2024-10-06",
+    "image": "/projects/59/10-06-2024_1.jpg",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "the-wind-had-other-plans",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "The Wind Had Other Plans",
+    "date": "2024-10-03",
+    "status": "Progress blog",
+    "summary": "Tuesday's wind snapped two frame bolts and blew over a 12x12, so the EMT frames were welded solid before Saturday's contest.",
+    "url": "/projects/59/index.html#blog-2024-10-03",
+    "image": "https://64.media.tumblr.com/4da9133d1b00c27c15f49b1fb76d7297/3aae261cf0ec5b79-ce/s640x960/3556db4344a17a0f0f4b36994cafec8497f3908f.jpg",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "and-thats-a-wrap",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "And That's a Wrap",
+    "date": "2024-09-29",
+    "status": "Progress blog",
+    "summary": "Five band parents helped finish the back props and the stage vinyl, with the set ready for Saturday's contest.",
+    "url": "/projects/59/index.html#blog-2024-09-29",
+    "image": "https://64.media.tumblr.com/5d7e7bf68bfb87904ddf13188ff7dd35/0e93f1d901bef1a8-e0/s640x960/1dad1c13d4da6e641b61f5aee1611d8e001a03cc.jpg",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "all-16-props-framed",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "All 16 Props Framed",
+    "date": "2024-09-28",
+    "status": "Progress blog",
+    "summary": "The last three props were mounted, so all 16 back props were framed and hanging.",
+    "url": "/projects/59/index.html#blog-2024-09-28",
+    "image": "https://64.media.tumblr.com/856ebd40096516d0b80b4149c231bfe1/846dd5832d3379a3-9b/s640x960/1a8da83f7087357783fc2870d5968c82a5fd25e5.jpg",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "notching-the-bottom-panels",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Notching the Bottom Panels",
+    "date": "2024-09-26",
+    "status": "Progress blog",
+    "summary": "Another 12x12 went on its frame, and the bottom panels were notched to clear the media-frame wheels.",
+    "url": "/projects/59/index.html#blog-2024-09-26",
+    "image": "https://64.media.tumblr.com/84987b38eb82b94be9e7921b9a287ef6/c5718e6723968ffc-3c/s640x960/f247fa06f624ae4b108617f282343a9e49afb82c.jpg",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "first-practice-with-the-props",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "First Practice with the Props",
+    "date": "2024-09-24",
+    "status": "Progress blog",
+    "summary": "Students used the props at practice for the first time, with four frames still empty.",
+    "url": "/projects/59/index.html#blog-2024-09-24",
+    "image": "https://64.media.tumblr.com/f2579d7ad90c609627c1aa9bd68eda52/638c3b28a38138c2-5f/s640x960/f6961db512c9c5d9ac4a10e65bfb9201d5aa6b1c.jpg",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "built-to-fit-the-trailer",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Built to Fit the Trailer",
+    "date": "2024-09-23",
+    "status": "Progress blog",
+    "summary": "The props were designed to pack into the 20-foot trailer so the boosters could skip rented box trucks.",
+    "url": "/projects/59/index.html#blog-2024-09-23",
+    "image": "https://64.media.tumblr.com/668e0e877fc918b0755be1763ebc844b/c8bb4b5f4e79f956-e0/s640x960/5f073aee58dbaafce55d28f8d4cc0f50c6467aa1.jpg",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "a-12x12-before-the-whirlwind",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "A 12x12 Before the Whirlwind",
+    "date": "2024-09-20",
+    "status": "Progress blog",
+    "summary": "A Friday off the day job got one 12x12 mounted before an away game and an overnight cross-country meet.",
+    "url": "/projects/59/index.html#blog-2024-09-20",
+    "image": "https://64.media.tumblr.com/2e65e5e0d3233ca1a4d6623945dfeb0f/427661fcce450f07-2b/s640x960/de564e4d802c8e8c8f05bc5866d9518356790b6a.jpg",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "a-small-fire-then-a-gas-swap",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "A Small Fire, Then a Gas Swap",
+    "date": "2024-09-16",
+    "status": "Progress blog",
+    "summary": "A rag caught fire under the welding table, then the gas bottle was swapped at Airgas before the props work resumed.",
+    "url": "/projects/59/index.html#blog-2024-09-16",
+    "image": "https://64.media.tumblr.com/6eafac78b8ca080481c384aef8025580/efaa9d2a125ec7cd-a3/s640x960/7ecc94f801c12d7c0f667f0e6fdd97791c1335c7.jpg",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "volunteer-session-on-the-media-frames",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Volunteer Session on the Media Frames",
+    "date": "2024-09-15",
+    "status": "Progress blog",
+    "summary": "Parents prepped metal for the remaining media frames and mounted two of the 10x10 props.",
+    "url": "/projects/59/index.html#blog-2024-09-15",
+    "image": "https://64.media.tumblr.com/50eb2f62386351474077cc262f8b8d61/1a8046b517075fc8-be/s640x960/9954cfeadae33ec3ab7e8f3fbf4deae0c377a8c1.jpg",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "three-props-finished",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Three Props Finished",
+    "date": "2024-09-14",
+    "status": "Progress blog",
+    "summary": "Three 6x6 props were finished on their EMT frames, and the first 12x12 hung on a media frame.",
+    "url": "/projects/59/index.html#blog-2024-09-14",
+    "image": "https://64.media.tumblr.com/bb6cdc9e0bc930acb0b27b8d8ea8bcb2/77ceef8b31ba05e5-03/s640x960/27d8e76b3026c47c4576b1bac852e729501c598f.jpg",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "friday-night-on-the-media-frames",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Friday Night on the Media Frames",
+    "date": "2024-09-13",
+    "status": "Progress blog",
+    "summary": "The football game was skipped to weld media-frame parts and drill about 75 holes.",
+    "url": "/projects/59/index.html#blog-2024-09-13",
+    "image": "https://64.media.tumblr.com/3579c30951d9b70f30d7924a59f88b1f/a91f2ef8be747834-f1/s640x960/f2c528e0ed5e1d84daa6c9e68b645dc174d1b2a1.jpg",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "emt-legs-for-the-6x6s",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "EMT Legs for the 6x6s",
+    "date": "2024-09-12",
+    "status": "Progress blog",
+    "summary": "Six EMT legs were finished, enough for three of the 6x6 prop frames.",
+    "url": "/projects/59/index.html#blog-2024-09-12",
+    "image": "https://64.media.tumblr.com/9e37f8781695cb0850440b20160ad2a4/15f3a822eefc85dc-98/s640x960/c634d6702c3c5806033685641d03b708c5c17f37.jpg",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "sideline-screens-and-their-carts",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Sideline Screens and Their Carts",
+    "date": "2024-09-08",
+    "status": "Progress blog",
+    "summary": "Parents finished the 22 front screens and built carts to roll them on and off the field.",
+    "url": "/projects/59/index.html#blog-2024-09-08",
+    "image": "https://64.media.tumblr.com/8c82ee05ead5e5f3ac5a6e2c971dd533/9517b3cd7f760d65-f9/s640x960/6eee842043c681d576b398036e3476ecce1f0ead.jpg",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "second-screen-cart-welded",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Second Screen Cart Welded",
+    "date": "2024-09-04",
+    "status": "Progress blog",
+    "summary": "The second sideline screen cart was welded from start to finish.",
+    "url": "/projects/59/index.html#blog-2024-09-04",
+    "image": "https://64.media.tumblr.com/745ffaf13333faaa8e3176d2aed88546/e901012f70cdb30f-82/s640x960/469d7e59920499250cd52674945575afdfe8e785.jpg",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "the-first-screen-cart",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "The First Screen Cart",
+    "date": "2024-09-03",
+    "status": "Progress blog",
+    "summary": "The first of two carts for the 22 sideline screens was built on a rainy Tuesday.",
+    "url": "/projects/59/index.html#blog-2024-09-03",
+    "image": "https://64.media.tumblr.com/2fa01f8df48ee45450ebb1fbbd6b87aa/9a3bca890cc26ad2-bc/s640x960/f4c586a3428e0319a54b2635afe1fd7e5fc72896.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "the-missing-coroplast-sheet",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "The Missing Coroplast Sheet",
+    "date": "2024-08-21",
+    "status": "Progress blog",
+    "summary": "One of the 49 printed sheets was a duplicate, and Flash Media reprinted the missing piece and sent it by FedEx.",
+    "url": "/projects/59/index.html#blog-2024-08-21-2",
+    "image": "https://64.media.tumblr.com/31e77d10ddddff9ef2254b37184d07aa/ee7f326d6e9a2cb4-49/s640x960/d5b4ebc5dd2e79c057d84adc184508040ccd614f.jpg",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "coroplast-road-trip-to-tulsa",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Coroplast Road Trip to Tulsa",
+    "date": "2024-08-20",
+    "status": "Progress blog",
+    "summary": "An eight-hour run to Tulsa picked up the vinyl and Coroplast and skipped the shipping cost.",
+    "url": "/projects/59/index.html#blog-2024-08-20",
+    "image": "https://64.media.tumblr.com/924e1bb1457d0455e78ab20d2b1d2090/6689d64e6171841d-9f/s640x960/1eb67cdd8b9183b30bce7f577403a08430b29242.jpg",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "the-stage-frame-comes-together",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "The Stage Frame Comes Together",
+    "date": "2024-08-18",
+    "status": "Progress blog",
+    "summary": "A full day of welding got the main pieces of the stage together.",
+    "url": "/projects/59/index.html#blog-2024-08-18",
+    "image": "https://64.media.tumblr.com/e71a82b09cb7ffac8d55da49b0b12d32/7d609d31f48ac20b-35/s640x960/421cef7320448d1ed80917a30317b34cff29c500.jpg",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "first-front-screen-frame",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "First Front Screen Frame",
+    "date": "2024-08-11",
+    "status": "Progress blog",
+    "summary": "The first 4-by-8 screen frame went together, and the estimated leg angle was too shallow to stand steady.",
+    "url": "/projects/59/index.html#blog-2024-08-11",
+    "image": "https://64.media.tumblr.com/8aa9a371fe9f02dd0e14d5914a399583/0ac2aaac4ffbac24-06/s640x960/f0df95df4c740ce1e44a40b2ab73d9c53bc0e0b0.jpg",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "stage-and-screen-cuts",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Stage and Screen Cuts",
+    "date": "2024-08-10",
+    "status": "Progress blog",
+    "summary": "Drilling and angled cuts started for the sundial stage and the mitered front screens.",
+    "url": "/projects/59/index.html#blog-2024-08-10",
+    "image": "https://64.media.tumblr.com/fe5983c68a2093dcc91226df7567df83/02bf825a51e0c482-c9/s640x960/c6c71cfe723266d7af3837630cb2d2cff8e6787c.jpg",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "cutting-the-stage-pin-parts",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Cutting the Stage Pin Parts",
+    "date": "2024-08-09",
+    "status": "Progress blog",
+    "summary": "The stage pin connections were the first parts made, and the small 45-degree cuts needed a jig.",
+    "url": "/projects/59/index.html#blog-2024-08-09",
+    "image": "https://64.media.tumblr.com/2a2cb22ba51b885f7d17287b7ac8183f/ea8882ff93db3e48-4b/s640x960/70cb62a00df432d3c8660eb739e9d42779062e2b.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "prop-building-season-year-seven",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "Prop Building Season, Year Seven",
+    "date": "2024-08-08",
+    "status": "Progress blog",
+    "summary": "Year seven of band props started, with the build notes pointed at the 2024 project page.",
+    "url": "/projects/59/index.html#blog-2024-08-08",
+    "image": "https://64.media.tumblr.com/eb2afd5ac8f3dccfdecc6d35f81288d9/5177bb1b68798472-d3/s640x960/d63899d198f99ef8e9007ff0059d8b22fbe78dfa.jpg",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "its-about-time",
+    "category": [
+      "project update",
+      "band props"
+    ],
+    "title": "It's About Time",
+    "date": "2024-04-09",
+    "status": "Progress blog",
+    "summary": "The director revealed It's About Time, a field of buried clocks with a sundial for the solo stage.",
+    "url": "/projects/59/index.html#blog-2024-04-09",
+    "image": "https://64.media.tumblr.com/d0b1afaf17822a2412b1cab8e7b2a1af/977e2665591a25b2-c7/s640x960/d833b312d15448081db99c936bd980b940ee02dd.jpg",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "bedtime-kanban",
+    "category": [
+      "CTO thoughts",
+      "LinkedIn"
+    ],
+    "title": "A bedtime Kanban board came full circle",
+    "date": "2023-05-31",
+    "status": "Published on LinkedIn",
+    "summary": "When my son was seven, he used a bedtime Kanban board inspired by the Agile coaching we brought into MEDHOST. Eleven years later, as an Axuall intern, he met that same coach without knowing she had already shaped his routine.",
+    "url": "https://www.linkedin.com/posts/hawkinsm_softwaredevelopment-agile-coaching-share-7069809103027535872-5qyP",
+    "image": "/blog/bedtime-kanban/1685573840562.jpg",
+    "topics": [
+      "Career & Leadership"
+    ],
+    "audiences": [
+      "Engineers",
+      "Technology Leaders"
+    ]
+  },
+  {
+    "slug": "patient-discovery-cto",
+    "category": [
+      "CTO thoughts",
+      "LinkedIn"
+    ],
+    "title": "Joining Patient Discovery as Chief Technology Officer",
+    "date": "2021-09-23",
+    "status": "Published on LinkedIn",
+    "summary": "Patient Discovery announced that I had joined the company as Chief Technology Officer.",
+    "url": "https://lnkd.in/p/gcxF47Yr",
+    "image": "/blog/patient-discovery-cto/1632401502984.jpg",
+    "topics": [
+      "Healthcare Technology",
+      "Career & Leadership"
+    ],
+    "audiences": [
+      "Technology Leaders",
+      "Engineers"
+    ]
+  },
+  {
+    "slug": "axuall-cto",
+    "category": [
+      "CTO thoughts",
+      "LinkedIn"
+    ],
+    "title": "Joining Axuall as Chief Technology Officer",
+    "date": "2023-01-10",
+    "status": "Published on LinkedIn",
+    "summary": "Axuall announced my appointment as Chief Technology Officer.",
+    "url": "https://lnkd.in/p/gcenmGSr",
+    "image": "/blog/axuall-cto/1673370713731.jpg",
+    "topics": [
+      "Healthcare Technology",
+      "Career & Leadership"
+    ],
+    "audiences": [
+      "Technology Leaders",
+      "Engineers"
+    ]
+  }
+]

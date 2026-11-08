@@ -1,0 +1,40 @@
+[
+  {
+    "slug": "helper9",
+    "title": "Helper9",
+    "status": "Building",
+    "summary": "From a single-shot email-to-calendar AI prompt to an agentic family assistant with tools for multi-step tasks.",
+    "image": "/workbench/helper9/masthead.jpg",
+    "updated": "2026-10-01",
+    "details": "A hands-on exploration of agentic AI that grew over 18 months into a family organization app. The assistant can find, create, and update calendar events, check for duplicates, and coordinate work across multiple tools.",
+    "website": "https://helper9.ai/"
+  },
+  {
+    "slug": "esp32-internet-radio",
+    "title": "ESP32 Internet Radio",
+    "status": "Building",
+    "summary": "An Instructables newsletter sparked a five-day experiment: building an ESP32 internet radio with ChatGPT and AWS IoT Core.",
+    "image": "/workbench/esp32-internet-radio/masthead.jpg",
+    "updated": "2026-11-08",
+    "details": "Inspired by a clever enclosure, I explored stereo audio, rechargeable power, and cloud-based controls. Within five days I had a working internet radio responding to MQTT commands, with a web frontend still to build.",
+    "inspiration": "https://www.instructables.com/DIY-Cute-Mini-Internet-Radio/"
+  },
+  {
+    "slug": "new-york-harbor-layout",
+    "title": "New York Harbor HO Layout",
+    "status": "Planning",
+    "summary": "After 16 years without a layout, the model railroad bug is back. I'm planning a compact New York Harbor switching shelf.",
+    "image": "/workbench/new-york-harbor-layout/masthead.jpg",
+    "updated": "2026-11-08",
+    "details": "After building several layouts across four moves, I'm returning to model railroading with a portable HO waterfront switching layout featuring a car float, runaround, brick warehouses, and Peco Code 100 track."
+  },
+  {
+    "slug": "project-ideas",
+    "title": "My backlog of project ideas",
+    "status": "Ideas",
+    "summary": "Projects I'm considering before they earn a spot on the bench.",
+    "image": "/workbench/project-ideas/masthead.jpg",
+    "updated": "2026-10-01",
+    "details": "A running list of ideas, starting with found-object robot sculptures."
+  }
+]

@@ -659,53 +659,7 @@
         "name": "HO Model Train Layout #3",
         "description": "20x20 foot layout I built in our Green Hollow house from 2001-2007",
         "img": "assets/img/portfolio/thumbnails/5.jpg",
-        "sections": [
-            {
-                "image": "/assets/img/portfolio/projects/5/1.JPG"
-            },
-            {
-                "image": "/assets/img/portfolio/projects/5/2.JPG"
-            },
-            {
-                "image": "/assets/img/portfolio/projects/5/3.JPG"
-            },
-            {
-                "image": "/assets/img/portfolio/projects/5/4.JPG"
-            },
-            {
-                "image": "/assets/img/portfolio/projects/5/5.JPG"
-            },
-            {
-                "image": "/assets/img/portfolio/projects/5/6.JPG"
-            },
-            {
-                "image": "/assets/img/portfolio/projects/5/7.jpg"
-            },
-            {
-                "image": "/assets/img/portfolio/projects/5/8.jpg"
-            },
-            {
-                "image": "/assets/img/portfolio/projects/5/9.JPG"
-            },
-            {
-                "image": "/assets/img/portfolio/projects/5/10.JPG"
-            },
-            {
-                "image": "/assets/img/portfolio/projects/5/11.jpg"
-            },
-            {
-                "image": "/assets/img/portfolio/projects/5/12.JPG"
-            },
-            {
-                "image": "/assets/img/portfolio/projects/5/13.JPG"
-            },
-            {
-                "image": "/assets/img/portfolio/projects/5/14.JPG"
-            },
-            {
-                "image": "/assets/img/portfolio/projects/5/15.JPG"
-            }
-        ]
+        "page": "projects/5/index.html"
     },
     {
         "category": [
@@ -714,62 +668,16 @@
         "name": "HO Train Layout #1",
         "description": "My first HO layout that I built when living in Nac circa 1998",
         "img": "assets/img/portfolio/thumbnails/14.jpg",
-        "sections": [
-            {
-                "image": "/assets/img/portfolio/projects/14/1.jpg"
-            },
-            {
-                "image": "/assets/img/portfolio/projects/14/2.jpg"
-            },
-            {
-                "image": "/assets/img/portfolio/projects/14/3.jpg"
-            },
-            {
-                "image": "/assets/img/portfolio/projects/14/4.jpg"
-            },
-            {
-                "image": "/assets/img/portfolio/projects/14/5.jpg"
-            },
-            {
-                "image": "/assets/img/portfolio/projects/14/6.jpg"
-            },
-            {
-                "image": "/assets/img/portfolio/projects/14/7.jpg"
-            },
-            {
-                "image": "/assets/img/portfolio/projects/14/8.JPG"
-            },
-            {
-                "image": "/assets/img/portfolio/projects/14/9.JPG"
-            },
-            {
-                "image": "/assets/img/portfolio/projects/14/10.JPG"
-            }
-        ]
+        "page": "projects/14/index.html"
     },
     {
         "category": [
             "Model Train"
         ],
         "name": "HO Train Layout #2",
+        "description": "A shelf-style HO layout I built in 1999 in a Plano apartment garage, after my first layout in Nac.",
         "img": "assets/img/portfolio/thumbnails/15.jpg",
-        "sections": [
-            {
-                "image": "/assets/img/portfolio/projects/15/1.jpg"
-            },
-            {
-                "image": "/assets/img/portfolio/projects/15/2.jpg"
-            },
-            {
-                "image": "/assets/img/portfolio/projects/15/3.jpg"
-            },
-            {
-                "image": "/assets/img/portfolio/projects/15/4.jpg"
-            },
-            {
-                "image": "/assets/img/portfolio/projects/15/5.jpg"
-            }
-        ]
+        "page": "projects/15/index.html"
     },
     {
         "category": [
