@@ -1,5 +1,41 @@
 [
   {
+    "slug": "esp32-internet-radio",
+    "category": [
+      "workbench"
+    ],
+    "title": "ESP32 Internet Radio",
+    "date": "2026-11-08",
+    "status": "Building",
+    "summary": "An Instructables newsletter sparked a five-day experiment: building an ESP32 internet radio with ChatGPT and AWS IoT Core.",
+    "url": "/workbench/esp32-internet-radio/",
+    "image": "/workbench/esp32-internet-radio/masthead.jpg",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "new-york-harbor-layout",
+    "category": [
+      "workbench"
+    ],
+    "title": "New York Harbor HO Layout",
+    "date": "2026-11-08",
+    "status": "Planning",
+    "summary": "After 16 years without a layout, the model railroad bug is back. I'm planning a compact New York Harbor switching shelf.",
+    "url": "/workbench/new-york-harbor-layout/",
+    "image": "/workbench/new-york-harbor-layout/masthead.jpg",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
     "slug": "ai-made-code-cheap",
     "category": [
       "article",
@@ -173,6 +209,42 @@
     "summary": "Rain is forecast through Saturday's contest, and the remaining black Coroplast stair panels were handed off for painting.",
     "url": "/projects/64/index.html#blog-2026-10-01",
     "image": "/projects/64/10-01-2026_2.png",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "helper9",
+    "category": [
+      "workbench"
+    ],
+    "title": "Helper9",
+    "date": "2026-10-01",
+    "status": "Building",
+    "summary": "From a single-shot email-to-calendar AI prompt to an agentic family assistant with tools for multi-step tasks.",
+    "url": "/workbench/helper9/",
+    "image": "/workbench/helper9/masthead.jpg",
+    "topics": [
+      "Software & AI"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "project-ideas",
+    "category": [
+      "workbench"
+    ],
+    "title": "My backlog of project ideas",
+    "date": "2026-10-01",
+    "status": "Ideas",
+    "summary": "Projects I'm considering before they earn a spot on the bench.",
+    "url": "/workbench/project-ideas/",
+    "image": "/workbench/project-ideas/masthead.jpg",
     "topics": [
       "Making"
     ],
