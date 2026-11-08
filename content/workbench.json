@@ -3,10 +3,11 @@
     "slug": "helper9",
     "title": "Helper9",
     "status": "Building",
-    "summary": "Family calendar and organization app for meals, tasks, notes, and expenses.",
+    "summary": "From a single-shot email-to-calendar AI prompt to an agentic family assistant with tools for multi-step tasks.",
     "image": "/workbench/helper9/masthead.jpg",
-    "updated": "2026-11-01",
-    "details": "A family organization app that brings calendars, meal planning, tasks, journaling, and expenses into one place."
+    "updated": "2026-11-08",
+    "details": "A hands-on exploration of agentic AI that grew over 18 months into a family organization app. The assistant can find, create, and update calendar events, check for duplicates, and coordinate work across multiple tools.",
+    "website": "https://helper9.ai/"
   },
   {
     "slug": "esp32-internet-radio",

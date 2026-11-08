@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="description" content="Building · Workbench project">
+    <meta name="description" content="How Helper9 evolved from a simple AI email-to-calendar experiment into an agentic family assistant with tools, context, and multi-step workflows.">
     <title>Helper9 | Maker At Play</title>
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="/css/editorial.css">
@@ -30,18 +30,47 @@
     <header class="editorial-hero editorial-hero--helper9">
         <div class="container">
             <h1>Helper9</h1>
-            <p>Building · Workbench project</p>
+            <p>From a single AI prompt to an agentic family assistant</p>
         </div>
     </header>
     <main class="container editorial-main">
         <div class="editorial-article">
             <p><a href="/workbench/">← Back to Workbench</a></p>
             <p class="editorial-meta">Building</p>
-            <h2>Project overview</h2>
-            <p>A family organization app that brings calendars, meal planning, tasks, journaling, and expenses into one
-                place.</p>
-            <h2>Build log</h2>
-            <p>Further progress notes, photos, and resources will be added as the project develops.</p>
+            <h2>Why I started Helper9</h2>
+            <p>About 18 months ago, I started Helper9 with a goal that was as much about learning as it was about building a product: I wanted to understand what it actually takes to create an application with agentic AI features. I have spent my career building software, but I wanted hands-on experience with an AI assistant that could do useful work, not just answer questions.</p>
+            <p>I chose a problem I knew well: keeping a family organized. Calendars, school activities, meals, reminders, and all the little things that get buried in email seemed like a good place to experiment. It also gave me a practical test: could an AI assistant save someone real effort?</p>
+
+            <h2>Version one: one prompt, one action</h2>
+            <p>The earliest version was pretty simple. You could give the app an email, and a single AI prompt would try to understand it and turn the relevant information into a calendar event or invitation. That was exciting the first time it worked. An email about an upcoming activity could become something useful on the family calendar without manually copying the date, time, and location.</p>
+            <p>But it was also limited. The model made one pass at the information and produced an answer. It wasn't really reasoning through a workflow. It couldn't reliably look at what was already on the calendar, decide whether an event needed to be created or updated, or use the result of one operation to decide what to do next.</p>
+
+            <h2>The big shift: from prompting to an agentic loop</h2>
+            <p>Over the next 18 months, Helper9 evolved from that single-shot prompt into an assistant built around an <strong>agentic loop</strong>. Instead of asking the AI to produce one final result, the application gives it a set of tools and lets it work through a task in steps. The assistant can inspect information, call a tool, evaluate what happened, and decide what to do next.</p>
+            <p>For example, if I ask Helper9 to add an activity to the family calendar, the workflow can involve several decisions:</p>
+            <ol>
+                <li>Understand the request, including the date, time, location, and who is involved.</li>
+                <li>Search the existing calendar for a matching or duplicate event.</li>
+                <li>Decide whether to create a new event, update an existing one, or ask for clarification.</li>
+                <li>Use the appropriate calendar tool and inspect the result.</li>
+                <li>Report back with what it actually did.</li>
+            </ol>
+            <p>That is a much bigger change than simply switching to a better language model. The application needs well-defined tools, context, permissions, validation, error handling, and a way to track what the agent did. The model is one piece of a larger software system.</p>
+
+            <h2>More than a calendar</h2>
+            <p>As the AI capabilities grew, so did the rest of Helper9. It has become a family organization app with calendars, tasks, notes, shopping lists, meal plans, recipes, annual events, habits, journaling, and expense tracking. You can interact with the assistant through chat, email, or text messages, making it easier to capture something when you think of it rather than waiting until you open the app.</p>
+            <p>One of the most interesting challenges has been connecting those everyday features to the agent's tools. Creating an event is useful. Being able to find an event, change it, avoid duplicates, and work with related family information is much closer to having an assistant that can genuinely help.</p>
+
+            <h2>What I've learned along the way</h2>
+            <p>Building Helper9 has reinforced something I have learned in traditional software development: making a convincing demo is not the same as building a dependable application. The hard parts are often the boundaries around the AI. What information should it have? Which actions is it allowed to take? How do you know a tool call succeeded? What happens when the request is ambiguous or a tool fails?</p>
+            <p>I've also learned that agentic AI isn't about making every feature autonomous. It's about using AI where understanding intent and coordinating multiple steps makes the experience better, while keeping the underlying application predictable and useful.</p>
+
+            <h2>Still on my workbench</h2>
+            <p>Helper9 is a real application now, but I still think of it as an ongoing maker project. I continue to experiment with the assistant, improve its tools, simplify the user experience, and find better ways to help families stay organized. In many ways, the learning project never stopped; it just became something other people can use.</p>
+
+            <h2>Give Helper9 a try</h2>
+            <p>If the idea of a family assistant that can actually help manage the details of everyday life sounds interesting, I'd love for you to try it. Visit <a href="https://helper9.ai/" target="_blank" rel="noopener noreferrer">Helper9.ai</a>, explore the app, and let me know what you think. Feedback from people using it for real family tasks is one of the best ways for me to figure out what to build next.</p>
+            <p><a class="btn btn-primary btn-xl mt-2" href="https://helper9.ai/" target="_blank" rel="noopener noreferrer">Try Helper9</a></p>
         </div>
     </main>
     <footer class="text-center bg-light py-5"><a href="/">Maker At Play</a> · <a
