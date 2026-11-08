@@ -1,0 +1,32 @@
+[
+  {
+    "slug": "good-software-engineer",
+    "title": "If AI Can Write the Code, What Makes a Good Software Engineer?",
+    "date": "2026-10-22",
+    "status": "Published on LinkedIn",
+    "summary": "Why engineering ownership and understanding the whole system matter.",
+    "topics": [
+      "Software & AI",
+      "Career & Leadership"
+    ],
+    "audiences": [
+      "Engineers",
+      "Technology Leaders"
+    ]
+  },
+  {
+    "slug": "ai-made-code-cheap",
+    "title": "AI Made Code Cheap. That Was Never What Customers Paid For.",
+    "date": "2026-11-01",
+    "status": "Draft",
+    "summary": "Enterprise software still requires architecture, reliability, and understanding customers.",
+    "topics": [
+      "Software & AI",
+      "Healthcare Technology"
+    ],
+    "audiences": [
+      "Technology Leaders",
+      "Engineers"
+    ]
+  }
+]
