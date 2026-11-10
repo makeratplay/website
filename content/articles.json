@@ -1,5 +1,252 @@
 [
   {
+    "slug": "i-was-about-to-build-another-feature-then-i-just-asked-helper9",
+    "category": [
+      "article",
+      "Helper9"
+    ],
+    "title": "I Was About to Build Another Feature. Then I Just Asked Helper9.",
+    "date": "2026-11-10",
+    "status": "Published on Helper9",
+    "summary": "Two everyday problems showed me that Helper9 can do things I never thought to program, simply by understanding what I want and using the tools it already has.",
+    "url": "https://helper9.ai/stories/i-was-about-to-build-another-feature-then-i-just-asked-helper9",
+    "image": "https://helper9.ai/images/i-was-about-to-build-another-feature-then-i-just-asked-helper9.jpg",
+    "topics": [
+      "Software & AI"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "the-things-that-need-to-get-done",
+    "category": [
+      "article",
+      "Helper9"
+    ],
+    "title": "The things that need to get done",
+    "date": "2026-11-03",
+    "status": "Published on Helper9",
+    "summary": "Why Tasks became the next important part of Helper9 after the family calendar, and what I learned about celebrating completed tasks.",
+    "url": "https://helper9.ai/stories/the-things-that-need-to-get-done",
+    "image": "https://helper9.ai/images/the-things-that-need-to-get-done.jpg",
+    "topics": [
+      "Software & AI"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "one-family-room-for-everyone",
+    "category": [
+      "article",
+      "Helper9"
+    ],
+    "title": "One Family, Room for Everyone",
+    "date": "2026-10-26",
+    "status": "Published on Helper9",
+    "summary": "Why I built Helper9 to keep our family connected through shared plans while giving everyone space for their own tasks, notes, and memories.",
+    "url": "https://helper9.ai/stories/one-family-room-for-everyone",
+    "image": "https://helper9.ai/images/one-family-room-for-everyone.jpg",
+    "topics": [
+      "Software & AI"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "the-grocery-list-was-on-a-piece-of-paper",
+    "category": [
+      "article",
+      "Helper9"
+    ],
+    "title": "The grocery list was on a piece of paper. Somewhere.",
+    "date": "2026-10-20",
+    "status": "Published on Helper9",
+    "summary": "My wife kept the grocery list on a piece of paper I could never find. Helper9 turned it into one shared list the whole family can update from anywhere.",
+    "url": "https://helper9.ai/stories/the-grocery-list-was-on-a-piece-of-paper",
+    "image": "https://helper9.ai/images/the-grocery-list-was-on-a-piece-of-paper.jpg",
+    "topics": [
+      "Software & AI"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "heres-what-yesterday-me-wanted-today-me-to-know",
+    "category": [
+      "article",
+      "Helper9"
+    ],
+    "title": "Here’s what yesterday-me wanted today-me to know",
+    "date": "2026-10-13",
+    "status": "Published on Helper9",
+    "summary": "Sticky Notes bring a thought back when it matters. Reference Notes keep the details and ideas I want to find later.",
+    "url": "https://helper9.ai/stories/heres-what-yesterday-me-wanted-today-me-to-know",
+    "image": "https://helper9.ai/images/heres-what-yesterday-me-wanted-today-me-to-know.jpg",
+    "topics": [
+      "Software & AI"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "from-a-handwritten-recipe-to-a-smarter-meal-plan",
+    "category": [
+      "article",
+      "Helper9"
+    ],
+    "title": "From a handwritten recipe to a smarter meal plan",
+    "date": "2026-10-06",
+    "status": "Published on Helper9",
+    "summary": "I texted Helper9 a photo of a handwritten family recipe. It became a saved recipe, then a meal plan, then a shopping list.",
+    "url": "https://helper9.ai/stories/from-a-handwritten-recipe-to-a-smarter-meal-plan",
+    "image": "https://helper9.ai/images/from-a-handwritten-recipe-to-a-smarter-meal-plan.jpg",
+    "topics": [
+      "Software & AI"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "more-than-a-color-on-the-calendar",
+    "category": [
+      "article",
+      "Helper9"
+    ],
+    "title": "More than a color on the calendar",
+    "date": "2026-09-29",
+    "status": "Published on Helper9",
+    "summary": "What started with my wife color-coding our Google Calendar became a core part of Helper9: understanding who in the family an event, task, or message is about.",
+    "url": "https://helper9.ai/stories/more-than-a-color-on-the-calendar",
+    "image": "https://helper9.ai/images/more-than-a-color-on-the-calendar.jpg",
+    "topics": [
+      "Software & AI"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "soccer-practice-is-more-than-a-start-time",
+    "category": [
+      "article",
+      "Helper9"
+    ],
+    "title": "Soccer practice starts at 6. But when do we leave?",
+    "date": "2026-09-22",
+    "status": "Published on Helper9",
+    "summary": "The calendar says when practice starts. Helper9 helps us keep track of when to leave, who is driving, and what needs to come along.",
+    "url": "https://helper9.ai/stories/soccer-practice-is-more-than-a-start-time",
+    "image": "https://helper9.ai/images/soccer-practice-cover.jpg",
+    "topics": [
+      "Software & AI"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "check-school-schedule-against-calendar",
+    "category": [
+      "article",
+      "Helper9"
+    ],
+    "title": "Did I miss anything on the school calendar?",
+    "date": "2026-09-15",
+    "status": "Published on Helper9",
+    "summary": "I sent Helper9 a photo of an upcoming school schedule and asked it to check what was already on our family calendar.",
+    "url": "https://helper9.ai/stories/check-school-schedule-against-calendar",
+    "image": "https://helper9.ai/images/check-school-schedule-against-calendar.jpg",
+    "topics": [
+      "Software & AI"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "gas-purchase-without-a-receipt",
+    "category": [
+      "article",
+      "Helper9"
+    ],
+    "title": "No gas receipt? Just take a picture",
+    "date": "2026-09-08",
+    "status": "Published on Helper9",
+    "summary": "When the pump does not print a receipt, I just text Helper9 a photo of the display to record the expense.",
+    "url": "https://helper9.ai/stories/gas-purchase-without-a-receipt",
+    "image": "https://helper9.ai/images/gas-purchase-without-a-receipt.jpg",
+    "topics": [
+      "Software & AI"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "oil-change-reminder-from-a-photo",
+    "category": [
+      "article",
+      "Helper9"
+    ],
+    "title": "A windshield sticker became my next oil change reminder",
+    "date": "2026-08-25",
+    "status": "Published on Helper9",
+    "summary": "One quick photo and a text to Helper9 saved me from having to enter another reminder myself.",
+    "url": "https://helper9.ai/stories/oil-change-reminder-from-a-photo",
+    "image": "https://helper9.ai/images/oil-change-reminder-from-a-photo.jpg",
+    "topics": [
+      "Software & AI"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "who-changed-the-calendar-activity-history",
+    "category": [
+      "article",
+      "Helper9"
+    ],
+    "title": "Who changed the calendar? Helper9 keeps the history.",
+    "date": "2026-08-18",
+    "status": "Published on Helper9",
+    "summary": "When a whole family can update the same calendar, knowing what changed, when, and by whom matters just as much as sharing it.",
+    "url": "https://helper9.ai/stories/who-changed-the-calendar-activity-history",
+    "image": "https://helper9.ai/images/who-changed-the-calendar-activity-history.jpg",
+    "topics": [
+      "Software & AI"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
+    "slug": "sunrise-sunset-my-day",
+    "category": [
+      "article",
+      "Helper9"
+    ],
+    "title": "Sometimes it’s the little things: Sunrise and sunset in My Day",
+    "date": "2026-08-11",
+    "status": "Published on Helper9",
+    "summary": "I added sunrise and sunset times to My Day because knowing how much daylight is left can make everyday family planning a little easier.",
+    "url": "https://helper9.ai/stories/sunrise-sunset-my-day",
+    "image": "https://helper9.ai/images/sunrise-sunset-my-day.jpg",
+    "topics": [
+      "Software & AI"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
     "slug": "esp32-internet-radio",
     "category": [
       "workbench"
