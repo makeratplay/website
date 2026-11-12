@@ -269,7 +269,8 @@
   {
     "slug": "esp32-internet-radio",
     "category": [
-      "workbench"
+      "workbench",
+      "project update"
     ],
     "title": "ESP32 Internet Radio",
     "date": "2026-11-08",
@@ -288,7 +289,8 @@
     "slug": "new-york-harbor-layout",
     "category": [
       "workbench",
-      "Model Railroading"
+      "Model Railroading",
+      "project update"
     ],
     "title": "New York Harbor HO Layout",
     "date": "2026-11-08",

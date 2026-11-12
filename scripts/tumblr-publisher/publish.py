@@ -6,13 +6,20 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import re
 import sys
 import time
 from pathlib import Path
 
 from dotenv import load_dotenv
 
-from parse_posts import iter_publishable, parse_blog_posts
+from parse_posts import (
+    PROJECT_ANCHOR_RE,
+    article_to_post,
+    iter_publishable,
+    load_project_posts,
+    parse_blog_posts,
+)
 from tumblr_client import TumblrClient, TumblrConfig
 
 SCRIPT_DIR = Path(__file__).resolve().parent
@@ -88,24 +95,142 @@ def cmd_list(config: TumblrConfig, args: argparse.Namespace) -> None:
         )
 
 
-def cmd_publish(config: TumblrConfig, client: TumblrClient, args: argparse.Namespace) -> None:
-    html_path = REPO_ROOT / os.getenv("PROJECT_HTML", "projects/64/index.html")
-    posts = parse_blog_posts(html_path)
+def _norm_text(value: str) -> str:
+    text = (value or "").lower()
+    text = text.replace("\u2013", "-").replace("\u2014", "-").replace("\u2019", "'")
+    text = re.sub(r"[^a-z0-9]+", " ", text)
+    return " ".join(text.split())
+
+
+def _tumblr_text_rows(posts: list[dict]) -> list[str]:
+    rows: list[str] = []
+    for post in posts:
+        first = ""
+        for block in post.get("content") or []:
+            if block.get("type") == "text" and block.get("text"):
+                first = block["text"]
+                break
+        rows.append(_norm_text(first) + "\n" + _norm_text(post.get("summary") or ""))
+    return rows
+
+
+def _title_on_tumblr(title: str, rows: list[str]) -> bool:
+    normalized = _norm_text(title)
+    if not normalized:
+        return False
+    if len(normalized) < 12:
+        pattern = re.compile(rf"(^|\s){re.escape(normalized)}(\s|$)")
+        return any(pattern.search(row) for row in rows)
+    return any(normalized in row for row in rows)
+
+
+def _article_keys(article: dict) -> list[str]:
+    keys = [article["slug"]]
+    match = PROJECT_ANCHOR_RE.match(article.get("url", "").split("?")[0])
+    if match:
+        keys.append(match.group(2))
+    return keys
+
+
+def _tags_for_article(article: dict, post, config: TumblrConfig) -> list[str]:
+    url = article.get("url", "")
+    categories = [item.lower() for item in article.get("category") or []]
+    topics = " ".join(article.get("topics") or []).lower()
+    if url.startswith("/projects/") or "band props" in categories:
+        tags = list(config.tags)
+        if post.has_video and "Youtube" not in tags:
+            tags.append("Youtube")
+        return tags
+
+    tags = ["makeratplay", "maker"]
+    blob = " ".join(categories) + " " + topics + " " + url.lower()
+    if "helper9" in blob:
+        tags.append("helper9")
+    if "model railroading" in blob:
+        tags.append("modelrailroading")
+    if "software" in topics or "ai" in topics:
+        tags.append("software")
+    if "healthcare" in topics:
+        tags.append("healthcare")
+    if "career" in topics or "leadership" in topics or "cto" in blob:
+        tags.append("leadership")
+    if "workbench" in categories:
+        tags.append("workbench")
+    if "making" in topics:
+        tags.append("making")
+    if post.has_video and "Youtube" not in tags:
+        tags.append("Youtube")
+    return tags
+
+
+def _select_articles(config: TumblrConfig, client: TumblrClient, args: argparse.Namespace):
+    articles_path = Path(args.articles)
+    if not articles_path.is_absolute():
+        articles_path = REPO_ROOT / articles_path
+    articles = json.loads(articles_path.read_text(encoding="utf-8"))
     manifest = load_manifest()
-    selected = list(iter_publishable(posts))
 
-    if args.date:
-        selected = [post for post in selected if post.date_key == args.date]
-        if not selected:
-            raise SystemExit(f"No publishable post found for date {args.date}")
+    selected_articles = []
+    for article in articles:
+        article_date = str(article.get("date") or "")
+        if args.date and article_date != args.date:
+            continue
+        if args.from_date and article_date < args.from_date:
+            continue
+        if args.to_date and article_date > args.to_date:
+            continue
+        selected_articles.append(article)
 
-    if args.from_date:
-        selected = [post for post in selected if post.post_date.isoformat() >= args.from_date]
-    if args.to_date:
-        selected = [post for post in selected if post.post_date.isoformat() <= args.to_date]
+    print(f"Checking {config.blog} for posts that are already published ...")
+    tumblr_rows = _tumblr_text_rows(client.list_posts())
+    skipped = 0
+    pending = []
+    for article in selected_articles:
+        if any(key in manifest for key in _article_keys(article)) or _title_on_tumblr(article["title"], tumblr_rows):
+            skipped += 1
+            continue
+        pending.append(article)
 
-    if args.skip_published:
-        selected = [post for post in selected if post.date_key not in manifest]
+    project_posts = load_project_posts(REPO_ROOT, pending)
+    posts = []
+    seen_projects: set[str] = set()
+    for article in pending:
+        post = article_to_post(article, REPO_ROOT, project_posts)
+        if post is None:
+            print(f"  SKIP: no publishable content for {article['slug']}")
+            continue
+        if post.manifest_key in seen_projects:
+            continue
+        seen_projects.add(post.manifest_key or post.date_key)
+        post.tags = _tags_for_article(article, post, config)
+        posts.append(post)
+
+    posts.sort(key=lambda post: (post.post_date, post.slug or post.title))
+    print(f"Articles in range: {len(selected_articles)}. Already on Tumblr: {skipped}. To publish: {len(posts)}.")
+    return posts, manifest
+
+
+def cmd_publish(config: TumblrConfig, client: TumblrClient, args: argparse.Namespace) -> None:
+    if args.articles:
+        selected, manifest = _select_articles(config, client, args)
+    else:
+        html_path = REPO_ROOT / os.getenv("PROJECT_HTML", "projects/64/index.html")
+        posts = parse_blog_posts(html_path)
+        manifest = load_manifest()
+        selected = list(iter_publishable(posts))
+
+        if args.date:
+            selected = [post for post in selected if post.date_key == args.date]
+            if not selected:
+                raise SystemExit(f"No publishable post found for date {args.date}")
+
+        if args.from_date:
+            selected = [post for post in selected if post.post_date.isoformat() >= args.from_date]
+        if args.to_date:
+            selected = [post for post in selected if post.post_date.isoformat() <= args.to_date]
+
+        if args.skip_published:
+            selected = [post for post in selected if post.date_key not in manifest]
 
     if not selected:
         print("Nothing to publish.")
@@ -135,14 +260,19 @@ def cmd_publish(config: TumblrConfig, client: TumblrClient, args: argparse.Names
             continue
 
         if args.dry_run:
-            print(f"  blocks={result['blocks']}, uploads={result['uploads']}")
+            tag_note = f", tags={', '.join(post.tags)}" if post.tags else ""
+            print(f"  blocks={result['blocks']}, uploads={result['uploads']}{tag_note}")
             continue
 
-        manifest[post.date_key] = {
+        manifest_key = post.manifest_key or post.date_key
+        entry = {
             "id": result["id"],
             "title": post.title,
             "state": args.state,
         }
+        if post.slug:
+            entry["slug"] = post.slug
+        manifest[manifest_key] = entry
         save_manifest(manifest)
         print(f"  Created Tumblr post id={result['id']}")
 
@@ -161,6 +291,12 @@ def build_parser() -> argparse.ArgumentParser:
 
     publish_parser = subparsers.add_parser("publish", help="Publish posts to Tumblr")
     publish_parser.add_argument("--date", help="Publish one post by YYYY-MM-DD")
+    publish_parser.add_argument(
+        "--articles",
+        nargs="?",
+        const="content/articles.json",
+        help="Publish entries from articles.json (path optional; default content/articles.json)",
+    )
     publish_parser.add_argument("--from-date", help="Publish posts on/after YYYY-MM-DD")
     publish_parser.add_argument("--to-date", help="Publish posts on/before YYYY-MM-DD")
     publish_parser.add_argument(

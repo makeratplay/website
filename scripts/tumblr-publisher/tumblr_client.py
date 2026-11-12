@@ -2,9 +2,11 @@
 
 from __future__ import annotations
 
+import hashlib
 import json
 import mimetypes
 import secrets
+import tempfile
 import threading
 import time
 import urllib.parse
@@ -190,43 +192,131 @@ class TumblrClient:
         self._save_tokens()
         print(f"Saved token to {config.token_path}")
 
+    def list_posts(self) -> list[dict[str, Any]]:
+        token = self._ensure_token()
+        url = f"{API_BASE}/blog/{self.config.blog}/posts"
+        posts: list[dict[str, Any]] = []
+        offset = 0
+        while True:
+            response = self.session.get(
+                url,
+                headers={"Authorization": f"Bearer {token}"},
+                params={"limit": 20, "offset": offset, "npf": "true"},
+                timeout=60,
+            )
+            if not response.ok:
+                raise RuntimeError(
+                    f"Tumblr API error {response.status_code}: {response.text}"
+                )
+            batch = response.json()["response"]["posts"]
+            if not batch:
+                break
+            posts.extend(batch)
+            offset += len(batch)
+            if len(batch) < 20:
+                break
+        return posts
+
     def _image_mime(self, path: Path) -> str:
         mime, _ = mimetypes.guess_type(path.name)
         return mime or "application/octet-stream"
+
+    def _image_cache(self) -> Path:
+        cache = Path(tempfile.gettempdir()) / "makeratplay-tumblr-images"
+        cache.mkdir(parents=True, exist_ok=True)
+        return cache
+
+    def _download_image(self, url: str, filename: str) -> Path:
+        safe_name = Path(urllib.parse.urlparse(url).path).name or filename or "image"
+        dest = self._image_cache() / f"{hashlib.sha1(url.encode()).hexdigest()[:16]}-{safe_name}"
+        if dest.exists() and dest.stat().st_size > 0:
+            return dest
+        response = self.session.get(url, timeout=120)
+        response.raise_for_status()
+        content_type = response.headers.get("Content-Type", "")
+        if "text/html" in content_type:
+            raise RuntimeError(f"Image URL returned HTML: {url}")
+        dest.write_bytes(response.content)
+        return dest
+
+    def _prepare_image(self, path: Path) -> tuple[Path, int, int, str]:
+        mime = self._image_mime(path)
+        with Image.open(path) as img:
+            width, height = img.size
+            if img.format == "GIF" or (
+                max(width, height) <= 2048 and path.stat().st_size <= 8_000_000
+            ):
+                return path, width, height, mime
+            if img.mode in {"RGBA", "LA"} or (img.mode == "P" and "transparency" in img.info):
+                rgba = img.convert("RGBA")
+                converted = Image.new("RGB", rgba.size, (255, 255, 255))
+                converted.paste(rgba, mask=rgba.split()[-1])
+            else:
+                converted = img.convert("RGB")
+            converted.thumbnail((2048, 2048), Image.Resampling.LANCZOS)
+            digest = hashlib.sha1(str(path).encode()).hexdigest()[:10]
+            dest = self._image_cache() / f"{digest}-{converted.size[0]}x{converted.size[1]}.jpg"
+            if not dest.exists():
+                converted.save(dest, "JPEG", quality=85, optimize=True)
+            return dest, converted.size[0], converted.size[1], "image/jpeg"
+
+    def _resolve_image(self, block: ImageBlock, post: BlogPost) -> Path:
+        if block.path is not None and block.path.exists():
+            return block.path
+        local = self.config.project_dir / block.filename
+        if block.url is None and local.exists():
+            return local
+        if block.url:
+            return self._download_image(block.url, block.filename)
+        location = block.path or local
+        raise FileNotFoundError(f"Missing image for {post.date_key}: {location}")
+
+    @staticmethod
+    def _limit_formatting(formatting: list[dict] | None, link_budget: list[int]) -> list[dict] | None:
+        if not formatting:
+            return None
+        kept: list[dict] = []
+        for item in formatting:
+            if item.get("type") == "link":
+                if link_budget[0] >= 100:
+                    continue
+                link_budget[0] += 1
+            kept.append(item)
+        return kept or None
 
     def _build_npf_content(
         self, post: BlogPost
     ) -> tuple[list[dict[str, Any]], dict[str, Path]]:
         content: list[dict[str, Any]] = []
         uploads: dict[str, Path] = {}
+        link_budget = [0]
 
         for index, block in enumerate(post.blocks):
             if isinstance(block, TextBlock):
-                payload: dict[str, Any] = {"type": "text", "text": block.text}
+                text = block.text
+                if len(text) > 4096:
+                    text = text[:4093] + "..."
+                payload: dict[str, Any] = {"type": "text", "text": text}
                 if block.subtype:
                     payload["subtype"] = block.subtype
-                if block.formatting:
-                    payload["formatting"] = block.formatting
+                formatting = self._limit_formatting(block.formatting, link_budget)
+                if formatting:
+                    payload["formatting"] = formatting
                 content.append(payload)
                 continue
 
             if isinstance(block, ImageBlock):
-                image_path = self.config.project_dir / block.filename
-                if not image_path.exists():
-                    raise FileNotFoundError(
-                        f"Missing image for {post.date_key}: {image_path}"
-                    )
-                with Image.open(image_path) as img:
-                    width, height = img.size
-                identifier = f"img-{post.date_key}-{index}"
-                uploads[identifier] = image_path
+                image_path = self._prepare_image(self._resolve_image(block, post))
+                prepared, width, height, mime = image_path
+                identifier = f"img-{post.manifest_key or post.date_key}-{index}"
+                uploads[identifier] = prepared
                 content.append(
                     {
                         "type": "image",
                         "alt_text": block.alt or None,
                         "media": [
                             {
-                                "type": self._image_mime(image_path),
+                                "type": mime,
                                 "identifier": identifier,
                                 "width": width,
                                 "height": height,
@@ -257,12 +347,13 @@ class TumblrClient:
         dry_run: bool = False,
     ) -> dict[str, Any]:
         content, uploads = self._build_npf_content(post)
+        tags = post.tags if post.tags is not None else self.config.tags
         payload: dict[str, Any] = {
             "content": content,
             "state": state,
-            "tags": ", ".join(self.config.tags),
+            "tags": ", ".join(tags),
             "date": f"{post.post_date.isoformat()}T12:00:00Z",
-            "source_url": self.config.source_url,
+            "source_url": post.source_url or self.config.source_url,
         }
 
         if dry_run:

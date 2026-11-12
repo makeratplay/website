@@ -6,6 +6,11 @@ projects/63/Backplanels4.avi
 scripts/tumblr-publisher/.env
 scripts/tumblr-publisher/token.json
 scripts/tumblr-publisher/published.json
+scripts/meta-publisher/.env
+scripts/meta-publisher/token.json
+scripts/meta-publisher/published.json
+scripts/meta-publisher/prepared/*
+!scripts/meta-publisher/prepared/.gitkeep
 
 # Cursor chat copies of attached images (sanitized Windows paths)
 **/f__Users_*
