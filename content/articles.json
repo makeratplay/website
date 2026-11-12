@@ -1,5 +1,25 @@
 [
   {
+    "slug": "new-york-harbor-more-track",
+    "category": [
+      "article",
+      "project update",
+      "Model Railroading"
+    ],
+    "title": "New York Harbor Layout: More Track, More Industries, and Trains Running Again!",
+    "date": "2026-11-11",
+    "status": "Project update",
+    "summary": "Another productive day on the New York Harbor shelf layout. I expanded the temporary tabletop, refined the track arrangement to accommodate 19 car spots, started designing the waterfront profile in Fusion 360, and brought my EasyDCC system and two locomotives back to life after more than 16 years in storage.",
+    "url": "/blog/new-york-harbor-more-track/",
+    "image": "/blog/new-york-harbor-more-track/layout.jpg",
+    "topics": [
+      "Making"
+    ],
+    "audiences": [
+      "Makers"
+    ]
+  },
+  {
     "slug": "i-was-about-to-build-another-feature-then-i-just-asked-helper9",
     "category": [
       "article",
@@ -267,12 +287,13 @@
   {
     "slug": "new-york-harbor-layout",
     "category": [
-      "workbench"
+      "workbench",
+      "Model Railroading"
     ],
     "title": "New York Harbor HO Layout",
     "date": "2026-11-08",
-    "status": "Planning",
-    "summary": "After 16 years without a layout, the model railroad bug is back. I'm planning a compact New York Harbor switching shelf.",
+    "status": "Building",
+    "summary": "After 16 years without a layout, the model railroad bug is back. The shelf now has 19 car spots, and two locomotives are running again.",
     "url": "/workbench/new-york-harbor-layout/",
     "image": "/workbench/new-york-harbor-layout/masthead.jpg",
     "topics": [
