@@ -113,6 +113,60 @@ def normalize_hashtags(hashtags: list[str]) -> list[str]:
     return result
 
 
+ARTICLE_KINDS = (
+    "blog",
+    "project",
+    "workbench",
+    "helper9",
+    "linkedin",
+    "other",
+)
+
+KIND_ALIASES: dict[str, tuple[str, ...]] = {
+    # Maker At Play site content only (excludes Helper9, LinkedIn, other).
+    "makeratplay": ("blog", "project", "workbench"),
+}
+
+
+def article_kind(article: Article) -> str:
+    """Classify an article by its URL prefix / host."""
+    url = (article.url or "").strip().lower()
+    if url.startswith("/blog/"):
+        return "blog"
+    if url.startswith("/projects/"):
+        return "project"
+    if url.startswith("/workbench/"):
+        return "workbench"
+    if "helper9" in url:
+        return "helper9"
+    if "linkedin.com" in url or "lnkd.in" in url:
+        return "linkedin"
+    return "other"
+
+
+def parse_kinds(values: list[str] | None) -> set[str] | None:
+    """Expand comma-separated kind tokens and aliases into a set of concrete kinds."""
+    if not values:
+        return None
+    resolved: set[str] = set()
+    for raw in values:
+        for piece in raw.replace(",", " ").split():
+            token = piece.strip().lower()
+            if not token:
+                continue
+            if token in KIND_ALIASES:
+                resolved.update(KIND_ALIASES[token])
+                continue
+            if token not in ARTICLE_KINDS:
+                known = ", ".join(ARTICLE_KINDS)
+                aliases = ", ".join(KIND_ALIASES)
+                raise SystemExit(
+                    f"Unknown kind {token!r}. Valid kinds: {known}. Aliases: {aliases}."
+                )
+            resolved.add(token)
+    return resolved
+
+
 def select_articles(
     articles: list[Article],
     *,
@@ -120,6 +174,8 @@ def select_articles(
     date: str | None = None,
     from_date: str | None = None,
     to_date: str | None = None,
+    kinds: set[str] | None = None,
+    exclude_kinds: set[str] | None = None,
 ) -> list[Article]:
     selected = list(articles)
 
@@ -137,6 +193,13 @@ def select_articles(
         selected = [article for article in selected if article.date >= from_date]
     if to_date:
         selected = [article for article in selected if article.date <= to_date]
+
+    if kinds:
+        selected = [article for article in selected if article_kind(article) in kinds]
+    if exclude_kinds:
+        selected = [
+            article for article in selected if article_kind(article) not in exclude_kinds
+        ]
 
     return selected
 

@@ -86,9 +86,24 @@ All commands run from `scripts/meta-publisher/`.
 python publish.py list
 python publish.py list --slug new-york-harbor-more-track
 python publish.py list --from-date 2026-11-01
+python publish.py list --kind makeratplay --from-date 2026-11-01
+python publish.py list --exclude-kind helper9,linkedin
 ```
 
 Credentials are not required for `list`.
+
+Kinds are derived from the article URL:
+
+| Kind | Match |
+|------|--------|
+| `blog` | `/blog/...` |
+| `project` | `/projects/...` |
+| `workbench` | `/workbench/...` |
+| `helper9` | helper9.ai links |
+| `linkedin` | LinkedIn / lnkd.in links |
+| `other` | anything else |
+
+Alias: `makeratplay` = `blog` + `project` + `workbench`.
 
 ### Dry run
 
@@ -113,6 +128,12 @@ python publish.py publish --slug new-york-harbor-more-track --platform instagram
 # Date range (already-published slugs are skipped automatically)
 python publish.py publish --from-date 2026-11-01 --to-date 2026-11-11 --newest-first
 
+# Maker At Play site posts only (skip Helper9 + LinkedIn)
+python publish.py publish --from-date 2026-11-01 --kind makeratplay --newest-first --delay 5
+
+# Same idea via exclude
+python publish.py publish --from-date 2026-11-01 --exclude-kind helper9,linkedin --newest-first
+
 # Force a fresh post even though ids are recorded
 python publish.py publish --slug new-york-harbor-more-track --force
 ```
@@ -124,6 +145,8 @@ python publish.py publish --slug new-york-harbor-more-track --force
 | `--slug` | One article by slug |
 | `--date YYYY-MM-DD` | Articles on that date |
 | `--from-date` / `--to-date` | Inclusive date range |
+| `--kind` | Include kinds (comma-separated or repeatable); alias `makeratplay` |
+| `--exclude-kind` | Exclude kinds (comma-separated or repeatable) |
 | `--platform` | `both` (default), `facebook`, or `instagram` |
 | `--dry-run` | Resolve payload only |
 | `--force` | Republish even when ids are already in `published.json` |

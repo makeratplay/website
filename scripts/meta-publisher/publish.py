@@ -13,12 +13,16 @@ from typing import Any
 from dotenv import load_dotenv
 
 from articles import (
+    ARTICLE_KINDS,
+    KIND_ALIASES,
     Article,
     ImagePlan,
     absolute_url,
+    article_kind,
     build_caption,
     is_absolute_http,
     load_articles,
+    parse_kinds,
     public_url_reachable,
     resolve_image,
     select_articles,
@@ -131,16 +135,19 @@ def cmd_auth(client: MetaClient, args: argparse.Namespace) -> None:
     client.authenticate(args.token)
 
 
+def selection_kwargs(args: argparse.Namespace) -> dict:
+    return {
+        "slug": getattr(args, "slug", None),
+        "date": getattr(args, "date", None),
+        "from_date": getattr(args, "from_date", None),
+        "to_date": getattr(args, "to_date", None),
+        "kinds": parse_kinds(getattr(args, "kind", None)),
+        "exclude_kinds": parse_kinds(getattr(args, "exclude_kind", None)),
+    }
+
+
 def cmd_list(config: MetaConfig, args: argparse.Namespace) -> None:
-    articles = load_articles(config.articles_path)
-    if args.slug or args.date or args.from_date or args.to_date:
-        articles = select_articles(
-            articles,
-            slug=args.slug,
-            date=args.date,
-            from_date=args.from_date,
-            to_date=args.to_date,
-        )
+    articles = select_articles(load_articles(config.articles_path), **selection_kwargs(args))
     manifest = load_manifest()
 
     print(f"Found {len(articles)} article(s) in {config.articles_path.name}.\n")
@@ -148,9 +155,10 @@ def cmd_list(config: MetaConfig, args: argparse.Namespace) -> None:
         entry = manifest.get(article.slug)
         fb = platform_status(entry, "facebook")
         ig = platform_status(entry, "instagram")
+        kind = article_kind(article)
         marker = " *" if args.slug and article.slug == args.slug else ""
         print(
-            f"{article.date}  {article.slug}{marker}\n"
+            f"{article.date}  [{kind}]  {article.slug}{marker}\n"
             f"  title: {article.title}\n"
             f"  facebook: {fb}\n"
             f"  instagram: {ig}\n"
@@ -380,10 +388,7 @@ def cmd_publish(config: MetaConfig, client: MetaClient | None, args: argparse.Na
 
     articles = select_articles(
         load_articles(config.articles_path),
-        slug=args.slug,
-        date=args.date,
-        from_date=args.from_date,
-        to_date=args.to_date,
+        **selection_kwargs(args),
     )
     manifest = load_manifest()
     force = bool(getattr(args, "force", False))
@@ -453,17 +458,33 @@ def build_parser() -> argparse.ArgumentParser:
         help="Short-lived User access token (otherwise prompted)",
     )
 
+    alias_help = ", ".join(
+        f"{name}={'+'.join(vals)}" for name, vals in KIND_ALIASES.items()
+    )
+    kind_help = (
+        "Include only these kinds (comma-separated or repeatable). "
+        f"Kinds: {', '.join(ARTICLE_KINDS)}. "
+        f"Aliases: {alias_help}"
+    )
+    exclude_kind_help = (
+        "Exclude these kinds (comma-separated or repeatable), e.g. helper9,linkedin"
+    )
+
     list_parser = subparsers.add_parser("list", help="List articles and publish status")
     list_parser.add_argument("--slug", help="Filter to one slug")
     list_parser.add_argument("--date", help="Filter to YYYY-MM-DD")
     list_parser.add_argument("--from-date", help="Include articles on/after YYYY-MM-DD")
     list_parser.add_argument("--to-date", help="Include articles on/before YYYY-MM-DD")
+    list_parser.add_argument("--kind", action="append", help=kind_help)
+    list_parser.add_argument("--exclude-kind", action="append", help=exclude_kind_help)
 
     publish_parser = subparsers.add_parser("publish", help="Publish selected articles")
     publish_parser.add_argument("--slug", help="Publish one article by slug")
     publish_parser.add_argument("--date", help="Publish articles on YYYY-MM-DD")
     publish_parser.add_argument("--from-date", help="Publish articles on/after YYYY-MM-DD")
     publish_parser.add_argument("--to-date", help="Publish articles on/before YYYY-MM-DD")
+    publish_parser.add_argument("--kind", action="append", help=kind_help)
+    publish_parser.add_argument("--exclude-kind", action="append", help=exclude_kind_help)
     publish_parser.add_argument(
         "--platform",
         default="both",
